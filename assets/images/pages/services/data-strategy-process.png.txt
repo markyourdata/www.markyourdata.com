@@ -1,0 +1,2 @@
+This is a placeholder for the data strategy process image.
+Replace this file with an actual image named: data-strategy-process.png

@@ -1,0 +1,192 @@
+/* Markdown Template Styles */
+
+/* Featured Introduction Section */
+.featured-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--light-gray);
+    margin-bottom: 3rem;
+}
+
+.featured-intro-text {
+    max-width: 800px;
+    margin-bottom: 2rem;
+}
+
+.featured-intro-text h2 {
+    margin-top: 0;
+}
+
+.featured-intro-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-intro-aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+.featured-intro-aside .cta-button {
+    text-align: center;
+}
+
+/* Content Sections */
+.content-section {
+    margin: 3rem 0;
+    padding: 2rem 0;
+}
+
+/* Single Column - Text Only */
+.section-single-column {
+    max-width: 800px;
+}
+
+/* Two Column Layouts */
+.section-two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.section-two-columns.image-right {
+    align-items: center;
+}
+
+.section-two-columns.image-left {
+    align-items: center;
+}
+
+.section-two-columns.image-left .column-image {
+    order: -1;
+}
+
+.column-text h3 {
+    margin-top: 0;
+}
+
+.column-image img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.column-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--light-gray);
+    padding: 2rem;
+    border-left: 4px solid var(--dynamic-orange);
+    height: 100%;
+}
+
+.column-cta h4 {
+    margin-top: 0;
+    color: var(--dark-charcoal);
+}
+
+.column-cta .cta-button {
+    margin-top: auto;
+}
+
+/* Code Snippet Column */
+.column-code {
+    background-color: var(--dark-charcoal);
+    padding: 1.5rem;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.column-code pre {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: var(--white);
+    overflow-x: auto;
+}
+
+.column-code code {
+    background-color: transparent;
+    color: var(--white);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.copy-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--dynamic-orange);
+    color: var(--dark-charcoal);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.copy-button:hover {
+    background-color: var(--white);
+}
+
+.copy-button.copied {
+    background-color: #4caf50;
+    color: var(--white);
+}
+
+/* Code section with stacked layout */
+.section-code-stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-code-stack .column-text {
+    margin-bottom: 0;
+}
+
+/* Conclusion Section */
+.conclusion-section {
+    background-color: var(--light-gray);
+    padding: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    border-top: 4px solid var(--dynamic-orange);
+}
+
+.conclusion-section h2 {
+    margin-top: 0;
+}
+
+.conclusion-section .cta-button {
+    margin-top: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .featured-intro-text {
+        margin-bottom: 1.5rem;
+    }
+
+    .section-two-columns {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .section-two-columns.image-left .column-image {
+        order: 0;
+    }
+
+    .column-cta {
+        height: auto;
+    }
+}
