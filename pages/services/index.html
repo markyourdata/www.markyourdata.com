@@ -38,39 +38,8 @@
         <!-- Services Grid -->
         <section>
             <div class="container">
-                <div class="content-grid">
-                    <div class="content-card">
-                        <h3>Template</h3>
-                        <p>This is the template for a service</p>
-                        <a
-                            href="example-service-template.html"
-                            class="read-more"
-                            >Learn More →</a
-                        >
-                    </div>
-                    <div class="content-card">
-                        <h3>Opportunity Finding</h3>
-                        <p>
-                            Transform strategic goals into high-impact data & AI
-                            solutions through systematic discovery and
-                            validation.
-                        </p>
-                        <a href="opportunity-finding.html" class="read-more"
-                            >Learn More →</a
-                        >
-                    </div>
-
-                    <div class="content-card">
-                        <h3>Proof of Value</h3>
-                        <p>
-                            Prove measurable business impact for under 10% of
-                            full implementation cost with our validation
-                            framework.
-                        </p>
-                        <a href="proof-of-value.html" class="read-more"
-                            >Learn More →</a
-                        >
-                    </div>
+                <div class="content-grid" id="services-grid">
+                    <!-- Service cards will be rendered here by JavaScript -->
                 </div>
             </div>
         </section>
@@ -87,5 +56,23 @@
 
         <!-- Scripts -->
         <script src="../../components/navbar.js"></script>
+        <script src="../../data/content.js"></script>
+        <script>
+            // Render services dynamically from content.js
+            const servicesGrid = document.getElementById("services-grid");
+            if (servicesGrid && siteData.services) {
+                servicesGrid.innerHTML = siteData.services
+                    .map(
+                        (service) => `
+                        <div class="content-card">
+                            <h3>${service.title}</h3>
+                            <p>${service.description}</p>
+                            <a href="${service.slug}.html" class="read-more">Learn More →</a>
+                        </div>
+                    `,
+                    )
+                    .join("");
+            }
+        </script>
     </body>
 </html>

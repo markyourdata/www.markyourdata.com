@@ -14,7 +14,9 @@ const components = {
     <div class="service-card">
       <h3>${data.title}</h3>
       <p>${data.description}</p>
-      <button class="cta-button">${data.cta}</button>
+      <a href="${data.url}">
+        <button class="cta-button">${data.cta}</button>
+      </a>
     </div>
   `,
 
