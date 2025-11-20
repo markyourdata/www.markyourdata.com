@@ -3,48 +3,57 @@ const siteData = {
   testimonials: [
     {
       quote:
-        "We proved $2M in annual cost savings before committing to full implementation.",
-      author: "Chief Data Officer",
-      company: "Retail Enterprise",
+        "Mark Your Data excels at identifying opportunities to leverage data and analytics in diverse environments. Once found, they seamlessly transform these solution ideas into testable prototypes with proven impact. Their strong communication skills act as a catalyst, drawing entire teams into the dynamic journey of innovation. Critical and constructive, and always with a broad smile, Mark Your Data is an asset to any team.",
+      author: "Erick Webbe | Head of Data Science",
+      company: "bol.",
     },
   ],
 
   services: [
     {
+      title: "Free strategy call",
+      description:
+        "Sometimes you need an opinion from someone who has walked the talk. Share your strategic challenges with us, and we'll share our experience with you.",
+      cta: "Schedule your first strategy call",
+      slug: "data-ai-offsite",
+      url: "pages/services/data-ai-offsite.html",
+    },
+    {
       title: "Data & AI Offsite",
       description:
-        "Take time together to create your data & AI experiment roadmap.",
+        "Which strategic objectives might be solved with data & AI? How can you be sure? Take time together to create your data & AI experiment roadmap.",
       cta: "Create your data & AI roadmap",
       slug: "data-ai-offsite",
       url: "pages/services/data-ai-offsite.html",
     },
     {
       title: "Experiment guidance",
-      description: "Supercharge your data & AI experiments with our expertise.",
-      cta: "Start experimenting",
+      description:
+        "We help you define, refine and setup your first experiments for success and embed experimentation in your organization. One quarter at a time.",
+      cta: "Support quarterly experiments",
       slug: "experiment-guidance",
       url: "pages/services/experiment-guidance.html",
     },
     {
       title: "Experiment execution",
       description:
-        "We help you execute a complete usecase, when you don't have the skills or the time. From idea, all the way to proven value.",
-      cta: "Get execution support",
+        "We help you set up and execute a strategically important usecase, when you don't have the skills or the time. From idea, all the way to proven value.",
+      cta: "Execute data & AI experiments",
       slug: "experiment-execution",
       url: "pages/services/experiment-execution.html",
     },
     {
       title: "Data & AI platform",
       description:
-        "We setup infrastructure, data pipelines, and data models. We lay the foundation so you focus on creating value.",
-      cta: "Lay your foundation",
+        "We setup infrastructure, data pipelines, data models and AI capabilities, on which you build value adding use cases.",
+      cta: "Set up data & AI platform",
       slug: "data-ai-platform",
       url: "pages/services/data-ai-platform.html",
     },
     {
       title: "Experiment rollout",
       description:
-        "We help you embed succesful experiments in your organisation. All the way from professional infrastructure, code and user adoption.",
+        "We help you embed succesful experiments in your organisation. All the way from professional infrastructure and code to user adoption.",
       cta: "Scale up",
       slug: "experiment-rollout",
       url: "pages/services/experiment-rollout.html",
