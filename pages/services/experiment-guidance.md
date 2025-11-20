@@ -3,11 +3,9 @@
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Supercharge Your Data & AI Experiments With Expert Guidance
+## Turn Your Experiment Roadmap Into Proven Value
 
-You have ideas and a team ready to experiment, but you need expertise to avoid common pitfalls and accelerate learning. Our experiment guidance service provides on-demand coaching and technical advice to help your teams execute better experiments, faster.
-
-We work alongside your data scientists and engineers, providing guidance on experiment design, technical implementation, and validation approaches without taking over execution.
+**For organizations with an experiment roadmap ready to execute.** We guide your teams through quarterly experiment cycles—refining, validating, executing, and evaluating—so you build experimentation capability while proving business value. **Walk away with multiple validated experiments and an embedded experimentation culture.**
 
 </div>
 <div class="featured-intro-aside">
@@ -17,27 +15,39 @@ We work alongside your data scientists and engineers, providing guidance on expe
 
 <div class="content-section section-single-column">
 
-### Why Guidance Accelerates Learning
+### Who Is This For?
 
-Many data & AI experiments fail not because the ideas are bad, but because teams lack experience with experiment methodology. They pick the wrong metrics, overlook data quality issues, or build proofs of concept that can't scale to production.
+This service is the **ideal follow-up to the Data & AI Offsite**. You've created an experiment roadmap, and now you need to execute it while building internal capability. This is for organizations that want expert guidance throughout the year without outsourcing execution—your teams do the work, we provide the methodology and coaching.
 
-Expert guidance changes this trajectory. With an experienced advisor, teams learn by doing. They avoid common mistakes, adopt best practices, and build skills while executing real experiments. The result is faster validation cycles and more experiments that successfully transition to production.
+### Why Quarterly Experiment Guidance?
+
+Having a roadmap is one thing. Executing experiments that actually prove value is another. Teams often struggle with:
+
+- **Over-scoping** - Experiments become too complex to deliver in one quarter
+- **Wrong metrics** - Measuring outputs instead of business outcomes  
+- **Missing dependencies** - Starting before data or infrastructure is ready
+- **Poor evaluation** - Unable to draw solid conclusions from results
+
+Quarterly guidance solves this. We help refine experiments to their simplest valuable form, validate assumptions before execution, and conduct rigorous evaluations. Over four quarters, your teams don't just complete experiments—they internalize an experimentation mindset and methodology that becomes part of your culture.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### How Our Guidance Works
+### How We Work: Our Quarterly Cycle
 
-We provide flexible, on-demand support tailored to your team's needs:
+Starting from your experiment roadmap (typically created in the Data & AI Offsite), we guide you through four phases each quarter:
 
-- **Experiment Design Review** - Validate hypotheses, metrics, and success criteria
-- **Technical Architecture Advice** - Guide technology choices and integration approaches  
-- **Weekly Check-ins** - Regular touchpoints to unblock issues and course-correct
-- **Code & Model Review** - Provide feedback on implementation quality and best practices
+**1. Experiment Refinement** - Take the prioritized experiments from your roadmap and refine them into the simplest setup that can prove value within 3 months. Remove complexity, focus on core hypothesis.
 
-This isn't consulting where we take over. It's coaching where we help your team build capability while delivering results. You maintain ownership and control while accelerating learning.
+**2. Experiment Validation** - Before execution begins, validate that all dependencies and assumptions are in place. Is the data available? Are stakeholders aligned? Can you actually measure success?
+
+**3. Experiment Execution** - Your teams execute the experiments and collect data. We provide optional monthly check-ins (1-2 hours) to unblock issues and course-correct.
+
+**4. Experiment Evaluation** - Full-day quarterly session to reflect on results, share learnings across teams, discuss improvements, and plan experiments for the next quarter.
+
+Note: While data & AI is our expertise, we help with all experiments on your roadmap—technical or non-technical. We simplify scopes, ensure the right KPIs are tracked, and help design evaluation methods so you can draw solid conclusions.
 
 </div>
 <div class="column-image">
@@ -48,80 +58,87 @@ This isn't consulting where we take over. It's coaching where we help your team 
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Accelerate Your Experiments?
+### Ready to Build Experimentation Capability?
 
-Get expert guidance without sacrificing team ownership and learning.
+Transform your experiment roadmap into proven value while building lasting capability.
 
 **What You Get:**
-- On-demand technical advice
-- Experiment design reviews
-- Weekly coaching sessions
-- Best practice guidance
+- 1 kickoff day
+- 4 quarterly evaluation days
+- Optional monthly check-ins (1-2h)
+- Methodology & coaching
 
 <button class="cta-button">Schedule Consultation</button>
 
 </div>
 <div class="column-text">
 
-### Where We Add Value
+### Outcome: Embedded Experimentation Culture
 
-Our guidance focuses on the areas where teams most often struggle:
+Over the course of a year, this service delivers both immediate results and lasting organizational improvements:
 
-**Experiment Design** - Define clear hypotheses, choose appropriate metrics, and set realistic success criteria
+**Multiple Proof of Values** - Execute 8-16 experiments across four quarters, with several proving sufficient value to scale
 
-**Data Quality** - Identify and address data quality issues before they derail experiments
+**Improved Experimentation Mindset** - Teams develop a hypothesis-driven approach to problem-solving that persists beyond the engagement
 
-**Model Validation** - Ensure models generalize beyond training data and avoid common pitfalls like data leakage
+**Better Experimentation Methodology** - Your organization adopts proven frameworks for experiment design, validation, and evaluation
 
-**Scaling Path** - Design experiments with production in mind to reduce rework when successful
+**Stronger Experimentation Process** - Clear quarterly cadence for planning, executing, and learning from experiments becomes embedded
 
-This targeted support helps teams avoid months of wasted effort and deliver validated experiments faster.
+**Scale-up Clarity** - By year-end, you have data-backed decisions on which experiments deserve investment for scale-up next year
 
 </div>
 </div>
 
-<div class="content-section section-code-stack">
-<div class="column-text">
+<div class="content-section section-single-column">
 
-### Experiment Design Best Practices
+### When: Ideal Timing to Start
 
-We help teams structure experiments for rapid learning:
+**Q4 or Q1 is ideal.** Most organizations start this service as a follow-up to the Data & AI Offsite, launching in Q4 or Q1 to align with annual planning cycles.
 
-**Clear Hypothesis** - What specific improvement are you testing?
+**Typical timeline:**
+- 1 kickoff/initiation meeting at the start of the year to refine Q1 experiments
+- 4 quarterly evaluation/planning sessions at the end of each quarter (Q1, Q2, Q3, Q4)
+- Optional monthly check-ins throughout the year as needed
 
-**Measurable Outcome** - How will you know if it worked?
-
-**Minimum Viable Scope** - What's the smallest test that validates the hypothesis?
-
-**Success Criteria** - What results justify scaling this to production?
-
-This discipline ensures experiments generate actionable insights, not just interesting models.
+This cadence ensures continuous momentum while maintaining space for teams to execute.
 
 </div>
 
-<div class="column-code">
-<button class="copy-button" onclick="copyCode(this)">Copy</button>
-<pre><code>{
-  "experiment": {
-    "hypothesis": "Product recommendations increase cart value by 15%",
-    "minimumScope": "Test with 1000 users for 2 weeks",
-    "successCriteria": {
-      "primaryMetric": "Average cart value increase >= 15%",
-      "secondaryMetric": "Click-through rate >= 10%"
-    },
-    "validationApproach": "A/B test with control group"
-  }
-}</code></pre>
+<div class="content-section section-single-column">
+
+### Where: Location Options
+
+**Quarterly sessions** can be held at your offices, at a neutral venue, or online depending on your team's preferences and distribution.
+
+**Preferred venue:** We have established relationships with suppliers in Utrecht City Center for in-person quarterly sessions.
+
+**Flexibility:** Monthly check-ins are typically virtual (1-2 hour calls) for efficiency, while quarterly evaluations benefit from in-person collaboration.
+
 </div>
+
+<div class="content-section section-single-column">
+
+### Practicalities: What to Expect
+
+**Ideal follow-up:** This service is designed as the natural next step after the Data & AI Offsite, though it can also work standalone if you already have an experiment roadmap.
+
+**Structure:**
+- **1 kickoff day** - Refine and validate Q1 experiments, align on methodology
+- **4 quarterly evaluation days** - Full-day sessions for reflection, learning, and planning next quarter
+- **Optional monthly check-ins** - 1-2 hour calls to unblock issues and provide guidance as needed
+
+**Your commitment:** Teams need capacity to execute 2-4 experiments per quarter. This isn't outsourced execution—your teams do the work, we provide the framework and coaching.
+
+**Duration:** 12-month engagement aligned with your fiscal year, renewable based on results.
+
 </div>
 
 <div class="conclusion-section">
 
-## Start Experimenting With Confidence
+## Build Lasting Experimentation Capability
 
-Don't let inexperience slow down your data & AI initiatives. Get expert guidance to accelerate learning and increase success rates.
-
-Our guidance engagements are flexible and scale with your needs. Start with weekly check-ins and add more support as experiments progress.
+Transform your experiment roadmap into proven business value while embedding experimentation into your organizational culture. By year-end, you'll have clear data on what to scale up and teams equipped to continue the experimentation journey independently.
 
 <button class="cta-button">Schedule a Free Strategy Session</button>
 

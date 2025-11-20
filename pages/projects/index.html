@@ -62,17 +62,21 @@
             const projectsGrid = document.getElementById("projects-grid");
             if (projectsGrid && siteData.projects) {
                 projectsGrid.innerHTML = siteData.projects
-                    .map(
-                        (project) => `
+                    .map((project) => {
+                        const outcomeHtml = Array.isArray(project.outcome)
+                            ? `<div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">${project.outcome.map((item) => `<div>${item}</div>`).join("")}</div>`
+                            : project.outcome;
+
+                        return `
                         <div class="content-card">
                             <div class="card-tag">${project.client}</div>
                             <h3>${project.title}</h3>
                             <p>${project.description}</p>
-                            <div class="card-meta">Outcome: ${project.outcome}</div>
+                            <div class="card-meta"><strong>Outcomes:</strong> ${outcomeHtml}</div>
                             <a href="${project.slug}.html" class="read-more">Read Case Study →</a>
                         </div>
-                    `,
-                    )
+                    `;
+                    })
                     .join("");
             }
         </script>

@@ -3,11 +3,9 @@
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Build Your Foundation for Scalable Data & AI
+## Build Your Foundation for Data & AI Use Cases
 
-You've proven value with experiments but need professional infrastructure to scale. Our Data & AI Platform service builds your complete data foundation—infrastructure, pipelines, and data models—so you can focus on creating insights while we ensure reliability, security, and scalability.
-
-We set up modern data platforms that grow with your needs, from initial use cases to enterprise-wide deployment.
+**For organizations needing a centralized data foundation.** Whether you're starting from scratch and need a single source of truth for reporting, or scaling advanced AI applications that require high-quality data—we build the complete platform: infrastructure, pipelines, data models, and analytics capability. **Walk away with your first working data platform in 3 months.**
 
 </div>
 <div class="featured-intro-aside">
@@ -17,27 +15,45 @@ We set up modern data platforms that grow with your needs, from initial use case
 
 <div class="content-section section-single-column">
 
-### Why Platform Matters for Scale
+### Who Is This For?
 
-Successful experiments hit a wall when they can't scale. Prototype code breaks in production. Data quality issues multiply. Security and compliance requirements create blockers. Teams spend more time fighting infrastructure than delivering value.
+This service is for **organizations at any stage of their data journey** who need centralized, high-quality data:
 
-A proper data platform eliminates these bottlenecks. Reliable pipelines ensure data quality. Infrastructure scales automatically. Security and governance are built in. Teams can focus on building valuable use cases instead of maintaining infrastructure and solving data quality issues.
+- **Starting out** - You have data scattered across systems and need one source of truth for reporting and analysis
+- **Scaling up** - You've proven value with experiments and need professional infrastructure to scale
+- **Building AI** - You're developing AI applications that require reliable, high-quality data pipelines
+
+Whether you're new to data platforms or expanding existing capabilities, any serious data & AI use case requires a solid foundation.
+
+### Why Build a Data & AI Platform?
+
+Without a centralized data platform, organizations face constant friction:
+
+- **Data scattered everywhere** - Teams waste time finding and combining data from multiple sources
+- **Inconsistent definitions** - Different departments report conflicting numbers, eroding trust
+- **Manual processes** - Hours spent on data extraction and preparation instead of analysis
+- **Blocked use cases** - Advanced analytics and AI applications can't get the quality data they need
+
+A proper data platform eliminates these bottlenecks. All data flows to one place. Quality is automated. Teams access consistent, reliable data for reporting, analytics, and AI applications. You unlock insights that were previously impossible.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our Platform Approach
+### How We Build: Our Methodology
 
-We build modern, cloud-native data platforms using proven architectures:
+We build your data platform layer by layer, delivering a working system you can use and expand:
 
-- **Infrastructure Setup** - Cloud infrastructure, networking, security, and access control
-- **Data Pipelines** - Automated ingestion, transformation, and quality validation  
-- **Data Modeling** - Dimensional models optimized for analytics and ML
-- **Monitoring & Operations** - Observability, alerting, and incident response
+**1. Infrastructure** - Set up cloud infrastructure to securely run your data pipelines (AWS/Azure/GCP based on your preference)
 
-We use infrastructure-as-code for all deployments, ensuring reproducibility and making it easy for your team to maintain and evolve the platform.
+**2. Data Pipelines** - Build the first automated pipelines to ingest data from your key databases and APIs
+
+**3. Data Models** - Create well-structured data models that populate your data warehouse, designed for both reporting and advanced analytics
+
+**4. Data Analytics** - Enable analytics capability on top of the warehouse so teams can start extracting value—whether through BI dashboards, analysis, or AI use cases
+
+The result is a complete, production-ready platform that serves as the foundation for all your data and AI initiatives.
 
 </div>
 <div class="column-image">
@@ -48,85 +64,74 @@ We use infrastructure-as-code for all deployments, ensuring reproducibility and 
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Scale Your Use Cases?
+### Ready to Build Your Data Foundation?
 
-Build the foundation that enables your team to deliver value at scale.
+Transform scattered data into a unified platform that unlocks insights and enables AI.
 
 **What You Get:**
-- Production infrastructure
+- Production cloud infrastructure
 - Automated data pipelines
-- Data quality framework
-- Operational runbooks
+- Data warehouse with models
+- Analytics capability enabled
 
 <button class="cta-button">Schedule Consultation</button>
 
 </div>
 <div class="column-text">
 
-### Platform Capabilities
+### Outcome: Your First Data Platform
 
-Our platform implementations deliver enterprise-grade capabilities:
+Within 3 months, you'll have a working data platform that transforms how your organization uses data:
 
-**Data Quality** - Automated validation, profiling, and issue detection with alerts
+**Centralized Data** - All your key data sources flowing into one platform where it can be combined and analyzed
 
-**Scalability** - Architecture that handles growth from gigabytes to petabytes
+**New Insights Unlocked** - Discover valuable insights that were impossible when data was scattered across systems
 
-**Security & Governance** - Role-based access control, audit logging, and compliance support
+**Foundation for Use Cases** - A reliable foundation on top of which you can build analytics dashboards, reports, and AI applications
 
-**Developer Experience** - Self-service tools that let data teams work independently
+**Self-Service Analytics** - Teams can access and analyze data independently without waiting for IT or engineering support
 
-These capabilities ensure your platform supports business needs today while growing with your organization.
+The platform grows with you—start with essential data sources and use cases, then expand as needs evolve.
 
 </div>
 </div>
 
-<div class="content-section section-code-stack">
-<div class="column-text">
+<div class="content-section section-single-column">
 
-### Infrastructure as Code
+### When: Ideal Timing to Start
 
-We build platforms using modern DevOps practices:
+**Anytime you feel you need more centralized data.** Unlike services that follow a planning cycle, platform development can start whenever you recognize the need:
 
-**Version Control** - All infrastructure defined in code and tracked in Git
+- You're tired of manually combining data from multiple sources
+- Teams are reporting different numbers and you need one source of truth
+- You want to start building data-driven applications but lack the foundation
+- Successful experiments need to scale but infrastructure is holding you back
 
-**Automated Deployment** - CI/CD pipelines for safe, repeatable deployments
-
-**Environment Parity** - Identical dev, staging, and production environments
-
-**Disaster Recovery** - Automated backups and documented recovery procedures
-
-This approach ensures reliability, reproducibility, and smooth handoff to your team.
+The sooner you start, the sooner you unlock the insights and capabilities that scattered data prevents.
 
 </div>
 
-<div class="column-code">
-<button class="copy-button" onclick="copyCode(this)">Copy</button>
-<pre><code>{
-  "platform": {
-    "infrastructure": {
-      "cloud": "AWS/Azure/GCP",
-      "orchestration": "Airflow/Prefect",
-      "warehouse": "Snowflake/BigQuery/Redshift"
-    },
-    "capabilities": [
-      "Automated data ingestion",
-      "Data quality validation",
-      "Model serving infrastructure",
-      "Monitoring and alerting"
-    ],
-    "deployment": "Infrastructure as Code (Terraform)"
-  }
-}</code></pre>
-</div>
+<div class="content-section section-single-column">
+
+### Practicalities: What to Expect
+
+**Timeline:** 3 months to first usable version that delivers immediate value
+
+**Iterative approach:** We start with your most critical data sources and use cases, then expand incrementally based on priorities
+
+**Knowledge transfer:** We work closely with your technical team throughout, ensuring they can maintain and evolve the platform
+
+**Technology choices:** We align on technology stack upfront based on your existing infrastructure, team skills, and budget (AWS/Azure/GCP, specific tools and services)
+
+**Ongoing evolution:** The platform is designed to grow—add new data sources, use cases, and capabilities as your needs develop
+
 </div>
 
 <div class="conclusion-section">
 
-## Build Your Data Foundation
+## Start Building Your Data Foundation
 
-Stop letting infrastructure limitations prevent you from scaling successful use cases. Build a platform that enables your team to deliver value.
-
-Platform implementations typically run 12-16 weeks depending on scope and existing infrastructure. We work closely with your engineering team to ensure smooth integration and knowledge transfer.
+Transform scattered data into a unified platform that unlocks insights and enables your data & AI ambitions. Get your first working platform in 3 months.
 
 <button class="cta-button">Schedule a Free Strategy Session</button>
 
