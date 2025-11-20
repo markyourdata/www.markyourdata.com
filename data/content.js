@@ -27,6 +27,14 @@ const siteData = {
       url: "pages/services/data-ai-offsite.html",
     },
     {
+      title: "Data Discovery",
+      description:
+        "Sometimes you know the value is there, but don't know where to begin. We take your team by the hand and set your first steps in data & AI",
+      cta: "Start exploring",
+      slug: "data-discovery",
+      url: "pages/services/data-discovery.html",
+    },
+    {
       title: "Experiment guidance",
       description:
         "We help you define, refine and setup your first experiments for success and embed experimentation in your organization. One quarter at a time.",
@@ -43,20 +51,20 @@ const siteData = {
       url: "pages/services/experiment-execution.html",
     },
     {
-      title: "Data & AI platform",
-      description:
-        "We setup infrastructure, data pipelines, data models and AI capabilities, on which you build value adding use cases.",
-      cta: "Set up data & AI platform",
-      slug: "data-ai-platform",
-      url: "pages/services/data-ai-platform.html",
-    },
-    {
       title: "Experiment rollout",
       description:
         "We help you embed succesful experiments in your organisation. All the way from professional infrastructure and code to user adoption.",
       cta: "Scale up",
       slug: "experiment-rollout",
       url: "pages/services/experiment-rollout.html",
+    },
+    {
+      title: "Data & AI platform",
+      description:
+        "We setup infrastructure, data pipelines, data models and AI capabilities, on which you build value adding use cases.",
+      cta: "Set up data & AI platform",
+      slug: "data-ai-platform",
+      url: "pages/services/data-ai-platform.html",
     },
   ],
 
