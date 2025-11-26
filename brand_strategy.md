@@ -120,6 +120,43 @@ Your core value proposition in simple terms.
 
 ---
 
+### Image Dimensions & File Specifications
+
+**Website Images:**
+
+| Use Case | Dimensions | File Type | Max File Size | Notes |
+|----------|-----------|-----------|---------------|-------|
+| **Hero/Banner** | 1920 x 1080 px | JPG, PNG, WebP | 500 KB | Full-width header images |
+| **Featured Service Image** | 1200 x 800 px | JPG, PNG, WebP | 300 KB | Service page headers |
+| **Content Image (Standard)** | 800 x 600 px | JPG, PNG, WebP | 200 KB | In-article images, blog posts |
+| **Content Image (Wide)** | 1200 x 600 px | JPG, PNG, WebP | 250 KB | Full-width content images |
+| **Thumbnail** | 400 x 300 px | JPG, PNG, WebP | 100 KB | Card images, previews |
+| **Client Logo** | 400 x 200 px | PNG (transparent) | 50 KB | Client logo carousel |
+| **Site Logo** | 200 x 200 px | PNG, SVG | 20 KB | Primary site logo |
+
+**LinkedIn Images:**
+
+| Use Case | Dimensions | File Type | Max File Size | Notes |
+|----------|-----------|-----------|---------------|-------|
+| **Single Image Post** | 1200 x 627 px | JPG, PNG | 5 MB | Optimal for link previews |
+| **Carousel Post (Square)** | 1080 x 1080 px | JPG, PNG | 10 MB per image | Up to 10 slides |
+| **Carousel Post (Portrait)** | 1080 x 1350 px | JPG, PNG | 10 MB per image | Better mobile visibility |
+| **Document Post** | 1280 x 720 px or higher | PDF, PPT, DOC | 100 MB | Converts to carousel format |
+| **Profile Header** | 1584 x 396 px | JPG, PNG | 8 MB | Background banner image |
+| **Profile Photo** | 400 x 400 px | JPG, PNG | 8 MB | Square crop applied |
+| **Company Logo** | 300 x 300 px | PNG (transparent) | 4 MB | Company page logo |
+| **Video Post** | 1920 x 1080 px | MP4, MOV | 5 GB | Max 10 min length |
+
+**General Best Practices:**
+- Use WebP format for website images when possible (better compression)
+- Always provide alt text for accessibility
+- Optimize images before upload (compress without quality loss)
+- Test image loading speed on mobile devices
+- Maintain consistent aspect ratios across similar content types
+- LinkedIn prefers 1.91:1 aspect ratio (1200 x 627 px) for maximum reach
+
+---
+
 ## 4. TONE OF VOICE
 
 ### Brand Personality

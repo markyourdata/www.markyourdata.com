@@ -301,5 +301,4 @@ Ready to validate your data initiative before committing to full implementation?
 
 **Related Resources:**
 - [Why Most Data Projects Fail](/pages/blogs/why-data-projects-fail.html)
-- [Case Study: Fraud Detection](/pages/projects/fraud-detection-fintech.html)
-- [Proof of Value Service](/pages/services/proof-of-value.html)
+- [Data Discovery Service](/pages/services/data-discovery.html)

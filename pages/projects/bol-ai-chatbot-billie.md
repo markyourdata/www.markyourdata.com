@@ -1,5 +1,7 @@
 # AI Chatbot Optimization - Billie
 
+<link rel="stylesheet" href="../../css/service-icons.css">
+
 <div class="featured-intro">
 <div class="featured-intro-text">
 
@@ -32,10 +34,35 @@ bol.com's customer service received many preventable questions that could be res
 
 We developed a systematic experimentation framework:
 
-- **Data Analysis** - Identified patterns in preventable support cases
-- **Hypothesis Generation** - Developed interventions for account pages and chatbot
-- **A/B Testing** - Rigorously tested each intervention
-- **Impact Measurement** - Tracked support case reduction and customer satisfaction
+<div class="icon-list">
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/database-stats.svg" alt="Data Analysis" class="icon-brand" />
+<div>
+<strong>Data Analysis</strong> - Identified patterns in preventable support cases
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/light-bulb.svg" alt="Hypothesis Generation" class="icon-brand" />
+<div>
+<strong>Hypothesis Generation</strong> - Developed interventions for account pages and chatbot
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/flask.svg" alt="A/B Testing" class="icon-brand" />
+<div>
+<strong>A/B Testing</strong> - Rigorously tested each intervention
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/graph-up.svg" alt="Impact Measurement" class="icon-brand" />
+<div>
+<strong>Impact Measurement</strong> - Tracked support case reduction and customer satisfaction
+</div>
+</div>
+</div>
 
 By testing changes systematically, we ensured only effective interventions were deployed at scale.
 
@@ -82,6 +109,9 @@ This project shows how systematic experimentation can simultaneously reduce cost
 
 Ready to optimize your customer service operations? Let's discuss how A/B testing can validate improvements before you invest in full deployment.
 
-<button class="cta-button">Schedule a Strategy Session</button>
+<button class="cta-button">
+<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
+Schedule a Strategy Session
+</button>
 
 </div>

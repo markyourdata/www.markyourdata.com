@@ -1,5 +1,7 @@
 # Google Ads Profit Optimization
 
+<link rel="stylesheet" href="../../css/service-icons.css">
+
 <div class="featured-intro">
 <div class="featured-intro-text">
 
@@ -32,10 +34,35 @@ bol.com optimized Google Ads based on revenue metrics, which didn't account for 
 
 We combined data from multiple sources to build the business case:
 
-- **Data Integration** - Connected Google Ads, sales, and finance data
-- **Profit Modeling** - Calculated true profitability by product
-- **Scenario Analysis** - Projected outcomes of profit-based steering
-- **Business Case** - Quantified savings and presented recommendations
+<div class="icon-list">
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/data-transfer-check.svg" alt="Data Integration" class="icon-brand" />
+<div>
+<strong>Data Integration</strong> - Connected Google Ads, sales, and finance data
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/candlestick-chart.svg" alt="Profit Modeling" class="icon-brand" />
+<div>
+<strong>Profit Modeling</strong> - Calculated true profitability by product
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/compass.svg" alt="Scenario Analysis" class="icon-brand" />
+<div>
+<strong>Scenario Analysis</strong> - Projected outcomes of profit-based steering
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/document.svg" alt="Business Case" class="icon-brand" />
+<div>
+<strong>Business Case</strong> - Quantified savings and presented recommendations
+</div>
+</div>
+</div>
 
 The analysis revealed substantial cost savings potential from steering on profit rather than revenue.
 
@@ -82,6 +109,9 @@ This project shows how connecting disparate data sources and rigorous analysis c
 
 Are you optimizing for the right metrics? Let's analyze your data to find strategic improvement opportunities.
 
-<button class="cta-button">Schedule a Strategy Session</button>
+<button class="cta-button">
+<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
+Schedule a Strategy Session
+</button>
 
 </div>

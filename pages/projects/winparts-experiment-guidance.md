@@ -1,5 +1,7 @@
 # Experiment Guidance
 
+<link rel="stylesheet" href="../../css/service-icons.css">
+
 <div class="featured-intro">
 <div class="featured-intro-text">
 
@@ -32,10 +34,35 @@ Winparts wanted to build a culture of experimentation but lacked experience with
 
 We provided structured guidance across the experiment lifecycle:
 
-- **Opportunity Finding** - Help identify high-value experiment opportunities
-- **Experiment Design** - Refine hypotheses and define success metrics
-- **Execution Support** - Provide technical advice during implementation
-- **Results Analysis** - Guide interpretation and next steps
+<div class="icon-list">
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/light-bulb.svg" alt="Opportunity Finding" class="icon-brand" />
+<div>
+<strong>Opportunity Finding</strong> - Help identify high-value experiment opportunities
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/flask.svg" alt="Experiment Design" class="icon-brand" />
+<div>
+<strong>Experiment Design</strong> - Refine hypotheses and define success metrics
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/rocket.svg" alt="Execution Support" class="icon-brand" />
+<div>
+<strong>Execution Support</strong> - Provide technical advice during implementation
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/graph-up.svg" alt="Results Analysis" class="icon-brand" />
+<div>
+<strong>Results Analysis</strong> - Guide interpretation and next steps
+</div>
+</div>
+</div>
 
 Through regular touchpoints, teams learned experiment methodology while executing real projects that proved business value.
 
@@ -82,6 +109,9 @@ This project shows how expert guidance can accelerate learning while delivering 
 
 Want to build experimentation capability in your organization? Let's discuss how coaching can help your teams deliver results while learning.
 
-<button class="cta-button">Schedule a Strategy Session</button>
+<button class="cta-button">
+<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
+Schedule a Strategy Session
+</button>
 
 </div>

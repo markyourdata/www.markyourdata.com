@@ -1,5 +1,7 @@
 # GenAI Customer Service Handover
 
+<link rel="stylesheet" href="../../css/service-icons.css">
+
 <div class="featured-intro">
 <div class="featured-intro-text">
 
@@ -32,10 +34,35 @@ When customers needed human support after chatbot interaction, context was often
 
 We developed an iterative solution using generative AI:
 
-- **Context Extraction** - AI summarizes chatbot conversation for human agents
-- **Intent Classification** - Identifies customer needs for proper routing
-- **Iterative Improvement** - Weekly refinement based on agent feedback
-- **Integration** - Seamless connection between chatbot and human service
+<div class="icon-list">
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/message-text.svg" alt="Context Extraction" class="icon-brand" />
+<div>
+<strong>Context Extraction</strong> - AI summarizes chatbot conversation for human agents
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/compass.svg" alt="Intent Classification" class="icon-brand" />
+<div>
+<strong>Intent Classification</strong> - Identifies customer needs for proper routing
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/graph-up.svg" alt="Iterative Improvement" class="icon-brand" />
+<div>
+<strong>Iterative Improvement</strong> - Weekly refinement based on agent feedback
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/data-transfer-check.svg" alt="Integration" class="icon-brand" />
+<div>
+<strong>Integration</strong> - Seamless connection between chatbot and human service
+</div>
+</div>
+</div>
 
 The 1-day-per-week investment model allowed rapid iteration while fitting within existing resource constraints.
 
@@ -82,6 +109,9 @@ This project demonstrates how focused AI applications with minimal resource inve
 
 Interested in experimenting with AI in your customer service? Let's discuss how to start small and prove value before scaling.
 
-<button class="cta-button">Schedule a Strategy Session</button>
+<button class="cta-button">
+<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
+Schedule a Strategy Session
+</button>
 
 </div>

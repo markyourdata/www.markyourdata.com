@@ -1,5 +1,7 @@
 # User Engagement Analytics
 
+<link rel="stylesheet" href="../../css/service-icons.css">
+
 <div class="featured-intro">
 <div class="featured-intro-text">
 
@@ -32,10 +34,35 @@ Tikkie wanted to improve user engagement but faced countless potential opportuni
 
 We developed a systematic approach to opportunity identification:
 
-- **User Behavior Analysis** - Deep dive into engagement patterns
-- **Opportunity Quantification** - Sized impact of potential improvements
-- **Prioritization Framework** - Ranked opportunities by impact and effort
-- **Continuous Monitoring** - Tracked engagement metrics over time
+<div class="icon-list">
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/database-stats.svg" alt="User Behavior Analysis" class="icon-brand" />
+<div>
+<strong>User Behavior Analysis</strong> - Deep dive into engagement patterns
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/candlestick-chart.svg" alt="Opportunity Quantification" class="icon-brand" />
+<div>
+<strong>Opportunity Quantification</strong> - Sized impact of potential improvements
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/priority-high.svg" alt="Prioritization Framework" class="icon-brand" />
+<div>
+<strong>Prioritization Framework</strong> - Ranked opportunities by impact and effort
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/graph-up.svg" alt="Continuous Monitoring" class="icon-brand" />
+<div>
+<strong>Continuous Monitoring</strong> - Tracked engagement metrics over time
+</div>
+</div>
+</div>
 
 The analysis revealed where engagement efforts would deliver the highest return and where users preferred minimal intervention.
 
@@ -82,6 +109,9 @@ This project shows how analytics can transform product strategy from opinion-bas
 
 Want to identify your highest-impact product opportunities? Let's use data to prioritize what will actually move the needle.
 
-<button class="cta-button">Schedule a Strategy Session</button>
+<button class="cta-button">
+<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
+Schedule a Strategy Session
+</button>
 
 </div>

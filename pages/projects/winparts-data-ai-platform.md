@@ -1,5 +1,7 @@
 # Data & AI Platform
 
+<link rel="stylesheet" href="../../css/service-icons.css">
+
 <div class="featured-intro">
 <div class="featured-intro-text">
 
@@ -32,10 +34,35 @@ Winparts had data scattered across multiple databases and APIs with no centraliz
 
 We implemented a comprehensive data platform solution:
 
-- **Infrastructure Setup** - Cloud-based data infrastructure for scalability
-- **Data Pipelines** - Automated collection from databases and APIs
-- **Data Modeling** - Reusable models for analyst self-service
-- **Documentation** - Clear documentation for platform usage
+<div class="icon-list">
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/database.svg" alt="Infrastructure Setup" class="icon-brand" />
+<div>
+<strong>Infrastructure Setup</strong> - Cloud-based data infrastructure for scalability
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/data-transfer-check.svg" alt="Data Pipelines" class="icon-brand" />
+<div>
+<strong>Data Pipelines</strong> - Automated collection from databases and APIs
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/database-stats.svg" alt="Data Modeling" class="icon-brand" />
+<div>
+<strong>Data Modeling</strong> - Reusable models for analyst self-service
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/book-open.svg" alt="Documentation" class="icon-brand" />
+<div>
+<strong>Documentation</strong> - Clear documentation for platform usage
+</div>
+</div>
+</div>
 
 The platform provided a solid foundation for both current analytics needs and future AI use cases.
 
@@ -82,6 +109,9 @@ This project demonstrates how proper data infrastructure unlocks both immediate 
 
 Ready to build your data platform? Let's discuss how we can set up infrastructure that scales with your needs.
 
-<button class="cta-button">Schedule a Strategy Session</button>
+<button class="cta-button">
+<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
+Schedule a Strategy Session
+</button>
 
 </div>

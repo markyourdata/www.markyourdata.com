@@ -1,5 +1,7 @@
 # Automated Display Banner Generation
 
+<link rel="stylesheet" href="../../css/service-icons.css">
+
 <div class="featured-intro">
 <div class="featured-intro-text">
 
@@ -32,10 +34,35 @@ bol.com relied on external agencies for display banner creation, which was slow 
 
 We built a custom web application for automated banner generation:
 
-- **Template System** - Flexible templates following brand guidelines
-- **Batch Processing** - Generate 21 banner variations in one session
-- **Quality Controls** - Automated checks for brand compliance
-- **User-Friendly Interface** - Marketers can create banners without developer help
+<div class="icon-list">
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/image.svg" alt="Template System" class="icon-brand" />
+<div>
+<strong>Template System</strong> - Flexible templates following brand guidelines
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/rocket.svg" alt="Batch Processing" class="icon-brand" />
+<div>
+<strong>Batch Processing</strong> - Generate 21 banner variations in one session
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/shield-check.svg" alt="Quality Controls" class="icon-brand" />
+<div>
+<strong>Quality Controls</strong> - Automated checks for brand compliance
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/user.svg" alt="User-Friendly Interface" class="icon-brand" />
+<div>
+<strong>User-Friendly Interface</strong> - Marketers can create banners without developer help
+</div>
+</div>
+</div>
 
 The tool enabled the marketing team to generate professional banners at scale without external dependencies.
 
@@ -82,6 +109,9 @@ This project demonstrates how targeted automation can remove bottlenecks and unl
 
 Have manual processes limiting your marketing agility? Let's discuss how automation can help you move faster while reducing costs.
 
-<button class="cta-button">Schedule a Strategy Session</button>
+<button class="cta-button">
+<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
+Schedule a Strategy Session
+</button>
 
 </div>

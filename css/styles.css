@@ -191,6 +191,14 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
+    justify-items: center;
+}
+
+/* Center the 7th card when it's alone on the third row */
+#services > :nth-child(7):last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 350px;
 }
 
 .service-card {

@@ -1,5 +1,7 @@
 # AI Content Generation at Scale
 
+<link rel="stylesheet" href="../../css/service-icons.css">
+
 <div class="featured-intro">
 <div class="featured-intro-text">
 
@@ -32,10 +34,35 @@ bol.com needed to optimize millions of product pages for search engines, but man
 
 We developed a comprehensive solution combining AI generation with data-driven validation:
 
-- **AI Content Pipeline** - Automated content generation using LLMs with brand guidelines
-- **A/B Testing Framework** - Rigorous testing to validate content effectiveness
-- **Quality Controls** - Automated checks for brand consistency and accuracy
-- **Performance Monitoring** - Real-time tracking of organic traffic impact
+<div class="icon-list">
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/robot.svg" alt="AI Content Pipeline" class="icon-brand" />
+<div>
+<strong>AI Content Pipeline</strong> - Automated content generation using LLMs with brand guidelines
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/flask.svg" alt="A/B Testing Framework" class="icon-brand" />
+<div>
+<strong>A/B Testing Framework</strong> - Rigorous testing to validate content effectiveness
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/shield-check.svg" alt="Quality Controls" class="icon-brand" />
+<div>
+<strong>Quality Controls</strong> - Automated checks for brand consistency and accuracy
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/graph-up.svg" alt="Performance Monitoring" class="icon-brand" />
+<div>
+<strong>Performance Monitoring</strong> - Real-time tracking of organic traffic impact
+</div>
+</div>
+</div>
 
 The system generated content at scale while maintaining quality through systematic testing and validation.
 
@@ -124,7 +151,10 @@ This project shows how AI can transform content operations when combined with ri
 
 Interested in scaling your content or other AI initiatives? Let's discuss how systematic experimentation can derisk your AI investments.
 
-<button class="cta-button">Schedule a Strategy Session</button>
+<button class="cta-button">
+<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
+Schedule a Strategy Session
+</button>
 
 </div>
 

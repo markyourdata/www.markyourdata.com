@@ -5,19 +5,53 @@
 
 ## From Idea to Proven Value—We Execute Your Use Case
 
-You have a promising use case but lack the skills, time, or capacity to execute it. Our experiment execution service takes your idea from concept to proven value, handling the complete implementation while building your team's understanding for future ownership.
-
-We execute the full experiment lifecycle: data preparation, model development, validation, and business impact measurement. You get proven results without hiring a full data science team.
+**You have a promising use case but lack the skills, time, or capacity to execute it.** We become your temporary data science and engineering team, handling the complete implementation from data preparation to business impact measurement. You get proven results without hiring a full data science team. **Walk away with validated business impact and a solution your team can maintain.**
 
 </div>
 <div class="featured-intro-aside">
-<button class="cta-button">Schedule Discovery Call</button>
+<button class="cta-button">Start Your Execution</button>
 </div>
 </div>
 
 <div class="content-section section-single-column">
 
-### Why Full Execution Matters
+### Who Is This For?
+
+<div class="icon-list">
+
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/shield-question.svg" alt="Capability Gaps" class="icon-brand" />
+<div>
+<strong>Teams with capability gaps</strong> - You have a high-value use case but lack specialized skills like machine learning engineering or advanced analytics
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/clock.svg" alt="Capacity Constraints" class="icon-brand" />
+<div>
+<strong>Organizations with capacity constraints</strong> - Your team is fully occupied maintaining existing systems and can't dedicate focus to new experiments
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/flask.svg" alt="Validation" class="icon-brand" />
+<div>
+<strong>Leaders seeking validation before hiring</strong> - You want to prove the use case delivers ROI before committing to permanent headcount
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/rocket.svg" alt="Time Pressure" class="icon-brand" />
+<div>
+<strong>Businesses facing time pressure</strong> - Stakeholders expect results faster than your internal team can deliver given current workload
+</div>
+</div>
+
+</div>
+
+If you have a clear, validated use case but need expert execution to prove business value, this service is for you.
+
+### Why Full Execution Service?
 
 Many organizations have high-value use cases but can't execute them. They lack specialized skills like machine learning engineering, don't have time to dedicate to experiments while maintaining existing systems, or need to prove value before committing to hiring.
 
@@ -25,24 +59,102 @@ Full execution service solves this. We become your temporary data science and en
 
 </div>
 
-<div class="content-section section-two-columns image-right">
-<div class="column-text">
+<div class="content-section section-single-column">
 
-### Our Execution Approach
+### When to Reach Out for Help
+
+Do you recognize any of these common challenges? They're indicators that Experiment Execution can help:
+
+<div class="icon-checklist">
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Capability gaps blocking progress</strong> - You have a validated use case but lack specialized skills like machine learning engineering or advanced analytics
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>No time to execute</strong> - Your team is fully occupied maintaining existing systems and can't dedicate focus to new experiments
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Need to prove value before hiring</strong> - You want to validate the use case delivers ROI before committing to permanent headcount
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Technical complexity concerns</strong> - The experiment requires specialized knowledge you don't have in-house
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Time pressure from leadership</strong> - Stakeholders expect results faster than your team can deliver given current workload
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Risk of failed execution</strong> - Previous attempts to build similar solutions struggled due to technical challenges
+</div>
+</div>
+
+</div>
+
+If any of these sound familiar, Experiment Execution helps you validate high-value use cases without building permanent capability first.
+
+</div>
+
+<div class="content-section section-single-column">
+
+### How We Work: Our Execution Approach
 
 We follow a structured process that maximizes learning and minimizes risk:
 
-- **Discovery & Scoping** - Define the use case, success metrics, and data requirements
-- **Data Pipeline Build** - Create reliable data pipelines for model training and inference  
-- **Model Development** - Build, train, and validate models using best practices
-- **Business Validation** - Measure real business impact with controlled experiments
+<div class="process-steps">
+
+<div class="process-step">
+<div class="step-number">1</div>
+<img src="../../../assets/icons/regular/message-text.svg" alt="Discovery" class="step-icon" />
+<h4>Discovery & Scoping</h4>
+<p>Define the use case clearly, establish success metrics that matter to your business, and confirm data requirements and availability.</p>
+</div>
+
+<div class="process-step">
+<div class="step-number">2</div>
+<img src="../../../assets/icons/regular/database.svg" alt="Data Pipeline" class="step-icon" />
+<h4>Data Pipeline Build</h4>
+<p>Create reliable data pipelines for model training and inference, ensuring data quality and consistency from the start.</p>
+</div>
+
+<div class="process-step">
+<div class="step-number">3</div>
+<img src="../../../assets/icons/regular/flask.svg" alt="Model Development" class="step-icon" />
+<h4>Model Development</h4>
+<p>Build, train, and validate models using best practices, focusing on explainability and business alignment, not just technical metrics.</p>
+</div>
+
+<div class="process-step">
+<div class="step-number">4</div>
+<img src="../../../assets/icons/regular/graph-up.svg" alt="Validation" class="step-icon" />
+<h4>Business Validation</h4>
+<p>Measure real business impact with controlled experiments, comparing results against baseline to quantify value.</p>
+</div>
+
+</div>
 
 Throughout execution, we document decisions and share knowledge so your team can maintain and evolve the solution after handoff.
 
-</div>
-<div class="column-image">
-<img src="../../../assets/images/pages/services/data-strategy-process.png" alt="Execution Process" />
-</div>
 </div>
 
 <div class="content-section section-two-columns image-left">
@@ -58,93 +170,129 @@ Turn your high-value use case into a validated solution with proven business imp
 - Business impact validation
 - Knowledge transfer
 
-<button class="cta-button">Schedule Consultation</button>
+<button class="cta-button">
+<img src="../../../assets/icons/regular/calendar-plus.svg" alt="Schedule" class="button-icon" />
+Schedule Consultation
+</button>
 
 </div>
 <div class="column-text">
 
-### Deliverables That Prove Value
+### Outcome: Validated Solution with Proven Impact
 
-Our execution engagements deliver concrete, validated outcomes:
+After the 8-12 week execution engagement, you'll have concrete deliverables that prove business value:
 
-**Working Solution** - Functional prototype that processes real data and generates predictions or insights
+<div class="icon-list">
 
-**Business Impact Report** - Quantified results showing measurable improvement against baseline
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/check-circle.svg" alt="Solution" class="icon-accent" />
+<div>
+<strong>Working Solution</strong> - Functional prototype that processes real data and generates predictions or insights your team can use
+</div>
+</div>
 
-**Technical Documentation** - Architecture diagrams, code documentation, and operational runbooks
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/check-circle.svg" alt="Impact" class="icon-accent" />
+<div>
+<strong>Business Impact Report</strong> - Quantified results showing measurable improvement against baseline, with clear ROI calculation
+</div>
+</div>
 
-**Handoff Package** - Training sessions and documentation enabling your team to maintain and evolve the solution
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/check-circle.svg" alt="Documentation" class="icon-accent" />
+<div>
+<strong>Technical Documentation</strong> - Architecture diagrams, code documentation, and operational runbooks that enable your team to understand the solution
+</div>
+</div>
 
-These deliverables ensure you get proven value and the foundation for long-term success.
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/check-circle.svg" alt="Handoff" class="icon-accent" />
+<div>
+<strong>Handoff Package</strong> - Training sessions and comprehensive documentation enabling your team to maintain and evolve the solution independently
+</div>
+</div>
+
+</div>
 
 </div>
 </div>
 
-<div class="content-section section-code-stack">
-<div class="column-text">
+<div class="content-section section-single-column">
 
-### Validation-First Development
+### When: Ideal Timing to Start
 
-We build with production in mind from day one:
+**Anytime you have a validated use case but lack execution capability.** Common trigger points:
 
-**Data Quality Checks** - Automated validation ensures reliable model inputs
+- After opportunity finding or discovery work identifies a high-priority use case
+- When internal team capacity is fully allocated to existing priorities
+- Before committing to hiring specialized talent—prove the ROI first
+- When leadership pressure requires faster results than internal team can deliver
+- After previous execution attempts struggled due to technical complexity
 
-**Model Monitoring** - Track performance metrics to detect degradation
-
-**A/B Testing** - Validate business impact with controlled experiments
-
-**Scalable Architecture** - Design for production scale, not just proof of concept
-
-This approach reduces rework when successful experiments move to production.
+Starting execution as soon as you validate a use case accelerates time to value.
 
 </div>
 
-<div class="column-code">
-<button class="copy-button" onclick="copyCode(this)">Copy</button>
-<pre><code>{
-  "experimentResults": {
-    "useCase": "Demand forecasting",
-    "baseline": {
-      "method": "Historical average",
-      "mape": 28.5
-    },
-    "mlModel": {
-      "method": "XGBoost with feature engineering",
-      "mape": 16.2
-    },
-    "businessImpact": {
-      "inventoryReduction": "22%",
-      "annualSavings": "$1.8M"
-    }
-  }
-}</code></pre>
+<div class="content-section section-single-column">
+
+### Practicalities: What to Expect
+
+<div class="practicalities-grid">
+
+<div class="practicality-item">
+<img src="../../../assets/icons/regular/clock.svg" alt="Duration" class="icon-brand" />
+<div>
+<strong>Duration</strong><br/>
+8-12 weeks depending on use case complexity
 </div>
+</div>
+
+<div class="practicality-item">
+<img src="../../../assets/icons/regular/group.svg" alt="Team" class="icon-brand" />
+<div>
+<strong>Team Involvement</strong><br/>
+2-4 consultants handling technical execution
+</div>
+</div>
+
+<div class="practicality-item">
+<img src="../../../assets/icons/regular/calendar.svg" alt="Commitment" class="icon-brand" />
+<div>
+<strong>Your Commitment</strong><br/>
+10-15 hours per week for domain expertise and business context
+</div>
+</div>
+
+<div class="practicality-item">
+<img src="../../../assets/icons/regular/clipboard-check.svg" alt="Deliverables" class="icon-brand" />
+<div>
+<strong>Deliverables</strong><br/>
+Working solution, impact report, documentation, and training materials
+</div>
+</div>
+
+</div>
+
+**What happens next:** Based on execution results:
+
+1. **Experiment Rollout** - Validated impact justifies scaling to production
+2. **New Discovery** - Success validates your approach, so you explore additional use cases
+3. **Refinement** - Results are promising but need iteration before scaling
+4. **Capability Building** - Hire permanent team to continue development based on proven value
+
 </div>
 
 <div class="conclusion-section">
 
 ## Start Proving Value Today
 
-Don't let capability gaps prevent you from capturing high-value opportunities. We'll execute your experiment and prove business impact.
+Don't let capability gaps prevent you from capturing high-value opportunities. We execute your experiment and prove business impact while transferring knowledge to your team.
 
-Execution engagements typically run 8-12 weeks depending on use case complexity. We work closely with your team throughout to ensure knowledge transfer and smooth handoff.
-
-<button class="cta-button">Schedule a Free Strategy Session</button>
+<button class="cta-button">
+<img src="../../../assets/icons/regular/calendar-plus.svg" alt="Schedule" class="button-icon" />
+Schedule a Free Strategy Session
+</button>
 
 </div>
 
-<script>
-function copyCode(button) {
-    const codeBlock = button.nextElementSibling;
-    const code = codeBlock.textContent;
-    
-    navigator.clipboard.writeText(code).then(() => {
-        button.textContent = 'Copied!';
-        button.classList.add('copied');
-        setTimeout(() => {
-            button.textContent = 'Copy';
-            button.classList.remove('copied');
-        }, 2000);
-    });
-}
-</script>
+<link rel="stylesheet" href="../../css/service-icons.css" />

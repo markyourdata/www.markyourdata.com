@@ -5,19 +5,53 @@
 
 ## Scale Successful Experiments Across Your Organization
 
-You've proven value with an experiment—now it's time to capture that value at scale. Our Experiment Rollout service helps you embed successful experiments into your organization, handling production infrastructure, professional code development, and user adoption to ensure experiments deliver sustained business impact.
-
-We bridge the gap between proof of concept and production deployment, ensuring experiments transition smoothly and deliver lasting value.
+**You've proven value with an experiment—now it's time to capture that value at scale.** We transform validated experiments into production-grade solutions with proper infrastructure, professional code, and user adoption plans. You don't let proven value languish in the innovation graveyard. **Walk away with a production solution delivering sustained business impact.**
 
 </div>
 <div class="featured-intro-aside">
-<button class="cta-button">Schedule Discovery Call</button>
+<button class="cta-button">Scale Your Experiment</button>
 </div>
 </div>
 
 <div class="content-section section-single-column">
 
-### Why Rollout Makes or Breaks Value Capture
+### Who Is This For?
+
+<div class="icon-list">
+
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/flask.svg" alt="Validated Prototypes" class="icon-brand" />
+<div>
+<strong>Teams with validated prototypes</strong> - You've proven business value but the experiment can't handle production scale
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/clock.svg" alt="Engineering Constraints" class="icon-brand" />
+<div>
+<strong>Organizations facing engineering constraints</strong> - Your team lacks bandwidth to refactor experimental code for production deployment
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/database-check.svg" alt="Production Ready" class="icon-brand" />
+<div>
+<strong>Leaders needing production-ready solutions</strong> - The prototype doesn't meet enterprise requirements for security, monitoring, or reliability
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/group.svg" alt="User Adoption" class="icon-brand" />
+<div>
+<strong>Businesses requiring user adoption</strong> - You need to drive organizational adoption beyond the pilot group
+</div>
+</div>
+
+</div>
+
+If you've validated an experiment delivers business value and need to scale it professionally to capture the full impact, this service is for you.
+
+### Why Professional Rollout?
 
 Most successful experiments never reach production. Prototype code can't handle production scale. No one considers operational requirements during experimentation. Users resist adopting new tools and processes. The result is validated experiments that never deliver business value.
 
@@ -25,24 +59,102 @@ Professional rollout changes this outcome. We transform validated experiments in
 
 </div>
 
-<div class="content-section section-two-columns image-right">
-<div class="column-text">
+<div class="content-section section-single-column">
 
-### Our Rollout Approach
+### When to Reach Out for Help
+
+Do you recognize any of these common challenges? They're indicators that Experiment Rollout can help:
+
+<div class="icon-checklist">
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Proven experiments stuck in limbo</strong> - You've validated business value but the experiment remains a prototype that can't handle production scale
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Engineering capacity constraints</strong> - Your team lacks bandwidth to refactor experimental code for production deployment
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Production readiness gaps</strong> - The prototype doesn't meet enterprise requirements for security, monitoring, or reliability
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>User adoption concerns</strong> - You're uncertain how to drive organizational adoption beyond the pilot group
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Integration complexity</strong> - The solution must connect with multiple existing systems and you're unsure about implementation approach
+</div>
+</div>
+
+<div class="icon-checklist-item">
+<img src="../../../assets/icons/regular/badge-check.svg" alt="Check" class="icon-small" />
+<div>
+<strong>Operational handoff uncertainty</strong> - No clear plan for who maintains the solution long-term or how to handle incidents
+</div>
+</div>
+
+</div>
+
+If any of these sound familiar, Experiment Rollout helps you capture the full value of successful experiments by scaling them professionally.
+
+</div>
+
+<div class="content-section section-single-column">
+
+### How We Work: Our Rollout Approach
 
 We handle the complete transition from experiment to production:
 
-- **Production Engineering** - Refactor code for reliability, performance, and maintainability
-- **Infrastructure Setup** - Deploy production infrastructure with proper monitoring and scaling  
-- **Integration** - Connect with existing systems and workflows
-- **User Adoption** - Train users, create documentation, and drive adoption
+<div class="process-steps">
+
+<div class="process-step">
+<div class="step-number">1</div>
+<img src="../../../assets/icons/regular/database-check.svg" alt="Production Engineering" class="step-icon" />
+<h4>Production Engineering</h4>
+<p>Refactor code for reliability, performance, and maintainability. Transform experimental scripts into production-quality software your team can maintain long-term.</p>
+</div>
+
+<div class="process-step">
+<div class="step-number">2</div>
+<img src="../../../assets/icons/regular/database.svg" alt="Infrastructure" class="step-icon" />
+<h4>Infrastructure Setup</h4>
+<p>Deploy production infrastructure with proper monitoring, alerting, and scaling capabilities. Ensure the solution meets enterprise standards for security and reliability.</p>
+</div>
+
+<div class="process-step">
+<div class="step-number">3</div>
+<img src="../../../assets/icons/regular/data-transfer-check.svg" alt="Integration" class="step-icon" />
+<h4>Integration</h4>
+<p>Connect with existing systems and workflows. Handle data flows, authentication, and system dependencies professionally.</p>
+</div>
+
+<div class="process-step">
+<div class="step-number">4</div>
+<img src="../../../assets/icons/regular/group.svg" alt="User Adoption" class="step-icon" />
+<h4>User Adoption</h4>
+<p>Train users, create documentation, and drive adoption across the organization. Ensure the solution delivers value through actual usage.</p>
+</div>
+
+</div>
 
 This comprehensive approach ensures experiments transition smoothly and deliver sustained value after initial deployment.
 
-</div>
-<div class="column-image">
-<img src="../../../assets/images/pages/services/data-strategy-process.png" alt="Rollout Process" />
-</div>
 </div>
 
 <div class="content-section section-two-columns image-left">
@@ -58,93 +170,129 @@ Transform your successful experiment into a production solution that delivers su
 - User adoption plan
 - Operational handoff
 
-<button class="cta-button">Schedule Consultation</button>
+<button class="cta-button">
+<img src="../../../assets/icons/regular/calendar-plus.svg" alt="Schedule" class="button-icon" />
+Schedule Consultation
+</button>
 
 </div>
 <div class="column-text">
 
-### Rollout Deliverables
+### Outcome: Production Solution Delivering Value
 
-Our rollout engagements deliver production-ready solutions:
+After the 8-12 week rollout engagement, you'll have a complete production solution:
 
-**Production Code** - Refactored, tested, and documented code that meets enterprise standards
+<div class="icon-list">
 
-**Infrastructure** - Deployed, monitored, and scalable infrastructure with automated deployment
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/check-circle.svg" alt="Code" class="icon-accent" />
+<div>
+<strong>Production Code</strong> - Refactored, tested, and documented code that meets enterprise standards for quality and maintainability
+</div>
+</div>
 
-**User Enablement** - Training materials, documentation, and onboarding programs that drive adoption
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/check-circle.svg" alt="Infrastructure" class="icon-accent" />
+<div>
+<strong>Infrastructure</strong> - Deployed, monitored, and scalable infrastructure with automated deployment pipelines and proper security controls
+</div>
+</div>
 
-**Operations Handoff** - Runbooks, monitoring dashboards, and incident response procedures
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/check-circle.svg" alt="Enablement" class="icon-accent" />
+<div>
+<strong>User Enablement</strong> - Training materials, documentation, and onboarding programs that drive adoption across your organization
+</div>
+</div>
 
-These deliverables ensure your team can maintain and evolve the solution long-term.
+<div class="icon-list-item">
+<img src="../../../assets/icons/regular/check-circle.svg" alt="Handoff" class="icon-accent" />
+<div>
+<strong>Operations Handoff</strong> - Runbooks, monitoring dashboards, and incident response procedures that enable your team to maintain the solution
+</div>
+</div>
+
+</div>
 
 </div>
 </div>
 
-<div class="content-section section-code-stack">
-<div class="column-text">
+<div class="content-section section-single-column">
 
-### Production Readiness Checklist
+### When: Ideal Timing to Start
 
-We ensure solutions meet enterprise requirements before rollout:
+**Immediately after validating business impact with an experiment.** Common trigger points:
 
-**Code Quality** - Unit tests, integration tests, code reviews, and documentation
+- Proof of value demonstrates clear ROI and leadership approves scaling
+- Pilot users demand broader access after experiencing value
+- Experiment timeline concludes with positive results
+- Strategic planning identifies the experiment as high-priority for next quarter
+- Competitive pressure requires rapid scaling to capture market opportunity
 
-**Scalability** - Performance testing and capacity planning
-
-**Security** - Vulnerability scanning, access controls, and audit logging
-
-**Observability** - Monitoring, alerting, and logging for operational visibility
-
-This rigor ensures solutions perform reliably in production and integrate smoothly with existing operations.
+The sooner you start professional rollout after validation, the sooner you capture full business value.
 
 </div>
 
-<div class="column-code">
-<button class="copy-button" onclick="copyCode(this)">Copy</button>
-<pre><code>{
-  "rollout": {
-    "experiment": "Demand forecasting",
-    "provenValue": "$1.8M annual savings",
-    "productionDeployment": {
-      "infrastructure": "Kubernetes on AWS",
-      "cicd": "GitHub Actions",
-      "monitoring": "Datadog + PagerDuty",
-      "sla": "99.9% uptime"
-    },
-    "adoption": {
-      "usersEnabled": 120,
-      "trainingCompleted": "95%",
-      "activeUsage": "85% after 30 days"
-    }
-  }
-}</code></pre>
+<div class="content-section section-single-column">
+
+### Practicalities: What to Expect
+
+<div class="practicalities-grid">
+
+<div class="practicality-item">
+<img src="../../../assets/icons/regular/clock.svg" alt="Duration" class="icon-brand" />
+<div>
+<strong>Duration</strong><br/>
+8-12 weeks depending on complexity and integration requirements
 </div>
+</div>
+
+<div class="practicality-item">
+<img src="../../../assets/icons/regular/group.svg" alt="Team" class="icon-brand" />
+<div>
+<strong>Team Involvement</strong><br/>
+3-5 consultants handling production engineering
+</div>
+</div>
+
+<div class="practicality-item">
+<img src="../../../assets/icons/regular/calendar.svg" alt="Commitment" class="icon-brand" />
+<div>
+<strong>Your Commitment</strong><br/>
+15-20 hours per week from technical and business stakeholders
+</div>
+</div>
+
+<div class="practicality-item">
+<img src="../../../assets/icons/regular/clipboard-check.svg" alt="Deliverables" class="icon-brand" />
+<div>
+<strong>Deliverables</strong><br/>
+Production code, deployed infrastructure, training materials, operations handoff
+</div>
+</div>
+
+</div>
+
+**What happens next:** After successful rollout:
+
+1. **New Experiments** - Success validates your approach, explore additional use cases
+2. **Continuous Improvement** - Your team maintains and evolves the solution independently
+3. **Additional Rollouts** - Scale other validated experiments using proven patterns
+4. **Capability Transfer** - Your team applies learnings to future rollouts
+
 </div>
 
 <div class="conclusion-section">
 
 ## Capture the Full Value of Your Experiments
 
-Don't let successful experiments die in proof-of-concept purgatory. Roll them out professionally and capture sustained business value.
+Don't let successful experiments die in proof-of-concept purgatory. Roll them out professionally and capture sustained business value at scale.
 
-Rollout engagements typically run 8-12 weeks depending on experiment complexity and integration requirements. We work closely with your engineering and operations teams throughout.
-
-<button class="cta-button">Schedule a Free Strategy Session</button>
+<button class="cta-button">
+<img src="../../../assets/icons/regular/calendar-plus.svg" alt="Schedule" class="button-icon" />
+Schedule a Free Strategy Session
+</button>
 
 </div>
 
-<script>
-function copyCode(button) {
-    const codeBlock = button.nextElementSibling;
-    const code = codeBlock.textContent;
-    
-    navigator.clipboard.writeText(code).then(() => {
-        button.textContent = 'Copied!';
-        button.classList.add('copied');
-        setTimeout(() => {
-            button.textContent = 'Copy';
-            button.classList.remove('copied');
-        }, 2000);
-    });
-}
-</script>
+<link rel="stylesheet" href="../../css/service-icons.css" />

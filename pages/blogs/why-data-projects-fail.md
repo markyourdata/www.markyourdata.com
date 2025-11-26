@@ -111,7 +111,7 @@ Proof-of-value approach: **Invest $150K to validate, then commit $2M to proven s
 - Hope it works
 
 **What We Did Instead:**
-- 10-week proof-of-value
+- 10-week proof of value
 - $150K investment
 - 10-store pilot with real operations
 - Measured actual impact: $2M annual savings validated
@@ -222,11 +222,11 @@ This methodology has helped organizations avoid millions in wasted investment an
 
 Ready to de-risk your data initiatives?
 
-[Schedule a Strategy Call](#) to discuss how proof-of-value methodology can work for your organization.
+[Schedule a Strategy Call](#) to discuss how our data discovery and proof of value methodology can work for your organization.
 
 **Related Articles:**
 - [The Proof-of-Value Methodology Explained](/pages/blogs/proof-of-value-methodology.html)
-- [Case Study: Retail Inventory Optimization](/pages/projects/retail-inventory-optimization.html)
+- [Data Discovery Service](/pages/services/data-discovery.html)
 
 **About the Author:**
 
