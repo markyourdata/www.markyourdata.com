@@ -4,8 +4,17 @@
 function createNavbar(activePage = "home") {
   // Determine the base path based on current location
   const path = window.location.pathname;
-  const isInPages = path.includes("/pages/");
-  const basePath = isInPages ? "../.." : ".";
+
+  // Count how many levels deep we are from the root
+  const pathParts = path.split("/").filter((part) => part !== "");
+  const pagesIndex = pathParts.indexOf("pages");
+
+  let basePath = ".";
+  if (pagesIndex !== -1) {
+    // Calculate depth: how many folders after 'pages'
+    const depth = pathParts.length - pagesIndex - 1;
+    basePath = "../".repeat(depth + 1).slice(0, -1) || ".";
+  }
 
   const navbar = `
     <nav class="navbar">

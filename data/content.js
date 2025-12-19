@@ -21,7 +21,7 @@ const siteData = {
         "Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
       cta: "Learn more",
       slug: "strategy-consulting",
-      url: "pages/services/strategy-consulting.html",
+      url: "pages/services/strategy-consulting/index.html",
       propositions: [
         "Free strategy call: Schedule a call with our experts to discuss your data & AI needs.",
         "DATA & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.",
@@ -34,7 +34,7 @@ const siteData = {
         "Make smarter decisions. Improve decision making by combining disconnected data sources. Shorten time to insight. Multiply the effectiveness of your analysts. Create your AI foundation. Prepare your organization for AI solutions at scale.",
       cta: "Learn more",
       slug: "platform",
-      url: "pages/services/platform.html",
+      url: "pages/services/platform/index.html",
       propositions: [
         "Data Infrastructure: Design and implement a scalable data infrastructure that supports your data analytics and AI initiatives.",
         "Data Pipelines: Develop and maintain data pipelines that efficiently move data from source to destination.",
@@ -48,7 +48,7 @@ const siteData = {
         "Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
       cta: "Learn more",
       slug: "strategy-execution",
-      url: "pages/services/strategy-execution.html",
+      url: "pages/services/strategy-execution/index.html",
       propositions: [
         "Data Exploration: We help you understand where a small change, can make a big difference. And help you transform this opportunity into a Proof of Concept.",
         "Proof of Concept (Make it work): Develop and deploy proof of concepts that demonstrate the feasibility of your data analytics and AI initiatives.",
