@@ -7,64 +7,54 @@ const siteData = {
       author: "Erick Webbe | Head of Data Science",
       company: "bol.",
     },
+    {
+      quote: "Make it work, make it better, make it scale",
+      author: "Mark Schep | CEO of Mark Your Data",
+      company: "bol.",
+    },
   ],
 
   services: [
     {
-      title: "Free strategy call",
+      title: "Data Analytics, & AI Strategy consulting",
       description:
-        "Sometimes you need an opinion from someone who has walked the talk. Share your strategic challenges with us, and we'll share our experience with you.",
-      cta: "Schedule your first strategy call",
-      slug: "strategy-call",
-      url: "pages/services/strategy-call.html",
+        "Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
+      cta: "Learn more",
+      slug: "strategy-consulting",
+      url: "pages/services/strategy-consulting.html",
+      propositions: [
+        "Free strategy call: Schedule a call with our experts to discuss your data & AI needs.",
+        "DATA & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.",
+        "Strategy consulting: Our strategy consulting services help you develop a comprehensive data & AI strategy that aligns with your business goals.",
+      ],
     },
     {
-      title: "Data & AI Offsite",
+      title: "Data Analytics & AI Platform",
       description:
-        "Which strategic objectives might be solved with data & AI? How can you be sure? Take time together to create your data & AI experiment roadmap.",
-      cta: "Create your data & AI roadmap",
-      slug: "data-ai-offsite",
-      url: "pages/services/data-ai-offsite.html",
+        "Make smarter decisions. Improve decision making by combining disconnected data sources. Shorten time to insight. Multiply the effectiveness of your analysts. Create your AI foundation. Prepare your organization for AI solutions at scale.",
+      cta: "Learn more",
+      slug: "platform",
+      url: "pages/services/platform.html",
+      propositions: [
+        "Data Infrastructure: Design and implement a scalable data infrastructure that supports your data analytics and AI initiatives.",
+        "Data Pipelines: Develop and maintain data pipelines that efficiently move data from source to destination.",
+        "Data Models: Design and implement data models that support your data analytics and AI initiatives.",
+        "Applied AI: Develop and deploy AI solutions that drive business growth and maximize ROI.",
+      ],
     },
     {
-      title: "Data Discovery",
+      title: "Data Analytics & AI solutions",
       description:
-        "Sometimes you know the value is there, but don't know where to begin. We take your team by the hand and set your first steps in data & AI",
-      cta: "Start exploring",
-      slug: "data-discovery",
-      url: "pages/services/data-discovery.html",
-    },
-    {
-      title: "Experiment guidance",
-      description:
-        "We help you define, refine and setup your first experiments for success and embed experimentation in your organization. One quarter at a time.",
-      cta: "Support quarterly experiments",
-      slug: "experiment-guidance",
-      url: "pages/services/experiment-guidance.html",
-    },
-    {
-      title: "Experiment execution",
-      description:
-        "We help you set up and execute a strategically important usecase, when you don't have the skills or the time. From idea, all the way to proven value.",
-      cta: "Execute data & AI experiments",
-      slug: "experiment-execution",
-      url: "pages/services/experiment-execution.html",
-    },
-    {
-      title: "Experiment rollout",
-      description:
-        "We help you embed succesful experiments in your organisation. All the way from professional infrastructure and code to user adoption.",
-      cta: "Scale up",
-      slug: "experiment-rollout",
-      url: "pages/services/experiment-rollout.html",
-    },
-    {
-      title: "Data & AI platform",
-      description:
-        "We setup infrastructure, data pipelines, data models and AI capabilities, on which you build value adding use cases.",
-      cta: "Set up data & AI platform",
-      slug: "data-ai-platform",
-      url: "pages/services/data-ai-platform.html",
+        "Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
+      cta: "Learn more",
+      slug: "strategy-execution",
+      url: "pages/services/strategy-execution.html",
+      propositions: [
+        "Data Exploration: We help you understand where a small change, can make a big difference. And help you transform this opportunity into a Proof of Concept.",
+        "Proof of Concept (Make it work): Develop and deploy proof of concepts that demonstrate the feasibility of your data analytics and AI initiatives.",
+        "Proof of Value (Make it better): Iterate and refine your proof of concepts to maximize their impact.",
+        "Business Impact (Make it scale): Scale up your proof of value to capture the full potential of your data analytics and AI initiatives.",
+      ],
     },
   ],
 
