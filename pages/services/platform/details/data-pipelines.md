@@ -1,22 +1,45 @@
 # Data Pipelines
 
+<div class="opening-text">
+<p>
 Automate data movement from source to insight. Develop and maintain robust data pipelines that efficiently move data from source to destination with quality guarantees.
+</p>
+<p>
+Your team copies data manually. Quality is a gamble. Pipelines break silently. By the time you know there's a problem, bad decisions are already made. We build automated, reliable pipelines. Pipelines that move data from any source to your platform. Pipelines with quality checks built in. Pipelines that alert you when something goes wrong. So your team can focus on adding value, instead of maintenance.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed by This Service?
 
+<div class="service-card">
+
 ### Manual Data Movement
 Your team spends hours manually copying data between systems. We automate everything, freeing your team for higher-value work.
+
+</div>
+
+<div class="service-card">
 
 ### Data Quality Issues
 Bad data leads to bad decisions. We build quality checks into every pipeline to catch issues before they cause problems.
 
+</div>
+
+<div class="service-card">
+
 ### Slow Data Refresh
 Decisions are made on yesterday's data. We implement real-time or near-real-time pipelines for timely insights.
 
+</div>
+
+<div class="service-card">
+
 ### Pipeline Failures
 Pipelines break and nobody knows until analysts complain. We implement monitoring and alerting to catch issues immediately.
+
+</div>
 
 ---
 
@@ -70,31 +93,32 @@ You should consider data pipeline services when:
 
 ## How Does a Typical Project Look Like?
 
-### Phase 1: Assessment & Design (1-2 weeks)
+### Phase 1: Assessment & Design (±2 weeks)
 - Identify data sources and requirements
 - Map data flows and dependencies
 - Design pipeline architecture
 - Define data quality rules
 
-### Phase 2: Build Core Pipelines (3-6 weeks)
+### Phase 2: Build Core Pipelines (±6 weeks)
 - Set up orchestration framework
 - Develop source connectors
 - Implement transformation logic
 - Add quality checks and validation
 
-### Phase 3: Testing & Deployment (1-2 weeks)
+### Phase 3: Testing & Deployment (±3 weeks weeks)
 - End-to-end testing
 - Performance optimization
 - Production deployment
 - Monitoring setup
 
-### Phase 4: Documentation & Handoff (1 week)
+### Phase 4: Documentation & Handoff (±1 week)
 - Create pipeline documentation
 - Team training sessions
 - Knowledge transfer
 - Establish support process
 
-**Total Duration:** 6-11 weeks (1.5-2.5 months)
+**Total Duration:** 3 months
+
 
 ---
 

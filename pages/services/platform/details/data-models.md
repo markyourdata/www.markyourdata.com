@@ -1,22 +1,45 @@
 # Data Models
 
+<div class="opening-text">
+<p>
 Transform raw data into business insights. Design and implement data models that make your data accessible, understandable, and ready for analysis.
+</p>
+<p>
+Your data exists. But nobody can use it. Raw tables from source systems. Inconsistent metrics. Slow queries. No documentation. Analysts spend weeks just figuring out what data means. We design and build data models that turn your raw data into business-ready assets. Models that are fast. Models that everyone understands. Models that create a single source of truth. Your analysts stop being archaeologists and start delivering insights.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed by This Service?
 
+<div class="service-card">
+
 ### Inconsistent Metrics
 Different teams calculate the same metric differently, leading to conflicting reports. We create a single source of truth with consistent definitions.
+
+</div>
+
+<div class="service-card">
 
 ### Complex Raw Data
 Business users can't work with raw data from source systems. We transform it into intuitive, business-friendly structures.
 
+</div>
+
+<div class="service-card">
+
 ### Slow Query Performance
 Analysts wait hours for reports to run. We optimize data models for fast query performance.
 
+</div>
+
+<div class="service-card">
+
 ### Lack of Data Understanding
 Nobody knows what data means or where it comes from. We document everything and make data self-service.
+
+</div>
 
 ---
 
@@ -70,31 +93,31 @@ You should consider data modeling when:
 
 ## How Does a Typical Project Look Like?
 
-### Phase 1: Discovery & Design (2-3 weeks)
+### Phase 1: Discovery & Design (±2 weeks)
 - Interview business stakeholders
 - Understand reporting requirements
 - Define key metrics and dimensions
 - Design dimensional model
 
-### Phase 2: Implementation (4-6 weeks)
+### Phase 2: Implementation (±6 weeks)
 - Build transformation logic
 - Create dimension and fact tables
 - Implement metrics layer
 - Add data quality checks
 
-### Phase 3: Optimization (2-3 weeks)
+### Phase 3: Optimization (±2 weeks)
 - Performance tuning
 - Query optimization
 - Indexing strategy
 - Testing with real queries
 
-### Phase 4: Documentation & Training (1-2 weeks)
+### Phase 4: Documentation & Training (±2 weeks)
 - Create data catalog
 - Document business logic
 - Train analysts
 - Enable self-service
 
-**Total Duration:** 9-14 weeks (2-3.5 months)
+**Total Duration:** 3 months
 
 ---
 

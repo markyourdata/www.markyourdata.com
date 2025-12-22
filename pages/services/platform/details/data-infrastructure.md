@@ -1,22 +1,45 @@
 # Data Infrastructure
 
+<div class="opening-text">
+<p>
 Build a solid foundation for data-driven success. Design and implement scalable data infrastructure that supports your current needs and future growth.
+</p>
+<p>
+Your infrastructure is a mess. Fragmented systems. Can't scale. Security concerns. Vendor lock-in. Your team spends more time fighting fires than building features. We design and deploy a modern, cloud-native data stack in 3 months. One that's secure from day one. One that scales with your business. One that gives you freedom from proprietary vendors. We don't just build it and leave. We train your team, document everything, and make sure you own it.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed by This Service?
 
+<div class="service-card">
+
 ### Fragmented Technology Stack
 Your data lives in different systems with incompatible technologies. We create a unified, modern data stack that works together seamlessly.
+
+</div>
+
+<div class="service-card">
 
 ### Infrastructure Can't Scale
 Your current setup works for small datasets but crashes under load. We design infrastructure that grows with your business.
 
+</div>
+
+<div class="service-card">
+
 ### Security and Compliance Concerns
 You need to meet regulatory requirements while keeping data accessible. We implement proper security and governance frameworks from day one.
 
+</div>
+
+<div class="service-card">
+
 ### Vendor Lock-in
 You're stuck with expensive, proprietary solutions. We use open-source and cloud-native technologies that give you flexibility and control.
+
+</div>
 
 ---
 
@@ -40,7 +63,7 @@ You should consider data infrastructure when:
 - Your current infrastructure can't handle growing data volumes
 - Data engineers spend more time maintaining infrastructure than building features
 - You're experiencing frequent outages or performance issues
-- You need to comply with security and governance requirements (GDPR, SOC2, etc.)
+- You need a secure platform to work with data
 - You're planning to implement AI/ML models at scale
 
 ---
@@ -70,32 +93,32 @@ You should consider data infrastructure when:
 
 ## How Does a Typical Project Look Like?
 
-### Phase 1: Discovery & Design (2-3 weeks)
+### Phase 1: Discovery & Design (±2 weeks)
 - Stakeholder interviews and requirements gathering
 - Current state assessment
 - Technology evaluation and recommendations
 - Architecture design and approval
 
-### Phase 2: Foundation Setup (3-4 weeks)
+### Phase 2: Foundation Setup (±4 weeks)
 - Cloud account setup and security configuration
 - Core infrastructure deployment
 - Network and access controls
 - Monitoring and logging foundation
 
-### Phase 3: Data Layer Implementation (3-4 weeks)
+### Phase 3: Data Layer Implementation (±4 weeks)
 - Database and storage setup
 - Data ingestion framework
 - Orchestration and scheduling
 - Testing and validation
 
-### Phase 4: Optimization & Handover (2 weeks)
+### Phase 4: Optimization & Handover (±2 weeks)
 - Performance tuning
 - Cost optimization
 - Security hardening
 - Documentation and training
 - Production readiness review
 
-**Total Duration:** 10-13 weeks (3-6 months)
+**Total Duration:** 3 months
 
 ---
 
@@ -120,19 +143,3 @@ Ready to build your data infrastructure? Let's talk about your needs.
 **Schedule a call:** [Book a 30-minute platform consultation](#)  
 **Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
 **See our work:** Check out our [platform case studies](../../../projects/index.html)
-
----
-
-## Frequently Asked Questions
-
-### Do we need to migrate all our data at once?
-No. We typically start with a pilot data source and gradually migrate more systems. This reduces risk and allows you to learn as you go.
-
-### Can you work with our existing cloud provider?
-Yes. We're experienced with AWS, Azure, and Google Cloud. We'll work with your preferred platform or help you choose the best fit.
-
-### What if our team lacks infrastructure expertise?
-That's exactly why we're here. We don't just build the infrastructure - we train your team to run and maintain it. Knowledge transfer is a key part of every project.
-
-### How do you ensure security?
-Security is built in from day one, not added later. We implement encryption, access controls, audit logging, and compliance frameworks as part of the core infrastructure.

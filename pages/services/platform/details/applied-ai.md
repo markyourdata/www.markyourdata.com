@@ -1,22 +1,45 @@
 # Applied AI
 
-Deploy AI solutions that drive business value. Develop and deploy AI solutions built on your data platform, from predictive models to generative AI applications.
+<div class="opening-text">
+<p>
+Deploy AI solutions that drive business value at scale. Develop and deploy AI solutions built on your data platform, from predictive models to generative AI applications.
+</p>
+<p>
+You talk about AI. Your competitors deploy it. Your team lacks the expertise. Proof of concepts sit in notebooks or third party tools forever. Nobody knows which use cases actually matter. We build production-ready AI solutions in 3-6 months. Solutions that drive real business value. Predictive models. GenAI applications. Custom chatbots. We start with validation, build for production, and embed the knowledge with your team. So you don't just get a model. You get a team that can maintain and evolve it.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed by This Service?
 
+<div class="service-card">
+
 ### AI Remains a Concept
 You've talked about AI for months but haven't deployed anything. We turn concepts into working solutions.
+
+</div>
+
+<div class="service-card">
 
 ### Lack of AI Expertise
 Your team lacks machine learning and AI skills. We bring the expertise and transfer knowledge to your team.
 
+</div>
+
+<div class="service-card">
+
 ### POCs That Never Scale
 AI experiments work in notebooks but never reach production. We build production-ready solutions from day one.
 
+</div>
+
+<div class="service-card">
+
 ### Unclear Business Value
 You're not sure which AI use cases are worth pursuing. We help identify and validate high-impact opportunities.
+
+</div>
 
 ---
 
@@ -70,25 +93,25 @@ You should consider Applied AI when:
 
 ## How Does a Typical Project Look Like?
 
-### Phase 1: Discovery & Validation (1-2 weeks)
+### Phase 1: Discovery & Validation (±2 weeks)
 - Define use case and success criteria
 - Assess data availability and quality
 - Feasibility study
 - ROI estimation
 
-### Phase 2: Proof of Concept (3-4 weeks)
+### Phase 2: Proof of Concept (±4 weeks)
 - Develop initial model or AI application
 - Validate with sample data
 - Iterate based on feedback
 - Demonstrate business value
 
-### Phase 3: Production Development (4-6 weeks)
+### Phase 3: Production Development (±4 weeks)
 - Rebuild for scale and reliability
 - Integrate with existing systems
 - Deploy to production infrastructure
 - Set up monitoring
 
-### Phase 4: Validation & Optimization (2-3 weeks)
+### Phase 4: Validation & Optimization (±2 weeks)
 - A/B testing or staged rollout
 - Performance monitoring
 - Model refinement
