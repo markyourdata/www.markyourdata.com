@@ -1,22 +1,45 @@
 # Data & AI Offsite Workshop
 
-Build your strategic roadmap together. Our offsite workshops bring your team together to identify and prioritize data & AI initiatives that align with your business objectives.
+<div class="opening-text">
+<p>
+Build your strategic roadmap together. Our offsite workshops bring your team together to identify and prioritize data & AI initiatives that align with your business objectives. A first step to turn strategy into execution. 
+</p>
+<p>
+You have ideas. Your team has ideas. But everyone's pulling in different directions. We bring everyone in one room for 1-2 days. We facilitate. We align. We prioritize. You leave with a clear quarterly roadmap, committed owners, and a team that's energized and on the same page. No more endless debates. Just clear priorities and action.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed?
 
+<div class="service-card">
+
 ### Lack of Alignment
 Different stakeholders have different priorities and visions for data & AI. We create alignment through structured workshops.
+
+</div>
+
+<div class="service-card">
 
 ### Too Many Ideas, No Priorities
 You have countless potential initiatives but don't know which to pursue first. We help you prioritize based on impact and feasibility.
 
+</div>
+
+<div class="service-card">
+
 ### No Clear Roadmap
 Your team wants to move forward but lacks a concrete plan. We create an actionable quarterly roadmap together.
 
+</div>
+
+<div class="service-card">
+
 ### Siloed Thinking
 Teams work in isolation without understanding how initiatives connect. We bring everyone together to see the bigger picture.
+
+</div>
 
 ---
 
@@ -109,17 +132,6 @@ Teams work in isolation without understanding how initiatives connect. We bring 
 
 ---
 
-## Success Stories
-
-Our offsites typically result in:
-- Clear consensus on top 3-5 initiatives
-- Quarterly roadmap with committed owners
-- Increased stakeholder buy-in
-- Faster decision-making post-workshop
-- Teams energized and aligned
-
----
-
 ## How to Get Started
 
 Ready to align your team on data & AI priorities?
@@ -128,17 +140,3 @@ Ready to align your team on data & AI priorities?
 **Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
 
 ---
-
-## Frequently Asked Questions
-
-### Who should attend the workshop?
-Typically 8-20 people including leadership, data team leads, business stakeholders, and key decision-makers from different departments.
-
-### Can we do this remotely?
-Yes! We offer virtual workshop series that work well for distributed teams, though in-person offsites often create stronger alignment.
-
-### What if we don't have ideas yet?
-That's okay! The workshop includes ideation sessions. We'll help you identify opportunities based on your business goals and data landscape.
-
-### What happens after the workshop?
-You'll have a clear roadmap to execute. We can support implementation through our other services, or your team can run with it independently.

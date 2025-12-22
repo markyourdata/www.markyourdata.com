@@ -1,22 +1,45 @@
 # Comprehensive Strategy Consulting
 
+<div class="opening-text">
+<p>
 Develop a complete data & AI strategy that aligns with your business goals, from vision to implementation roadmap.
+</p>
+<p>
+You're investing in data and AI. But without a clear strategy, you're building on shaky ground. Different teams chase different priorities. ROI is unclear. Initiatives fail. We work with you over 3 months to build a comprehensive strategy that actually works. One that connects your business goals to a practical roadmap. One that defines your operating model, governance, and technology choices. One that your board believes in and your team can execute. No generic frameworks. Just a strategy built for your reality.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed?
 
+<div class="service-card">
+
 ### No Strategic Direction
 You're investing in data & AI but lack a coherent strategy. We create a comprehensive plan that aligns with business objectives.
+
+</div>
+
+<div class="service-card">
 
 ### Fragmented Initiatives
 Multiple teams pursue different data projects without coordination. We create an integrated strategy that connects all initiatives.
 
+</div>
+
+<div class="service-card">
+
 ### Unclear ROI
 You're spending on data & AI but can't measure return on investment. We establish clear metrics and success criteria.
 
+</div>
+
+<div class="service-card">
+
 ### Organizational Resistance
 Data initiatives fail due to cultural or organizational barriers. We design change management and governance approaches.
+
+</div>
 
 ---
 
@@ -43,12 +66,11 @@ Data initiatives fail due to cultural or organizational barriers. We design chan
 
 ## What Are Typical Deliverables?
 
-### Strategy Document (30-50 pages)
+### Strategy Document
 - Executive summary
 - Vision and strategic objectives
 - Current state assessment
 - Target state architecture
-- Gap analysis
 
 ### Roadmap & Planning
 - Multi-year implementation roadmap
@@ -147,20 +169,4 @@ We don't create strategies that sit on shelves. Our approach:
 Ready to develop your data & AI strategy?
 
 **Schedule a consultation:** [Book a 30-minute strategy discussion](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-
----
-
-## Frequently Asked Questions
-
-### How is this different from the offsite workshop?
-The offsite is a 1-2 day collaborative session for alignment and roadmap. Strategy consulting is a comprehensive multi-week engagement producing detailed documentation and implementation plans.
-
-### Do we need to have data infrastructure already?
-No. The strategy will define what infrastructure you need and when to build it. Many clients start here before building anything.
-
-### Will you implement the strategy?
-We can support implementation through our other services (Platform, Strategy Execution), or hand off to your team. Most clients want us involved in at least the first phase.
-
-### How do you ensure the strategy gets used?
-We focus on actionability: clear roadmaps, defined owners, success metrics, and change management. We also offer quarterly check-ins to keep momentum.
+**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)

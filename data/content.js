@@ -18,7 +18,7 @@ const siteData = {
     {
       title: "Data Analytics, & AI Strategy consulting",
       description:
-        "Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
+        "See the potential, and learn how to start. Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
       cta: "Learn more",
       slug: "strategy-consulting",
       url: "pages/services/strategy-consulting/index.html",
@@ -31,7 +31,7 @@ const siteData = {
     {
       title: "Data Analytics & AI Platform",
       description:
-        "Make smarter decisions. Improve decision making by combining disconnected data sources. Shorten time to insight. Multiply the effectiveness of your analysts. Create your AI foundation. Prepare your organization for AI solutions at scale.",
+        "The foundation for any data driven company. Multiply the effectiveness of your data professionals while building your AI fundament. Shorten the time to insight and make smarter decisions by combining disconnected data sources.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
@@ -45,7 +45,7 @@ const siteData = {
     {
       title: "Data Analytics & AI solutions",
       description:
-        "Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
+        "When you don't have the skills, the people, or the time, we turn your data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
       cta: "Learn more",
       slug: "strategy-execution",
       url: "pages/services/strategy-execution/index.html",
