@@ -1,22 +1,45 @@
 # Proof of Value (Make it Better)
 
+<div class="opening-text">
+<p>
 Iterate and refine your proof of concepts to maximize impact and prove measurable business value with data. Turn technical feasibility into quantified ROI.
+</p>
+<p>
+Your POC works. But does it deliver business value? Leadership wants proof before investing in production. You need numbers. Real ROI. We run controlled experiments in 3 months. A/B tests. Pilot programs. We measure actual business impact. We optimize performance. We build the business case for scaling. You get quantified results. Statistical proof. Clear ROI. Then you can confidently invest in full rollout.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed by This Service?
 
+<div class="service-card">
+
 ### Unclear Business Impact
 Your POC works technically, but you need to prove it delivers business value.
+
+</div>
+
+<div class="service-card">
 
 ### Need for ROI Justification
 Leadership requires quantified business case before approving production rollout.
 
+</div>
+
+<div class="service-card">
+
 ### Optimization Needed
 The POC works but performance could be better before scaling.
 
+</div>
+
+<div class="service-card">
+
 ### Risk of Scaling Too Early
 You want to validate business value before making large infrastructure investments.
+
+</div>
 
 ---
 
@@ -72,39 +95,32 @@ You want to validate business value before making large infrastructure investmen
 
 ## How Does a Typical Project Look Like?
 
-### Phase 1: Experiment Design (1 week)
+### Phase 1: Experiment Design (±2 week)
 - Define success metrics
 - Design A/B test or pilot
 - Set up measurement framework
 - Prepare baseline data
 
-### Phase 2: Execution (4-8 weeks)
+### Phase 2: Development (±6 weeks)
+- Develop / implement the Experiment
+- 
+
+### Phase 2: Execution (±2 weeks)
 - Deploy to pilot group
 - Monitor performance
 - Collect data
 - Initial analysis
 
-### Phase 3: Analysis (1-2 weeks)
+### Phase 4: Analysis (±2 weeks)
 - Statistical analysis
 - Calculate business impact
-- Identify improvement opportunities
-- Generate insights
-
-### Phase 4: Optimization (2-3 weeks)
-- Iterate based on learnings
-- Improve performance
-- Refine approach
-- Validate improvements
-
-### Phase 5: Business Case (1 week)
 - ROI calculation
-- Build scaling recommendation
-- Prepare stakeholder presentation
 - Document learnings
+
 
 **Total Duration:** 3 months
 
-**Complete Journey:** If you start from Data Exploration and go through Proof of Concept to Proof of Value, the total timeline is approximately 6 months (1 + 2 + 3 months).
+**Complete Journey:** If you start from Data Exploration and go through Proof of Concept to Proof of Value, the total timeline is likely to be 6 months. Some experiments take 3 months to run.
 
 ---
 
@@ -162,44 +178,21 @@ Depending on your use case:
 
 ---
 
-## Investment Range
-
-**Typical Investment:** €35,000 - €80,000
-
-The investment depends on:
-- Experiment duration (longer = more expensive)
-- Complexity of measurement
-- Number of iterations
-- Data collection requirements
-- Size of pilot group
-
----
-
-## Real Results We've Proven
-
-- **E-commerce:** 12% conversion increase → €2M annual revenue impact
-- **SaaS:** 35% churn reduction → €1.5M saved annually
-- **Manufacturing:** 18% quality improvement → €800K cost savings
-- **Logistics:** 15% route optimization → €500K fuel savings
-- **Retail:** 25% inventory accuracy → €1.2M working capital freed
-
----
-
 ## What Happens After Proof of Value?
 
 When business value is proven, clients typically:
 
-1. **Business Impact** (70% of cases)
+1. **Business Impact**
    - Scale to production
    - Roll out to full organization
    - Capture full value
 
-2. **Additional Optimization** (20% of cases)
+2. **Additional Optimization** 
    - Run more experiments
    - Test variations
    - Maximize impact before scaling
 
-3. **Strategic Pivot** (10% of cases)
+3. **Strategic Pivot**
    - Results showed different opportunity
    - Adjust approach based on learnings
    - Pursue higher-value alternative
@@ -213,12 +206,3 @@ Ready to prove business value?
 **Schedule a call:** [Book a 30-minute consultation](#)  
 **Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
 **See results:** Explore our [proven impact case studies](../../../projects/index.html)
-
----
-
-## Why Proof of Value Matters
-
-> "We had 10 AI ideas. Proof of Value helped us identify the 2 that actually drove business results. We scaled those and parked the rest. Saved us from wasting €500K on the wrong initiatives."  
-> — Data Director, Fortune 500 Company
-
-Most data & AI initiatives fail not because they don't work technically, but because they don't deliver business value. Proof of Value ensures you only scale what works.

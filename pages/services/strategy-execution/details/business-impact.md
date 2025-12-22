@@ -1,22 +1,45 @@
 # Business Impact (Make it Scale)
 
+<div class="opening-text">
+<p>
 Scale up your proof of value to capture the full potential of your data analytics and AI initiatives. Turn validated solutions into production systems delivering continuous business value.
+</p>
+<p>
+You've proven value. Now it's time to scale. Your prototype isn't production-ready. Infrastructure can't handle the load. Users won't adopt without proper enablement. We build production-grade solutions in 3-6 months. Solutions that scale. Solutions that are robust. Solutions that users actually adopt. We rebuild for reliability. Deploy to production. Enable your team. Monitor performance. You capture the full business value. Not just a pilot. Real impact at scale.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed by This Service?
 
+<div class="service-card">
+
 ### POCs That Never Proof Value
 Your proof of concept worked but never made it to an experiment to prove its value.
+
+</div>
+
+<div class="service-card">
 
 ### Production Quality Gap
 The prototype works for a pilot but isn't robust enough for full rollout.
 
+</div>
+
+<div class="service-card">
+
 ### User Adoption Challenges
 The solution is ready but users aren't adopting it.
 
+</div>
+
+<div class="service-card">
+
 ### Scaling Infrastructure
 Your current setup can't handle production volumes or performance requirements.
+
+</div>
 
 ---
 
@@ -77,26 +100,26 @@ Your current setup can't handle production volumes or performance requirements.
 
 ## How Does a Typical Project Look Like?
 
-### Phase 1: Planning (2 weeks)
+### Phase 1: Planning (±2 weeks)
 - Define production requirements
 - Architecture design
 - Rollout strategy
 - Resource planning
 
-### Phase 2: Build for Production (6-10 weeks)
+### Phase 2: Build for Production (±8 weeks)
 - Rebuild for scale and reliability
 - Infrastructure setup
 - Security implementation
 - Integration with systems
 - Testing (unit, integration, UAT)
 
-### Phase 3: Deployment (2-3 weeks)
+### Phase 3: Deployment (±3 weeks)
 - Phased rollout plan
 - Production deployment
 - User training
 - Go-live support
 
-### Phase 4: Optimization & Handoff (4+ weeks)
+### Phase 4: Optimization & Handoff (±6 weeks)
 - Monitor performance
 - Gather user feedback
 - Optimize and iterate
@@ -109,12 +132,7 @@ Your current setup can't handle production volumes or performance requirements.
 - Model retraining (if applicable)
 - Feature enhancements
 
-**Total Duration:** 3-6 months (depending on complexity and starting point)
-
-**Complete Journey Timelines:**
-- **From Proof of Value to Production:** 3-6 months (this phase only)
-- **From Exploration to Production:** 6-9 months total (1 + 2 + 3 + 3-6 months)
-- **From POC to Production:** 5-9 months total (2 + 3 + 3-6 months)
+**Total Duration:** 6 months
 
 ---
 
@@ -240,9 +258,3 @@ Ready to scale your solution to production?
 **Schedule a call:** [Book a 30-minute scaling consultation](#)  
 **Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
 **See scaled solutions:** Check out our [production case studies](../../../projects/index.html)
-
----
-
-## Production Success Stories
-
-- **AI Content Generation:** Scaled 1M+ product titles per generation job

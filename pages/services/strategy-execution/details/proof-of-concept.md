@@ -1,22 +1,45 @@
 # Proof of Concept (Make it Work)
 
+<div class="opening-text">
+<p>
 Develop and deploy proof of concepts that demonstrate the feasibility of your data analytics and AI initiatives. Show what's possible before making major investments.
+</p>
+<p>
+You have an idea. But is it technically possible? Leadership is skeptical. You need to see it working now. We build a working proof of concept, maybe even a proof of value in 3 months. One that demonstrates feasibility. One that shows your stakeholders what's possible. One that validates the approach before you invest big. Fast. Focused. Proven. Then you decide: refine it, scale it, or pivot.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed by This Service?
 
+<div class="service-card">
+
 ### Technical Uncertainty
 You're not sure if your idea is technically feasible with available data and technology.
+
+</div>
+
+<div class="service-card">
 
 ### Stakeholder Skepticism
 Leadership needs to see it working before approving budget for full implementation.
 
+</div>
+
+<div class="service-card">
+
 ### Risk of Failed Projects
 You want to validate the approach before committing significant resources.
 
+</div>
+
+<div class="service-card">
+
 ### Need for Quick Results
-Traditional development cycles take too long. You need results in weeks, not months.
+Traditional development cycles take too long. You need results fast.
+
+</div>
 
 ---
 
@@ -71,31 +94,31 @@ Traditional development cycles take too long. You need results in weeks, not mon
 
 ## How Does a Typical Project Look Like?
 
-### Phase 1: Planning (1 week)
+### Phase 1: Planning (±2 week)
 - Requirements clarification
 - Data access and assessment
 - Define success criteria
 - Technology selection
 
-### Phase 2: Build (3-4 weeks)
+### Phase 2: Build (±4 weeks)
 - Develop core functionality
 - Iterate based on findings
 - Testing and validation
 - Prepare demo
 
-### Phase 3: Demo & Review (1 week)
+### Phase 3: Demo & Optimzize (±4 weeks)
 - Stakeholder demonstrations
 - Gather feedback
 - Refine approach
 - Document learnings
 
-### Phase 4: Handoff (1 week)
+### Phase 4: Handoff (±2 week)
 - Documentation finalization
 - Knowledge transfer
 - Recommendations presentation
 - Next steps planning
 
-**Total Duration:** 2 months
+**Total Duration:** 3 months
 
 ---
 
@@ -119,33 +142,9 @@ We use rapid development technologies:
 - **Python** for data processing and ML
 - **Jupyter notebooks** for exploration
 - **Streamlit or Gradio** for quick UIs
-- **SQLite or local databases** for data
+- **DuckDB or local databases** for data
 - **Open-source libraries** to move fast
 - **Cloud notebooks** for ML experiments
-
----
-
-## Investment Range
-
-**Typical Investment:** €20,000 - €50,000
-
-The investment depends on:
-- Complexity of use case
-- Data preparation needs
-- Type of solution (analytics, ML, GenAI)
-- Integration requirements
-- Number of iterations needed
-
----
-
-## Success Criteria
-
-A successful POC demonstrates:
-✅ Technical feasibility with available data  
-✅ Core functionality working  
-✅ Sample outputs or predictions  
-✅ Clear path to production  
-✅ Stakeholder buy-in for next phase  
 
 ---
 
@@ -153,19 +152,19 @@ A successful POC demonstrates:
 
 Based on POC results, clients typically choose:
 
-1. **Proof of Value** (60% of cases)
+1. **Proof of Value**
    - Run A/B tests to prove business impact
    - Measure ROI before full rollout
 
-2. **Business Impact** (20% of cases)
+2. **Business Impact**
    - Skip validation, go straight to production
    - When POC results are compelling enough
 
-3. **Refinement** (15% of cases)
+3. **Refinement**
    - Iterate on POC with new approach
    - Address blockers discovered
 
-4. **Park It** (5% of cases)
+4. **Park It**
    - POC showed it's not feasible or valuable
    - Better to know now than after major investment
 
@@ -178,14 +177,3 @@ Ready to build a proof of concept?
 **Schedule a call:** [Book a 30-minute POC discussion](#)  
 **Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
 **See examples:** Check out our [POC case studies](../../../projects/index.html)
-
----
-
-## Example POCs We've Built
-
-- **AI Chatbot:** Customer service automation reducing support tickets by 40%
-- **Churn Prediction:** ML model identifying at-risk customers 3 months in advance
-- **Content Generation:** GenAI creating product descriptions at scale
-- **Demand Forecasting:** Predictive model improving inventory accuracy by 25%
-- **Image Classification:** Quality control automation in manufacturing
-- **Recommendation Engine:** Personalized product suggestions increasing conversion

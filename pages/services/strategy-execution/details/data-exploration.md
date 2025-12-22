@@ -1,22 +1,45 @@
 # Data Exploration
 
+<div class="opening-text">
+<p>
 Discover where a small change can make a big difference. We help you understand your data landscape and transform opportunities into working Proof of Concepts.
+</p>
+<p>
+You have data. But you don't know what to do with it. Where's the value? What should you build? Your team explores dead ends for weeks. We cut through the noise in 3 months. We analyze your data. Find patterns. Identify high-impact opportunities. Build a quick prototype and design an experiment. No more guessing. Just focused action on what matters.
+</p>
+</div>
 
 ---
 
 ## Which Pains Are Addressed by This Service?
 
+<div class="service-card">
+
 ### Unknown Value Hidden in Data
 You suspect there's value in your data but don't know where to look or what to build.
+
+</div>
+
+<div class="service-card">
 
 ### No Starting Point
 Your team wants to leverage data but doesn't know which use case to tackle first.
 
+</div>
+
+<div class="service-card">
+
 ### Wasted Exploration Time
 Your data team spends weeks exploring dead ends instead of focusing on high-impact opportunities.
 
+</div>
+
+<div class="service-card">
+
 ### Need for Quick Validation
 You need to validate an idea quickly before committing significant resources.
+
+</div>
 
 ---
 
@@ -64,28 +87,29 @@ You need to validate an idea quickly before committing significant resources.
 
 ## How Does a Typical Project Look Like?
 
-### Phase 1: Kickoff & Data Access (1-3 days)
+### Phase 1: Kickoff & Data Access (±2 week)
 - Align on objectives and questions
 - Get access to data sources
 - Understand business context
 
-### Phase 2: Exploration (1-2 weeks)
+### Phase 2: Exploration & Deepdives (±6 weeks)
 - Data profiling and quality assessment
 - Pattern discovery
 - Hypothesis testing
 - Opportunity identification
 
-### Phase 3: Prototype (1-2 weeks)
+### Phase 3: Prototype & Experiment (±2 weeks)
 - Build initial proof of concept
 - Demonstrate feasibility
 - Generate sample insights
+- Design experiment for proof of value
 
-### Phase 4: Review & Recommendations (2-3 days)
+### Phase 4: Review & Recommendations (±2 weeks)
 - Present findings
 - Discuss opportunities
 - Recommend next steps
 
-**Total Duration:** 1 month
+**Total Duration:** 3 months
 
 ---
 
@@ -108,26 +132,14 @@ You need to validate an idea quickly before committing significant resources.
 
 ---
 
-## Investment Range
-
-**Typical Investment:** €15,000 - €35,000
-
-The investment depends on:
-- Number of data sources to explore
-- Complexity of data landscape
-- Depth of analysis required
-- Prototype complexity
-
----
-
 ## What Happens Next?
 
 After exploration, most clients choose one of these paths:
 
-1. **Proof of Concept** - Build a working prototype (Make it Work)
-2. **Proof of Value** - Run experiments to prove business impact (Make it Better)
-3. **Platform First** - Build data infrastructure before use cases
-4. **Strategic Planning** - Develop comprehensive data strategy
+
+1. **Proof of Value** - Run experiments to prove business impact (Make it Better)
+2. **Data Foundation** - Setup data platform for this first use cases as scale
+3. **Strategic Planning** - Discover, prioritize and plan next use cases
 
 We'll recommend the best path based on findings.
 
@@ -140,13 +152,3 @@ Ready to explore your data opportunities?
 **Schedule a call:** [Book a 30-minute exploration call](#)  
 **Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
 **See examples:** Check out our [exploration case studies](../../../projects/index.html)
-
----
-
-## Success Stories
-
-Recent explorations led to:
-- E-commerce company: Identified €2M revenue opportunity in customer segmentation
-- Manufacturing: Discovered 15% waste reduction opportunity in production
-- SaaS company: Found 3 features driving 80% of churn
-- Logistics: Identified route optimization saving 20% fuel costs
