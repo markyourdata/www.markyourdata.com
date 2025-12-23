@@ -168,5 +168,5 @@ We don't create strategies that sit on shelves. Our approach:
 
 Ready to develop your data & AI strategy?
 
-**Schedule a consultation:** [Book a 30-minute strategy discussion](#)  
+**Schedule a consultation:** [Book a 30-Minute discussion](#)  
 **Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)

@@ -9,7 +9,7 @@ What we do
 Data Analytics, & AI Strategy consulting
 * Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.
 Propositions
-** Free strategy call: Schedule a call with our experts to discuss your data & AI needs.
+** 30-Minute Call: Schedule a call with our experts to discuss your data & AI needs.
 ** DATA & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.
 ** Strategy consulting: Our strategy consulting services help you develop a comprehensive data & AI strategy that aligns with your business goals.
 

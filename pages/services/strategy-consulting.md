@@ -29,7 +29,7 @@ The data & AI landscape is complex. We guide you through proven frameworks to as
 
 ## Our Propositions
 
-### Free Strategy Call
+### 30-Minute Call
 **Quick guidance when you need it most**
 
 Sometimes you just need an experienced perspective. Share your strategic challenges with us, and we'll share our insights and experience with you.
@@ -39,7 +39,7 @@ Sometimes you just need an experienced perspective. Share your strategic challen
 - You want to validate your current approach
 - You need an expert sounding board
 
-[Schedule Your Free Strategy Call →](#contact)
+[Schedule Your 30-Minute Call →](#contact)
 
 ---
 
@@ -107,6 +107,6 @@ We work with you to develop a complete data & AI strategy that aligns with your 
 
 Ready to maximize your data & AI investments? We'd love to help.
 
-**Schedule a call:** [Book a 30-minute strategy call](#)  
+**Schedule a call:** [Book a 30-Minute call](#)  
 **Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
 **Learn more:** Explore our [case studies](#) and [blog](#)

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Our Services - Mark Your Data</title>
+        <title>Data & AI Consultants - Mark Your Data</title>
         <meta
             name="description"
             content="Data Analytics & AI services tailored to your maturity level. From strategy to platform to custom solutions."
@@ -36,7 +36,7 @@
                     class="cta-button"
                     onclick="window.location.href='strategy-consulting/index.html'"
                 >
-                    Schedule a Free Strategy Call
+                    Schedule a 30-Minute Call
                 </button>
             </div>
         </section>
@@ -192,13 +192,30 @@
                 </div>
             </div>
         </section>
-
+        <!-- Projects Section -->
+        <section>
+            <div class="container">
+                <h2>Our work</h2>
+                <p
+                    style="
+                        text-align: left;
+                        font-size: 1.25rem;
+                        margin-bottom: 2rem;
+                    "
+                >
+                    What we are proud of
+                </p>
+                <div id="projects" class="content-grid">
+                    <!-- Projects will be rendered here by JavaScript -->
+                </div>
+            </div>
+        </section>
         <!-- CTA Section -->
         <section class="cta-section">
             <div class="container">
                 <h2>Not Sure Where to Start?</h2>
                 <p>
-                    Schedule a free 30-minute strategy call. We'll discuss your
+                    Schedule a free 30-Minute call. We'll discuss your
                     challenges and help you determine the right approach for
                     your organization.
                 </p>
@@ -206,7 +223,7 @@
                     class="cta-button"
                     onclick="window.location.href='strategy-consulting/index.html'"
                 >
-                    Schedule Your Free Strategy Call
+                    Schedule Your Free Call
                 </button>
             </div>
         </section>
@@ -214,24 +231,13 @@
         <!-- Scripts -->
         <script src="../../components/navbar.js"></script>
         <script src="../../data/content.js"></script>
+        <script src="../../js/components.js"></script>
+        <script src="../../js/projects.js"></script>
         <script>
-            // Render services dynamically from content.js
-            const servicesContainer = document.getElementById("services");
-            if (servicesContainer && siteData.services) {
-                servicesContainer.innerHTML = siteData.services
-                    .map(
-                        (service) => `
-                        <div class="service-card">
-                            <h3>${service.title}</h3>
-                            <p>${service.description}</p>
-                            <a href="${service.slug}/index.html">
-                                <button class="cta-button">${service.cta}</button>
-                            </a>
-                        </div>
-                    `,
-                    )
-                    .join("");
-            }
+            // Render projects (limit to 9)
+            renderProjects("projects", {
+                limit: 9,
+            });
         </script>
     </body>
 </html>

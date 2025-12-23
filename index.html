@@ -32,9 +32,7 @@
                     Transform your company into a data analytics & AI driven
                     powerhouse, one strategic project at a time.
                 </p>
-                <button class="cta-button">
-                    Schedule a 30-Minute Strategy Call
-                </button>
+                <button class="cta-button">Schedule a 30-Minute Call</button>
             </div>
         </section>
 
@@ -79,10 +77,10 @@
             </div>
         </section>
 
-        <!-- Methodology Section -->
+        <!-- How We Work Section -->
         <section>
             <div class="container">
-                <h2>Why people choose us</h2>
+                <h2>How we work</h2>
                 <p
                     style="
                         text-align: left;
@@ -90,17 +88,126 @@
                         margin-bottom: 2rem;
                     "
                 >
-                    How we work
+                    Our proven methodology
                 </p>
+
+                <!-- Strategy Consulting -->
                 <div class="service-card">
-                    <h3>Consistent results, delivered with a smile.</h3>
+                    <h3>
+                        1. Strategy Consulting: Discover where small changes,
+                        make big impact
+                    </h3>
                     <p>
-                        With our motto
-                        <b>"Make it work, make it better, make it scale"</b>. We
-                        follow a methodology that consistently delivers results.
-                        Our energy inspires teams and and puts a smile on your
-                        face.
+                        Turn your data & AI strategy into an executable
+                        actionplan that will transform your business into a data
+                        & AI powerhouse
                     </p>
+                    <p>
+                        See the potential, and learn how to start. Maximize the
+                        return of data & AI investments. With our proven
+                        methodologies and expertise, we help you invest in
+                        data-driven initiatives that drive business growth and
+                        maximize ROI for years to come.
+                    </p>
+                    <a href="pages/services/strategy-consulting/index.html">
+                        <button class="cta-button">
+                            Learn About Strategy Consulting →
+                        </button>
+                    </a>
+                    <div style="text-align: center; margin: 2rem 0">
+                        <img
+                            src="assets/images/featured/data_analytics_and_ai_roadmap.png"
+                            alt="Data Analytics & AI Roadmap"
+                            style="
+                                max-width: 100%;
+                                height: auto;
+                                border-radius: 8px;
+                                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                            "
+                        />
+                    </div>
+                </div>
+
+                <!-- Data Platform -->
+                <div class="service-card" style="margin-top: 2rem">
+                    <h3>
+                        2. Data Analytics & AI Platform: The foundation to build
+                        your use cases on
+                    </h3>
+                    <p>
+                        Setup your organization for succes with the foundations
+                        on which your teams will build their data analytics & AI
+                        use case cases
+                    </p>
+
+                    <p>
+                        Your data lives everywhere. In different systems.
+                        Different formats. Different teams. Your analysts waste
+                        80% of their time just finding and preparing data. AI at
+                        scale? Impossible without a solid foundation. We build
+                        you a modern data platform that brings it all together.
+                        One that makes your data accessible, reliable, and ready
+                        for analysis and AI. We set it up in 3 months, then
+                        spend 3 months embedding it with your team. You can
+                        finally move from data chaos to data-driven decisions.
+                    </p>
+                    <a href="pages/services/platform/index.html">
+                        <button class="cta-button">
+                            Learn About Platform Services →
+                        </button>
+                    </a>
+                    <div style="text-align: center; margin: 2rem 0">
+                        <img
+                            src="assets/images/featured/data_analytics_and_ai_platform.png"
+                            alt="Data Analytics & AI Platform"
+                            style="
+                                max-width: 100%;
+                                height: auto;
+                                border-radius: 8px;
+                                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                            "
+                        />
+                    </div>
+                </div>
+
+                <!-- Strategy Execution -->
+                <div class="service-card" style="margin-top: 2rem">
+                    <h3>3. Strategy Execution: We help you lead by example</h3>
+                    <p>
+                        Turn data into impact. We help you transform strategic
+                        initiatives into proof of concepts, proof of values,
+                        implementation and beyond. We let your team tag along
+                        and learn from the best.
+                    </p>
+                    <p>
+                        You have ideas. But ideas don't drive business value.
+                        Execution does. You lack time. Skills. Resources.
+                        Projects take too long. Investments feel risky without
+                        proof. We execute your data and AI initiatives using our
+                        proven methodology:
+                        <b>Make it work. Make it better. Make it scale</b>. We
+                        start with quick exploration. Build working prototypes
+                        in weeks. Prove measurable business value. Then scale
+                        what works. From discovery to production in 6-9 months.
+                        Small investments. Fast learning. Big impact.
+                    </p>
+                    <a href="pages/services/strategy-execution/index.html">
+                        <button class="cta-button">
+                            Learn About Strategy Execution →
+                        </button>
+                    </a>
+                    <div style="text-align: center; margin: 2rem 0">
+                        <img
+                            src="assets/images/featured/make_it_work_make_it_better_make_it_scale.png"
+                            alt="Make it Work, Make it Better, Make it Scale"
+                            style="
+                                max-width: 100%;
+                                height: auto;
+                                border-radius: 8px;
+                                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+                            "
+                        />
+                    </div>
                 </div>
             </div>
         </section>
@@ -135,7 +242,7 @@
                         margin-bottom: 2rem;
                     "
                 >
-                    What we are proud of
+                    Some projects that we are proud of
                 </p>
                 <div id="projects" class="content-grid">
                     <!-- Projects will be rendered here by JavaScript -->
@@ -148,5 +255,12 @@
         <script src="data/content.js"></script>
         <script src="js/components.js"></script>
         <script src="js/carousel.js"></script>
+        <script src="js/projects.js"></script>
+        <script>
+            // Render projects on homepage (limit to 9)
+            renderProjects("projects", {
+                limit: 9,
+            });
+        </script>
     </body>
 </html>

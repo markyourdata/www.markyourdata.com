@@ -6,11 +6,13 @@ const siteData = {
         "Mark Your Data excels at identifying opportunities to leverage data and analytics in diverse environments. Once found, they seamlessly transform these solution ideas into testable prototypes with proven impact. Their strong communication skills act as a catalyst, drawing entire teams into the dynamic journey of innovation. Critical and constructive, and always with a broad smile, Mark Your Data is an asset to any team.",
       author: "Erick Webbe | Head of Data Science",
       company: "bol.",
+      image: "assets/images/fans/erick_webbe.png",
     },
     {
       quote: "Make it work, make it better, make it scale",
-      author: "Mark Schep | CEO of Mark Your Data",
-      company: "bol.",
+      author: "Mark Schep | CEO",
+      company: "Mark Your Data",
+      image: "assets/images/fans/mark_schep.png",
     },
   ],
 
@@ -23,7 +25,7 @@ const siteData = {
       slug: "strategy-consulting",
       url: "pages/services/strategy-consulting/index.html",
       propositions: [
-        "Free strategy call: Schedule a call with our experts to discuss your data & AI needs.",
+        "30-Minute Call: Schedule a call with our experts to discuss your data & AI needs.",
         "DATA & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.",
         "Strategy consulting: Our strategy consulting services help you develop a comprehensive data & AI strategy that aligns with your business goals.",
       ],

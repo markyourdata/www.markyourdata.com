@@ -257,7 +257,7 @@ The aspirational or human outcome:
 **Level 4 – Action Message (Call to Action)** 
 What you want the user to do next (varies by context):
 - "Let's identify your highest-impact use case" (discovery call)
-- "Schedule a 30-minute strategy conversation" (homepage CTA)
+- "Schedule a 30-Minute conversation" (homepage CTA)
 - "Start your proof of value today" (service page CTA)
 - "Read how we reduced costs by 30%" (blog/social CTA)
 

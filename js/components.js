@@ -15,15 +15,25 @@ const components = {
   `,
 
   // Service card component
-  serviceCard: (data) => `
-    <div class="service-card">
-      <h3>${data.title}</h3>
-      <p>${data.description}</p>
-      <a href="${data.url}">
-        <button class="cta-button">${data.cta}</button>
-      </a>
-    </div>
-  `,
+  serviceCard: (data, options = {}) => {
+    // Determine the correct URL based on current location
+    let url = data.url;
+
+    // If we're in /pages/services/index.html, remove the 'pages/services/' prefix
+    if (options.removeServicesPrefix && url.startsWith("pages/services/")) {
+      url = url.replace("pages/services/", "");
+    }
+
+    return `
+      <div class="service-card">
+        <h3>${data.title}</h3>
+        <p>${data.description}</p>
+        <a href="${url}">
+          <button class="cta-button">${data.cta}</button>
+        </a>
+      </div>
+    `;
+  },
 
   // Client logo component
   clientLogo: (data) => `
@@ -31,23 +41,6 @@ const components = {
       <img src="${data.logo}" alt="${data.name}" class="client-logo-img">
     </div>
   `,
-
-  // Project card component
-  projectCard: (data) => {
-    const outcomeHtml = Array.isArray(data.outcome)
-      ? `<div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">${data.outcome.map((item) => `<div>${item}</div>`).join("")}</div>`
-      : data.outcome;
-
-    return `
-      <div class="content-card">
-        <div class="card-tag">${data.client}</div>
-        <h3>${data.title}</h3>
-        <p>${data.description}</p>
-        <div class="card-meta"><strong>Outcomes:</strong> ${outcomeHtml}</div>
-        <a href="pages/projects/${data.slug}.html" class="read-more">Read Case Study →</a>
-      </div>
-    `;
-  },
 };
 
 // Render function that populates containers with components
@@ -79,8 +72,15 @@ function renderComponents() {
   // Render services
   const servicesContainer = document.getElementById("services");
   if (servicesContainer && siteData.services) {
+    // Check if we're on the services index page
+    const isServicesPage =
+      window.location.pathname.includes("/pages/services/index.html") ||
+      window.location.pathname.endsWith("/pages/services/");
+
     servicesContainer.innerHTML = siteData.services
-      .map((item) => components.serviceCard(item))
+      .map((item) =>
+        components.serviceCard(item, { removeServicesPrefix: isServicesPage }),
+      )
       .join("");
   }
 
@@ -92,14 +92,7 @@ function renderComponents() {
       .join("");
   }
 
-  // Render projects (limit to 6 on homepage)
-  const projectsContainer = document.getElementById("projects");
-  if (projectsContainer && siteData.projects) {
-    const projectsToShow = siteData.projects.slice(0, 9);
-    projectsContainer.innerHTML = projectsToShow
-      .map((item) => components.projectCard(item))
-      .join("");
-  }
+  // Projects are now rendered via js/projects.js
 }
 
 // Testimonial carousel state
