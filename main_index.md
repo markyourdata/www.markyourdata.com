@@ -6,14 +6,14 @@ Transform your company into a data analytics & AI driven powerhouse, one strateg
 Our services
 What we do
 
-Data Analytics, & AI Strategy consulting
+Data Analytics & AI Strategy consulting
 * Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.
 Propositions
 ** 30-Minute Call: Schedule a call with our experts to discuss your data & AI needs.
 ** DATA & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.
 ** Strategy consulting: Our strategy consulting services help you develop a comprehensive data & AI strategy that aligns with your business goals.
 
-[LINK TO SERVICES/ Data Analytics, & AI Strategy consulting INFO PAGE]
+[LINK TO SERVICES/ Data Analytics & AI Strategy consulting INFO PAGE]
 - On this services page, there should be a section for each of the propositions listed above. 
 - Each services page, should have clear paragraphs that answer important questions which the reader might have. e.g.
 -- To whom is this service relevant?
@@ -54,7 +54,7 @@ Propositions
 
 
 
-Data Analytics, & AI Strategy execution 
+Data Analytics & AI Strategy execution 
 * Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.
 Propositions
 ** Data Exploration: We help you understand where a small change, can make a big difference. And help you transform this opportunity into a Proof of Concept.

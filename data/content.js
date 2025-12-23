@@ -18,7 +18,7 @@ const siteData = {
 
   services: [
     {
-      title: "Data Analytics, & AI Strategy consulting",
+      title: "Data Analytics & AI Strategy consulting",
       description:
         "See the potential, and learn how to start. Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
       cta: "Learn more",
