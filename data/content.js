@@ -85,10 +85,11 @@ const siteData = {
       client: "bol.com",
       industry: "E-commerce",
       description:
-        "Increased organic traffic to bol. with a data-driven A/B testing framework that generated content for millions of product pages.",
+        "We significantly increased organic traffic to bol. We build scalable content generation and validation software and a data-driven A/B testing framework that enabled experimentation with different types of AI generated content on millions of product pages. ",
       technologies: ["Python", "A/B Testing", "Generative AI", "LLMs", "SQL"],
       outcome: [
         "Significant increase in organic traffic",
+        "New AI generation and validation competence",
         "Roadmap with new experiments for next year",
       ],
       service: "experiment-rollout",
@@ -99,12 +100,12 @@ const siteData = {
       client: "Winparts",
       industry: "E-commerce",
       description:
-        "Setup your data foundation. Create data pipelines that collect data from multiple databases and APIs. Create data models to populate your data warehouse.",
+        "We build a strong value adding data foundation based on a use case around returned products. With data pipelines that collected data from multiple databases and APIs we build data models that populated the data warehouse. We used these data models to optimize the returns process ",
       technologies: ["Python", "LLMs", "Generative AI"],
       outcome: [
-        "Dramatic reduction of 'time to insight'",
-        "Unlocked a broad range of new and valuable insights",
-        "Foundation for AI usecases",
+        "Combine data sources",
+        "Single source of truth",
+        "Optimized return process",
       ],
       service: "data-ai-platform",
       slug: "winparts-data-ai-platform",
