@@ -1,7 +1,7 @@
 # Let's connect!
 
 <div class="opening-text">
-Sometimes you just need an experienced perspective. Schedule a 30-minute call with our experts to discuss your data & AI challenges. Whether it's about Data Strategy, Data Analytics & AI Platforms, or your next data or AI use case. We're here to help!
+Sometimes you just need an experienced perspective. Get in touch with our experts to discuss your data & AI challenges. Whether it's about Data Strategy, Data Analytics & AI Platforms, or your next data or AI use case. We're here to help!
 </div>
 
 <div style="text-align: center; margin: 2rem 0;">
@@ -25,17 +25,3 @@ Sometimes you just need an experienced perspective. Schedule a 30-minute call wi
 2. **Prepare** - Share your challenges or questions beforehand (optional)
 3. **Connect** - Meet with our experts via video call
 4. **Explore** - Discuss opportunities and next steps
-
----
-
-## Ready to Get Started?
-
-<div style="text-align: center; margin: 3rem 0;">
-    <button class="cta-button" onclick="window.open('https://calendly.com/your-calendly-link', '_blank')">
-        Schedule Your 30-Minute Call
-    </button>
-</div>
-
-<div style="text-align: center; color: var(--accent-gray); margin-top: 2rem;">
-    <p>Or reach out directly via email at <a href="mailto:info@markyourdata.com">info@markyourdata.com</a></p>
-</div>

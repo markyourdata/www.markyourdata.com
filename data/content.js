@@ -20,12 +20,12 @@ const siteData = {
     {
       title: "Data Analytics & AI Strategy consulting",
       description:
-        "See the potential, and learn how to start. Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
+        "We help you to turn strategy into action starting fast, simple and small. With our proven methodologies and expertise, we help you define initiatives where small changes, make a big impact. Invest in business growth from the start and maximize ROI for years to come.",
       cta: "Learn more",
       slug: "strategy-consulting",
       url: "pages/services/strategy-consulting/index.html",
       propositions: [
-        "30-Minute Call: Schedule a call with our experts to discuss your data & AI needs.",
+        "30-Minute Call: Get in touch with our experts to discuss your data & AI needs.",
         "DATA & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.",
         "Strategy consulting: Our strategy consulting services help you develop a comprehensive data & AI strategy that aligns with your business goals.",
       ],
@@ -33,7 +33,7 @@ const siteData = {
     {
       title: "Data Analytics & AI Platform",
       description:
-        "The foundation for any data driven company. Multiply the effectiveness of your data professionals while building your AI fundament. Shorten the time to insight and make smarter decisions by combining disconnected data sources.",
+        "Make impact from day one while building the foundation to become a data driven company. Multiply the effectiveness of your data professionals. Shorten the time to insight and make smarter decisions by combining disconnected data sources.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
@@ -47,7 +47,7 @@ const siteData = {
     {
       title: "Data Analytics & AI solutions",
       description:
-        "When you don't have the skills, the people, or the time, we turn your data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
+        "Get started today, even if you don't have the skills, the people, or the time, we turn your data into impact. We help your teams to transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
       cta: "Learn more",
       slug: "strategy-execution",
       url: "pages/services/strategy-execution/index.html",

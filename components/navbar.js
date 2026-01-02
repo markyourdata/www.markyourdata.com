@@ -32,7 +32,8 @@ function createNavbar(activePage = "home") {
           <li><a href="${basePath}/index.html" class="nav-link ${activePage === "home" ? "active" : ""}">Home</a></li>
           <li><a href="${basePath}/pages/services/index.html" class="nav-link ${activePage === "services" ? "active" : ""}">Services</a></li>
           <li><a href="${basePath}/pages/projects/index.html" class="nav-link ${activePage === "projects" ? "active" : ""}">Use Cases</a></li>
-          <li><a href="${basePath}/pages/blogs/index.html" class="nav-link ${activePage === "blogs" ? "active" : ""}">Blog</a></li>
+          <!-- <li><a href="${basePath}/pages/blogs/index.html" class="nav-link ${activePage === "blogs" ? "active" : ""}">Blog</a></li> -->
+          <li><a href="${basePath}/pages/contact.html" class="nav-link ${activePage === "contact" ? "active" : ""}">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -56,6 +57,7 @@ function getActivePage() {
   if (path.includes("/pages/services/")) return "services";
   if (path.includes("/pages/projects/")) return "projects";
   if (path.includes("/pages/blogs/")) return "blogs";
+  if (path.includes("/pages/contact.html")) return "contact";
   return "home";
 }
 
