@@ -63,6 +63,8 @@ function getMarkdownFilePath() {
     return fileName;
   } else if (path.includes("/pages/blogs/")) {
     return fileName;
+  } else if (path.includes("/pages/")) {
+    return fileName;
   }
 
   return null;

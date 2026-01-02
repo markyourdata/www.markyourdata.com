@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main Homepage -->
+    <url>
+        <loc>https://www.markyourdata.com/</loc>
+        <lastmod>2026-01-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Strategy Consulting Service -->
+    <url>
+        <loc>https://www.markyourdata.com/pages/services/strategy-consulting/index.html</loc>
+        <lastmod>2026-01-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Platform Service -->
+    <url>
+        <loc>https://www.markyourdata.com/pages/services/platform/index.html</loc>
+        <lastmod>2026-01-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Strategy Execution Service -->
+    <url>
+        <loc>https://www.markyourdata.com/pages/services/strategy-execution/index.html</loc>
+        <lastmod>2026-01-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

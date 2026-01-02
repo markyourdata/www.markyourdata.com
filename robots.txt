@@ -1,0 +1,6 @@
+# Allow all crawlers to access all content
+User-agent: *
+Allow: /
+
+# Sitemap location (update this URL when you create your sitemap)
+Sitemap: https://www.markyourdata.com/sitemap.xml

@@ -9,6 +9,92 @@
             content="We identify, validate, and scale data & AI solutions that create real business impact."
         />
 
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.markyourdata.com/" />
+        <meta
+            property="og:title"
+            content="Mark Your Data - Proven Data & AI Solutions"
+        />
+        <meta
+            property="og:description"
+            content="Transform your company into a data analytics & AI driven powerhouse. Strategy Consulting, Data Platform, and Strategy Execution services."
+        />
+        <meta
+            property="og:image"
+            content="https://www.markyourdata.com/assets/logo.png"
+        />
+
+        <!-- Structured Data for Organization -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Mark Your Data",
+                "url": "https://www.markyourdata.com",
+                "logo": "https://www.markyourdata.com/assets/logo.png",
+                "description": "We identify, validate, and scale data & AI solutions that create real business impact.",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "Sales",
+                    "url": "https://www.markyourdata.com/pages/contact.html"
+                },
+                "sameAs": []
+            }
+        </script>
+
+        <!-- Structured Data for Services -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "ItemList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Service",
+                            "name": "Strategy Consulting",
+                            "description": "Turn your data & AI strategy into an executable action plan that will transform your business into a data & AI powerhouse.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "Mark Your Data"
+                            },
+                            "url": "https://www.markyourdata.com/pages/services/strategy-consulting/index.html"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Service",
+                            "name": "Data Analytics & AI Platform",
+                            "description": "Setup your organization for success with the foundations on which your teams will build their data analytics & AI use cases.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "Mark Your Data"
+                            },
+                            "url": "https://www.markyourdata.com/pages/services/platform/index.html"
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Service",
+                            "name": "Strategy Execution",
+                            "description": "Turn data into impact. We transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
+                            "provider": {
+                                "@type": "Organization",
+                                "name": "Mark Your Data"
+                            },
+                            "url": "https://www.markyourdata.com/pages/services/strategy-execution/index.html"
+                        }
+                    }
+                ]
+            }
+        </script>
+
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +120,7 @@
                 </p>
                 <button
                     class="cta-button"
-                    onclick="window.location.href='pages/services/strategy-consulting/details/strategy-call.html'"
+                    onclick="window.location.href='pages/contact.html'"
                 >
                     Schedule a 30-Minute Call
                 </button>
