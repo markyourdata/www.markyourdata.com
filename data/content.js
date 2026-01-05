@@ -20,7 +20,7 @@ const siteData = {
     {
       title: "Data Analytics & AI Strategy consulting",
       description:
-        "We help you to turn strategy into action starting fast, simple and small. With our proven methodologies and expertise, we help you define initiatives where small changes, make a big impact. Invest in business growth from the start and maximize ROI for years to come.",
+        "Turn strategy into action starting fast, simple and small. With our proven methodologies and expertise, we help you define initiatives where small changes, make a big impact. Invest in business growth from the start and maximize ROI for years to come.",
       cta: "Learn more",
       slug: "strategy-consulting",
       url: "pages/services/strategy-consulting/index.html",
@@ -33,7 +33,7 @@ const siteData = {
     {
       title: "Data Analytics & AI Platform",
       description:
-        "Make impact from day one while building the foundation to become a data driven company. Multiply the effectiveness of your data professionals. Shorten the time to insight and make smarter decisions by combining disconnected data sources.",
+        "Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Make more, better and faster decisions by combining disconnected data sources.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",

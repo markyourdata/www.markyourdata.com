@@ -7,7 +7,7 @@
  * @param {string[]} options.includeSlugs - Array of project slugs to include (if specified, only these will show)
  * @param {string[]} options.excludeSlugs - Array of project slugs to exclude
  * @param {number} options.limit - Maximum number of projects to show
- * @param {string} options.baseUrl - Base URL for project links (default: 'pages/projects/')
+ * @param {string} options.baseUrl - Base URL for project links (default: '/pages/projects/')
  */
 function renderProjects(containerId, options = {}) {
   const container = document.getElementById(containerId);
@@ -15,11 +15,23 @@ function renderProjects(containerId, options = {}) {
     return;
   }
 
+  // Determine the base path for project links
+  const path = window.location.pathname;
+  const pathParts = path.split("/").filter((part) => part !== "");
+  const pagesIndex = pathParts.indexOf("pages");
+
+  let calculatedBaseUrl = "pages/projects/";
+  if (pagesIndex !== -1) {
+    // Calculate depth: how many folders after 'pages'
+    const depth = pathParts.length - pagesIndex - 1;
+    calculatedBaseUrl = "../".repeat(depth) + "projects/";
+  }
+
   const {
     includeSlugs = null,
     excludeSlugs = [],
     limit = null,
-    baseUrl = "pages/projects/",
+    baseUrl = calculatedBaseUrl,
     logoPrefix = null,
   } = options;
 

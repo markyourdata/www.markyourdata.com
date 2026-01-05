@@ -31,7 +31,7 @@ function createNavbar(activePage = "home") {
         <ul class="nav-menu" id="nav-menu">
           <li><a href="${basePath}/index.html" class="nav-link ${activePage === "home" ? "active" : ""}">Home</a></li>
           <li><a href="${basePath}/pages/services/index.html" class="nav-link ${activePage === "services" ? "active" : ""}">Services</a></li>
-          <li><a href="${basePath}/pages/projects/index.html" class="nav-link ${activePage === "projects" ? "active" : ""}">Use Cases</a></li>
+          <li><a href="${basePath}/pages/projects/index.html" class="nav-link ${activePage === "projects" ? "active" : ""}">Projects</a></li>
           <!-- <li><a href="${basePath}/pages/blogs/index.html" class="nav-link ${activePage === "blogs" ? "active" : ""}">Blog</a></li> -->
           <li><a href="${basePath}/pages/contact.html" class="nav-link ${activePage === "contact" ? "active" : ""}">Contact</a></li>
         </ul>
