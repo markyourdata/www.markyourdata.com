@@ -1,172 +1,169 @@
-# Comprehensive Strategy Consulting
+# Strategy Consulting
 
 <div class="opening-text">
 <p>
-Develop a complete data & AI strategy that aligns with your business goals, from vision to implementation roadmap.
+When you lack experienced data & AI leadership, building your strategy becomes risky. We step in as your strategic partner—guiding the process, challenging assumptions, and ensuring your roadmap leads to real business impact.
 </p>
 <p>
-You're investing in data and AI. But without a clear strategy, you're building on shaky ground. Different teams chase different priorities. ROI is unclear. Initiatives fail. We work with you over 3 months to build a comprehensive strategy that actually works. One that connects your business goals to a practical roadmap. One that defines your operating model, governance, and technology choices. One that your board believes in and your team can execute. No generic frameworks. Just a strategy built for your reality.
+You know you need a data & AI strategy. But who's going to lead it? Your team is talented, but they lack the battle scars from doing this before. The frameworks. The patterns. The pitfalls. We've built dozens of data strategies. We know what works and what doesn't. We'll either guide your team through the process as advisors, or roll up our sleeves and drive it ourselves. Either way, you get a strategy that works—not one that sits on a shelf.
 </p>
 </div>
 
 ---
 
-## Which Pains Are Addressed?
+## The Challenge: Experience Matters
+
+Building a data & AI strategy isn't just about templates and frameworks. It's about:
+- Knowing which questions to ask and who to ask them
+- Recognizing patterns across different business models
+- Understanding what's realistic given your constraints
+- Balancing quick wins with long-term transformation
+- Navigating organizational politics and resistance
+
+**Without experienced leadership, even well-intentioned efforts go sideways.** Teams spend months creating beautiful strategy documents that nobody executes. Priorities shift every quarter. Initiatives fail because the foundation wasn't right.
+
+That's where we come in.
+
+---
+
+## Two Ways We Can Help
+
+We offer two approaches, depending on your urgency, budget, and internal capacity:
 
 <div class="service-card">
 
-### No Strategic Direction
-You're investing in data & AI but lack a coherent strategy. We create a comprehensive plan that aligns with business objectives.
+### Option 1: Intensive Sprint (2-3 Months)
+
+**When to choose this:** You need a strategy quickly, you have budget for dedicated support, or you're facing an urgent business need.
+
+**How it works:**
+- We embed with your organization 3-4 days per week
+- Conduct stakeholder interviews across the business
+- Map your value creation model and identify opportunities
+- Facilitate leadership workshops and alignment sessions
+- Draft opportunity trees, prioritization frameworks, and roadmap
+- Design organizational structure and governance
+- Present to board and executive leadership
+
+**What you get:**
+- Complete Data Analytics & AI Roadmap
+- Opportunity trees showing high-impact areas
+- Use case prioritization with feasibility assessment
+- Operating model recommendations
+- Executive presentations and documentation
+- Foundation for immediate execution
+
+**Timeline:** 2-3 months of intensive collaboration
 
 </div>
 
 <div class="service-card">
 
-### Fragmented Initiatives
-Multiple teams pursue different data projects without coordination. We create an integrated strategy that connects all initiatives.
+### Option 2: Advisory Partnership (6-12 Months)
+
+**When to choose this:** You have someone internally driving the work, you prefer a steadier pace, or you want ongoing strategic guidance.
+
+**How it works:**
+- We join 1-2 days per week or month (flexible)
+- Act as sparring partner to your leadership team
+- Challenge assumptions and validate approaches
+- Review and refine strategy work as it develops
+- Provide frameworks, templates, and best practices
+- Guide key decisions on technology, organization, and priorities
+- Attend critical meetings and presentations
+
+**What you get:**
+- Strategic guidance throughout your journey
+- Access to proven frameworks and methods
+- Regular checkpoint sessions
+- Expert validation of your approach
+- Advice on navigating organizational challenges
+- Confidence that you're on the right track
+
+**Timeline:** 6-12 months of ongoing partnership
+
+</div>
+
+---
+
+## What We Deliver (Both Options)
+
+Regardless of which approach you choose, you'll get:
+
+<div class="service-card">
+
+### Opportunity Trees
+Visual maps showing where small changes can create big impact in your organization.
+
+<div style="text-align: center; margin: 2rem 0">
+    <img src="../../../../assets/images/featured/opportunity_tree.png" alt="Opportunity Tree Example" class="featured-service-image" />
+</div>
 
 </div>
 
 <div class="service-card">
 
-### Unclear ROI
-You're spending on data & AI but can't measure return on investment. We establish clear metrics and success criteria.
+### Use Case Prioritization
+Clear framework balancing impact against feasibility, so you invest in what matters most.
+
+<div style="text-align: center; margin: 2rem 0">
+    <img src="../../../../assets/images/featured/impact_feasibility.png" alt="Impact vs Feasibility Matrix" class="featured-service-image" />
+</div>
 
 </div>
 
 <div class="service-card">
 
-### Organizational Resistance
-Data initiatives fail due to cultural or organizational barriers. We design change management and governance approaches.
+### Data Analytics & AI Roadmap
+Your actionable plan with phased initiatives, ownership, and measurable outcomes.
+
+<div style="text-align: center; margin: 2rem 0">
+    <img src="../../../../assets/images/featured/data_analytics_and_ai_roadmap.png" alt="Data Analytics & AI Roadmap" class="featured-service-image" />
+</div>
 
 </div>
 
 ---
 
-## To Whom is This Relevant?
+## Who This Is For
 
-- **Enterprises** building or transforming their data organization
-- **Scale-ups** professionalizing their data approach
-- **Leaders** needing board-level strategy documentation
-- **Organizations** facing digital transformation
-- **Companies** with failed previous data initiatives
+Strategy consulting is right for you if:
 
----
-
-## When is This Relevant?
-
-- Building a data-driven organization from scratch
-- Major organizational change or transformation
-- Existing strategy needs complete refresh
-- Preparing for significant data & AI investment
-- Multiple business units need coordination
-- Board requires comprehensive strategy
+- **You lack internal data & AI expertise** at the leadership level
+- **You're building from scratch** and need experienced guidance
+- **Previous initiatives failed** and you need fresh perspective
+- **Board demands a solid strategy** before approving investment
+- **You want external validation** of your approach
+- **Time is critical** and you can't afford to learn by trial and error
 
 ---
 
-## What Are Typical Deliverables?
+## How We Work
 
-### Strategy Document
-- Executive summary
-- Vision and strategic objectives
-- Current state assessment
-- Target state architecture
+**Collaborative, not prescriptive:** We work with your team, not instead of them. This builds internal capability while delivering results.
 
-### Roadmap & Planning
-- Multi-year implementation roadmap
-- Phased approach with milestones
-- Resource requirements and budget
-- Quick wins and long-term plays
-- Risk assessment and mitigation
+**Pragmatic, not theoretical:** We focus on what's achievable with your resources, culture, and constraints.
 
-### Operating Model
-- Organizational structure recommendations
-- Roles and responsibilities (RACI)
-- Governance framework
-- Decision-making processes
-- Vendor and technology strategy
+**Business-first, not tech-first:** Technology serves business outcomes, not the other way around.
 
-### Enablement Materials
-- Stakeholder presentations
-- Business case templates
-- Success metrics and KPIs
-- Change management plan
+**Action-oriented:** Every workshop, every document, every decision moves you toward execution.
+
+**Flexible:** We adapt our approach to match your pace, culture, and needs.
 
 ---
 
-## How Does a Typical Project Look Like?
+## Which Option Is Right for You?
 
-### Phase 1: Discovery (2-3 weeks)
-- Stakeholder interviews (10-20 people)
-- Current state documentation review
-- Technology and data landscape assessment
-- Benchmarking against industry peers
+**Choose Intensive Sprint if:**
+- You need results within 2-3 months
+- You have budget for dedicated support
+- No one internally has time to lead this
+- You're facing a critical business deadline
+- You want us to drive the entire process
 
-### Phase 2: Strategy Development (3-4 weeks)
-- Vision and objectives definition
-- Capability assessment and gap analysis
-- Operating model design
-- Technology architecture strategy
-- Roadmap creation and prioritization
-
-### Phase 3: Validation & Refinement (1-2 weeks)
-- Stakeholder review sessions
-- Executive presentation and feedback
-- Strategy refinement
-- Business case development
-
-### Phase 4: Finalization & Handoff (1 week)
-- Final documentation
-- Board-ready presentation
-- Implementation planning
-- Team enablement sessions
-
-**Total Duration:** 3 months
-
----
-
-## Key Strategy Components
-
-### Vision & Objectives
-- 3-5 year vision for data & AI
-- Strategic objectives aligned with business goals
-- Success criteria and KPIs
-
-### Capability Roadmap
-- Data infrastructure and platform
-- Analytics and insights
-- AI/ML capabilities
-- Data governance and quality
-- Team skills and culture
-
-### Operating Model
-- Centralized vs. federated approach
-- Centers of excellence
-- Self-service analytics
-- Governance structure
-
-### Technology Strategy
-- Modern data stack recommendations
-- Build vs. buy decisions
-- Cloud strategy
-- Tool and vendor selection criteria
-
----
-
-## Our Approach
-
-We don't create strategies that sit on shelves. Our approach:
-- **Business-first:** Strategy driven by business outcomes, not technology
-- **Pragmatic:** Focused on what's achievable with your resources
-- **Action-oriented:** Clear roadmap with next steps
-- **Collaborative:** Co-created with your team, not imposed
-- **Evidence-based:** Grounded in data and industry best practices
-
----
-
-## How to Get Started
-
-Ready to develop your data & AI strategy?
-
-**Schedule a consultation:** [Book a 30-Minute discussion](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)
+**Choose Advisory Partnership if:**
+- You have someone internally who can drive day-to-day
+- You prefer a steadier, more distributed approach
+- Budget constraints favor ongoing lower-intensity support
+- You want to build internal capability while getting expert guidance
+- Your timeline is more flexible (6-12 months)
