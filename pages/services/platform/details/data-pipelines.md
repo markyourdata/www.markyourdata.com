@@ -1,74 +1,38 @@
+[Platform Services](../index.html) → Data Pipelines
+
+---
+
 # Data Pipelines
 
 <div class="opening-text">
 <p>
-Automate data movement from source to insight. Develop and maintain robust data pipelines that efficiently move data from source to destination with quality guarantees.
+Your data infrastructure is built—the foundation is solid. Now you need to bring data in. Think of pipelines as your supply chain: they automatically deliver fresh groceries (data) from various suppliers (your systems) to your kitchen (data platform) every day.
 </p>
 <p>
-Your team copies data manually. Quality is a gamble. Pipelines break silently. By the time you know there's a problem, bad decisions are already made. We build automated, reliable pipelines. Pipelines that move data from any source to your platform. Pipelines with quality checks built in. Pipelines that alert you when something goes wrong. So your team can focus on adding value, instead of maintenance.
+Without pipelines, your team manually carries data back and forth. With pipelines, everything flows automatically—fresh, reliable, and on schedule. Their only job is to connect to data sources (databases, APIs) and copy the data to your central platform, ensuring your warehouse is always up to date.
 </p>
 </div>
 
----
-
-## Which Pains Are Addressed by This Service?
-
-<div class="service-card">
-
-### Manual Data Movement
-Your team spends hours manually copying data between systems. We automate everything, freeing your team for higher-value work.
-
-</div>
-
-<div class="service-card">
-
-### Data Quality Issues
-Bad data leads to bad decisions. We build quality checks into every pipeline to catch issues before they cause problems.
-
-</div>
-
-<div class="service-card">
-
-### Slow Data Refresh
-Decisions are made on yesterday's data. We implement real-time or near-real-time pipelines for timely insights.
-
-</div>
-
-<div class="service-card">
-
-### Pipeline Failures
-Pipelines break and nobody knows until analysts complain. We implement monitoring and alerting to catch issues immediately.
-
-</div>
+<img src="/assets/images/featured/platform_data_pipelines.png" alt="Data Pipelines" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
 ---
 
-## To Whom is This Service Relevant?
+## Prerequisites
 
-This service is perfect for:
+To build effective data pipelines, you need:
+- **[Data Infrastructure →](data-infrastructure.html)** - A platform where data can be stored and processed
 
-- **Data teams** drowning in manual data tasks
-- **Organizations** with multiple data sources to integrate
-- **Companies** needing real-time or near-real-time data
-- **Teams** struggling with data quality and consistency
-- **Businesses** scaling their data operations
+Don't have infrastructure yet? [Start there first](data-infrastructure.html).
+
 
 ---
 
-## When is This Service Relevant?
-
-You should consider data pipeline services when:
-
-- You're manually moving data between systems
-- Data freshness is becoming a bottleneck
-- You need to integrate new data sources
-- Data quality issues are causing business problems
-- Your team spends more time on plumbing than analysis
-- You're experiencing frequent pipeline failures
-
----
 
 ## What Are Typical Deliverables of the Project?
+
+<div id="services">
+
+<div class="service-card">
 
 ### Pipeline Design
 - Data flow diagrams and architecture
@@ -76,12 +40,18 @@ You should consider data pipeline services when:
 - Data quality rules and validation logic
 - Error handling and retry strategies
 
+</div>
+
+<div class="service-card">
+
 ### Implementation
 - Production-ready data pipelines
 - Automated data ingestion from all sources
-- Data transformation and enrichment logic
-- Data quality framework with validation rules
 - Monitoring dashboards and alerting
+
+</div>
+
+<div class="service-card">
 
 ### Documentation & Support
 - Pipeline documentation
@@ -89,57 +59,75 @@ You should consider data pipeline services when:
 - Team training
 - Ongoing support and maintenance plan
 
----
+</div>
 
-## How Does a Typical Project Look Like?
-
-### Phase 1: Assessment & Design (±2 weeks)
-- Identify data sources and requirements
-- Map data flows and dependencies
-- Design pipeline architecture
-- Define data quality rules
-
-### Phase 2: Build Core Pipelines (±6 weeks)
-- Set up orchestration framework
-- Develop source connectors
-- Implement transformation logic
-- Add quality checks and validation
-
-### Phase 3: Testing & Deployment (±3 weeks weeks)
-- End-to-end testing
-- Performance optimization
-- Production deployment
-- Monitoring setup
-
-### Phase 4: Documentation & Handoff (±1 week)
-- Create pipeline documentation
-- Team training sessions
-- Knowledge transfer
-- Establish support process
-
-**Total Duration:** 3 months
+</div>
 
 
 ---
 
-## Technology Stack
+## What Comes Next?
 
-We use modern, scalable pipeline technologies:
+With automated pipelines delivering data, you're ready to:
+- **[Build Data Models →](data-models.html)** to transform raw data into business-ready products
+- **[Deploy AI Solutions →](applied-ai.html)** that use your fresh, reliable data streams
 
-- **Orchestration:** Cloud scheduler + workflows, Apache Airflow, Prefect, Dagster
-- **ETL/ELT Tools:** dlt, dbt
-- **Data Quality:** dbt tests
-- **Languages:** Python, SQL
-
-
-
+[Back to Platform Overview →](../index.html)
 
 ---
 
-## How to Get in Touch
+## Explore Other Platform Services
 
-Ready to automate your data pipelines? Let's discuss your integration needs.
+<div class="service-cards-grid">
 
-**Schedule a call:** [Book a 30-minute consultation](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**See our work:** Explore our [data pipeline case studies](../../../projects/index.html)
+<div class="service-card service-card-with-icon">
+<div class="service-icon">👷</div>
+<div class="service-card-content">
+
+### Data Infrastructure
+The foundation—cloud infrastructure, security, and scalability.
+
+[Learn More →](data-infrastructure.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🚰</div>
+<div class="service-card-content">
+
+### Data Pipelines
+Automated data delivery from all your sources.
+
+[Learn More →](data-pipelines.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🏭</div>
+<div class="service-card-content">
+
+### Data Models
+Transform raw data into business-ready products.
+
+[Learn More →](data-models.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🚀</div>
+<div class="service-card-content">
+
+### Applied AI
+Intelligence layer on top of your data foundation.
+
+[Learn More →](applied-ai.html)
+
+</div>
+</div>
+
+</div>
+
+---

@@ -247,6 +247,42 @@ section {
     margin-top: auto;
 }
 
+/* Service Cards Grid - for displaying cards in rows */
+.service-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.service-cards-grid .service-card {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+/* Service Card with Icon Layout */
+.service-card-with-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.service-icon {
+    font-size: 3rem;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.service-card-content {
+    flex: 1;
+}
+
+.service-card-content h3 {
+    margin-top: 0;
+}
+
 /* Clients Section */
 .clients-section {
     background-color: var(--light-gray);
@@ -491,7 +527,7 @@ section {
 .page-header .tagline {
     font-size: 1.15rem;
     color: var(--light-gray);
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -594,7 +630,7 @@ section {
 }
 
 .markdown-content #content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -794,5 +830,21 @@ section {
 
     .carousel-control-icon {
         font-size: 3rem;
+    }
+
+    /* Service cards grid on mobile */
+    .service-cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Service cards with icons on mobile */
+    .service-card-with-icon {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service-icon {
+        font-size: 2.5rem;
     }
 }

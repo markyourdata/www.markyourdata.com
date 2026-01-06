@@ -1,80 +1,37 @@
+[Platform Services](../index.html) → Data Infrastructure
+
+---
+
 # Data Infrastructure
 
 <div class="opening-text">
 <p>
-Build a solid foundation for data-driven success. Design and implement scalable data infrastructure that supports your current needs and future growth.
+Building a data platform without solid infrastructure is like constructing a house without a foundation. You can't install smart appliances before you have electricity. You can't run pipelines before you have walls and plumbing.
 </p>
 <p>
-Your infrastructure is a mess. Fragmented systems. Can't scale. Security concerns. Vendor lock-in. Your team spends more time fighting fires than building features. We design and deploy a modern, cloud-native data stack in 3 months. One that's secure from day one. One that scales with your business. One that gives you freedom from proprietary vendors. We don't just build it and leave. We train your team, document everything, and make sure you own it.
+We build you the foundation—cloud infrastructure, security, and scalability—so everything else you build on top is stable, secure, and ready to grow. Whether you're on GCP, AWS, or Azure, we create a simple-to-use setup that's cost-effective and easy to work with.
 </p>
 </div>
 
----
-
-## Which Pains Are Addressed by This Service?
-
-<div class="service-card">
-
-### Fragmented Technology Stack
-Your data lives in different systems with incompatible technologies. We create a unified, modern data stack that works together seamlessly.
-
-</div>
-
-<div class="service-card">
-
-### Infrastructure Can't Scale
-Your current setup works for small datasets but crashes under load. We design infrastructure that grows with your business.
-
-</div>
-
-<div class="service-card">
-
-### Security and Compliance Concerns
-You need to meet regulatory requirements while keeping data accessible. We implement proper security and governance frameworks from day one.
-
-</div>
-
-<div class="service-card">
-
-### Vendor Lock-in
-You're stuck with expensive, proprietary solutions. We use open-source and cloud-native technologies that give you flexibility and control.
-
-</div>
-
----
-
-## To Whom is This Service Relevant?
-
-This service is perfect for:
-
-- **Startups and scale-ups** building their first data platform
-- **Enterprises** modernizing legacy data infrastructure
-- **Data teams** frustrated with unreliable or slow infrastructure
-- **Organizations** moving to the cloud
-- **Companies** preparing for AI at scale
-
----
-
-## When is This Service Relevant?
-
-You should consider data infrastructure when:
-
-- You're starting your data & AI journey and need a solid foundation
-- Your current infrastructure can't handle growing data volumes
-- Data engineers spend more time maintaining infrastructure than building features
-- You're experiencing frequent outages or performance issues
-- You need a secure platform to work with data
-- You're planning to implement AI/ML models at scale
+<img src="/assets/images/featured/platform_data_infrastructure.png" alt="Data Infrastructure" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
 ---
 
 ## What Are Typical Deliverables of the Project?
+
+<div id="services">
+
+<div class="service-card">
 
 ### Infrastructure Design
 - Architecture diagrams and technical specifications
 - Technology stack recommendations (cloud platform, databases, orchestration)
 - Security and governance framework
 - Cost estimates and scaling plan
+
+</div>
+
+<div class="service-card">
 
 ### Implementation
 - Deployed cloud infrastructure (AWS, Azure, or GCP)
@@ -83,63 +40,83 @@ You should consider data infrastructure when:
 - Security controls and access management
 - Monitoring and alerting
 
+</div>
+
+<div class="service-card">
+
 ### Documentation & Knowledge Transfer
 - Technical documentation and runbooks
 - Architecture decision records
 - Team training sessions
 - Handover to your team
 
----
+</div>
 
-## How Does a Typical Project Look Like?
-
-### Phase 1: Discovery & Design (±2 weeks)
-- Stakeholder interviews and requirements gathering
-- Current state assessment
-- Technology evaluation and recommendations
-- Architecture design and approval
-
-### Phase 2: Foundation Setup (±4 weeks)
-- Cloud account setup and security configuration
-- Core infrastructure deployment
-- Network and access controls
-- Monitoring and logging foundation
-
-### Phase 3: Data Layer Implementation (±4 weeks)
-- Database and storage setup
-- Data ingestion framework
-- Orchestration and scheduling
-- Testing and validation
-
-### Phase 4: Optimization & Handover (±2 weeks)
-- Performance tuning
-- Cost optimization
-- Security hardening
-- Documentation and training
-- Production readiness review
-
-**Total Duration:** 3 months
+</div>
 
 ---
 
-## Technology Stack
+## What Comes Next?
 
-We typically work with modern, cloud-native technologies:
-
-- **Cloud Platforms:** AWS, Azure, Google Cloud
-- **Data Storage:** Snowflake, BigQuery, Redshift, PostgreSQL, MotherDuck
-- **Orchestration:** Airflow, Prefect, Dagster, Cloud Scheduler
-- **Infrastructure as Code:** Terraform
-- **Containerization:** Docker, Kubernetes
-- **CI/CD:** GitHub Actions, GitLab CI, Azure DevOps
-
+Once your data infrastructure is in place, you're ready to:
+- **[Build Data Pipelines →](data-pipelines.html)** to automatically bring data into your platform
+- **[Design Data Models →](data-models.html)** to organize and prepare your data for analysis
+- **[Deploy AI Solutions →](applied-ai.html)** that leverage your solid foundation
 
 ---
 
-## How to Get in Touch
+## Explore Other Platform Services
 
-Ready to build your data infrastructure? Let's talk about your needs.
+<div class="service-cards-grid">
 
-**Schedule a call:** [Book a 30-minute platform consultation](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**See our work:** Check out our [platform case studies](../../../projects/index.html)
+<div class="service-card service-card-with-icon">
+<div class="service-icon">👷</div>
+<div class="service-card-content">
+
+### Data Infrastructure
+The foundation—cloud infrastructure, security, and scalability.
+
+[Learn More →](data-infrastructure.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🚰</div>
+<div class="service-card-content">
+
+### Data Pipelines
+Automated data delivery from all your sources.
+
+[Learn More →](data-pipelines.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🏭</div>
+<div class="service-card-content">
+
+### Data Models
+Transform raw data into business-ready products.
+
+[Learn More →](data-models.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🚀</div>
+<div class="service-card-content">
+
+### Applied AI
+Intelligence layer on top of your data foundation.
+
+[Learn More →](applied-ai.html)
+
+</div>
+</div>
+
+</div>
+
+---

@@ -1,57 +1,33 @@
+[Platform Services](../index.html) → Applied AI
+
+---
+
 # Applied AI
 
 <div class="opening-text">
 <p>
-Deploy AI solutions that drive business value at scale. Develop and deploy AI solutions built on your data platform, from predictive models to generative AI applications.
+Your house is built (infrastructure), groceries arrive automatically (pipelines), and your kitchen is organized with proven recipes (models). Now you're ready for the smart home system—AI that learns your patterns, anticipates needs, and makes intelligent decisions automatically.
 </p>
 <p>
-You talk about AI. Your competitors deploy it. Your team lacks the expertise. Proof of concepts sit in notebooks or third party tools forever. Nobody knows which use cases actually matter. We build production-ready AI solutions in 3-6 months. Solutions that drive real business value. Predictive models. GenAI applications. Custom chatbots. We start with validation, build for production, and embed the knowledge with your team. So you don't just get a model. You get a team that can maintain and evolve it.
+But here's the reality: you can't install a smart thermostat before you have electricity. You can't have an intelligent refrigerator without a kitchen. AI needs the foundation first.
+</p>
+<p>
+We always advise: build your data foundation first, then layer AI on top. When you're ready, we'll help you deploy AI that delivers real business value—not just impressive demos. Whether it's predictive modeling or generative AI, we turn concepts into production systems and help you execute your first use case.
 </p>
 </div>
 
----
-
-## Which Pains Are Addressed by This Service?
-
-<div class="service-card">
-
-### AI Remains a Concept
-You've talked about AI for months but haven't deployed anything. We turn concepts into working solutions.
-
-</div>
-
-<div class="service-card">
-
-### Lack of AI Expertise
-Your team lacks machine learning and AI skills. We bring the expertise and transfer knowledge to your team.
-
-</div>
-
-<div class="service-card">
-
-### POCs That Never Scale
-AI experiments work in notebooks but never reach production. We build production-ready solutions from day one.
-
-</div>
-
-<div class="service-card">
-
-### Unclear Business Value
-You're not sure which AI use cases are worth pursuing. We help identify and validate high-impact opportunities.
-
-</div>
+<img src="/assets/images/featured/platform_applied_ai.png" alt="Applied AI" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
 ---
 
-## To Whom is This Service Relevant?
+## Prerequisites: Foundation First
 
-This service is perfect for:
+Applied AI requires the full data platform stack:
+- **[Data Infrastructure →](data-infrastructure.html)** - Compute and storage for model training
+- **[Data Pipelines →](data-pipelines.html)** - Fresh data feeding your AI models
+- **[Data Models →](data-models.html)** - Clean, structured data for accurate predictions
 
-- **Organizations** ready to move beyond AI exploration
-- **Companies** with clear use cases but lacking ML expertise
-- **Businesses** struggling to scale AI from POC to production
-- **Teams** needing to integrate GenAI capabilities
-- **Leaders** seeking measurable ROI from AI investments
+**Don't have your foundation yet?** We recommend starting with infrastructure and working your way up. [Let's talk about your journey →](/pages/contact.html)
 
 ---
 
@@ -70,11 +46,19 @@ You should consider Applied AI when:
 
 ## What Are Typical Deliverables of the Project?
 
+<div id="services">
+
+<div class="service-card">
+
 ### AI Solution Design
 - Use case definition and validation
 - Model architecture design
 - Data requirements and feature engineering
 - Success metrics and KPIs
+
+</div>
+
+<div class="service-card">
 
 ### Implementation
 - Production-ready ML models or GenAI applications
@@ -83,43 +67,20 @@ You should consider Applied AI when:
 - Monitoring and alerting dashboards
 - A/B testing framework
 
+</div>
+
+<div class="service-card">
+
 ### Knowledge Transfer
 - Model documentation and decision logs
 - Code repository with CI/CD
 - Team training on model maintenance
 - Retraining procedures
 
----
+</div>
 
-## How Does a Typical Project Look Like?
+</div>
 
-### Phase 1: Discovery & Validation (±2 weeks)
-- Define use case and success criteria
-- Assess data availability and quality
-- Feasibility study
-- ROI estimation
-
-### Phase 2: Proof of Concept (±4 weeks)
-- Develop initial model or AI application
-- Validate with sample data
-- Iterate based on feedback
-- Demonstrate business value
-
-### Phase 3: Production Development (±4 weeks)
-- Rebuild for scale and reliability
-- Integrate with existing systems
-- Deploy to production infrastructure
-- Set up monitoring
-
-### Phase 4: Validation & Optimization (±2 weeks)
-- A/B testing or staged rollout
-- Performance monitoring
-- Model refinement
-- Team training and handover
-
-**Total Duration:** 6 months (3 months for setup and deployment + 3 months for team embedding and knowledge transfer)
-
-**Note:** This timeline assumes your data infrastructure, pipelines, and models are already in place. If you need to build the platform first, add 6 months for platform setup.
 
 ---
 
@@ -152,22 +113,74 @@ We build various types of AI solutions:
 
 ---
 
-## Technology Stack
+## The Complete Platform Journey
 
-We use proven AI/ML technologies:
+You've reached the top of the stack. Here's the full path:
 
-- **ML Frameworks:** scikit-learn, XGBoost, TensorFlow, PyTorch
-- **GenAI:** Gemini, OpenAI API, Anthropic Claude, LangChain, LlamaIndex
-- **Deployment:** Docker, Kubernetes, FastAPI, Streamlit
-- **Monitoring:** Prometheus, Grafana, custom dashboards
+1. **[Build Infrastructure →](data-infrastructure.html)** - Lay the foundation
+2. **[Setup Pipelines →](data-pipelines.html)** - Automate data delivery
+3. **[Create Models →](data-models.html)** - Structure your data
+4. **Deploy AI** - Add intelligence ← You are here
 
+[Back to Platform Overview →](../index.html)
 
 ---
 
-## How to Get in Touch
+## Explore Other Platform Services
 
-Ready to deploy AI that delivers business value? Let's explore your use case.
+<div class="service-cards-grid">
 
-**Schedule a call:** [Book a 30-minute AI consultation](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**See our work:** Explore our [AI case studies](../../../projects/index.html)
+<div class="service-card service-card-with-icon">
+<div class="service-icon">👷</div>
+<div class="service-card-content">
+
+### Data Infrastructure
+The foundation—cloud infrastructure, security, and scalability.
+
+[Learn More →](data-infrastructure.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🚰</div>
+<div class="service-card-content">
+
+### Data Pipelines
+Automated data delivery from all your sources.
+
+[Learn More →](data-pipelines.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🏭</div>
+<div class="service-card-content">
+
+### Data Models
+Transform raw data into business-ready products.
+
+[Learn More →](data-models.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🚀</div>
+<div class="service-card-content">
+
+### Applied AI
+Intelligence layer on top of your data foundation.
+
+[Learn More →](applied-ai.html)
+
+</div>
+</div>
+
+</div>
+
+---
+
+
+**Not ready yet?** [Start with infrastructure →](data-infrastructure.html)

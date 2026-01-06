@@ -1,57 +1,30 @@
+[Platform Services](../index.html) → Data Models
+
+---
+
 # Data Models
 
 <div class="opening-text">
 <p>
-Transform raw data into business insights. Design and implement data models that make your data accessible, understandable, and ready for analysis.
+You have a house (infrastructure) and groceries delivered daily (pipelines). But raw ingredients scattered across your counter aren't useful yet. You need recipes—clear instructions that turn random ingredients into consistent, delicious meals.
 </p>
 <p>
-Your data exists. But nobody can use it. Raw tables from source systems. Inconsistent metrics. Slow queries. No documentation. Analysts spend weeks just figuring out what data means. We design and build data models that turn your raw data into business-ready assets. Models that are fast. Models that everyone understands. Models that create a single source of truth. Your analysts stop being archaeologists and start delivering insights.
+Data models are your recipes. They transform raw data into organized, ready-to-use products that anyone can pick up and trust. No more confusion about which version of "revenue" to use. No more analysts spending hours figuring out how to calculate basic metrics. Just standardized data products that save time and amplify your team's effectiveness.
 </p>
 </div>
 
----
-
-## Which Pains Are Addressed by This Service?
-
-<div class="service-card">
-
-### Inconsistent Metrics
-Different teams calculate the same metric differently, leading to conflicting reports. We create a single source of truth with consistent definitions.
-
-</div>
-
-<div class="service-card">
-
-### Complex Raw Data
-Business users can't work with raw data from source systems. We transform it into intuitive, business-friendly structures.
-
-</div>
-
-<div class="service-card">
-
-### Slow Query Performance
-Analysts wait hours for reports to run. We optimize data models for fast query performance.
-
-</div>
-
-<div class="service-card">
-
-### Lack of Data Understanding
-Nobody knows what data means or where it comes from. We document everything and make data self-service.
-
-</div>
+<img src="/assets/images/featured/platform_data_models.png" alt="Data Models" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
 ---
 
-## To Whom is This Service Relevant?
+## Prerequisites
 
-This service is perfect for:
+To create effective data models, you need:
+- **[Data Infrastructure →](data-infrastructure.html)** - A platform to store and process data
+- **[Data Pipelines →](data-pipelines.html)** - Automated delivery of fresh data
 
-- **Business intelligence teams** building reports and dashboards
-- **Data analysts** struggling with complex source data
-- **Organizations** with inconsistent metrics across teams
-- **Companies** implementing self-service analytics
-- **Teams** experiencing slow query performance
+Don't have these yet? [Start with infrastructure](data-infrastructure.html) or [talk to us](/pages/contact.html) about the full journey.
+
 
 ---
 
@@ -71,11 +44,19 @@ You should consider data modeling when:
 
 ## What Are Typical Deliverables of the Project?
 
+<div id="services">
+
+<div class="service-card">
+
 ### Data Model Design
 - Dimensional models (star schema)
 - Entity relationship diagrams
 - Metric definitions and business rules
 - Data dictionary and glossary
+
+</div>
+
+<div class="service-card">
 
 ### Implementation
 - dbt models or equivalent transformations
@@ -83,61 +64,85 @@ You should consider data modeling when:
 - Performance-optimized queries
 - Data catalog with documentation
 
+</div>
+
+<div class="service-card">
+
 ### Governance & Documentation
 - Data lineage tracking
 - Business glossary
 - Data quality rules
 - Access controls and permissions
 
----
+</div>
 
-## How Does a Typical Project Look Like?
-
-### Phase 1: Discovery & Design (±2 weeks)
-- Interview business stakeholders
-- Understand reporting requirements
-- Define key metrics and dimensions
-- Design dimensional model
-
-### Phase 2: Implementation (±6 weeks)
-- Build transformation logic
-- Create dimension and fact tables
-- Implement metrics layer
-- Add data quality checks
-
-### Phase 3: Optimization (±2 weeks)
-- Performance tuning
-- Query optimization
-- Indexing strategy
-- Testing with real queries
-
-### Phase 4: Documentation & Training (±2 weeks)
-- Create data catalog
-- Document business logic
-- Train analysts
-- Enable self-service
-
-**Total Duration:** 3 months
-
----
-
-## Technology Stack
-
-We work with modern modeling approaches:
-
-- **Transformation:** dbt (data build tool)
-- **Data Warehouses:** Snowflake, BigQuery, Redshift, MotherDuck, DataBricks
-- **Semantic Layer:** dbt metrics, 
-- **Data Catalog:** dbt docs,
-- **Version Control:** Git for all transformations
+</div>
 
 
 ---
 
-## How to Get in Touch
+## What Comes Next?
 
-Ready to build clean, performant data models? Let's discuss your analytics needs.
+With clean, modeled data, you're ready to:
+- **[Deploy AI Solutions →](applied-ai.html)** that leverage your single source of truth
+- **Enable self-service analytics** across your organization
 
-**Schedule a call:** [Book a 30-minute consultation](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**See our work:** Check out our [data modeling projects](../../../projects/index.html)
+[Back to Platform Overview →](../index.html)
+
+---
+
+## Explore Other Platform Services
+
+<div class="service-cards-grid">
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">👷</div>
+<div class="service-card-content">
+
+### Data Infrastructure
+The foundation—cloud infrastructure, security, and scalability.
+
+[Learn More →](data-infrastructure.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🚰</div>
+<div class="service-card-content">
+
+### Data Pipelines
+Automated data delivery from all your sources.
+
+[Learn More →](data-pipelines.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🏭</div>
+<div class="service-card-content">
+
+### Data Models
+Transform raw data into business-ready products.
+
+[Learn More →](data-models.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🚀</div>
+<div class="service-card-content">
+
+### Applied AI
+Intelligence layer on top of your data foundation.
+
+[Learn More →](applied-ai.html)
+
+</div>
+</div>
+
+</div>
+
+---

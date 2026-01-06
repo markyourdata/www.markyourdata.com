@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Data Infrastructure - Mark Your Data</title>
+        <title>Data Pipelines - Mark Your Data Platform</title>
         <meta
             name="description"
             content="Design and implement scalable data infrastructure that supports your data analytics and AI initiatives."
@@ -37,9 +37,55 @@
                 </div>
             </div>
         </article>
+        <!-- Projects Section -->
+        <section>
+            <div class="container">
+                <h2>Reference projects</h2>
+                <p
+                    style="
+                        text-align: left;
+                        font-size: 1.25rem;
+                        margin-bottom: 2rem;
+                    "
+                >
+                    Every now and then a project comes along that makes you just
+                    that little extra proud. We are result driven and eager to
+                    learn. It's no surprise that these projects usually made a
+                    big impact, and tought us something new. This is what keeps
+                    us going. Read about some of these projects here.
+                </p>
+                <div id="projects" class="content-grid">
+                    <!-- Projects will be rendered here by JavaScript -->
+                </div>
+            </div>
+        </section>
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Automate Your Data Delivery?</h2>
+                <p>
+                    Stop wasting time on manual data collection. Let's build
+                    pipelines that work while you sleep.
+                </p>
+                <button
+                    class="cta-button"
+                    onclick="window.location.href='pages/contact.html'"
+                >
+                    Discuss Your Pipeline Needs
+                </button>
+            </div>
+        </section>
 
         <!-- Scripts -->
         <script src="../../../../components/navbar.js"></script>
         <script src="../../../../js/markdown-renderer.js"></script>
+        <script src="../../../../data/content.js"></script>
+        <script src="../../../../js/projects.js"></script>
+        <script>
+            // Render projects on homepage (limit to 2)
+            renderProjects("projects", {
+                limit: 2,
+            });
+        </script>
     </body>
 </html>
