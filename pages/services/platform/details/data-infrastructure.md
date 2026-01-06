@@ -1,6 +1,5 @@
 [Platform Services](../index.html) → Data Infrastructure
 
----
 
 # Data Infrastructure
 
@@ -15,7 +14,6 @@ We build you the foundation—cloud infrastructure, security, and scalability—
 
 <img src="/assets/images/featured/platform_data_infrastructure.png" alt="Data Infrastructure" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
----
 
 ## What Are Typical Deliverables of the Project?
 
@@ -54,7 +52,7 @@ We build you the foundation—cloud infrastructure, security, and scalability—
 
 </div>
 
----
+<div class="what-comes-next-section">
 
 ## What Comes Next?
 
@@ -63,7 +61,7 @@ Once your data infrastructure is in place, you're ready to:
 - **[Design Data Models →](data-models.html)** to organize and prepare your data for analysis
 - **[Deploy AI Solutions →](applied-ai.html)** that leverage your solid foundation
 
----
+</div>
 
 ## Explore Other Platform Services
 
@@ -118,5 +116,3 @@ Intelligence layer on top of your data foundation.
 </div>
 
 </div>
-
----

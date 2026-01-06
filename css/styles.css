@@ -247,6 +247,16 @@ section {
     margin-top: auto;
 }
 
+/* What Comes Next Section - Full width with grey background */
+.what-comes-next-section {
+    background-color: var(--light-gray);
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    padding: 3rem calc(50vw - 50%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /* Service Cards Grid - for displaying cards in rows */
 .service-cards-grid {
     display: grid;

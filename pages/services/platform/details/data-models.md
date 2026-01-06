@@ -1,6 +1,5 @@
 [Platform Services](../index.html) → Data Models
 
----
 
 # Data Models
 
@@ -15,7 +14,6 @@ Data models are your recipes. They transform raw data into organized, ready-to-u
 
 <img src="/assets/images/featured/platform_data_models.png" alt="Data Models" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
----
 
 ## Prerequisites
 
@@ -26,7 +24,6 @@ To create effective data models, you need:
 Don't have these yet? [Start with infrastructure](data-infrastructure.html) or [talk to us](/pages/contact.html) about the full journey.
 
 
----
 
 ## When is This Service Relevant?
 
@@ -40,7 +37,6 @@ You should consider data modeling when:
 - Data governance and lineage are concerns
 - You need to democratize data access
 
----
 
 ## What Are Typical Deliverables of the Project?
 
@@ -79,7 +75,7 @@ You should consider data modeling when:
 </div>
 
 
----
+<div class="what-comes-next-section">
 
 ## What Comes Next?
 
@@ -89,7 +85,7 @@ With clean, modeled data, you're ready to:
 
 [Back to Platform Overview →](../index.html)
 
----
+</div>
 
 ## Explore Other Platform Services
 
@@ -144,5 +140,3 @@ Intelligence layer on top of your data foundation.
 </div>
 
 </div>
-
----

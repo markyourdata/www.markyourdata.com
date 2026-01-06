@@ -1,6 +1,5 @@
 [Platform Services](../index.html) → Applied AI
 
----
 
 # Applied AI
 
@@ -18,7 +17,6 @@ We always advise: build your data foundation first, then layer AI on top. When y
 
 <img src="/assets/images/featured/platform_applied_ai.png" alt="Applied AI" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
----
 
 ## Prerequisites: Foundation First
 
@@ -29,7 +27,6 @@ Applied AI requires the full data platform stack:
 
 **Don't have your foundation yet?** We recommend starting with infrastructure and working your way up. [Let's talk about your journey →](/pages/contact.html)
 
----
 
 ## When is This Service Relevant?
 
@@ -42,7 +39,6 @@ You should consider Applied AI when:
 - Your team has the data but lacks AI expertise
 - You need to move from experimentation to production
 
----
 
 ## What Are Typical Deliverables of the Project?
 
@@ -82,7 +78,6 @@ You should consider Applied AI when:
 </div>
 
 
----
 
 ## AI Capabilities
 
@@ -111,7 +106,8 @@ We build various types of AI solutions:
 - Language translation
 - Search and retrieval
 
----
+
+<div class="what-comes-next-section">
 
 ## The Complete Platform Journey
 
@@ -124,7 +120,7 @@ You've reached the top of the stack. Here's the full path:
 
 [Back to Platform Overview →](../index.html)
 
----
+</div>
 
 ## Explore Other Platform Services
 
@@ -180,7 +176,6 @@ Intelligence layer on top of your data foundation.
 
 </div>
 
----
 
 
 **Not ready yet?** [Start with infrastructure →](data-infrastructure.html)

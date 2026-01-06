@@ -1,6 +1,5 @@
 [Platform Services](../index.html) → Data Pipelines
 
----
 
 # Data Pipelines
 
@@ -15,7 +14,6 @@ Without pipelines, your team manually carries data back and forth. With pipeline
 
 <img src="/assets/images/featured/platform_data_pipelines.png" alt="Data Pipelines" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
----
 
 ## Prerequisites
 
@@ -23,9 +21,6 @@ To build effective data pipelines, you need:
 - **[Data Infrastructure →](data-infrastructure.html)** - A platform where data can be stored and processed
 
 Don't have infrastructure yet? [Start there first](data-infrastructure.html).
-
-
----
 
 
 ## What Are Typical Deliverables of the Project?
@@ -64,7 +59,7 @@ Don't have infrastructure yet? [Start there first](data-infrastructure.html).
 </div>
 
 
----
+<div class="what-comes-next-section">
 
 ## What Comes Next?
 
@@ -74,7 +69,7 @@ With automated pipelines delivering data, you're ready to:
 
 [Back to Platform Overview →](../index.html)
 
----
+</div>
 
 ## Explore Other Platform Services
 
@@ -129,5 +124,3 @@ Intelligence layer on top of your data foundation.
 </div>
 
 </div>
-
----
