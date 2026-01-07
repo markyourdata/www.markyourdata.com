@@ -6,7 +6,10 @@
         <title>Service Detail - Mark Your Data</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="../../../../css/styles.css" />
         <link rel="stylesheet" href="../../../../css/markdown-template.css" />
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -18,7 +21,52 @@
                 <div id="content"><p>Loading...</p></div>
             </div>
         </article>
+        <!-- Projects Section -->
+        <section>
+            <div class="container">
+                <h2>Reference projects</h2>
+                <p
+                    style="
+                        text-align: left;
+                        font-size: 1.25rem;
+                        margin-bottom: 2rem;
+                    "
+                >
+                    Every now and then a project comes along that makes you just
+                    that little extra proud. We are result driven and eager to
+                    learn. It's no surprise that these projects usually made a
+                    big impact, and taught us something new. This is what keeps
+                    us going. Read about some of these projects here.
+                </p>
+                <div id="projects" class="content-grid">
+                    <!-- Projects will be rendered here by JavaScript -->
+                </div>
+            </div>
+        </section>
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Prove the Business Value</h2>
+                <p>
+                    Test with real users and measure actual impact. Build
+                    confidence for scaling.
+                </p>
+                <button
+                    class="cta-button"
+                    onclick="window.location.href='/pages/contact.html'"
+                >
+                    Validate Your Business Case
+                </button>
+            </div>
+        </section>
         <script src="../../../../components/navbar.js"></script>
         <script src="../../../../js/markdown-renderer.js"></script>
+        <script src="../../../../data/content.js"></script>
+        <script src="../../../../js/projects.js"></script>
+        <script>
+            renderProjects("projects", {
+                limit: 2,
+            });
+        </script>
     </body>
 </html>

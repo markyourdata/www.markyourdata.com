@@ -1,126 +1,57 @@
+[Strategy Execution](../index.html) → Proof of Concept
+
+
 # Proof of Concept (Make it Work)
 
 <div class="opening-text">
 <p>
-Develop and deploy proof of concepts that demonstrate the feasibility of your data analytics and AI initiatives. Show what's possible before making major investments.
+Will the plane fly? That's the fundamental question. We build working prototypes to prove technical feasibility before investing more.
 </p>
 <p>
-You have an idea. But is it technically possible? Leadership is skeptical. You need to see it working now. We build a working proof of concept, maybe even a proof of value in 3 months. One that demonstrates feasibility. One that shows your stakeholders what's possible. One that validates the approach before you invest big. Fast. Focused. Proven. Then you decide: refine it, scale it, or pivot.
-</p>
-</div>
-
----
-
-## Which Pains Are Addressed by This Service?
-
-<div class="service-card">
-
-### Technical Uncertainty
-You're not sure if your idea is technically feasible with available data and technology.
 
 </div>
 
-<div class="service-card">
 
-### Stakeholder Skepticism
-Leadership needs to see it working before approving budget for full implementation.
+## Prerequisites
 
-</div>
+To build an effective proof of concept, it helps to have:
+- **[Data Exploration →](data-exploration.html)** - Understanding of opportunities and data landscape (optional but recommended)
 
-<div class="service-card">
-
-### Risk of Failed Projects
-You want to validate the approach before committing significant resources.
-
-</div>
-
-<div class="service-card">
-
-### Need for Quick Results
-Traditional development cycles take too long. You need results fast.
-
-</div>
-
----
-
-## To Whom is This Relevant?
-
-- **Product managers** validating new feature ideas
-- **Innovation teams** testing AI/ML use cases
-- **Data leaders** proving feasibility to stakeholders
-- **Organizations** de-risking major investments
-- **Teams** needing quick wins to build momentum
-
----
-
-## When is This Relevant?
-
-- You have a specific use case to validate
-- Need to prove technical feasibility
-- Stakeholders need to see it working
-- Deciding between different approaches
-- Building business case for larger investment
-- Testing assumptions before scaling
+Don't have clarity yet? [Start with exploration](data-exploration.html).
 
 ---
 
 ## What Are Typical Deliverables of the Project?
 
+<div id="services">
+
+<div class="service-card">
+
 ### Working Prototype
 - Functional POC application or model
-- Sample data processing and outputs
 - Basic user interface (if applicable)
 - Demonstrated core functionality
 
-### Technical Documentation
-- Architecture and approach
-- Technology choices and rationale
-- Data requirements and limitations
-- Known constraints and assumptions
+</div>
 
-### Demo Materials
-- Presentation for stakeholders
-- Demo script and scenarios
-- Screenshots or videos
-- Results and insights
+<div class="service-card">
 
-### Recommendations
-- Next steps for production
-- Resource requirements
-- Timeline and budget estimates
-- Risk assessment
+### Experiment design
+- Proof of Value design
 
----
+</div>
 
-## How Does a Typical Project Look Like?
+<div class="service-card">
 
-### Phase 1: Planning (±2 week)
-- Requirements clarification
-- Data access and assessment
-- Define success criteria
-- Technology selection
+### Next Steps
+- Required resources
+- Action plan
 
-### Phase 2: Build (±4 weeks)
-- Develop core functionality
-- Iterate based on findings
-- Testing and validation
-- Prepare demo
 
-### Phase 3: Demo & Optimzize (±4 weeks)
-- Stakeholder demonstrations
-- Gather feedback
-- Refine approach
-- Document learnings
+</div>
 
-### Phase 4: Handoff (±2 week)
-- Documentation finalization
-- Knowledge transfer
-- Recommendations presentation
-- Next steps planning
+</div>
 
-**Total Duration:** 3 months
-
----
 
 ## What We DON'T Do in a POC
 
@@ -134,46 +65,69 @@ To keep POCs fast and focused, we intentionally skip:
 
 These come later in Proof of Value or Business Impact phases.
 
----
 
-## Technology Approach
+<div class="what-comes-next-section">
 
-We use rapid development technologies:
-- **Python** for data processing and ML
-- **Jupyter notebooks** for exploration
-- **Streamlit or Gradio** for quick UIs
-- **DuckDB or local databases** for data
-- **Open-source libraries** to move fast
-- **Cloud notebooks** for ML experiments
+## What Comes Next?
 
----
+With a working prototype, you're ready to:
+- **[Prove Business Value →](proof-of-value.html)** - Run A/B tests to measure real impact
+- **[Scale to Production →](business-impact.html)** - Skip validation if results are compelling enough
 
-## What Happens After POC?
+[Back to Strategy Execution Overview →](../index.html)
 
-Based on POC results, clients typically choose:
+</div>
 
-1. **Proof of Value**
-   - Run A/B tests to prove business impact
-   - Measure ROI before full rollout
+## Explore Other Strategy Execution Services
 
-2. **Business Impact**
-   - Skip validation, go straight to production
-   - When POC results are compelling enough
+<div class="service-cards-grid">
 
-3. **Refinement**
-   - Iterate on POC with new approach
-   - Address blockers discovered
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🗺️</div>
+<div class="service-card-content">
 
-4. **Park It**
-   - POC showed it's not feasible or valuable
-   - Better to know now than after major investment
+### Data Exploration
+Discover which routes are worth flying.
 
----
+[Learn More →](data-exploration.html)
 
-## How to Get in Touch
+</div>
+</div>
 
-Ready to build a proof of concept?
+<div class="service-card service-card-with-icon">
+<div class="service-icon">✈️</div>
+<div class="service-card-content">
 
-**Schedule a call:** [Book a 30-minute POC discussion](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**See examples:** Check out our [POC case studies](../../../projects/index.html)
+### Proof of Concept
+Will the plane fly? Validate technical feasibility.
+
+[Learn More →](proof-of-concept.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">💶</div>
+<div class="service-card-content">
+
+### Proof of Value
+Will people buy tickets? Prove business impact.
+
+[Learn More →](proof-of-value.html)
+
+</div>
+</div>
+
+<div class="service-card service-card-with-icon">
+<div class="service-icon">📡</div>
+<div class="service-card-content">
+
+### Business Impact
+Build the airfield. Scale to production.
+
+[Learn More →](business-impact.html)
+
+</div>
+</div>
+
+</div>

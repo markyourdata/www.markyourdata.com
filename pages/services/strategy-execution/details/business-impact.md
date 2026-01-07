@@ -1,70 +1,33 @@
+[Strategy Execution](../index.html) → Business Impact
+
+
 # Business Impact (Make it Scale)
 
 <div class="opening-text">
 <p>
-Scale up your proof of value to capture the full potential of your data analytics and AI initiatives. Turn validated solutions into production systems delivering continuous business value.
+You've proven demand. Now it's time to build the airfield. We create production-ready infrastructure that handles scale.
 </p>
 <p>
-You've proven value. Now it's time to scale. Your prototype isn't production-ready. Infrastructure can't handle the load. Users won't adopt without proper enablement. We build production-grade solutions in 3-6 months. Solutions that scale. Solutions that are robust. Solutions that users actually adopt. We rebuild for reliability. Deploy to production. Enable your team. Monitor performance. You capture the full business value. Not just a pilot. Real impact at scale.
+You've proven value. Now it's time to scale. Your prototype isn't production-ready. Infrastructure can't handle the load. Users won't adopt without proper enablement. We build production-grade solutions. Solutions that scale. Solutions that are robust. Solutions that users actually adopt. We rebuild for reliability. Deploy to production. Enable your team. Monitor performance. You capture the full business value. Not just a pilot. Real impact at scale.
 </p>
 </div>
 
----
 
-## Which Pains Are Addressed by This Service?
+## Prerequisites
 
-<div class="service-card">
+To scale successfully, you need:
+- **[Proof of Value →](proof-of-value.html)** - Validated business impact and ROI from experiments
 
-### POCs That Never Proof Value
-Your proof of concept worked but never made it to an experiment to prove its value.
+Don't have proven value yet? [Validate it first](proof-of-value.html).
 
-</div>
-
-<div class="service-card">
-
-### Production Quality Gap
-The prototype works for a pilot but isn't robust enough for full rollout.
-
-</div>
-
-<div class="service-card">
-
-### User Adoption Challenges
-The solution is ready but users aren't adopting it.
-
-</div>
-
-<div class="service-card">
-
-### Scaling Infrastructure
-Your current setup can't handle production volumes or performance requirements.
-
-</div>
-
----
-
-## To Whom is This Relevant?
-
-- **Organizations** with proven POCs or Proof of Value
-- **Data teams** ready to scale successful experiments
-- **Product managers** rolling out validated features
-- **Leaders** capturing full business value
-- **Companies** moving from pilot to production
-
----
-
-## When is This Relevant?
-
-- You've proven business value and ROI
-- Ready to roll out to full organization
-- Need production-grade infrastructure
-- User adoption is critical for success
-- Want ongoing optimization and monitoring
-- Scaling from pilot to enterprise-wide
 
 ---
 
 ## What Are Typical Deliverables of the Project?
+
+<div id="services">
+
+<div class="service-card">
 
 ### Production Solution
 - Robust, scalable application or model
@@ -72,11 +35,19 @@ Your current setup can't handle production volumes or performance requirements.
 - Error handling and monitoring
 - Security and compliance implementation
 
+</div>
+
+<div class="service-card">
+
 ### Scalable Infrastructure
 - Cloud-based architecture
 - Auto-scaling capabilities
 - High availability setup
 - Disaster recovery
+
+</div>
+
+<div class="service-card">
 
 ### User Enablement
 - User training and documentation
@@ -84,57 +55,20 @@ Your current setup can't handle production volumes or performance requirements.
 - Support processes
 - Change management plan
 
+</div>
+
+<div class="service-card">
+
 ### Ongoing Operations
-- Monitoring dashboards
-- Alerting and incident response
-- Maintenance procedures
-- Retraining pipelines (for ML models)
+- Monitoring dashboards and alerting
+- Incident response procedures
+- Maintenance runbooks
+- Model retraining pipelines (for AI/ML)
 
-### Knowledge Transfer
-- Technical documentation
-- Runbooks and procedures
-- Team training
-- Handover to internal teams
+</div>
 
----
+</div>
 
-## How Does a Typical Project Look Like?
-
-### Phase 1: Planning (±2 weeks)
-- Define production requirements
-- Architecture design
-- Rollout strategy
-- Resource planning
-
-### Phase 2: Build for Production (±8 weeks)
-- Rebuild for scale and reliability
-- Infrastructure setup
-- Security implementation
-- Integration with systems
-- Testing (unit, integration, UAT)
-
-### Phase 3: Deployment (±3 weeks)
-- Phased rollout plan
-- Production deployment
-- User training
-- Go-live support
-
-### Phase 4: Optimization & Handoff (±6 weeks)
-- Monitor performance
-- Gather user feedback
-- Optimize and iterate
-- Team enablement
-- Stabilize operations
-
-### Phase 5: Continuous Improvement
-- Ongoing monitoring
-- Regular optimization
-- Model retraining (if applicable)
-- Feature enhancements
-
-**Total Duration:** 6 months
-
----
 
 ## Production vs. Prototype: What Changes?
 
@@ -149,112 +83,69 @@ Your current setup can't handle production volumes or performance requirements.
 | Testing | Manual | Automated CI/CD |
 | Support | Ad-hoc | 24/7 processes |
 
----
 
-## Rollout Strategies
+<div class="what-comes-next-section">
 
-We recommend phased approaches to minimize risk:
+## What Comes Next?
 
-### Pilot Group Expansion
-- Start with early adopters
-- Expand gradually
-- Monitor and adjust
-- Full rollout when stable
+With production deployment complete, consider:
+- **[Platform Services →](../../platform/index.html)** - Build infrastructure for multiple use cases at scale
+- **[Data Exploration →](data-exploration.html)** - Discover your next high-impact opportunity
 
-### Geographic Rollout
-- One region/country at a time
-- Learn and optimize between phases
-- Reduce blast radius of issues
+[Back to Strategy Execution Overview →](../index.html)
 
-### Feature Flags
-- Deploy code to all users
-- Enable features gradually
-- Quick rollback if needed
-- A/B test new capabilities
+</div>
 
-### Blue-Green Deployment
-- Run old and new systems in parallel
-- Switch traffic gradually
-- Zero-downtime migration
+## Explore Other Strategy Execution Services
 
----
+<div class="service-cards-grid">
 
-## User Adoption Strategy
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🗺️</div>
+<div class="service-card-content">
 
-Technology alone doesn't drive impact. We ensure adoption through:
+### Data Exploration
+Discover which routes are worth flying.
 
-### Training & Enablement
-- Role-based training programs
-- Documentation and guides
-- Office hours and support
-- Champions network
+[Learn More →](data-exploration.html)
 
-### Change Management
-- Stakeholder communication
-- Address resistance
-- Celebrate early wins
-- Continuous feedback
+</div>
+</div>
 
-### Self-Service
-- Intuitive interfaces
-- Clear workflows
-- Built-in help and guidance
-- Reduced dependency on experts
+<div class="service-card service-card-with-icon">
+<div class="service-icon">✈️</div>
+<div class="service-card-content">
 
----
+### Proof of Concept
+Will the plane fly? Validate technical feasibility.
 
-## Success Metrics for Production
+[Learn More →](proof-of-concept.html)
 
-We track ongoing impact:
+</div>
+</div>
 
-**Business Metrics**
-- ROI and payback period
-- Cost savings or revenue increase
-- User adoption rate
-- Business process improvements
+<div class="service-card service-card-with-icon">
+<div class="service-icon">💶</div>
+<div class="service-card-content">
 
-**Technical Metrics**
-- System uptime and reliability
-- Performance and speed
-- Error rates
-- Scalability metrics
+### Proof of Value
+Will people buy tickets? Prove business impact.
 
-**User Metrics**
-- Daily/monthly active users
-- User satisfaction scores
-- Support ticket volume
-- Feature usage
+[Learn More →](proof-of-value.html)
 
----
+</div>
+</div>
 
-## Ongoing Support Models
+<div class="service-card service-card-with-icon">
+<div class="service-icon">📡</div>
+<div class="service-card-content">
 
-After launch, we offer:
+### Business Impact
+Build the airfield. Scale to production.
 
-### Managed Service
-- We operate and maintain
-- Ongoing optimization
-- 24/7 monitoring
-- SLA guarantees
+[Learn More →](business-impact.html)
 
-### Hybrid Support
-- You operate, we support
-- Advisory and troubleshooting
-- Optimization sprints
-- Quarterly reviews
+</div>
+</div>
 
-### Full Handoff
-- Complete knowledge transfer
-- Your team takes over
-- Optional retainer for questions
-- Ad-hoc optimization projects
-
----
-
-## How to Get in Touch
-
-Ready to scale your solution to production?
-
-**Schedule a call:** [Book a 30-minute scaling consultation](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**See scaled solutions:** Check out our [production case studies](../../../projects/index.html)
+</div>

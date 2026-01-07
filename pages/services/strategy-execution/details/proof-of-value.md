@@ -1,70 +1,33 @@
+[Strategy Execution](../index.html) → Proof of Value
+
+
 # Proof of Value (Make it Better)
 
 <div class="opening-text">
 <p>
-Iterate and refine your proof of concepts to maximize impact and prove measurable business value with data. Turn technical feasibility into quantified ROI.
+The plane flies—but will people buy tickets? We test with real users and measure business impact to validate market demand.
 </p>
 <p>
-Your POC works. But does it deliver business value? Leadership wants proof before investing in production. You need numbers. Real ROI. We run controlled experiments in 3 months. A/B tests. Pilot programs. We measure actual business impact. We optimize performance. We build the business case for scaling. You get quantified results. Statistical proof. Clear ROI. Then you can confidently invest in full rollout.
+Your Proof of Concept  works. But does it deliver business value? Leadership wants proof before investing in production. You need numbers. We build the business case for scaling. You get quantified results. Statistical proof. Clear ROI. Then you can confidently invest in full rollout.
 </p>
 </div>
 
----
 
-## Which Pains Are Addressed by This Service?
+## Prerequisites
 
-<div class="service-card">
+To run an effective proof of value, you need:
+- **[Proof of Concept →](proof-of-concept.html)** - A working prototype that demonstrates technical feasibility
 
-### Unclear Business Impact
-Your POC works technically, but you need to prove it delivers business value.
+Don't have a POC yet? [Build one first](proof-of-concept.html).
 
-</div>
-
-<div class="service-card">
-
-### Need for ROI Justification
-Leadership requires quantified business case before approving production rollout.
-
-</div>
-
-<div class="service-card">
-
-### Optimization Needed
-The POC works but performance could be better before scaling.
-
-</div>
-
-<div class="service-card">
-
-### Risk of Scaling Too Early
-You want to validate business value before making large infrastructure investments.
-
-</div>
-
----
-
-## To Whom is This Relevant?
-
-- **Data leaders** needing ROI proof for budget approval
-- **Product managers** running experiments to optimize features
-- **Innovation teams** validating business impact
-- **Organizations** requiring data-driven decisions
-- **Companies** with successful POCs ready for validation
-
----
-
-## When is This Relevant?
-
-- Your POC works but business impact is unproven
-- Need quantified ROI for stakeholder approval
-- Want to optimize before production rollout
-- Running A/B tests to measure impact
-- Iterating to find what works best
-- Building business case for scaling
 
 ---
 
 ## What Are Typical Deliverables of the Project?
+
+<div id="services">
+
+<div class="service-card">
 
 ### Experiment Design
 - A/B test or pilot setup
@@ -72,11 +35,19 @@ You want to validate business value before making large infrastructure investmen
 - Control and treatment groups
 - Statistical methodology
 
+</div>
+
+<div class="service-card">
+
 ### Measured Results
 - Quantified business impact
 - Statistical significance analysis
 - Cost-benefit analysis
 - ROI calculation
+
+</div>
+
+<div class="service-card">
 
 ### Optimized Solution
 - Refined model or application
@@ -84,125 +55,83 @@ You want to validate business value before making large infrastructure investmen
 - Best practices identified
 - Iteration learnings
 
+</div>
+
+<div class="service-card">
+
 ### Business Case
 - Executive summary
 - Financial impact projection
 - Investment requirements for scale
-- Risk assessment
-- Rollout recommendations
+- Risk assessment and rollout recommendations
 
----
+</div>
 
-## How Does a Typical Project Look Like?
-
-### Phase 1: Experiment Design (±2 week)
-- Define success metrics
-- Design A/B test or pilot
-- Set up measurement framework
-- Prepare baseline data
-
-### Phase 2: Development (±6 weeks)
-- Develop / implement the Experiment
-- 
-
-### Phase 2: Execution (±2 weeks)
-- Deploy to pilot group
-- Monitor performance
-- Collect data
-- Initial analysis
-
-### Phase 4: Analysis (±2 weeks)
-- Statistical analysis
-- Calculate business impact
-- ROI calculation
-- Document learnings
+</div>
 
 
-**Total Duration:** 3 months
+<div class="what-comes-next-section">
 
-**Complete Journey:** If you start from Data Exploration and go through Proof of Concept to Proof of Value, the total timeline is likely to be 6 months. Some experiments take 3 months to run.
+## What Comes Next?
 
----
+With proven business value, you're ready to:
+- **[Scale to Production →](business-impact.html)** - Roll out to your full organization and capture the value
+- **[Build Data Infrastructure →](../../platform/details/data-infrastructure.html)** - Create a solid foundation for scaling
 
-## Experiment Methodologies
+[Back to Strategy Execution Overview →](../index.html)
 
-We use rigorous approaches to prove value:
+</div>
 
-### A/B Testing
-- Random assignment to treatment/control
-- Statistical significance testing
-- Minimal disruption to business
-- Clear causal relationship
+## Explore Other Strategy Execution Services
 
-### Pilot Programs
-- Deploy to subset of users/locations
-- Before/after comparison
-- Controlled rollout
-- Real-world validation
+<div class="service-cards-grid">
 
-### Simulations
-- Historical data analysis
-- What-if scenarios
-- Risk-free validation
-- Fast iteration
+<div class="service-card service-card-with-icon">
+<div class="service-icon">🗺️</div>
+<div class="service-card-content">
 
----
+### Data Exploration
+Discover which routes are worth flying.
 
-## Success Metrics We Track
+[Learn More →](data-exploration.html)
 
-Depending on your use case:
+</div>
+</div>
 
-**Revenue Impact**
-- Conversion rate lift
-- Average order value increase
-- Customer lifetime value
-- Revenue per user
+<div class="service-card service-card-with-icon">
+<div class="service-icon">✈️</div>
+<div class="service-card-content">
 
-**Cost Reduction**
-- Process efficiency gains
-- Automation savings
-- Reduced manual work
-- Lower error rates
+### Proof of Concept
+Will the plane fly? Validate technical feasibility.
 
-**Customer Impact**
-- Satisfaction scores
-- Churn reduction
-- Engagement increase
-- Support ticket reduction
+[Learn More →](proof-of-concept.html)
 
-**Operational**
-- Time savings
-- Quality improvements
-- Faster decisions
-- Reduced waste
+</div>
+</div>
 
----
+<div class="service-card service-card-with-icon">
+<div class="service-icon">💶</div>
+<div class="service-card-content">
 
-## What Happens After Proof of Value?
+### Proof of Value
+Will people buy tickets? Prove business impact.
 
-When business value is proven, clients typically:
+[Learn More →](proof-of-value.html)
 
-1. **Business Impact**
-   - Scale to production
-   - Roll out to full organization
-   - Capture full value
+</div>
+</div>
 
-2. **Additional Optimization** 
-   - Run more experiments
-   - Test variations
-   - Maximize impact before scaling
+<div class="service-card service-card-with-icon">
+<div class="service-icon">📡</div>
+<div class="service-card-content">
 
-3. **Strategic Pivot**
-   - Results showed different opportunity
-   - Adjust approach based on learnings
-   - Pursue higher-value alternative
+### Business Impact
+Build the airfield. Scale to production.
 
----
+[Learn More →](business-impact.html)
 
-## How to Get in Touch
+</div>
+</div>
 
-Ready to prove business value?
-
-**Schedule a call:** [Book a 30-minute consultation](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**See results:** Explore our [proven impact case studies](../../../projects/index.html)
+</div>
