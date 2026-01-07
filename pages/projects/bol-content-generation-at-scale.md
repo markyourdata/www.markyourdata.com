@@ -12,64 +12,108 @@ For bol.com, we built an innovative content generation system that created optim
 This project demonstrates how AI can scale content operations while keeping humans in control of quality and strategy.
 
 </div>
-<div class="featured-intro-aside">
-<div class="card-meta">Client: bol.com</div>
-<div class="card-meta">Industry: E-commerce</div>
-<div class="card-meta">Service: Experiment Rollout</div>
-</div>
-</div>
 
 <div class="content-section section-single-column">
 
 ### The Challenge
 
-bol.com needed to optimize millions of product pages for search engines, but manual content creation was impossible at that scale. The challenge was to leverage AI for content generation while ensuring quality, relevance, and measurable business impact through increased organic traffic.
+bol.com needed to optimize millions of product pages for search engines, but this presented unique challenges that made traditional approaches impossible:
+
+**1. No A/B Testing for SEO** - Unlike typical experiments, Google indexes each page only once. We couldn't just run a standard A/B test. Instead, we had to find a way to group product pages into two similar groups that showed comparable behavior before making changes to only one group.
+
+**2. Manual SEO at Scale** - With millions of products on bol.com, optimizing content for SEO is typically manual work requiring human expertise. We needed to find a way to achieve this at scale using LLMs while maintaining quality.
+
+**3. Quality Assurance at Million-Page Scale** - When working at such massive scale, manually checking all generated content is impossible. Yet we needed to ensure correctness. We had to develop a system to guarantee 99%+ accuracy while flagging the <1% that needed human review.
+
+**4. Keeping Content Fresh** - Once a successful experiment was rolled out to millions of pages, we needed a sustainable way to keep all that content up to date as products and market conditions changed.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our Approach
+### Our Approach: Make it Work, Make it Better, Make it Scale
 
-We developed a comprehensive solution combining AI generation with data-driven validation:
+We tackled this challenge using our proven methodology, building a comprehensive end-to-end solution:
 
 <div class="icon-list">
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/robot.svg" alt="AI Content Pipeline" class="icon-brand" />
+<img src="../../assets/icons/regular/battery-50.svg" alt="Group Sampling" class="icon-brand" />
 <div>
-<strong>AI Content Pipeline</strong> - Automated content generation using LLMs with brand guidelines
+<strong>Group Sampling</strong> - Statistical methodology to create comparable test and control groups
 </div>
 </div>
 
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/flask.svg" alt="A/B Testing Framework" class="icon-brand" />
+<img src="../../assets/icons/regular/tools.svg" alt="Content Generation" class="icon-brand" />
 <div>
-<strong>A/B Testing Framework</strong> - Rigorous testing to validate content effectiveness
+<strong>Content Generation</strong> - LLM-powered content creation following brand guidelines
 </div>
 </div>
 
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/shield-check.svg" alt="Quality Controls" class="icon-brand" />
+<img src="../../assets/icons/regular/shield-check.svg" alt="Content Validation" class="icon-brand" />
 <div>
-<strong>Quality Controls</strong> - Automated checks for brand consistency and accuracy
+<strong>Content Validation</strong> - Automated quality checks to ensure accuracy and brand consistency
 </div>
 </div>
 
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/graph-up.svg" alt="Performance Monitoring" class="icon-brand" />
+<img src="../../assets/icons/regular/user.svg" alt="Peer Reviews" class="icon-brand" />
 <div>
-<strong>Performance Monitoring</strong> - Real-time tracking of organic traffic impact
-</div>
+<strong>Peer Reviews</strong> - Human review process for flagged content
 </div>
 </div>
 
-The system generated content at scale while maintaining quality through systematic testing and validation.
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/upload.svg" alt="Publishing" class="icon-brand" />
+<div>
+<strong>Publishing Content</strong> - Controlled deployment to production
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/graph-up.svg" alt="Impact Measurement" class="icon-brand" />
+<div>
+<strong>Impact Measurement</strong> - Real-time tracking of organic traffic and business metrics
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/rocket.svg" alt="Rollout" class="icon-brand" />
+<div>
+<strong>Rollout</strong> - Systematic scaling of winning experiments
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/arrow-down-right-circle.svg" alt="Refresh" class="icon-brand" />
+<div>
+<strong>Refresh</strong> - Automated updates to keep content current
+</div>
+</div>
+</div>
 
 </div>
 <div class="column-image">
-<img src="../../assets/images/pages/projects/placeholder.png" alt="Content Generation Process" />
+<img src="../../assets/images/wide/content_generation_at_scale.png" alt="Content Generation Process" style="max-width: 100%; width: 100%;" />
 </div>
+</div>
+
+<div class="content-section section-single-column">
+
+### Why We're Proud of This Project
+
+This project perfectly exemplifies our **Make it work → Make it better → Make it scale** methodology:
+
+**Make it Work** - We proved that SEO optimization at scale with LLMs was technically feasible, solving the fundamental challenge of generating quality content automatically.
+
+**Make it Better** - We applied rigorous experimentation methodology to measure real impact, developing innovative approaches to A/B testing for SEO that allowed us to validate effectiveness with statistical confidence.
+
+**Make it Scale** - We built production-grade systems to run at millions-of-pages scale, maintained quality control, and embedded the solution into bol.com's way of working for sustainable long-term value.
+
+The project delivered great results and became the starting point for a set of new experiments in the following year to further increase the impact of this new way of optimizing traffic.
+
 </div>
 
 <div class="content-section section-two-columns image-left">
@@ -81,13 +125,12 @@ The system generated content at scale while maintaining quality through systemat
 - Significant increase in organic traffic
 - Millions of pages optimized
 - Roadmap for continued experimentation
-- Scalable content operations
+- Scalable content operations embedded in workflow
 
 **Technologies Used:**
 - Python
-- A/B Testing
-- Generative AI
-- LLMs
+- Statistical A/B Testing
+- Generative AI (LLMs)
 - SQL
 
 </div>
@@ -95,81 +138,11 @@ The system generated content at scale while maintaining quality through systemat
 
 ### Key Success Factors
 
-The project succeeded because we focused on validation over velocity. Every content change was tested through A/B experiments before scaling. We built monitoring systems to detect quality issues early and established clear success metrics tied to business outcomes.
+The project succeeded because we focused on iterations that combined content generation with content validation. This way, we were able to optimize for both the business impact, as well as operational impact. We built monitoring systems to detect quality issues early and established clear success metrics tied to business outcomes.
 
-By treating AI as a tool that amplifies human judgment rather than replacing it, we achieved both scale and quality. The A/B testing framework ensured we only deployed changes that demonstrably improved organic traffic.
-
+By treating AI as a tool that amplifies human judgment rather than replacing it, we achieved both scale and quality. The experimentation framework ensured we only deployed changes that demonstrably improved organic traffic.
 </div>
 </div>
 
 <div class="content-section section-code-stack">
 <div class="column-text">
-
-### Technical Implementation
-
-The content generation system processed millions of products through a multi-stage pipeline:
-
-**Stage 1: Generation** - LLMs create content following brand guidelines
-
-**Stage 2: Validation** - Automated quality checks filter outputs
-
-**Stage 3: A/B Testing** - Systematic experiments validate effectiveness
-
-**Stage 4: Deployment** - Winning variants deployed at scale
-
-This approach ensured quality while achieving the scale needed to impact millions of pages.
-
-</div>
-
-<div class="column-code">
-<button class="copy-button" onclick="copyCode(this)">Copy</button>
-<pre><code>{
-  "contentPipeline": {
-    "input": "Product catalog data",
-    "generation": {
-      "model": "LLM with brand fine-tuning",
-      "guardrails": "Quality and brand checks"
-    },
-    "testing": {
-      "method": "A/B testing",
-      "metrics": ["Organic traffic", "Engagement", "Conversions"]
-    },
-    "deployment": {
-      "scale": "Millions of pages",
-      "monitoring": "Real-time performance tracking"
-    }
-  }
-}</code></pre>
-</div>
-</div>
-
-<div class="conclusion-section">
-
-## Scale Your Content with Confidence
-
-This project shows how AI can transform content operations when combined with rigorous testing and validation. The result: measurable business impact at unprecedented scale.
-
-Interested in scaling your content or other AI initiatives? Let's discuss how systematic experimentation can derisk your AI investments.
-
-<button class="cta-button">
-<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
-Schedule a Strategy Session
-</button>
-
-</div>
-
-<script>
-function copyCode(button) {
-    const codeBlock = button.nextElementSibling;
-    const code = codeBlock.textContent;
-    
-    navigator.clipboard.writeText(code).then(() => {
-        button.textContent = 'Copied!';
-        button.classList.add('copied');
-        setTimeout(() => {
-            button.textContent = 'Copy';
-            button.classList.remove('copied');
-        }, 2000);
-    });
-}
-</script>
