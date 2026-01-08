@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#f9a800" />
+        <title>
+            DBT: Transform Data into Insights That Drive Business Value - Mark
+            Your Data
+        </title>
+        <meta
+            name="description"
+            content="Learn how DBT transforms raw data into business insights. Increase analyst productivity, reduce time-to-answer, and ensure consistency."
+        />
+
+        <!-- Open Graph Tags -->
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:url"
+            content="https://www.markyourdata.com/pages/blogs/dbt-transform-data-into-insights.html"
+        />
+        <meta
+            property="og:title"
+            content="DBT: Transform Data into Insights That Drive Business Value"
+        />
+        <meta
+            property="og:description"
+            content="Learn how DBT transforms raw data into business insights. Increase analyst productivity, reduce time-to-answer, and ensure consistency."
+        />
+        <meta
+            property="og:image"
+            content="https://www.markyourdata.com/assets/logo.png"
+        />
+
+        <!-- Twitter Card Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:url"
+            content="https://www.markyourdata.com/pages/blogs/dbt-transform-data-into-insights.html"
+        />
+        <meta
+            name="twitter:title"
+            content="DBT: Transform Data into Insights"
+        />
+        <meta
+            name="twitter:description"
+            content="How DBT increases analyst productivity 3-5x and ensures consistent results"
+        />
+        <meta
+            name="twitter:image"
+            content="https://www.markyourdata.com/assets/logo.png"
+        />
+
+        <link
+            rel="canonical"
+            href="https://www.markyourdata.com/pages/blogs/dbt-transform-data-into-insights.html"
+        />
+
+        <!-- Fonts & Styles -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../../css/styles.css" />
+    </head>
+    <body>
+        <a href="#main-content" class="skip-to-main">Skip to main content</a>
+        <div id="navbar-container"></div>
+
+        <main id="main-content">
+            <article>
+                <div class="container">
+                    <div class="card-meta">Blog Post</div>
+                    <h1>
+                        DBT: Transform Data into Insights That Drive Business
+                        Value
+                    </h1>
+                    <p class="card-meta">By Mark Your Data | January 2025</p>
+
+                    <h2>The Data Paradox</h2>
+                    <p class="section-intro">
+                        You've invested in getting data into your warehouse. You
+                        have terabytes of customer data, sales metrics, product
+                        analytics. But here's the truth: having data doesn't
+                        create value.
+                    </p>
+                    <p>
+                        The insights you extract from that data create value.
+                        And that's where DBT (Data Build Tool) comes in.
+                    </p>
+
+                    <h2>What Is DBT?</h2>
+                    <p>
+                        DBT is the industry standard for data transformation
+                        (>10,000 GitHub stars). It sits between your raw data
+                        and your analytics layer, turning messy source data into
+                        clean, reliable, documented models.
+                    </p>
+
+                    <p>Think of it as the "engineering" layer for your data:</p>
+                    <ul class="list-benefits">
+                        <li>
+                            <strong>Version controlled</strong> - Track every
+                            change to your data logic
+                        </li>
+                        <li>
+                            <strong>Tested</strong> - Ensure data quality with
+                            automated tests
+                        </li>
+                        <li>
+                            <strong>Documented</strong> - Every model has clear
+                            documentation
+                        </li>
+                        <li>
+                            <strong>Reusable</strong> - Build once, use
+                            everywhere
+                        </li>
+                    </ul>
+
+                    <h2>The Business Impact</h2>
+
+                    <h3>1. Consistency Across Analyses</h3>
+                    <p>
+                        Without DBT, every analyst calculates "monthly revenue"
+                        slightly differently. With DBT, you define it once as a
+                        model, and everyone uses the same calculation.
+                    </p>
+                    <p>
+                        <strong>Result:</strong> No more "which number is
+                        right?" conversations in meetings.
+                    </p>
+
+                    <h3>2. Faster Time to Insights</h3>
+                    <p>
+                        Instead of joining 5 tables every time you need customer
+                        data, you create a <code>customers</code> model that
+                        does the joins once. Analysts query one clean table.
+                    </p>
+                    <p>
+                        <strong>Result:</strong> Questions that took hours now
+                        take minutes.
+                    </p>
+
+                    <h3>3. Higher Quality Analysis</h3>
+                    <p>
+                        DBT tests ensure your data meets quality standards
+                        before it reaches dashboards:
+                    </p>
+                    <ul class="list-benefits">
+                        <li>No null values in critical fields</li>
+                        <li>No duplicate records</li>
+                        <li>Relationships between tables are valid</li>
+                        <li>Totals reconcile with source systems</li>
+                    </ul>
+                    <p>
+                        <strong>Result:</strong> Confidence in the numbers you
+                        present to leadership.
+                    </p>
+
+                    <h3>4. Increased Analyst Productivity</h3>
+                    <p>
+                        When data is clean, documented, and reliable, analysts
+                        spend less time wrangling data and more time finding
+                        insights.
+                    </p>
+                    <p>
+                        <strong>Result:</strong> 3-5x productivity improvement
+                        for data teams.
+                    </p>
+
+                    <h2>How DBT Fits Into Your Data Stack</h2>
+                    <p>
+                        DBT works seamlessly with your existing tools. Here's
+                        the typical flow:
+                    </p>
+
+                    <ol>
+                        <li>
+                            <strong>Data Ingestion</strong> -
+                            <a href="./why-dlt-beats-fivetran.html"
+                                >DLT loads raw data</a
+                            >
+                            from APIs, databases, files into your warehouse
+                        </li>
+                        <li>
+                            <strong>Data Transformation (DBT)</strong> -
+                            Transform raw data into clean models
+                        </li>
+                        <li>
+                            <strong>Analytics Layer</strong> - BI tools (Looker,
+                            Tableau, Power BI) query DBT models
+                        </li>
+                    </ol>
+
+                    <p>
+                        Everything runs on schedule (daily, hourly, real-time),
+                        version controlled in Git.
+                    </p>
+
+                    <h2>Real-World Example: Customer Analytics</h2>
+
+                    <h3>Without DBT</h3>
+                    <p>Analyst writes a query joining:</p>
+                    <ul>
+                        <li><code>raw_orders</code> table (10M rows)</li>
+                        <li><code>raw_customers</code> table (500K rows)</li>
+                        <li><code>raw_products</code> table (50K rows)</li>
+                        <li>
+                            Manual calculations for lifetime value, churn risk,
+                            etc.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>Time to answer:</strong> 2-4 hours per analysis
+                    </p>
+                    <p>
+                        <strong>Quality:</strong> Each analyst calculates
+                        metrics differently
+                    </p>
+
+                    <h3>With DBT</h3>
+                    <p>Data engineer creates models:</p>
+                    <ul>
+                        <li>
+                            <code>dim_customers</code> - Clean customer
+                            dimension
+                        </li>
+                        <li>
+                            <code>fct_orders</code> - Order facts with all
+                            relevant attributes
+                        </li>
+                        <li>
+                            <code>customer_lifetime_value</code> -
+                            Pre-calculated metrics
+                        </li>
+                    </ul>
+                    <p>
+                        Analyst queries:
+                        <code
+                            >SELECT * FROM customer_lifetime_value WHERE segment
+                            = 'high_value'</code
+                        >
+                    </p>
+                    <p><strong>Time to answer:</strong> 5 minutes</p>
+                    <p>
+                        <strong>Quality:</strong> Everyone uses the same, tested
+                        definitions
+                    </p>
+
+                    <h2>Why DBT Is the Industry Standard</h2>
+
+                    <p>
+                        DBT has become the de facto standard because it solves
+                        real problems:
+                    </p>
+
+                    <div class="service-cards-grid">
+                        <div class="content-card">
+                            <h3>🔧 Easy to Learn</h3>
+                            <p>
+                                If you know SQL, you can use DBT. No complex
+                                languages or frameworks.
+                            </p>
+                        </div>
+
+                        <div class="content-card">
+                            <h3>📝 Built-In Best Practices</h3>
+                            <p>
+                                Testing, documentation, and version control are
+                                core features, not afterthoughts.
+                            </p>
+                        </div>
+
+                        <div class="content-card">
+                            <h3>🚀 Scales Infinitely</h3>
+                            <p>
+                                From 10 models to 1,000+ models. Used by
+                                startups and enterprises alike.
+                            </p>
+                        </div>
+
+                        <div class="content-card">
+                            <h3>🌍 Active Community</h3>
+                            <p>
+                                >10,000 GitHub stars, thousands of companies,
+                                extensive package ecosystem.
+                            </p>
+                        </div>
+                    </div>
+
+                    <h2>Our Approach: DBT + Modern Infrastructure</h2>
+                    <p>
+                        We run DBT transformations in Docker containers on tools
+                        like Google Cloud Run, orchestrated with Cloud
+                        Workflows:
+                    </p>
+                    <ul class="list-benefits">
+                        <li>
+                            <a href="./why-dlt-beats-fivetran.html"
+                                >DLT pipelines</a
+                            >
+                            load raw data
+                        </li>
+                        <li>DBT transforms raw data into clean models</li>
+                        <li>Automated tests ensure quality</li>
+                        <li>Scheduled runs keep data fresh</li>
+                        <li>All version controlled in Git</li>
+                    </ul>
+                    <p>
+                        <strong>Total cost:</strong> ~€100/month for compute.
+                        Compare that to €350+/month for Cloud Composer (hosted
+                        Airflow).
+                    </p>
+
+                    <h2>Getting Started with DBT</h2>
+                    <p>
+                        Starting with DBT doesn't require a complete overhaul.
+                        We typically begin with:
+                    </p>
+
+                    <ol>
+                        <li>
+                            <strong>Identify pain points</strong> - Which
+                            analyses are repeated most often?
+                        </li>
+                        <li>
+                            <strong>Build core models</strong> - Create 5-10
+                            foundational models
+                        </li>
+                        <li>
+                            <strong>Add tests</strong> - Ensure data quality
+                            from day one
+                        </li>
+                        <li>
+                            <strong>Document</strong> - Make models discoverable
+                            and understandable
+                        </li>
+                        <li>
+                            <strong>Scale</strong> - Add more models as needed
+                        </li>
+                    </ol>
+
+                    <p>
+                        Most teams see value within 2-4 weeks of starting with
+                        DBT.
+                    </p>
+
+                    <h2>The ROI of Good Data Foundations</h2>
+                    <p class="section-intro">
+                        Investing in DBT is investing in your team's
+                        productivity.
+                    </p>
+
+                    <p>When your data foundation is solid:</p>
+                    <ul class="list-benefits">
+                        <li>
+                            <strong>Consistency increases</strong> - Everyone
+                            uses the same definitions
+                        </li>
+                        <li>
+                            <strong>Speed increases</strong> - Questions get
+                            answered in minutes, not hours
+                        </li>
+                        <li>
+                            <strong>Quality increases</strong> - Tested,
+                            validated, reliable data
+                        </li>
+                        <li>
+                            <strong>Confidence increases</strong> - Trust the
+                            numbers you present
+                        </li>
+                    </ul>
+
+                    <p>
+                        The result? Your analysts become 3-5x more productive.
+                        They spend time finding insights, not fighting with
+                        data.
+                    </p>
+
+                    <div class="cta-section">
+                        <div class="container">
+                            <h2>Ready to Transform Your Data Into Insights?</h2>
+                            <p>
+                                Let's build a data foundation that accelerates
+                                your analytics and increases productivity.
+                            </p>
+                            <a href="../services/platform/">
+                                <button type="button" class="cta-button">
+                                    Explore Our Data Platform Service
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <hr style="margin: var(--space-3xl) 0" />
+
+                    <h3>Related Resources</h3>
+                    <ul class="list-benefits">
+                        <li>
+                            <a href="./why-dlt-beats-fivetran.html"
+                                >Why DLT Beats Fivetran: Save €18K Per Year</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="./motherduck-the-future-of-cost-efficient-analytics.html"
+                                >MotherDuck: The Future of Cost-Efficient
+                                Analytics</a
+                            >
+                        </li>
+                        <li>
+                            <a href="../services/platform/"
+                                >Data Analytics & AI Platform Service</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.getdbt.com/"
+                                target="_blank"
+                                rel="noopener"
+                                >Visit DBT Official Website</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.getdbt.com/blog"
+                                target="_blank"
+                                rel="noopener"
+                                >DBT Official Blog</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+
+        <!-- Scripts -->
+        <script src="../../js/config.js"></script>
+        <script src="../../components/navbar.js"></script>
+        <script src="../../data/content.js"></script>
+        <script src="../../js/components.js"></script>
+    </body>
+</html>

@@ -131,6 +131,27 @@
     <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://www.markyourdata.com/pages/blogs/why-dlt-beats-fivetran.html</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.markyourdata.com/pages/blogs/dbt-transform-data-into-insights.html</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.markyourdata.com/pages/blogs/motherduck-the-future-of-cost-efficient-analytics.html</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Contact -->
   <url>
     <loc>https://www.markyourdata.com/pages/contact.html</loc>

@@ -13,6 +13,20 @@ function escapeHtml(text) {
 }
 
 /**
+ * Allows specific safe HTML tags while escaping potentially dangerous content
+ * @param {string} text - Text that may contain HTML
+ * @returns {string} Sanitized HTML with only allowed tags
+ */
+function allowSafeHtml(text) {
+  if (typeof text !== "string") return "";
+  // First escape everything
+  let escaped = escapeHtml(text);
+  // Then restore only safe tags: <strong>, </strong>, <em>, </em>, <b>, </b>, <i>, </i>
+  escaped = escaped.replace(/&lt;(\/?(strong|em|b|i))&gt;/gi, "<$1>");
+  return escaped;
+}
+
+/**
  * Logs a warning message in development
  * @param {string} message - Warning message
  * @param {*} data - Optional data to log
@@ -154,7 +168,7 @@ const components = {
     try {
       return `
         <h2>${escapeHtml(data.heading)}</h2>
-        <p class="section-intro">${escapeHtml(data.text)}</p>
+        <p class="section-intro">${allowSafeHtml(data.text)}</p>
       `;
     } catch (error) {
       logWarning("Error rendering section with intro component", error);

@@ -140,11 +140,11 @@ const siteData = {
         },
       },
       cta: {
-        heading: "Get Your Free Data Platform Design",
+        heading: "Ready to Save €21,000 Per Year?",
         description:
-          "Let's discuss how we can help you create a scalable data foundation. If you want, we'll create you a draft design for free.",
+          "Let's build your cost-efficient data platform with open-source tools and modern infrastructure. Get a free platform design tailored to your needs.",
         button: {
-          text: "Get in touch",
+          text: "Book Your Free Consultation",
           link: "pages/contact.html",
         },
       },

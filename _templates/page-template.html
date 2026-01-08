@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#f9a800" />
+
+        <!--
+            TODO: Update these meta tags for your page
+            Title: 50-60 characters, include keywords
+            Description: 150-160 characters, compelling summary
+        -->
+        <title>Your Page Title - Mark Your Data</title>
+        <meta
+            name="description"
+            content="Your page description here. Make it compelling and 150-160 characters for optimal SEO."
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://www.markyourdata.com/your-page-url/"
+        />
+        <meta
+            property="og:title"
+            content="Your Page Title - Mark Your Data"
+        />
+        <meta
+            property="og:description"
+            content="Compelling description for social media sharing. Can be same as meta description."
+        />
+        <meta
+            property="og:image"
+            content="https://www.markyourdata.com/assets/logo.png"
+        />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:url"
+            content="https://www.markyourdata.com/your-page-url/"
+        />
+        <meta
+            name="twitter:title"
+            content="Your Page Title - Mark Your Data"
+        />
+        <meta
+            name="twitter:description"
+            content="Same description as Open Graph."
+        />
+        <meta
+            name="twitter:image"
+            content="https://www.markyourdata.com/assets/logo.png"
+        />
+
+        <!-- Canonical URL - prevents duplicate content issues -->
+        <link rel="canonical" href="https://www.markyourdata.com/your-page-url/" />
+
+        <!--
+            Optional: Structured Data for SEO
+            Uncomment and customize for Service pages, Blog posts, etc.
+        -->
+        <!--
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "Your Service Name",
+                "description": "Service description",
+                "provider": {
+                    "@type": "Organization",
+                    "name": "Mark Your Data",
+                    "url": "https://www.markyourdata.com"
+                }
+            }
+        </script>
+        -->
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!--
+            TODO: Update stylesheet path based on your page depth
+            Same directory: href="../../css/styles.css"
+            One level up: href="../css/styles.css"
+            Root: href="css/styles.css"
+        -->
+        <link rel="stylesheet" href="../../css/styles.css" />
+    </head>
+    <body>
+        <!-- Skip to main content link (accessibility) -->
+        <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+        <!-- Navigation (auto-rendered) -->
+        <div id="navbar-container"></div>
+
+        <!-- Main Content Area -->
+        <main id="main-content">
+
+            <!--
+                Hero Section (rendered from data/content.js)
+                Define your hero in data/content.js under pages.yourPageName.hero
+            -->
+            <div id="hero-container"></div>
+
+            <!--
+                Custom Content Sections
+                Add your page-specific content here
+            -->
+            <section>
+                <div class="container">
+                    <h2>Your Section Heading</h2>
+                    <p class="section-intro">
+                        Introduction text for this section. Use the .section-intro
+                        utility class for consistent styling.
+                    </p>
+
+                    <!-- Your content here -->
+                    <p>Your content paragraphs...</p>
+
+                    <!-- Example: Using utility classes -->
+                    <div class="image-container">
+                        <img
+                            src="../../assets/images/your-image.jpg"
+                            alt="Descriptive alt text"
+                            loading="lazy"
+                            class="featured-service-image"
+                        />
+                    </div>
+
+                    <!-- Example: Benefit list -->
+                    <ul class="list-benefits">
+                        <li>Benefit one</li>
+                        <li>Benefit two</li>
+                        <li>Benefit three</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Add more sections as needed -->
+            <section>
+                <div class="container">
+                    <h2>Another Section</h2>
+                    <p>More content...</p>
+                </div>
+            </section>
+
+            <!--
+                Optional: Services Section (if you want to show service cards)
+                Define services in data/content.js
+            -->
+            <!--
+            <section>
+                <div class="container">
+                    <h2>Related Services</h2>
+                    <div id="services"></div>
+                </div>
+            </section>
+            -->
+
+            <!--
+                Optional: Testimonials (if applicable)
+                Define testimonials in data/content.js
+            -->
+            <!--
+            <section>
+                <div class="container">
+                    <h2>What Our Clients Say</h2>
+                    <div id="testimonials"></div>
+                </div>
+            </section>
+            -->
+
+            <!--
+                CTA Section (rendered from data/content.js)
+                Define your CTA in data/content.js under pages.yourPageName.cta
+            -->
+            <div id="cta-container"></div>
+
+        </main>
+
+        <!--
+            Scripts - IMPORTANT: Load in this order!
+            TODO: Update script paths based on your page depth
+        -->
+        <script src="../../js/config.js"></script>
+        <script src="../../components/navbar.js"></script>
+        <script src="../../data/content.js"></script>
+        <script src="../../js/components.js"></script>
+
+        <!--
+            TODO: Update this script to render your specific page
+            Replace 'yourPageName' with the key you used in data/content.js
+
+            Example: If you defined data/content.js → pages.aiWorkshop
+            Then use: renderServicePage('aiWorkshop');
+        -->
+        <script>
+            // Render this specific page's hero and CTA from data
+            renderServicePage('yourPageName');
+        </script>
+
+        <!--
+            Optional: Add additional scripts if needed
+            Example: If your page has a carousel or special features
+        -->
+        <!--
+        <script src="../../js/carousel.js"></script>
+        -->
+    </body>
+</html>
