@@ -329,9 +329,9 @@ function renderServicePage(pageName) {
     ctaContainer.innerHTML = components.ctaSection(pageData.cta);
   }
 
-  // Also render services/clients/testimonials if they exist on this page
-  // This allows service index pages to show the service cards
-  renderComponents({ skipHomepage: true });
+  // Also render clients/testimonials if they exist on this page
+  // Skip services as service pages have their own hardcoded detail page cards
+  renderComponents({ skipHomepage: true, skipServices: true });
 }
 
 /**
@@ -421,7 +421,7 @@ function renderHomepageSections() {
  * @returns {void}
  */
 function renderComponents(options = {}) {
-  const { skipHomepage = false } = options;
+  const { skipHomepage = false, skipServices = false } = options;
 
   // Render homepage sections from data (unless explicitly skipped)
   if (!skipHomepage) {
@@ -466,9 +466,9 @@ function renderComponents(options = {}) {
     initializeCarouselKeyboardNavigation();
   }
 
-  // Render services
+  // Render services (skip on service detail pages that have their own hardcoded services)
   const servicesContainer = document.getElementById(SELECTORS.SERVICES);
-  if (servicesContainer && siteData.services) {
+  if (!skipServices && servicesContainer && siteData.services) {
     // Check if we're on the services index page
     const isServicesPage =
       window.location.pathname.includes("/pages/services/index.html") ||
@@ -635,10 +635,19 @@ function initializeCarouselKeyboardNavigation() {
 }
 
 // Auto-render when DOM is ready
-// Note: renderComponents and renderHomepageSections check for container existence,
-// so it's safe to call on any page
+// Skip auto-render on service pages (they call renderServicePage explicitly)
+function shouldAutoRender() {
+  return !document.querySelector('[data-page-type="service"]');
+}
+
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", renderComponents);
+  document.addEventListener("DOMContentLoaded", () => {
+    if (shouldAutoRender()) {
+      renderComponents();
+    }
+  });
 } else {
-  renderComponents();
+  if (shouldAutoRender()) {
+    renderComponents();
+  }
 }
