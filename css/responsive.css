@@ -1,0 +1,104 @@
+/* Responsive Styles - Mobile & Tablet */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Mobile Navigation */
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: var(--light-gray);
+        flex-direction: column;
+        padding: 5rem 2rem 2rem;
+        gap: 0;
+        box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+        transition: right 0.3s ease;
+        z-index: 1000;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu li {
+        width: 100%;
+        border-bottom: 1px solid var(--accent-gray);
+    }
+
+    .nav-link {
+        display: block;
+        padding: 1rem 0;
+        font-size: 1.1rem;
+    }
+
+    /* Testimonials on mobile */
+    .testimonial {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .testimonial-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial blockquote {
+        font-size: 1rem;
+    }
+
+    .carousel-control-prev {
+        left: 10px;
+    }
+
+    .carousel-control-next {
+        right: 10px;
+    }
+
+    .carousel-control-icon {
+        font-size: 3rem;
+    }
+
+    /* Service cards grid on mobile */
+    .service-cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Services grid three on mobile */
+    .services-grid-three {
+        grid-template-columns: 1fr;
+    }
+
+    /* Service cards with icons on mobile */
+    .service-card-with-icon {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .service-icon {
+        font-size: 2.5rem;
+    }
+}

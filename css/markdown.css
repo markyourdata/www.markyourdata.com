@@ -1,0 +1,119 @@
+/* Markdown Content Styling */
+
+.markdown-content {
+    padding: 3rem 0;
+}
+
+.markdown-content #content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.markdown-content h1 {
+    color: var(--dark-charcoal);
+    border-bottom: 3px solid var(--dynamic-orange);
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.markdown-content h2 {
+    color: var(--dark-charcoal);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.markdown-content h3 {
+    color: var(--dark-charcoal);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.markdown-content p {
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    margin-bottom: 1.25rem;
+    padding-left: 2rem;
+}
+
+.markdown-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+}
+
+.markdown-content a {
+    color: var(--dark-charcoal);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--dynamic-orange);
+    text-decoration-thickness: 2px;
+}
+
+.markdown-content a:hover {
+    color: var(--dynamic-orange);
+}
+
+.markdown-content blockquote {
+    border-left: 4px solid var(--dynamic-orange);
+    padding-left: 1.5rem;
+    margin: 1.5rem 0;
+    font-style: italic;
+    color: var(--accent-gray);
+}
+
+.markdown-content code {
+    background-color: var(--light-gray);
+    padding: 0.2rem 0.4rem;
+    font-family: "Courier New", monospace;
+    font-size: 0.9em;
+}
+
+.markdown-content pre {
+    background-color: var(--light-gray);
+    padding: 1rem;
+    overflow-x: auto;
+    margin-bottom: 1.25rem;
+}
+
+.markdown-content pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.markdown-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+}
+
+.markdown-content th,
+.markdown-content td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.markdown-content th {
+    background-color: var(--dark-charcoal);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.markdown-content tr:hover {
+    background-color: var(--light-gray);
+}
+
+.markdown-content hr {
+    border: none;
+    border-top: 2px solid var(--light-gray);
+    margin: 2rem 0;
+}
+
+.markdown-content strong {
+    font-weight: 700;
+    color: var(--dark-charcoal);
+}

@@ -1,0 +1,126 @@
+/* Utility Classes */
+
+/* Background Colors */
+.bg-light-gray {
+    background-color: var(--light-gray);
+}
+
+.bg-dark-charcoal {
+    background-color: var(--dark-charcoal);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+/* Text Utilities */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* Font Sizes */
+.text-lg {
+    font-size: 1.25rem;
+}
+
+.text-xl {
+    font-size: 1.5rem;
+}
+
+.text-base {
+    font-size: 1.1rem;
+}
+
+/* Margins */
+.mt-1 {
+    margin-top: 0.5rem;
+}
+
+.mt-2 {
+    margin-top: 1rem;
+}
+
+.mt-3 {
+    margin-top: 1.5rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.mb-3 {
+    margin-bottom: 2rem;
+}
+
+.mb-4 {
+    margin-bottom: 3rem;
+}
+
+.ml-2 {
+    margin-left: 1rem;
+}
+
+.ml-4 {
+    margin-left: 2rem;
+}
+
+/* Display & Alignment */
+.image-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+/* Lists */
+.list-benefits {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Grid Layouts */
+.grid-auto-fit {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Section Intro Text */
+.section-intro {
+    text-align: left;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.section-description {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.section-subdescription {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    color: var(--accent-gray);
+}
+
+/* Text Colors */
+.text-white {
+    color: var(--white);
+}
+
+/* Error Message */
+.error-message {
+    text-align: center;
+    padding: 3rem;
+    color: var(--accent-gray);
+}

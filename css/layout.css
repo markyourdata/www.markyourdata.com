@@ -1,0 +1,84 @@
+/* Layout Styles - Containers, Sections, Grid */
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Sections */
+section {
+    padding: 3rem 0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--dark-charcoal);
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h1 {
+    color: var(--white);
+}
+
+.hero .tagline {
+    font-size: 1.25rem;
+    color: var(--light-gray);
+    margin-bottom: 2rem;
+}
+
+/* Page Header */
+.page-header {
+    background-color: var(--dark-charcoal);
+    text-align: center;
+    padding: 3rem 2rem;
+    border-bottom: 4px solid var(--dynamic-orange);
+}
+
+.page-header h1 {
+    margin-bottom: 0.5rem;
+    color: var(--white);
+}
+
+.page-header .tagline {
+    font-size: 1.15rem;
+    color: var(--light-gray);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: var(--dark-charcoal);
+    color: var(--white);
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-top: 4rem;
+}
+
+.cta-section h2 {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.cta-section p {
+    color: var(--light-gray);
+    margin: 0 auto 2rem;
+    max-width: 600px;
+}
+
+/* Content Grid */
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* Opening Text */
+.opening-text p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
