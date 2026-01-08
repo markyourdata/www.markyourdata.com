@@ -493,10 +493,13 @@ function renderComponents(options = {}) {
   // Render clients
   const clientsContainer = document.getElementById(SELECTORS.CLIENTS);
   if (clientsContainer && siteData.clients) {
-    const clientsHTML = `<div role="list" aria-label="Our clients">
-      ${siteData.clients.map((item) => components.clientLogo(item)).join("")}
-    </div>`;
-    clientsContainer.innerHTML = clientsHTML;
+    // Set ARIA attributes on the container itself
+    clientsContainer.setAttribute("role", "list");
+    clientsContainer.setAttribute("aria-label", "Our clients");
+    // Render client logos directly without wrapper
+    clientsContainer.innerHTML = siteData.clients
+      .map((item) => components.clientLogo(item))
+      .join("");
   }
 
   // Projects are now rendered via js/projects.js
