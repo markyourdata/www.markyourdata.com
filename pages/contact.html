@@ -3,6 +3,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#f9a800" />
+
+        <!-- Google Analytics -->
+        <script src="../js/analytics.js"></script>
+
         <title>Contact Us - Mark Your Data</title>
         <meta
             name="description"
@@ -25,6 +30,24 @@
             content="https://www.markyourdata.com/assets/logo.png"
         />
 
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:url"
+            content="https://www.markyourdata.com/pages/contact.html"
+        />
+        <meta name="twitter:title" content="Contact Us - Mark Your Data" />
+        <meta
+            name="twitter:description"
+            content="Get in touch with our experts to discuss your data & AI challenges."
+        />
+
+        <!-- Canonical URL -->
+        <link
+            rel="canonical"
+            href="https://www.markyourdata.com/pages/contact.html"
+        />
+
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,24 +58,164 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="../css/styles.css" />
-        <link rel="stylesheet" href="../css/markdown-template.css" />
-
-        <!-- Markdown Parser -->
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     </head>
     <body>
+        <!-- Skip to main content link (accessibility) -->
+        <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
         <!-- Navigation -->
         <div id="navbar-container"></div>
 
         <!-- Main Content -->
-        <article class="markdown-content">
-            <div class="container">
-                <div id="content"><p>Loading...</p></div>
-            </div>
-        </article>
+        <main id="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="container">
+                    <h1>Get in Touch</h1>
+                    <p class="tagline">
+                        Let's discuss how we can help you turn your data
+                        ambitions into action
+                    </p>
+                </div>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section>
+                <div class="container">
+                    <div class="contact-wrapper">
+                        <div class="contact-info-card">
+                            <div class="contact-person-image">
+                                <img
+                                    src="../assets/images/team/mark_schep_professional_sweater.png"
+                                    alt="Mark Schep"
+                                    loading="lazy"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                                />
+                                <div
+                                    class="contact-person-placeholder"
+                                    style="display: none"
+                                >
+                                    M
+                                </div>
+                            </div>
+
+                            <div class="contact-info-content">
+                                <p class="contact-person-name">Mark Schep</p>
+                                <p class="contact-person-title">
+                                    Chief of Data Analytics & AI
+                                </p>
+
+                                <p>
+                                    Whether you're looking to build a data
+                                    platform, need strategic guidance, or want
+                                    to explore AI solutions — I'm here to help.
+                                </p>
+                                <p>
+                                    Fill out the form and I'll get back to you
+                                    within 24 hours.
+                                </p>
+
+                                <div class="contact-details">
+                                    <h3>Other Ways to Connect</h3>
+                                    <ul class="list-benefits">
+                                        <li>
+                                            <a
+                                                href="https://www.linkedin.com/in/mark-schep/"
+                                                target="_blank"
+                                                rel="noopener"
+                                            >
+                                                Connect on LinkedIn
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-container">
+                            <form
+                                action="https://formspree.io/f/mojvgzzn"
+                                method="POST"
+                                class="contact-form"
+                            >
+                                <div class="form-group">
+                                    <label for="name">Name *</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        required
+                                        placeholder="Your full name"
+                                    />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="company">Company</label>
+                                    <input
+                                        type="text"
+                                        id="company"
+                                        name="company"
+                                        placeholder="Your company name"
+                                    />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        required
+                                        placeholder="your@email.com"
+                                    />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone"
+                                        >Phone (if you'd like a callback)</label
+                                    >
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        placeholder="+31 6 1234 5678"
+                                    />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message"
+                                        >How can we help? *</label
+                                    >
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        rows="5"
+                                        required
+                                        placeholder="Tell us about your data challenge or question..."
+                                    ></textarea>
+                                </div>
+
+                                <!-- Hidden field to identify the form -->
+                                <input
+                                    type="hidden"
+                                    name="_subject"
+                                    value="New contact from Mark Your Data website"
+                                />
+
+                                <button type="submit" class="cta-button">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
 
         <!-- Scripts -->
+        <script src="../js/config.js"></script>
         <script src="../components/navbar.js"></script>
-        <script src="../js/markdown-renderer.js"></script>
+        <script src="../data/content.js"></script>
+        <script src="../js/components.js"></script>
     </body>
 </html>

@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#f9a800" />
 
+        <!-- Google Analytics - TODO: Update path based on page depth -->
+        <script src="../../js/analytics.js"></script>
+
         <!--
             TODO: Update these meta tags for your page
             Title: 50-60 characters, include keywords
@@ -22,10 +25,7 @@
             property="og:url"
             content="https://www.markyourdata.com/your-page-url/"
         />
-        <meta
-            property="og:title"
-            content="Your Page Title - Mark Your Data"
-        />
+        <meta property="og:title" content="Your Page Title - Mark Your Data" />
         <meta
             property="og:description"
             content="Compelling description for social media sharing. Can be same as meta description."
@@ -41,10 +41,7 @@
             name="twitter:url"
             content="https://www.markyourdata.com/your-page-url/"
         />
-        <meta
-            name="twitter:title"
-            content="Your Page Title - Mark Your Data"
-        />
+        <meta name="twitter:title" content="Your Page Title - Mark Your Data" />
         <meta
             name="twitter:description"
             content="Same description as Open Graph."
@@ -55,7 +52,10 @@
         />
 
         <!-- Canonical URL - prevents duplicate content issues -->
-        <link rel="canonical" href="https://www.markyourdata.com/your-page-url/" />
+        <link
+            rel="canonical"
+            href="https://www.markyourdata.com/your-page-url/"
+        />
 
         <!--
             Optional: Structured Data for SEO
@@ -102,7 +102,6 @@
 
         <!-- Main Content Area -->
         <main id="main-content">
-
             <!--
                 Hero Section (rendered from data/content.js)
                 Define your hero in data/content.js under pages.yourPageName.hero
@@ -117,8 +116,8 @@
                 <div class="container">
                     <h2>Your Section Heading</h2>
                     <p class="section-intro">
-                        Introduction text for this section. Use the .section-intro
-                        utility class for consistent styling.
+                        Introduction text for this section. Use the
+                        .section-intro utility class for consistent styling.
                     </p>
 
                     <!-- Your content here -->
@@ -182,7 +181,6 @@
                 Define your CTA in data/content.js under pages.yourPageName.cta
             -->
             <div id="cta-container"></div>
-
         </main>
 
         <!--
@@ -203,7 +201,7 @@
         -->
         <script>
             // Render this specific page's hero and CTA from data
-            renderServicePage('yourPageName');
+            renderServicePage("yourPageName");
         </script>
 
         <!--

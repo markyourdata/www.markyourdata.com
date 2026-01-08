@@ -100,7 +100,7 @@ const siteData = {
     },
     aboutUs: {
       heading: "About us",
-      text: 'Mark Your Data is a boutique Data Analytics and AI Consultancy firm. It\'s the home for experienced data professionals. With backgrounds from data strategy, data science, data engineering and software and AI engineering we got the right person for the job. We help you turn your data ambitions into plans and plans into action. Our positive, pragmatic, can-do mentality makes us stand out of the crowd. <strong>"We make it work, make it better and make it scale"</strong>. Our consultants have "walked the talk" over and over again. While others might show you fancy presentations, we build teams, infrastructure and software. <strong>Real impact, delivered with a smile, one project at a time.</strong>',
+      text: 'Mark Your Data is a boutique Data Analytics and AI Consultancy firm. It\'s the home for experienced data professionals. With backgrounds from data strategy, data science, data engineering and software and AI engineering we got the right person for the job. We help you turn your data ambitions into plans and plans into action. Our positive, pragmatic, can-do mentality makes us stand out of the crowd. <strong>"We make it work, make it better and make it scale"</strong>. Our consultants have "walked the talk" over and over again. Where others might show you fancy presentations, we build teams, infrastructure and software. <strong>Real impact, delivered with a smile, one project at a time.</strong>',
     },
     howWeWork: {
       heading: "How we work",
