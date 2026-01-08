@@ -1,4 +1,91 @@
 // Content data for Mark Your Data website
+
+/**
+ * @typedef {Object} CTAButton
+ * @property {string} text - Button text
+ * @property {string} link - Relative link path
+ */
+
+/**
+ * @typedef {Object} Hero
+ * @property {string} title - Hero heading
+ * @property {string} tagline - Hero subtitle/tagline
+ * @property {CTAButton} [ctaButton] - Optional CTA button
+ */
+
+/**
+ * @typedef {Object} CTASection
+ * @property {string} heading - CTA heading
+ * @property {string} [description] - Optional CTA description
+ * @property {CTAButton} button - CTA button
+ */
+
+/**
+ * @typedef {Object} SectionContent
+ * @property {string} heading - Section heading
+ * @property {string} text - Section text content (can include HTML)
+ */
+
+/**
+ * @typedef {Object} Service
+ * @property {string} title - Service name
+ * @property {string} description - Service description
+ * @property {string} cta - CTA button text
+ * @property {string} slug - URL-friendly identifier
+ * @property {string} url - Relative URL path
+ * @property {boolean} [fullWidth] - Whether card spans full width
+ * @property {string[]} [propositions] - List of service propositions
+ */
+
+/**
+ * @typedef {Object} Client
+ * @property {string} name - Client name
+ * @property {string} logo - Logo image path
+ */
+
+/**
+ * @typedef {Object} Testimonial
+ * @property {string} quote - Testimonial text
+ * @property {string} author - Author name with title
+ * @property {string} company - Company name
+ * @property {string} [image] - Author image path
+ */
+
+/**
+ * @typedef {Object} Project
+ * @property {string} title - Project title
+ * @property {string} client - Client name
+ * @property {string} industry - Industry sector
+ * @property {string} description - Project description
+ * @property {string[]} technologies - Technologies used
+ * @property {string[]} outcome - Project outcomes
+ * @property {string} service - Related service slug
+ * @property {string} slug - URL-friendly identifier
+ */
+
+/**
+ * @typedef {Object} PageData
+ * @property {Hero} hero - Page hero section
+ * @property {CTASection} cta - Page CTA section
+ */
+
+/**
+ * Main site data object containing all content
+ * @type {Object}
+ * @property {Object} homepage - Homepage content
+ * @property {Hero} homepage.hero - Homepage hero
+ * @property {SectionContent} homepage.aboutUs - About us section
+ * @property {SectionContent} homepage.howWeWork - How we work section
+ * @property {SectionContent} homepage.clients - Clients section
+ * @property {SectionContent} homepage.fans - Fans section
+ * @property {SectionContent} homepage.projects - Projects section
+ * @property {CTASection} homepage.cta - Homepage CTA
+ * @property {Object.<string, PageData>} pages - Service page content
+ * @property {Testimonial[]} testimonials - Testimonial list
+ * @property {Service[]} services - Service list
+ * @property {Client[]} clients - Client list
+ * @property {Project[]} projects - Project list
+ */
 const siteData = {
   // Homepage sections
   homepage: {

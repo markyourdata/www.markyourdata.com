@@ -1,5 +1,54 @@
 /* Component Styles - Buttons, Cards, Navigation, etc. */
 
+/* Accessibility - Focus Styles */
+/* Visible focus indicator for keyboard navigation */
+*:focus {
+    outline: 3px solid var(--dynamic-orange);
+    outline-offset: 2px;
+}
+
+/* Remove default outline for mouse users, keep for keyboard users */
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+*:focus-visible {
+    outline: 3px solid var(--dynamic-orange);
+    outline-offset: 2px;
+}
+
+/* Special focus styles for buttons */
+button:focus-visible,
+.cta-button:focus-visible {
+    outline: 3px solid var(--dark-charcoal);
+    outline-offset: 2px;
+}
+
+/* Focus styles for links */
+a:focus-visible {
+    outline: 3px solid var(--dynamic-orange);
+    outline-offset: 2px;
+    text-decoration: underline;
+}
+
+/* Skip to main content link (for screen readers) */
+.skip-to-main {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1rem;
+    background-color: var(--dynamic-orange);
+    color: var(--dark-charcoal);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.skip-to-main:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
 /* Navigation */
 .navbar {
     background-color: var(--light-gray);
