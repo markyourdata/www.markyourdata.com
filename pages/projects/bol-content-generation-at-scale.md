@@ -38,7 +38,7 @@ We tackled this challenge using our proven methodology, building a comprehensive
 
 <div class="icon-list">
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/battery-50.svg" alt="Group Sampling" class="icon-brand" />
+<img src="../../assets/icons/regular/dice-two.svg" alt="Group Sampling" class="icon-brand" />
 <div>
 <strong>Group Sampling</strong> - Statistical methodology to create comparable test and control groups
 </div>
