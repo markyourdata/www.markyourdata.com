@@ -52,11 +52,59 @@ const components = {
     <h2>${data.heading}</h2>
     <p class="section-intro">${data.text}</p>
   `,
+
+  // Hero section component
+  hero: (data) => `
+    <section class="hero">
+      <div class="container">
+        <h1>${data.title}</h1>
+        <p class="tagline">${data.tagline}</p>
+        ${
+          data.ctaButton
+            ? `
+          <button class="cta-button" onclick="window.location.href='${data.ctaButton.link}'">
+            ${data.ctaButton.text}
+          </button>
+        `
+            : ""
+        }
+      </div>
+    </section>
+  `,
+
+  // CTA section component
+  ctaSection: (data) => `
+    <section class="cta-section">
+      <div class="container">
+        <h2>${data.heading}</h2>
+        ${data.description ? `<p>${data.description}</p>` : ""}
+        <button class="cta-button" onclick="window.location.href='${data.button.link}'">
+          ${data.button.text}
+        </button>
+      </div>
+    </section>
+  `,
+
+  // Page header component (for service/project pages)
+  pageHeader: (data) => `
+    <section class="page-header">
+      <div class="container">
+        <h1>${data.title}</h1>
+        ${data.subtitle ? `<p class="tagline">${data.subtitle}</p>` : ""}
+      </div>
+    </section>
+  `,
 };
 
 // Helper function to render homepage sections from data
 function renderHomepageSections() {
   if (!siteData.homepage) return;
+
+  // Render Hero section
+  const heroContainer = document.getElementById("hero-container");
+  if (heroContainer && siteData.homepage.hero) {
+    heroContainer.innerHTML = components.hero(siteData.homepage.hero);
+  }
 
   // Render About Us section
   const aboutUsContainer = document.getElementById("about-us-content");
@@ -96,6 +144,12 @@ function renderHomepageSections() {
     projectsContentContainer.innerHTML = components.sectionWithIntro(
       siteData.homepage.projects,
     );
+  }
+
+  // Render CTA section
+  const ctaContainer = document.getElementById("cta-container");
+  if (ctaContainer && siteData.homepage.cta) {
+    ctaContainer.innerHTML = components.ctaSection(siteData.homepage.cta);
   }
 }
 

@@ -2,6 +2,15 @@
 const siteData = {
   // Homepage sections
   homepage: {
+    hero: {
+      title: "Data Analytics and AI Consultants",
+      tagline:
+        "Transform your company into a data analytics & AI driven powerhouse, one strategic project at a time.",
+      ctaButton: {
+        text: "Get in touch",
+        link: "pages/contact.html",
+      },
+    },
     aboutUs: {
       heading: "About us",
       text: 'Mark Your Data is a boutique Data Analytics and AI Consultancy firm. It\'s the home for experienced data professionals. With backgrounds from data strategy, data science, data engineering and software and AI engineering we got the right person for the job. We help you turn your data ambitions into plans and plans into action. Our positive, pragmatic, can-do mentality makes us stand out of the crowd. <strong>"We make it work, make it better and make it scale"</strong>. Our consultants have "walked the talk" over and over again. While others might show you fancy presentations, we build teams, infrastructure and software. <strong>Real impact, delivered with a smile, one project at a time.</strong>',
@@ -21,6 +30,13 @@ const siteData = {
     projects: {
       heading: "Recent projects",
       text: "Every now and then a project comes along that makes you just that little extra proud. We are result driven and eager to learn. It's no surprise that these projects usually made a big impact, and tought us something new. This is what keeps us going. Read about some of these projects here.",
+    },
+    cta: {
+      heading: "Want to learn more?",
+      button: {
+        text: "Get in touch",
+        link: "pages/contact.html",
+      },
     },
   },
 
