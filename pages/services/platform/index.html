@@ -99,23 +99,9 @@
         <div id="navbar-container"></div>
 
         <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <h1>Mark Your Data & AI Platform</h1>
-                <p class="tagline">
-                    Make smarter decisions by combining disconnected data
-                    sources. Shorten time to insight and multiply the
-                    effectiveness of your analysts. Create your AI foundation
-                    and prepare your organization for AI solutions at scale.
-                </p>
-                <button
-                    class="cta-button"
-                    onclick="window.location.href='pages/contact.html'"
-                >
-                    Get in touch
-                </button>
-            </div>
-        </section>
+        <div id="hero-container">
+            <!-- Hero rendered from data/content.js -->
+        </div>
 
         <!-- Overview Section -->
         <section>
@@ -269,32 +255,26 @@
             </div>
         </section>
         <!-- CTA Section -->
-        <section class="cta-section">
-            <div class="container">
-                <h2>Get Your Free Data Platform Design</h2>
-                <p>
-                    Let's discuss how we can help you create a scalable data
-                    foundation. If you want, we'll create you a draft design for
-                    free.
-                </p>
-                <button
-                    class="cta-button"
-                    onclick="window.location.href='pages/contact.html'"
-                >
-                    Get in touch
-                </button>
-            </div>
-        </section>
+        <div id="cta-container">
+            <!-- CTA rendered from data/content.js -->
+        </div>
 
         <!-- Scripts -->
+        <script src="../../../js/config.js"></script>
         <script src="../../../data/content.js"></script>
         <script src="../../../components/navbar.js"></script>
+        <script src="../../../js/components.js"></script>
         <script src="../../../js/projects.js"></script>
         <script>
-            // Render projects on homepage (limit to 2)
-            renderProjects("projects", {
-                limit: 2,
-            });
+            // Render service page components
+            renderServicePage("platform");
+
+            // Render projects (limit to 2)
+            const limit =
+                typeof CONFIG !== "undefined"
+                    ? CONFIG.LAYOUT.PROJECTS_LIMIT_HOMEPAGE
+                    : 2;
+            renderProjects("projects", { limit });
         </script>
     </body>
 </html>

@@ -112,6 +112,36 @@ const components = {
   `,
 };
 
+// Helper function to render service page sections from data
+function renderServicePage(pageName) {
+  if (!siteData.pages || !siteData.pages[pageName]) return;
+
+  const pageData = siteData.pages[pageName];
+  const SELECTORS =
+    typeof CONFIG !== "undefined"
+      ? CONFIG.SELECTORS
+      : {
+          HERO: "hero-container",
+          CTA: "cta-container",
+        };
+
+  // Render Hero section
+  const heroContainer = document.getElementById(SELECTORS.HERO);
+  if (heroContainer && pageData.hero) {
+    heroContainer.innerHTML = components.hero(pageData.hero);
+  }
+
+  // Render CTA section
+  const ctaContainer = document.getElementById(SELECTORS.CTA);
+  if (ctaContainer && pageData.cta) {
+    ctaContainer.innerHTML = components.ctaSection(pageData.cta);
+  }
+
+  // Also render services/clients/testimonials if they exist on this page
+  // This allows service index pages to show the service cards
+  renderComponents({ skipHomepage: true });
+}
+
 // Helper function to render homepage sections from data
 function renderHomepageSections() {
   if (!siteData.homepage) return;
@@ -188,9 +218,13 @@ function renderHomepageSections() {
 }
 
 // Render function that populates containers with components
-function renderComponents() {
-  // Render homepage sections from data
-  renderHomepageSections();
+function renderComponents(options = {}) {
+  const { skipHomepage = false } = options;
+
+  // Render homepage sections from data (unless explicitly skipped)
+  if (!skipHomepage) {
+    renderHomepageSections();
+  }
 
   // Use CONFIG.SELECTORS if available
   const SELECTORS =
@@ -336,6 +370,8 @@ function goToTestimonial(index) {
 }
 
 // Auto-render when DOM is ready
+// Note: renderComponents and renderHomepageSections check for container existence,
+// so it's safe to call on any page
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", renderComponents);
 } else {

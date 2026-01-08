@@ -91,23 +91,9 @@
         <div id="navbar-container"></div>
 
         <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <h1>Data Analytics & AI Strategy Consulting</h1>
-                <p class="tagline">
-                    Maximize the return of data & AI investments. With our
-                    proven methodologies and expertise, we help you invest in
-                    data-driven initiatives that drive business growth and
-                    maximize ROI.
-                </p>
-                <button
-                    class="cta-button"
-                    onclick="window.location.href='pages/contact.html'"
-                >
-                    Schedule Your 30-Minute Call
-                </button>
-            </div>
-        </section>
+        <div id="hero-container">
+            <!-- Hero rendered from data/content.js -->
+        </div>
 
         <!-- Overview Section -->
         <section>
@@ -231,22 +217,18 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="cta-section">
-            <div class="container">
-                <h2>Want to know more?</h2>
-                <p>
-                    Schedule a free 30-Minute call to discuss your challenges.
-                </p>
-                <button
-                    class="cta-button"
-                    onclick="window.location.href='/pages/contact.html'"
-                >
-                    Get in touch
-                </button>
-            </div>
-        </section>
+        <div id="cta-container">
+            <!-- CTA rendered from data/content.js -->
+        </div>
 
         <!-- Scripts -->
+        <script src="../../../js/config.js"></script>
+        <script src="../../../data/content.js"></script>
         <script src="../../../components/navbar.js"></script>
+        <script src="../../../js/components.js"></script>
+        <script>
+            // Render service page components
+            renderServicePage('strategyConsulting');
+        </script>
     </body>
 </html>

@@ -40,6 +40,70 @@ const siteData = {
     },
   },
 
+  // Service Pages
+  pages: {
+    platform: {
+      hero: {
+        title: "'Mark Your' Data Analytics & AI Platform",
+        tagline:
+          "Make smarter decisions by combining disconnected data sources. Shorten time to insight and multiply the effectiveness of your analysts. Create your AI foundation and prepare your organization for AI solutions at scale.",
+        ctaButton: {
+          text: "Get in touch",
+          link: "pages/contact.html",
+        },
+      },
+      cta: {
+        heading: "Get Your Free Data Platform Design",
+        description:
+          "Let's discuss how we can help you create a scalable data foundation. If you want, we'll create you a draft design for free.",
+        button: {
+          text: "Get in touch",
+          link: "pages/contact.html",
+        },
+      },
+    },
+    strategyConsulting: {
+      hero: {
+        title: "Data Analytics & AI Strategy Consulting",
+        tagline:
+          "Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
+        ctaButton: {
+          text: "Schedule Your 30-Minute Call",
+          link: "pages/contact.html",
+        },
+      },
+      cta: {
+        heading: "Want to know more?",
+        description:
+          "Schedule a free 30-Minute call to discuss your challenges.",
+        button: {
+          text: "Get in touch",
+          link: "pages/contact.html",
+        },
+      },
+    },
+    strategyExecution: {
+      hero: {
+        title: "Data Analytics & AI solutions",
+        tagline:
+          "Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
+        ctaButton: {
+          text: "Get in touch",
+          link: "pages/contact.html",
+        },
+      },
+      cta: {
+        heading: "Ready to Turn Your Strategy Into Reality?",
+        description:
+          "Let's discuss how we can help you execute your data & AI initiatives with proven results.",
+        button: {
+          text: "Get in touch",
+          link: "pages/contact.html",
+        },
+      },
+    },
+  },
+
   testimonials: [
     {
       quote:
