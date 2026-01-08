@@ -152,6 +152,14 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- About -->
+  <url>
+    <loc>https://www.markyourdata.com/pages/about.html</loc>
+    <lastmod>2025-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Contact -->
   <url>
     <loc>https://www.markyourdata.com/pages/contact.html</loc>
