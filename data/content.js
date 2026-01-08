@@ -1,5 +1,29 @@
 // Content data for Mark Your Data website
 const siteData = {
+  // Homepage sections
+  homepage: {
+    aboutUs: {
+      heading: "About us",
+      text: 'Mark Your Data is a boutique Data Analytics and AI Consultancy firm. It\'s the home for experienced data professionals. With backgrounds from data strategy, data science, data engineering and software and AI engineering we got the right person for the job. We help you turn your data ambitions into plans and plans into action. Our positive, pragmatic, can-do mentality makes us stand out of the crowd. <strong>"We make it work, make it better and make it scale"</strong>. Our consultants have "walked the talk" over and over again. While others might show you fancy presentations, we build teams, infrastructure and software. <strong>Real impact, delivered with a smile, one project at a time.</strong>',
+    },
+    howWeWork: {
+      heading: "How we work",
+      text: "Over the years, we've executed many Data Analytics & AI projects. We've learned that it's not about the tools & technology. It's about making things work and proving value fast, so you can double down on those initiatives that really make an impact. <strong>\"Make it work, make it better, make it scale\"</strong> has become our mantra. It is a way of working that has proven itself over and over again. By working with us, you will master this methodology too. Some customers even structurally embed it in their teams. We tailored our methodology towards data strategy, data foundations, and data projects. Read on to find out which one is most relevant to you.",
+    },
+    clients: {
+      heading: "Clients we are proud of",
+      text: "We walk the talk with a great list of clients. We value our clients, big and small, and invest in valuable long term relationships. We become partners in business, alongside of you on your data, analytics & AI journey. Read more about some of the projects we do on our projects page.",
+    },
+    fans: {
+      heading: "Our fans",
+      text: "Our clients become partners, sometimes even fans! Get to know us through their eyes:",
+    },
+    projects: {
+      heading: "Recent projects",
+      text: "Every now and then a project comes along that makes you just that little extra proud. We are result driven and eager to learn. It's no surprise that these projects usually made a big impact, and tought us something new. This is what keeps us going. Read about some of these projects here.",
+    },
+  },
+
   testimonials: [
     {
       quote:

@@ -20,7 +20,7 @@ function createNavbar(activePage = "home") {
     <nav class="navbar">
       <div class="container nav-container">
         <a href="${basePath}/index.html" class="logo">
-          <img src="${basePath}/imgs/logo-markyourdata-dark.png" alt="Mark Your Data" class="logo-img" />
+          <img src="${basePath}/assets/images/logo_myd_rond.png" alt="Mark Your Data" class="logo-img" />
           <span class="logo-text">MARK YOUR DATA</span>
         </a>
         <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Toggle menu">

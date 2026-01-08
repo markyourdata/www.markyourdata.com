@@ -46,10 +46,64 @@ const components = {
       <img src="${data.logo}" alt="${data.name}" class="client-logo-img">
     </div>
   `,
+
+  // Section heading with intro text
+  sectionWithIntro: (data) => `
+    <h2>${data.heading}</h2>
+    <p class="section-intro">${data.text}</p>
+  `,
 };
+
+// Helper function to render homepage sections from data
+function renderHomepageSections() {
+  if (!siteData.homepage) return;
+
+  // Render About Us section
+  const aboutUsContainer = document.getElementById("about-us-content");
+  if (aboutUsContainer && siteData.homepage.aboutUs) {
+    aboutUsContainer.innerHTML = components.sectionWithIntro(
+      siteData.homepage.aboutUs,
+    );
+  }
+
+  // Render How We Work section
+  const howWeWorkContainer = document.getElementById("how-we-work-content");
+  if (howWeWorkContainer && siteData.homepage.howWeWork) {
+    howWeWorkContainer.innerHTML = components.sectionWithIntro(
+      siteData.homepage.howWeWork,
+    );
+  }
+
+  // Render Clients section
+  const clientsContentContainer = document.getElementById("clients-content");
+  if (clientsContentContainer && siteData.homepage.clients) {
+    clientsContentContainer.innerHTML = components.sectionWithIntro(
+      siteData.homepage.clients,
+    );
+  }
+
+  // Render Fans section
+  const fansContainer = document.getElementById("fans-content");
+  if (fansContainer && siteData.homepage.fans) {
+    fansContainer.innerHTML = components.sectionWithIntro(
+      siteData.homepage.fans,
+    );
+  }
+
+  // Render Projects section
+  const projectsContentContainer = document.getElementById("projects-content");
+  if (projectsContentContainer && siteData.homepage.projects) {
+    projectsContentContainer.innerHTML = components.sectionWithIntro(
+      siteData.homepage.projects,
+    );
+  }
+}
 
 // Render function that populates containers with components
 function renderComponents() {
+  // Render homepage sections from data
+  renderHomepageSections();
+
   // Render testimonials carousel
   const testimonialContainer = document.getElementById("testimonials");
   if (testimonialContainer && siteData.testimonials) {
