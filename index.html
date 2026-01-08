@@ -300,17 +300,17 @@
         <div id="cta-container">
             <!-- CTA rendered from data/content.js -->
         </div>
-        <!-- Scripts: Load navbar, data, then components -->
+        <!-- Scripts: Load config, navbar, data, then components -->
+        <script src="js/config.js"></script>
         <script src="components/navbar.js"></script>
         <script src="data/content.js"></script>
         <script src="js/components.js"></script>
         <script src="js/carousel.js"></script>
         <script src="js/projects.js"></script>
         <script>
-            // Render projects on homepage (limit to 9)
-            renderProjects("projects", {
-                limit: 2,
-            });
+            // Render projects on homepage (use config limit)
+            const limit = typeof CONFIG !== 'undefined' ? CONFIG.LAYOUT.PROJECTS_LIMIT_HOMEPAGE : 2;
+            renderProjects("projects", { limit });
         </script>
     </body>
 </html>

@@ -54,36 +54,52 @@ const components = {
   `,
 
   // Hero section component
-  hero: (data) => `
-    <section class="hero">
-      <div class="container">
-        <h1>${data.title}</h1>
-        <p class="tagline">${data.tagline}</p>
-        ${
-          data.ctaButton
-            ? `
-          <button class="cta-button" onclick="window.location.href='${data.ctaButton.link}'">
-            ${data.ctaButton.text}
-          </button>
-        `
-            : ""
-        }
-      </div>
-    </section>
-  `,
+  hero: (data) => {
+    // Resolve path based on current location
+    let ctaLink = data.ctaButton ? data.ctaButton.link : "";
+    if (ctaLink && typeof resolvePath === "function") {
+      ctaLink = resolvePath(ctaLink);
+    }
+
+    return `
+      <section class="hero">
+        <div class="container">
+          <h1>${data.title}</h1>
+          <p class="tagline">${data.tagline}</p>
+          ${
+            data.ctaButton
+              ? `
+            <button class="cta-button" onclick="window.location.href='${ctaLink}'">
+              ${data.ctaButton.text}
+            </button>
+          `
+              : ""
+          }
+        </div>
+      </section>
+    `;
+  },
 
   // CTA section component
-  ctaSection: (data) => `
-    <section class="cta-section">
-      <div class="container">
-        <h2>${data.heading}</h2>
-        ${data.description ? `<p>${data.description}</p>` : ""}
-        <button class="cta-button" onclick="window.location.href='${data.button.link}'">
-          ${data.button.text}
-        </button>
-      </div>
-    </section>
-  `,
+  ctaSection: (data) => {
+    // Resolve path based on current location
+    let buttonLink = data.button ? data.button.link : "";
+    if (buttonLink && typeof resolvePath === "function") {
+      buttonLink = resolvePath(buttonLink);
+    }
+
+    return `
+      <section class="cta-section">
+        <div class="container">
+          <h2>${data.heading}</h2>
+          ${data.description ? `<p>${data.description}</p>` : ""}
+          <button class="cta-button" onclick="window.location.href='${buttonLink}'">
+            ${data.button.text}
+          </button>
+        </div>
+      </section>
+    `;
+  },
 
   // Page header component (for service/project pages)
   pageHeader: (data) => `
@@ -100,14 +116,28 @@ const components = {
 function renderHomepageSections() {
   if (!siteData.homepage) return;
 
+  // Use CONFIG.SELECTORS if available, otherwise fall back to string IDs
+  const SELECTORS =
+    typeof CONFIG !== "undefined"
+      ? CONFIG.SELECTORS
+      : {
+          HERO: "hero-container",
+          ABOUT_US: "about-us-content",
+          HOW_WE_WORK: "how-we-work-content",
+          CLIENTS_CONTENT: "clients-content",
+          FANS_CONTENT: "fans-content",
+          PROJECTS_CONTENT: "projects-content",
+          CTA: "cta-container",
+        };
+
   // Render Hero section
-  const heroContainer = document.getElementById("hero-container");
+  const heroContainer = document.getElementById(SELECTORS.HERO);
   if (heroContainer && siteData.homepage.hero) {
     heroContainer.innerHTML = components.hero(siteData.homepage.hero);
   }
 
   // Render About Us section
-  const aboutUsContainer = document.getElementById("about-us-content");
+  const aboutUsContainer = document.getElementById(SELECTORS.ABOUT_US);
   if (aboutUsContainer && siteData.homepage.aboutUs) {
     aboutUsContainer.innerHTML = components.sectionWithIntro(
       siteData.homepage.aboutUs,
@@ -115,7 +145,7 @@ function renderHomepageSections() {
   }
 
   // Render How We Work section
-  const howWeWorkContainer = document.getElementById("how-we-work-content");
+  const howWeWorkContainer = document.getElementById(SELECTORS.HOW_WE_WORK);
   if (howWeWorkContainer && siteData.homepage.howWeWork) {
     howWeWorkContainer.innerHTML = components.sectionWithIntro(
       siteData.homepage.howWeWork,
@@ -123,7 +153,9 @@ function renderHomepageSections() {
   }
 
   // Render Clients section
-  const clientsContentContainer = document.getElementById("clients-content");
+  const clientsContentContainer = document.getElementById(
+    SELECTORS.CLIENTS_CONTENT,
+  );
   if (clientsContentContainer && siteData.homepage.clients) {
     clientsContentContainer.innerHTML = components.sectionWithIntro(
       siteData.homepage.clients,
@@ -131,7 +163,7 @@ function renderHomepageSections() {
   }
 
   // Render Fans section
-  const fansContainer = document.getElementById("fans-content");
+  const fansContainer = document.getElementById(SELECTORS.FANS_CONTENT);
   if (fansContainer && siteData.homepage.fans) {
     fansContainer.innerHTML = components.sectionWithIntro(
       siteData.homepage.fans,
@@ -139,7 +171,9 @@ function renderHomepageSections() {
   }
 
   // Render Projects section
-  const projectsContentContainer = document.getElementById("projects-content");
+  const projectsContentContainer = document.getElementById(
+    SELECTORS.PROJECTS_CONTENT,
+  );
   if (projectsContentContainer && siteData.homepage.projects) {
     projectsContentContainer.innerHTML = components.sectionWithIntro(
       siteData.homepage.projects,
@@ -147,7 +181,7 @@ function renderHomepageSections() {
   }
 
   // Render CTA section
-  const ctaContainer = document.getElementById("cta-container");
+  const ctaContainer = document.getElementById(SELECTORS.CTA);
   if (ctaContainer && siteData.homepage.cta) {
     ctaContainer.innerHTML = components.ctaSection(siteData.homepage.cta);
   }
@@ -158,8 +192,19 @@ function renderComponents() {
   // Render homepage sections from data
   renderHomepageSections();
 
+  // Use CONFIG.SELECTORS if available
+  const SELECTORS =
+    typeof CONFIG !== "undefined"
+      ? CONFIG.SELECTORS
+      : {
+          TESTIMONIALS: "testimonials",
+          TESTIMONIAL_INDICATORS: "testimonial-indicators",
+          SERVICES: "services",
+          CLIENTS: "clients",
+        };
+
   // Render testimonials carousel
-  const testimonialContainer = document.getElementById("testimonials");
+  const testimonialContainer = document.getElementById(SELECTORS.TESTIMONIALS);
   if (testimonialContainer && siteData.testimonials) {
     // Create carousel structure
     const testimonialsHTML = `
@@ -174,7 +219,7 @@ function renderComponents() {
           <span class="carousel-control-icon">›</span>
         </button>
       </div>
-      <div class="carousel-indicators" id="testimonial-indicators"></div>
+      <div class="carousel-indicators" id="${SELECTORS.TESTIMONIAL_INDICATORS}"></div>
     `;
     testimonialContainer.innerHTML = testimonialsHTML;
 
@@ -183,7 +228,7 @@ function renderComponents() {
   }
 
   // Render services
-  const servicesContainer = document.getElementById("services");
+  const servicesContainer = document.getElementById(SELECTORS.SERVICES);
   if (servicesContainer && siteData.services) {
     // Check if we're on the services index page
     const isServicesPage =
@@ -217,7 +262,7 @@ function renderComponents() {
   }
 
   // Render clients
-  const clientsContainer = document.getElementById("clients");
+  const clientsContainer = document.getElementById(SELECTORS.CLIENTS);
   if (clientsContainer && siteData.clients) {
     clientsContainer.innerHTML = siteData.clients
       .map((item) => components.clientLogo(item))
@@ -231,7 +276,15 @@ function renderComponents() {
 let currentTestimonialIndex = 0;
 
 function initializeTestimonialIndicators() {
-  const indicatorsContainer = document.getElementById("testimonial-indicators");
+  const SELECTORS =
+    typeof CONFIG !== "undefined"
+      ? CONFIG.SELECTORS
+      : {
+          TESTIMONIAL_INDICATORS: "testimonial-indicators",
+        };
+  const indicatorsContainer = document.getElementById(
+    SELECTORS.TESTIMONIAL_INDICATORS,
+  );
   if (indicatorsContainer && siteData.testimonials) {
     indicatorsContainer.innerHTML = siteData.testimonials
       .map(
