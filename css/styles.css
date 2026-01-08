@@ -247,6 +247,50 @@ section {
     margin-top: auto;
 }
 
+/* Full-width Service Card */
+.service-card-full-width {
+    width: 100%;
+    background-color: var(--dark-charcoal);
+    color: var(--white);
+    border-left: none;
+    margin-bottom: 2rem;
+}
+
+.service-card-full-width h3 {
+    color: var(--white);
+}
+
+.service-card-full-width p {
+    color: var(--white);
+}
+
+.service-card-full-width .cta-button {
+    background-color: var(--dynamic-orange);
+    color: var(--dark-charcoal);
+}
+
+.service-card-full-width .cta-button:hover {
+    background-color: var(--light-gray);
+}
+
+/* Services Grid Layout for Homepage */
+#services {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#services .service-card:not(.service-card-full-width) {
+    flex: 1;
+}
+
+/* Grid for the three regular service cards */
+.services-grid-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
 /* What Comes Next Section - Full width with grey background */
 .what-comes-next-section {
     background-color: var(--light-gray);
@@ -844,6 +888,11 @@ section {
 
     /* Service cards grid on mobile */
     .service-cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Services grid three on mobile */
+    .services-grid-three {
         grid-template-columns: 1fr;
     }
 

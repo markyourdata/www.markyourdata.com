@@ -24,8 +24,13 @@ const components = {
       url = url.replace("pages/services/", "");
     }
 
+    // Add full-width class if specified
+    const cardClass = data.fullWidth
+      ? "service-card service-card-full-width"
+      : "service-card";
+
     return `
-      <div class="service-card">
+      <div class="${cardClass}">
         <h3>${data.title}</h3>
         <p>${data.description}</p>
         <a href="${url}">
@@ -77,11 +82,30 @@ function renderComponents() {
       window.location.pathname.includes("/pages/services/index.html") ||
       window.location.pathname.endsWith("/pages/services/");
 
-    servicesContainer.innerHTML = siteData.services
+    // Separate full-width and regular services
+    const fullWidthServices = siteData.services.filter((s) => s.fullWidth);
+    const regularServices = siteData.services.filter((s) => !s.fullWidth);
+
+    // Render full-width services first, then regular services in a grid
+    let servicesHTML = fullWidthServices
       .map((item) =>
         components.serviceCard(item, { removeServicesPrefix: isServicesPage }),
       )
       .join("");
+
+    if (regularServices.length > 0) {
+      servicesHTML += `<div class="services-grid-three">`;
+      servicesHTML += regularServices
+        .map((item) =>
+          components.serviceCard(item, {
+            removeServicesPrefix: isServicesPage,
+          }),
+        )
+        .join("");
+      servicesHTML += `</div>`;
+    }
+
+    servicesContainer.innerHTML = servicesHTML;
   }
 
   // Render clients

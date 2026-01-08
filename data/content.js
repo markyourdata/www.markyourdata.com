@@ -18,6 +18,16 @@ const siteData = {
 
   services: [
     {
+      title: "Data Analytics & AI Leadership",
+      description:
+        "Need comprehensive data leadership across strategy, platform, and execution? Our consultants join your organization to build your data capability from the ground up—staying on board until you've hired or trained the right internal leader to take over. We cover everything so you can focus on finding the right long-term fit.",
+      cta: "Explore Data Leadership →",
+      slug: "data-leadership",
+      url: "pages/services/data-leadership/index.html",
+      fullWidth: true,
+      propositions: [],
+    },
+    {
       title: "Data Analytics & AI Strategy consulting",
       description:
         "Turn strategy into action starting fast, simple and small. With our proven methodologies and expertise, we help you define initiatives where small changes, make a big impact. Invest in business growth from the start and maximize ROI for years to come.",
