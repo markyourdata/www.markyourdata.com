@@ -43,7 +43,7 @@ const components = {
     try {
       const firstInitial = data.author.charAt(0).toUpperCase();
       const imageHtml = data.image
-        ? `<img src="${escapeHtml(data.image)}" alt="${escapeHtml(data.author)}">`
+        ? `<img src="${escapeHtml(data.image)}" alt="${escapeHtml(data.author)}" loading="lazy">`
         : `<div class="testimonial-placeholder">${escapeHtml(firstInitial)}</div>`;
 
       return `
@@ -128,7 +128,7 @@ const components = {
     try {
       return `
         <div class="client-logo" role="listitem">
-          <img src="${escapeHtml(data.logo)}" alt="${escapeHtml(data.name)}" class="client-logo-img">
+          <img src="${escapeHtml(data.logo)}" alt="${escapeHtml(data.name)}" class="client-logo-img" loading="lazy">
         </div>
       `;
     } catch (error) {

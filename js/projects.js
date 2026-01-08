@@ -79,7 +79,7 @@ function renderProjects(containerId, options = {}) {
       // Get the logo for this client
       const clientLogo = clientLogoMap[project.client];
       const logoHtml = clientLogo
-        ? `<div class="project-client-logo"><img src="${finalLogoPrefix}${clientLogo}" alt="${project.client}" /></div>`
+        ? `<div class="project-client-logo"><img src="${finalLogoPrefix}${clientLogo}" alt="${project.client}" loading="lazy" /></div>`
         : "";
 
       return `

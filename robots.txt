@@ -1,6 +1,11 @@
-# Allow all crawlers to access all content
+# robots.txt for www.markyourdata.com
+
+# Allow all search engines to crawl the site
 User-agent: *
 Allow: /
 
-# Sitemap location (update this URL when you create your sitemap)
+# Disallow crawling of inspiration/draft service pages
+Disallow: /pages/services_inspiration/
+
+# Sitemap location
 Sitemap: https://www.markyourdata.com/sitemap.xml
