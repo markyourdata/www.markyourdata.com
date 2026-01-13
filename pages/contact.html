@@ -10,7 +10,7 @@
 
         <!-- Google Analytics -->
         <script src="../js/analytics.js"></script>
-        <script src="../js/events.js"</script>
+        <script src="../js/events.js"></script>
 
         <title>Contact Us - Mark Your Data</title>
         <meta
@@ -225,6 +225,11 @@
             // Override Formspree redirect with custom thank-you page
             document.addEventListener("DOMContentLoaded", function () {
                 const form = document.querySelector(".contact-form");
+
+                if (!form) {
+                    console.warn("Contact form not found");
+                    return;
+                }
 
                 form.addEventListener("submit", async function (e) {
                     e.preventDefault();
