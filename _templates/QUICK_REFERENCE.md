@@ -204,7 +204,7 @@ services: [
 
 ---
 
-## Getting ai help
+## Getting AI help
 
 **Good prompt:**
 ```

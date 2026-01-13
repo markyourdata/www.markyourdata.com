@@ -114,7 +114,7 @@ Clear framework balancing impact against feasibility, so you invest in what matt
 
 <div class="service-card">
 
-### Data analytics & ai roadmap
+### Data analytics & AI roadmap
 Your actionable plan with phased initiatives, ownership, and measurable outcomes.
 
 <div style="text-align: center; margin: 2rem 0">

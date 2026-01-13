@@ -46,7 +46,7 @@ You should consider Applied AI when:
 
 <div class="service-card">
 
-### Ai solution design
+### AI solution design
 - Use case definition and validation
 - Model architecture design
 - Data requirements and feature engineering
@@ -79,7 +79,7 @@ You should consider Applied AI when:
 
 
 
-## Ai capabilities
+## AI capabilities
 
 We build various types of AI solutions:
 

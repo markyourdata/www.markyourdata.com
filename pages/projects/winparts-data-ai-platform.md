@@ -1,4 +1,4 @@
-# Data & ai platform
+# Data & AI platform
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 

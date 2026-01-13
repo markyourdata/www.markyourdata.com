@@ -1,4 +1,4 @@
-# Data & ai offsite
+# Data & AI offsite
 
 <div class="opening-text">
 <p>
@@ -74,7 +74,7 @@ A clear framework showing which initiatives deliver maximum value with minimal r
     <img src="../../../../assets/images/featured/impact_feasibility.png" alt="Impact vs Feasibility Matrix" class="featured-service-image" />
 </div>
 
-### Data analytics & ai roadmap
+### Data analytics & AI roadmap
 Your actionable plan for the year ahead, with phased initiatives, clear ownership, and measurable outcomes.
 
 <div style="text-align: center; margin: 2rem 0">

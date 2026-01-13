@@ -1,4 +1,4 @@
-# Data analytics & ai strategy execution
+# Data analytics & AI strategy execution
 
 Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.
 

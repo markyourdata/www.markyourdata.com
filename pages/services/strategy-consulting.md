@@ -1,4 +1,4 @@
-# Data analytics & ai strategy consulting
+# Data analytics & AI strategy consulting
 
 Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.
 
@@ -43,7 +43,7 @@ Sometimes you just need an experienced perspective. Share your strategic challen
 
 ---
 
-### Data & ai offsite
+### Data & AI offsite
 **Build your strategic roadmap together**
 
 Our offsite workshops bring your team together to identify and prioritize data & AI initiatives that align with your business objectives.

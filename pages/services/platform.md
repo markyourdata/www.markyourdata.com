@@ -26,7 +26,7 @@ Analysts spend 80% of their time finding and preparing data. Our platform reduce
 ### Scalability challenges
 Manual processes and ad-hoc solutions don't scale. We design infrastructure that grows with your needs.
 
-### Ai readiness gap
+### AI readiness gap
 You can't build AI at scale without a solid data foundation. Our platform prepares you for the AI-driven future.
 
 ---

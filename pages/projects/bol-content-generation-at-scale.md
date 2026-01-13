@@ -1,4 +1,4 @@
-# Ai content generation at scale
+# AI content generation at scale
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 

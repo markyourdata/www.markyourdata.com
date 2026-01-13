@@ -1,4 +1,4 @@
-# Ai chatbot optimization - billie
+# AI chatbot optimization - billie
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
