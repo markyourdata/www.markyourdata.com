@@ -1,9 +1,9 @@
-# Proof of Value
+# Proof of value
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Prove Measurable Impact Before Full Investment
+## Prove measurable impact before full investment
 
 **Don't commit millions to unproven solutions.** We validate business impact with real data for under 10% of full implementation cost. You know whether to scale before you commit—and often discover the ROI is even better than expected.
 
@@ -15,7 +15,7 @@
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 <div class="icon-list">
 
@@ -51,7 +51,7 @@
 
 If you're facing a significant data & AI investment decision and need to prove the business case before full commitment, this service is for you.
 
-### Why Proof of Value?
+### Why proof of value?
 
 Traditional data & AI projects often require significant upfront investment before proving value. This creates risk that many organizations can't afford. Common concerns we address:
 
@@ -93,7 +93,7 @@ Proof of Value eliminates this risk. We build focused pilots that answer critica
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these common situations? They're indicators that Proof of Value can help:
 
@@ -149,7 +149,7 @@ If any of these resonate, Proof of Value helps you make evidence-based investmen
 
 <div class="content-section section-single-column">
 
-### How We Work: Our Three-Phase Methodology
+### How we work: our three-phase methodology
 
 We follow our proven **Make it Work → Make it Better → Make it Scale** approach:
 
@@ -190,7 +190,7 @@ We follow our proven **Make it Work → Make it Better → Make it Scale** appro
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Validate Your Initiative?
+### Ready to validate your initiative?
 
 Prove the business case for your data & AI solution before committing to full-scale development.
 
@@ -208,7 +208,7 @@ Schedule Consultation
 </div>
 <div class="column-text">
 
-### Outcome: Evidence-Based Investment Decisions
+### Outcome: evidence-based investment decisions
 
 After the 10-12 week engagement, you'll have concrete evidence to guide your investment:
 
@@ -251,7 +251,7 @@ We structure engagements with clear decision points at Week 4, Week 8, and Week 
 
 <div class="content-section section-single-column">
 
-### Real Results
+### Real results
 
 **Display Banner Automation (bol.com)** - Challenge: Scale creative operations and reduce agency dependence. PoV Investment: €50K. Validated Impact: €100-500K annual cost savings through in-sourcing and increased A/B testing capacity. Outcome: Tool deployed, transformed marketing operations.
 
@@ -267,7 +267,7 @@ We structure engagements with clear decision points at Week 4, Week 8, and Week 
 
 <div class="content-section section-single-column">
 
-### When: Ideal Timing to Start
+### When: ideal timing to start
 
 **Anytime you're considering a significant data & AI investment.** Unlike services tied to planning cycles, Proof of Value starts when you need validation. Common trigger points:
 
@@ -283,7 +283,7 @@ The sooner you validate, the sooner you either gain confidence to invest or avoi
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 
@@ -332,7 +332,7 @@ Prototype, validation report, technical assessment, and roadmap
 
 <div class="conclusion-section">
 
-## Invest with Confidence
+## Invest with confidence
 
 Don't gamble on unproven solutions. Validate business impact with real data before committing to full-scale development. Prove the value or save millions—either way, you make better investment decisions.
 

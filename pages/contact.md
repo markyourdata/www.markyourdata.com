@@ -10,7 +10,7 @@ Sometimes you just need an experienced perspective. Get in touch with our expert
 
 ---
 
-## What We Can Discuss
+## What we can discuss
 
 - **Data & AI Strategy** - Align your data initiatives with business goals
 - **Platform Architecture** - Build scalable data infrastructure
@@ -19,7 +19,7 @@ Sometimes you just need an experienced perspective. Get in touch with our expert
 
 ---
 
-## How It Works
+## How it works
 
 1. **Schedule** - Book a convenient 30-minute time slot
 2. **Prepare** - Share your challenges or questions beforehand (optional)

@@ -1,7 +1,7 @@
 [Platform Services](../index.html) → Data Infrastructure
 
 
-# Data Infrastructure
+# Data infrastructure
 
 <div class="opening-text">
 <p>
@@ -15,13 +15,13 @@ We build you the foundation—cloud infrastructure, security, and scalability—
 <img src="/assets/images/featured/platform_data_infrastructure.png" alt="Data Infrastructure" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
 
-## What Are Typical Deliverables of the Project?
+## What are typical deliverables of the project?
 
 <div id="services">
 
 <div class="service-card">
 
-### Infrastructure Design
+### Infrastructure design
 - Architecture diagrams and technical specifications
 - Technology stack recommendations (cloud platform, databases, orchestration)
 - Security and governance framework
@@ -42,7 +42,7 @@ We build you the foundation—cloud infrastructure, security, and scalability—
 
 <div class="service-card">
 
-### Documentation & Knowledge Transfer
+### Documentation & knowledge transfer
 - Technical documentation and runbooks
 - Architecture decision records
 - Team training sessions
@@ -54,7 +54,7 @@ We build you the foundation—cloud infrastructure, security, and scalability—
 
 <div class="what-comes-next-section">
 
-## What Comes Next?
+## What comes next?
 
 Once your data infrastructure is in place, you're ready to:
 - **[Build Data Pipelines →](data-pipelines.html)** to automatically bring data into your platform
@@ -63,7 +63,7 @@ Once your data infrastructure is in place, you're ready to:
 
 </div>
 
-## Explore Other Platform Services
+## Explore other platform services
 
 <div class="service-cards-grid">
 
@@ -71,7 +71,7 @@ Once your data infrastructure is in place, you're ready to:
 <div class="service-icon">👷</div>
 <div class="service-card-content">
 
-### Data Infrastructure
+### Data infrastructure
 The foundation—cloud infrastructure, security, and scalability.
 
 [Learn More →](data-infrastructure.html)
@@ -83,7 +83,7 @@ The foundation—cloud infrastructure, security, and scalability.
 <div class="service-icon">🚰</div>
 <div class="service-card-content">
 
-### Data Pipelines
+### Data pipelines
 Automated data delivery from all your sources.
 
 [Learn More →](data-pipelines.html)
@@ -95,7 +95,7 @@ Automated data delivery from all your sources.
 <div class="service-icon">🏭</div>
 <div class="service-card-content">
 
-### Data Models
+### Data models
 Transform raw data into business-ready products.
 
 [Learn More →](data-models.html)
@@ -107,7 +107,7 @@ Transform raw data into business-ready products.
 <div class="service-icon">🚀</div>
 <div class="service-card-content">
 
-### Applied AI
+### Applied ai
 Intelligence layer on top of your data foundation.
 
 [Learn More →](applied-ai.html)

@@ -1,11 +1,11 @@
-# Data & AI Offsite
+# Data & ai offsite
 
 <link rel="stylesheet" href="../../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Create Your Data & AI Experiment Roadmap Together
+## Create your data & ai experiment roadmap together
 
 **Your leadership team is ready to invest strategically in data & AI.** We facilitate 1-2 day offsite sessions where diverse stakeholders collaborate to discover high-impact opportunities and define experiments that prove value within 3 months. You don't pursue scattered initiatives without coordination. **Walk away with a concrete experiment roadmap ready for execution.**
 
@@ -20,7 +20,7 @@ Plan Your Offsite
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 This offsite is designed for **leadership teams and decision-makers** from diverse domains who want to invest strategically in data & AI:
 
@@ -56,7 +56,7 @@ This offsite is designed for **leadership teams and decision-makers** from diver
 
 If you want to move from scattered data initiatives toward a coordinated experiment portfolio that delivers measurable business impact, this service is for you.
 
-### Why An Offsite?
+### Why an offsite?
 
 Data & AI initiatives often fail because teams lack alignment. Technical teams build capabilities without clear business objectives. Business leaders have ideas but don't understand what's feasible. Projects start without proper validation criteria.
 
@@ -66,7 +66,7 @@ A facilitated offsite changes this dynamic. By bringing key stakeholders togethe
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these common challenges? They're indicators that a Data & AI Offsite can help:
 
@@ -104,7 +104,7 @@ If any of these sound familiar, a Data & AI Offsite helps your leadership team c
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### How We Work: Our Methodology
+### How we work: our methodology
 
 We guide you through a structured four-step process:
 
@@ -165,7 +165,7 @@ Note: While data & AI is our expertise, we don't force-fit technology. The best 
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Align Your Team?
+### Ready to align your team?
 
 Bring your stakeholders together to create a shared data & AI vision and experiment roadmap.
 
@@ -183,7 +183,7 @@ Schedule Consultation
 </div>
 <div class="column-text">
 
-### Outcome: Your Experiment Roadmap
+### Outcome: your experiment roadmap
 
 The primary deliverable is a **concrete experiment roadmap** that your team can immediately execute:
 
@@ -224,7 +224,7 @@ The roadmap sets the foundation for a full year of experimentation. By year-end,
 
 <div class="content-section section-single-column">
 
-### When: Ideal Timing for Your Offsite
+### When: ideal timing for your offsite
 
 **Q4 is the sweet spot.** Most organizations run this offsite in Q4 as input to priorities for the following year. The ideal outcome is a commitment to run experiments throughout the full next year. By year-end, you can look back with data on which initiatives delivered value and deserve scale-up investment.
 
@@ -240,7 +240,7 @@ Common trigger points:
 
 <div class="content-section section-single-column">
 
-### Where: Location Options
+### Where: location options
 
 We organize offsites wherever makes sense for your team—at your offices, a retreat venue, or a neutral location that minimizes distractions.
 
@@ -252,7 +252,7 @@ We organize offsites wherever makes sense for your team—at your offices, a ret
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 <div class="practicality-item">
@@ -309,7 +309,7 @@ We organize offsites wherever makes sense for your team—at your offices, a ret
 
 <div class="conclusion-section">
 
-## Start Building Your Experiment Roadmap
+## Start building your experiment roadmap
 
 Ready to move from scattered data initiatives to a coordinated experiment portfolio? Book your offsite 2-3 months ahead and enter your next planning cycle with a clear, actionable roadmap.
 

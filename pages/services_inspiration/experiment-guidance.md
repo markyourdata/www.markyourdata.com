@@ -1,11 +1,11 @@
-# Experiment Guidance
+# Experiment guidance
 
 <link rel="stylesheet" href="../../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Turn Your Experiment Roadmap Into Proven Value
+## Turn your experiment roadmap into proven value
 
 **You have an experiment roadmap ready to execute.** We guide your teams through quarterly experiment cycles—refining, validating, executing, and evaluating—so you build experimentation capability while proving business value. You don't struggle with over-scoped experiments or poor evaluation. **Walk away with multiple validated experiments and an embedded experimentation culture.**
 
@@ -20,7 +20,7 @@ Get Guidance
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 This service is the **ideal follow-up to the Data & AI Offsite** for organizations ready to execute their experiment roadmap:
 
@@ -56,7 +56,7 @@ This service is the **ideal follow-up to the Data & AI Offsite** for organizatio
 
 If you want to execute an experiment roadmap while building internal experimentation capability that lasts beyond the engagement, this service is for you.
 
-### Why Quarterly Experiment Guidance?
+### Why quarterly experiment guidance?
 
 Having a roadmap is one thing. Executing experiments that actually prove value is another. Teams often struggle with over-scoping (experiments become too complex to deliver in one quarter), wrong metrics (measuring outputs instead of business outcomes), missing dependencies (starting before data or infrastructure is ready), and poor evaluation (unable to draw solid conclusions from results).
 
@@ -66,7 +66,7 @@ Quarterly guidance solves this. We help refine experiments to their simplest val
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these common challenges? They're indicators that Experiment Guidance can help:
 
@@ -104,7 +104,7 @@ If any of these sound familiar, Experiment Guidance helps you build experimentat
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### How We Work: Our Quarterly Cycle
+### How we work: our quarterly cycle
 
 Starting from your experiment roadmap (typically created in the Data & AI Offsite), we guide you through four phases each quarter:
 
@@ -165,7 +165,7 @@ Note: While data & AI is our expertise, we help with all experiments on your roa
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Build Experimentation Capability?
+### Ready to build experimentation capability?
 
 Transform your experiment roadmap into proven value while building lasting organizational capability.
 
@@ -183,7 +183,7 @@ Schedule Consultation
 </div>
 <div class="column-text">
 
-### Outcome: Embedded Experimentation Culture
+### Outcome: embedded experimentation culture
 
 Over the course of a year, this service delivers both immediate results and lasting organizational improvements:
 
@@ -231,7 +231,7 @@ Most importantly, your teams can continue running experiments independently afte
 
 <div class="content-section section-single-column">
 
-### When: Ideal Timing to Start
+### When: ideal timing to start
 
 **Q4 or Q1 is ideal.** Most organizations start this service as a follow-up to the Data & AI Offsite, launching in Q4 or Q1 to align with annual planning cycles.
 
@@ -252,7 +252,7 @@ Common trigger points:
 
 <div class="content-section section-single-column">
 
-### Where: Location Options
+### Where: location options
 
 **Quarterly sessions** can be held at your offices, at a neutral venue, or online depending on your team's preferences and distribution.
 
@@ -264,7 +264,7 @@ Common trigger points:
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 <div class="practicality-item">
@@ -307,7 +307,7 @@ Common trigger points:
 
 <div class="conclusion-section">
 
-## Build Lasting Experimentation Capability
+## Build lasting experimentation capability
 
 Transform your experiment roadmap into proven business value while embedding experimentation into your organizational culture. By year-end, you'll have clear data on what to scale up and teams equipped to continue the experimentation journey independently.
 

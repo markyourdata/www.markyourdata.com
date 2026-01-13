@@ -1,11 +1,11 @@
-# AI Chatbot Optimization - Billie
+# Ai chatbot optimization - billie
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Reducing Preventable Support Cases Through Smart Experiments
+## Reducing preventable support cases through smart experiments
 
 For bol.com, we initiated A/B experiments on website account pages and in 'Billie' the AI chatbot. Through systematic experimentation, we significantly reduced preventable support cases, leading to massive cost savings while improving customer experience.
 
@@ -21,7 +21,7 @@ This project demonstrates the power of combining AI capabilities with rigorous A
 
 <div class="content-section section-single-column">
 
-### The Challenge
+### The challenge
 
 bol.com's customer service received many preventable questions that could be resolved through better self-service options. The challenge was to identify which interventions would reduce support volume while maintaining or improving customer satisfaction.
 
@@ -30,7 +30,7 @@ bol.com's customer service received many preventable questions that could be res
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our Approach
+### Our approach
 
 We developed a systematic experimentation framework:
 
@@ -75,7 +75,7 @@ By testing changes systematically, we ensured only effective interventions were 
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Project Outcomes
+### Project outcomes
 
 **Results Achieved:**
 - Massive cost savings
@@ -92,7 +92,7 @@ By testing changes systematically, we ensured only effective interventions were 
 </div>
 <div class="column-text">
 
-### Sustainable Impact
+### Sustainable impact
 
 The project delivered immediate cost savings through reduced support volume, but the lasting impact came from the methodology. We established a framework for continuously identifying and testing improvements to self-service experiences.
 
@@ -103,7 +103,7 @@ The A/B testing approach ensured changes actually worked before scaling them. Th
 
 <div class="conclusion-section">
 
-## Optimize Your Customer Experience
+## Optimize your customer experience
 
 This project shows how systematic experimentation can simultaneously reduce costs and improve customer satisfaction.
 

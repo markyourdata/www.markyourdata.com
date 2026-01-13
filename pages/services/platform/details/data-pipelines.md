@@ -1,7 +1,7 @@
 [Platform Services](../index.html) → Data Pipelines
 
 
-# Data Pipelines
+# Data pipelines
 
 <div class="opening-text">
 <p>
@@ -23,13 +23,13 @@ To build effective data pipelines, you need:
 Don't have infrastructure yet? [Start there first](data-infrastructure.html).
 
 
-## What Are Typical Deliverables of the Project?
+## What are typical deliverables of the project?
 
 <div id="services">
 
 <div class="service-card">
 
-### Pipeline Design
+### Pipeline design
 - Data flow diagrams and architecture
 - Source system integration strategy
 - Data quality rules and validation logic
@@ -48,7 +48,7 @@ Don't have infrastructure yet? [Start there first](data-infrastructure.html).
 
 <div class="service-card">
 
-### Documentation & Support
+### Documentation & support
 - Pipeline documentation
 - Data lineage tracking
 - Team training
@@ -61,7 +61,7 @@ Don't have infrastructure yet? [Start there first](data-infrastructure.html).
 
 <div class="what-comes-next-section">
 
-## What Comes Next?
+## What comes next?
 
 With automated pipelines delivering data, you're ready to:
 - **[Build Data Models →](data-models.html)** to transform raw data into business-ready products
@@ -71,7 +71,7 @@ With automated pipelines delivering data, you're ready to:
 
 </div>
 
-## Explore Other Platform Services
+## Explore other platform services
 
 <div class="service-cards-grid">
 
@@ -79,7 +79,7 @@ With automated pipelines delivering data, you're ready to:
 <div class="service-icon">👷</div>
 <div class="service-card-content">
 
-### Data Infrastructure
+### Data infrastructure
 The foundation—cloud infrastructure, security, and scalability.
 
 [Learn More →](data-infrastructure.html)
@@ -91,7 +91,7 @@ The foundation—cloud infrastructure, security, and scalability.
 <div class="service-icon">🚰</div>
 <div class="service-card-content">
 
-### Data Pipelines
+### Data pipelines
 Automated data delivery from all your sources.
 
 [Learn More →](data-pipelines.html)
@@ -103,7 +103,7 @@ Automated data delivery from all your sources.
 <div class="service-icon">🏭</div>
 <div class="service-card-content">
 
-### Data Models
+### Data models
 Transform raw data into business-ready products.
 
 [Learn More →](data-models.html)
@@ -115,7 +115,7 @@ Transform raw data into business-ready products.
 <div class="service-icon">🚀</div>
 <div class="service-card-content">
 
-### Applied AI
+### Applied ai
 Intelligence layer on top of your data foundation.
 
 [Learn More →](applied-ai.html)

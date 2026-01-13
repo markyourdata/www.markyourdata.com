@@ -1,4 +1,4 @@
-# Data & AI Offsite
+# Data & ai offsite
 
 <div class="opening-text">
 <p>
@@ -11,9 +11,9 @@ Your team has ideas. Vision. Energy. But turning that into concrete action? That
 
 ---
 
-## What You Get: The Complete Journey
+## What you get: the complete journey
 
-### 10 Days Over 12 Months
+### 10 days over 12 months
 
 We guide you through a structured process that delivers clarity and momentum:
 
@@ -27,54 +27,54 @@ We guide you through a structured process that delivers clarity and momentum:
 
 ---
 
-## The Journey: A Year in Your Life
+## The journey: a year in your life
 
 Here's what it looks like when you start in January:
 
-### January: Launch
+### January: launch
 - **Early January:** Preparation phase—stakeholder interviews and context gathering
 - **Late January:** Two-day offsite workshop with your team
 - **Result:** Draft opportunity trees, prioritized use cases, initial roadmap
 
-### February: Refine
+### February: refine
 - **First week:** Document refinement and presentation creation
 - **Mid-February:** Executive presentation and final roadmap sign-off
 - **Result:** Final Data Analytics & AI Roadmap ready for execution
 
-### March: Execute
+### March: execute
 - **First project kicks off** based on your roadmap
 - Teams begin execution with clear priorities and ownership
 
-### Quarterly: Steer (May, August, November)
+### Quarterly: steer (may, august, november)
 - **One-day steering sessions** each quarter
 - Review what's working, what's not, and why
 - Adjust roadmap based on learnings and changing priorities
 - Maintain alignment and momentum
 
-### December: Reflect & Plan
+### December: reflect & plan
 - Celebrate accomplishments
 - Prepare for next year's planning cycle
 - Decide whether to continue with quarterly steering or evolve the approach
 
 ---
 
-## What We Deliver
+## What we deliver
 
-### Opportunity Trees
+### Opportunity trees
 Visual maps of how value is created in your organization, highlighting where small changes can drive big impact.
 
 <div style="text-align: center; margin: 2rem 0">
     <img src="../../../../assets/images/featured/opportunity_tree.png" alt="Opportunity Tree Example" class="featured-service-image" />
 </div>
 
-### Use Case Prioritization
+### Use case prioritization
 A clear framework showing which initiatives deliver maximum value with minimal risk, balancing impact against feasibility.
 
 <div style="text-align: center; margin: 2rem 0">
     <img src="../../../../assets/images/featured/impact_feasibility.png" alt="Impact vs Feasibility Matrix" class="featured-service-image" />
 </div>
 
-### Data Analytics & AI Roadmap
+### Data analytics & ai roadmap
 Your actionable plan for the year ahead, with phased initiatives, clear ownership, and measurable outcomes.
 
 <div style="text-align: center; margin: 2rem 0">
@@ -83,7 +83,7 @@ Your actionable plan for the year ahead, with phased initiatives, clear ownershi
 
 ---
 
-## Flexible to Your Needs
+## Flexible to your needs
 
 While the 10-day structure provides a proven framework, we adapt to fit your reality:
 
@@ -101,7 +101,7 @@ The core methodology stays consistent—opportunity finding, use case prioritiza
 
 ---
 
-## Who This Is For
+## Who this is for
 
 This offsite is ideal if you're:
 
@@ -113,7 +113,7 @@ This offsite is ideal if you're:
 
 ---
 
-## Why This Works
+## Why this works
 
 **Collaborative, not top-down:** Your team builds the strategy together, creating buy-in and shared ownership.
 

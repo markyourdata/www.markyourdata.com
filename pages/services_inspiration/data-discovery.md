@@ -1,9 +1,9 @@
-# Data Discovery
+# Data discovery
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Turn Strategic Objectives Into Validated Opportunities & Proven Value
+## Turn strategic objectives into validated opportunities & proven value
 
 **You have a strategic objective where data analytics can make a big difference, but you don't know where to start.** We guide you from broad ambition to validated experiment—discovering high-impact opportunities, building your team's analytical capability, and proving measurable business value before major investment. **Walk away with concrete evidence to invest with confidence or pivot without regret.**
 
@@ -15,7 +15,7 @@
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 <div class="icon-list">
 
@@ -65,7 +65,7 @@
 
 If you have a strategic objective where data could drive impact but need guidance turning that into concrete action—or need to prove a specific use case before full investment—this service is for you.
 
-### Why Data Discovery?
+### Why data discovery?
 
 Jumping directly into data projects without systematic discovery—or committing to full-scale solutions without validation—often leads to wasted effort and failed investments. Common pitfalls we help you avoid:
 
@@ -121,7 +121,7 @@ Data Discovery provides a structured process to identify where data creates the 
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these common challenges? They're indicators that Data Discovery can help:
 
@@ -177,7 +177,7 @@ If any of these sound familiar, Data Discovery helps you break through and start
 
 <div class="content-section section-single-column">
 
-### How We Work: Our Methodology
+### How we work: our methodology
 
 We follow our proven **Make it Work → Make it Better → Make it Scale** methodology, adapting the approach based on whether you're discovering new opportunities or validating a specific use case:
 
@@ -249,7 +249,7 @@ We follow our proven **Make it Work → Make it Better → Make it Scale** metho
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Start Discovering?
+### Ready to start discovering?
 
 Transform your strategic objective into validated opportunities and proven business value.
 
@@ -268,7 +268,7 @@ Schedule Consultation
 </div>
 <div class="column-text">
 
-### Outcome: From Strategic Goal to Proven Value
+### Outcome: from strategic goal to proven value
 
 After the engagement, you'll have concrete results and new organizational capabilities. The specific deliverables depend on your track:
 
@@ -309,7 +309,7 @@ After the engagement, you'll have concrete results and new organizational capabi
 
 <div class="content-section section-single-column">
 
-### Real Results
+### Real results
 
 **Display Banner Automation (bol.com)** - Challenge: Scale creative operations and reduce agency dependence. Investment: €50K. Validated Impact: €100-500K annual cost savings through in-sourcing and increased A/B testing capacity. Outcome: Tool deployed, transformed marketing operations.
 
@@ -325,7 +325,7 @@ After the engagement, you'll have concrete results and new organizational capabi
 
 <div class="content-section section-single-column">
 
-### When: Ideal Timing to Start
+### When: ideal timing to start
 
 **One discovery per quarter is the ideal pace.** This rhythm allows you to:
 
@@ -344,7 +344,7 @@ Common trigger points to start your first discovery:
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 
@@ -395,7 +395,7 @@ Prototype or experiment, validation report, technical assessment, and roadmap
 
 <div class="conclusion-section">
 
-## Start Turning Strategy Into Proven Value
+## Start turning strategy into proven value
 
 Don't let strategic ambitions remain abstract—or gamble on unproven solutions. Turn them into validated experiments and concrete prototypes that prove business value with real data. Build your team's analytical capability while discovering and de-risking your highest-impact opportunities.
 

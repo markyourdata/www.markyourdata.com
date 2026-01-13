@@ -1,10 +1,10 @@
-# Data Analytics & AI Strategy Consulting
+# Data analytics & ai strategy consulting
 
 Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.
 
 ---
 
-## To Whom is This Service Relevant?
+## To whom is this service relevant?
 
 This service is designed for:
 - **C-level executives** looking to align data & AI initiatives with business strategy
@@ -14,22 +14,22 @@ This service is designed for:
 
 ---
 
-## What Pains Does This Service Address?
+## What pains does this service address?
 
-### Lack of Strategic Clarity
+### Lack of strategic clarity
 Many organizations struggle to connect data & AI investments to tangible business outcomes. We help you identify high-impact opportunities aligned with your strategic goals.
 
-### Limited Resources
+### Limited resources
 With competing priorities and limited budgets, it's critical to invest wisely. Our consulting ensures you focus on initiatives that deliver maximum value.
 
-### Uncertainty About Where to Start
+### Uncertainty about where to start
 The data & AI landscape is complex. We guide you through proven frameworks to assess maturity, identify opportunities, and create actionable roadmaps.
 
 ---
 
-## Our Propositions
+## Our propositions
 
-### 30-Minute Call
+### 30-minute call
 **Quick guidance when you need it most**
 
 Sometimes you just need an experienced perspective. Share your strategic challenges with us, and we'll share our insights and experience with you.
@@ -43,7 +43,7 @@ Sometimes you just need an experienced perspective. Share your strategic challen
 
 ---
 
-### Data & AI Offsite
+### Data & ai offsite
 **Build your strategic roadmap together**
 
 Our offsite workshops bring your team together to identify and prioritize data & AI initiatives that align with your business objectives.
@@ -69,7 +69,7 @@ Our offsite workshops bring your team together to identify and prioritize data &
 
 ---
 
-### Strategy Consulting
+### Strategy consulting
 **Comprehensive data & AI strategy development**
 
 We work with you to develop a complete data & AI strategy that aligns with your business goals, from vision to implementation roadmap.
@@ -103,7 +103,7 @@ We work with you to develop a complete data & AI strategy that aligns with your 
 
 ---
 
-## How to Get in Touch
+## How to get in touch
 
 Ready to maximize your data & AI investments? We'd love to help.
 

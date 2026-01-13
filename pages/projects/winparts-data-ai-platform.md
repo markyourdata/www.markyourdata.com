@@ -1,11 +1,11 @@
-# Data & AI Platform
+# Data & ai platform
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Building the Foundation for Data-Driven Insights
+## Building the foundation for data-driven insights
 
 For Winparts, we built a complete data and cloud infrastructure from the ground up, enabling the team to unlock valuable insights and lay the foundation for AI use cases. By creating robust data pipelines and reusable data models on secure enterprise infrastructure, we dramatically reduced time to insight.
 
@@ -16,7 +16,7 @@ This project transformed data from a scattered resource into a strategic asset a
 
 <div class="content-section section-single-column">
 
-### The Challenge
+### The challenge
 
 Winparts is a business-to-consumer webshop that sells car parts. Originally a Dutch company, it was acquired by Alliance Automotive Group, which is part of Genuine Parts Company (GPC). The B2C platform was now scaling from the Dutch market to the European market, bringing significant organizational and technical challenges.
 
@@ -33,7 +33,7 @@ Winparts is a business-to-consumer webshop that sells car parts. Originally a Du
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our Approach: Make it Work, Make it Better, Make it Scale
+### Our approach: make it work, make it better, make it scale
 
 We worked in two parallel tracks to overcome dependencies and accelerate delivery:
 
@@ -93,7 +93,7 @@ We worked in two parallel tracks to overcome dependencies and accelerate deliver
 
 <div class="content-section section-single-column">
 
-### Why We're Proud of This Project
+### Why we're proud of this project
 
 This project perfectly demonstrates how to navigate organizational complexity while delivering value:
 
@@ -110,7 +110,7 @@ The breakthrough was working in parallel tracks and using dummy data to de-risk 
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Project Outcomes
+### Project outcomes
 
 **Results Achieved:**
 - Complete cloud platform setup aligned with GPC standards
@@ -130,7 +130,7 @@ The breakthrough was working in parallel tracks and using dummy data to de-risk 
 </div>
 <div class="column-text">
 
-### Key Success Factors
+### Key success factors
 
 The project succeeded because we tackled organizational challenges head-on while finding creative ways to make technical progress. Working in parallel tracks with dummy data meant we weren't blocked waiting for approvals—we could prove the approach worked.
 
@@ -145,6 +145,6 @@ The result: a platform that scales with the business, on enterprise-grade infras
 
 <div class="conclusion-section">
 
-## Build Your Data Foundation Right
+## Build your data foundation right
 
 This project demonstrates how to navigate corporate complexity while delivering rapid business value. The key is parallel workstreams, creative de-risking, and proving value with one complete use case before scaling.

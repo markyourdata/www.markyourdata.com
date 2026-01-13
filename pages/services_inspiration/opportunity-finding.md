@@ -1,9 +1,9 @@
-# Opportunity Finding
+# Opportunity finding
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Transform Strategic Goals Into High-Impact Data & AI Solutions
+## Transform strategic goals into high-impact data & ai solutions
 
 **Your management team has strategic goals but no clear path to data & AI investments that actually move the needle.** We help you identify high-impact use cases and validate them with cheap experiments before major rollout. This means you invest only in proven solutions—and often discover cost savings or revenue opportunities you didn't expect.
 
@@ -15,7 +15,7 @@
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 <div class="icon-list">
 
@@ -51,7 +51,7 @@
 
 If you're facing quarterly or annual planning cycles and need to identify which data & AI initiatives deserve investment, this service is for you.
 
-### Why Systematic Opportunity Finding?
+### Why systematic opportunity finding?
 
 Jumping into data & AI projects without systematic discovery often leads to wasted resources. Common pitfalls we help you avoid:
 
@@ -93,7 +93,7 @@ Systematic opportunity finding creates clarity. You walk away with a prioritized
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these common challenges? They're indicators that Opportunity Finding can help:
 
@@ -149,7 +149,7 @@ If any of these sound familiar, Opportunity Finding helps you break through and 
 
 <div class="content-section section-single-column">
 
-### How We Work: Our Methodology
+### How we work: our methodology
 
 We guide you through a structured 5-6 week process that moves from strategic thinking to actionable roadmap:
 
@@ -190,7 +190,7 @@ We guide you through a structured 5-6 week process that moves from strategic thi
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Identify Your Opportunities?
+### Ready to identify your opportunities?
 
 Transform strategic goals into a prioritized portfolio of high-impact data & AI initiatives.
 
@@ -208,7 +208,7 @@ Schedule Consultation
 </div>
 <div class="column-text">
 
-### Outcome: Your Data & AI Investment Roadmap
+### Outcome: your data & ai investment roadmap
 
 After the 5-6 week engagement, you'll have concrete deliverables that drive investment decisions:
 
@@ -249,7 +249,7 @@ After the 5-6 week engagement, you'll have concrete deliverables that drive inve
 
 <div class="content-section section-single-column">
 
-### When: Ideal Timing to Start
+### When: ideal timing to start
 
 **Q4 is the sweet spot.** Most organizations run Opportunity Finding in Q4 as input to annual planning and budget cycles. This timing allows you to:
 
@@ -262,7 +262,7 @@ After the 5-6 week engagement, you'll have concrete deliverables that drive inve
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 
@@ -311,7 +311,7 @@ Use case catalog, feasibility assessments, roadmap, and executive presentation
 
 <div class="conclusion-section">
 
-## Start Building Your Data & AI Roadmap
+## Start building your data & ai roadmap
 
 Don't let strategic ambitions remain abstract. Turn them into a prioritized portfolio of high-impact initiatives that deliver measurable business results.
 

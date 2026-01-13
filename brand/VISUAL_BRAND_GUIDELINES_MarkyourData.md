@@ -1,11 +1,11 @@
-# Mark Your Data - Visual Brand Guidelines
-## Illustrated Content System
+# Mark your data - visual brand guidelines
+## Illustrated content system
 
 ---
 
-## 1. BRAND VISUAL FOUNDATION
+## 1. brand visual foundation
 
-### Logo as Primary Reference
+### Logo as primary reference
 Your logo establishes the visual language for all branded content:
 - **Bold, dominant use of primary colors** (#f9a800 orange, #333337 charcoal)
 - **Clean geometric framing** (the charcoal square border as signature element)
@@ -15,21 +15,21 @@ All illustrated content should echo this boldness and confidence. The logo is no
 
 ---
 
-## 2. COLOR STRATEGY FOR ILLUSTRATED IMAGES
+## 2. color strategy for illustrated images
 
-### Refined Color Rule: Bold & Confident
+### Refined color rule: bold & confident
 Instead of 60/30/10, use **70/20/10** for illustrated backgrounds:
 - **70% Primary Color:** Orange (#f9a800) OR Charcoal (#333337)—use one dominantly
 - **20% Neutral Space:** White (#FFFFFF) or Light Gray (#f4f5f5) for breathing room
 - **10% Secondary Accent:** The opposite primary color, used strategically for highlights, text, or graphic elements
 
-### Why This Works
+### Why this works
 - Aligns with your logo's boldness and confidence
 - Creates distinctive, instantly recognizable brand presence
 - Maintains professional tone while being visually assertive
 - Works across all image sizes (bold colors read well at thumbnail scale)
 
-### Color Application Rules
+### Color application rules
 
 **Orange-Primary Backgrounds:**
 - Use #f9a800 as dominant background
@@ -51,9 +51,9 @@ Instead of 60/30/10, use **70/20/10** for illustrated backgrounds:
 
 ---
 
-## 3. FRAMING SYSTEM (The Vignette Strategy)
+## 3. framing system (the vignette strategy)
 
-### Strategic Vignette: When & How to Use
+### Strategic vignette: when & how to use
 
 **Tier 1: Featured/Premium Content — Full Logo-Style Frame**
 Use the complete charcoal square frame (matching your logo proportions) on:
@@ -98,9 +98,9 @@ Keep completely unframed:
 
 ---
 
-## 4. ILLUSTRATION STYLE SPECIFICATIONS
+## 4. illustration style specifications
 
-### Visual Treatment (Nano Banana)
+### Visual treatment (nano banana)
 Your illustrated images should maintain these characteristics:
 
 **Line Work:**
@@ -130,22 +130,22 @@ Your illustrated images should maintain these characteristics:
 
 ---
 
-## 5. TEMPLATE SYSTEM
+## 5. template system
 
-### Template Framework
+### Template framework
 Each template serves a specific purpose and platform. Build these as reusable Canva templates, each available in TWO color variants:
 - **Variant A: Orange-Primary** (background dominant orange)
 - **Variant B: Charcoal-Primary** (background dominant charcoal)
 
 All templates are optimized for web developer specifications including file size, format, and performance standards.
 
-### Template Specifications
+### Template specifications
 
-#### WEBSITE TEMPLATES
+#### Website templates
 
 ---
 
-#### TEMPLATE 1: Website Hero/Banner
+#### Template 1: website hero/banner
 **Dimensions:** 1920 x 1080 px (16:9 landscape)
 
 **Usage:**
@@ -180,7 +180,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 2: Featured Service Image
+#### Template 2: featured service image
 **Dimensions:** 1200 x 800 px (3:2 landscape)
 
 **Usage:**
@@ -216,7 +216,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 3: Standard Content Image
+#### Template 3: standard content image
 **Dimensions:** 800 x 600 px (4:3 standard)
 
 **Usage:**
@@ -251,7 +251,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 4: Wide Content Image
+#### Template 4: wide content image
 **Dimensions:** 1200 x 600 px (2:1 landscape)
 
 **Usage:**
@@ -285,7 +285,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 5: Thumbnail Image
+#### Template 5: thumbnail image
 **Dimensions:** 400 x 300 px (4:3 standard)
 
 **Usage:**
@@ -321,11 +321,11 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### LINKEDIN TEMPLATES
+#### Linkedin templates
 
 ---
 
-#### TEMPLATE 6: LinkedIn Featured Post
+#### Template 6: linkedin featured post
 **Dimensions:** 1200 x 627 px (1.91:1 - LinkedIn optimal aspect ratio)
 
 **Usage:**
@@ -362,7 +362,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 7: LinkedIn Carousel Post (Square)
+#### Template 7: linkedin carousel post (square)
 **Dimensions:** 1080 x 1080 px (1:1 square)
 
 **Usage:**
@@ -398,7 +398,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 8: LinkedIn Carousel Post (Portrait)
+#### Template 8: linkedin carousel post (portrait)
 **Dimensions:** 1080 x 1350 px (4:5 portrait)
 
 **Usage:**
@@ -432,7 +432,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 9: LinkedIn Profile Header
+#### Template 9: linkedin profile header
 **Dimensions:** 1584 x 396 px (4:1 landscape)
 
 **Usage:**
@@ -460,11 +460,11 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### SOCIAL MEDIA TEMPLATES
+#### Social media templates
 
 ---
 
-#### TEMPLATE 10: Instagram Feed Post
+#### Template 10: instagram feed post
 **Dimensions:** 1080 x 1350 px (4:5 portrait)
 
 **Usage:**
@@ -500,7 +500,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 11: Instagram Stories
+#### Template 11: instagram stories
 **Dimensions:** 1080 x 1920 px (9:16 portrait)
 
 **Usage:**
@@ -536,7 +536,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### TEMPLATE 12: Social Quote/Tips Graphic
+#### Template 12: social quote/tips graphic
 **Dimensions:** 1080 x 1080 px (1:1 square)
 
 **Usage:**
@@ -572,11 +572,11 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### EMAIL TEMPLATES
+#### Email templates
 
 ---
 
-#### TEMPLATE 13: Email Header/Banner
+#### Template 13: email header/banner
 **Dimensions:** 600 x 300 px (2:1 landscape)
 
 **Usage:**
@@ -615,11 +615,11 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-#### CONTENT TEMPLATES
+#### Content templates
 
 ---
 
-#### TEMPLATE 14: Pinterest Pin
+#### Template 14: pinterest pin
 **Dimensions:** 1000 x 1500 px (2:3 portrait)
 
 **Usage:**
@@ -657,7 +657,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-## 6. TEMPLATE SUMMARY TABLE WITH FILE SPECIFICATIONS
+## 6. template summary table with file specifications
 
 | Template | Dimensions | Aspect Ratio | File Type | Max Size | Framing | Primary Use | Charcoal | Orange |
 |----------|-----------|--------------|-----------|----------|---------|-------------|----------|--------|
@@ -678,7 +678,7 @@ All templates are optimized for web developer specifications including file size
 
 ---
 
-## 7. DESIGN CONSISTENCY CHECKLIST
+## 7. design consistency checklist
 
 Use this checklist for every illustrated image you create:
 
@@ -723,21 +723,21 @@ Use this checklist for every illustrated image you create:
 
 ---
 
-## 8. PRODUCTION WORKFLOW
+## 8. production workflow
 
-### Phase 1: Source Material
+### Phase 1: source material
 1. Select or shoot photograph (high resolution, good lighting, clear subject)
 2. Ensure composition has breathing room around subject
 3. Verify resolution (minimum 2000 px width for source)
 
-### Phase 2: Nano Banana Transformation
+### Phase 2: nano banana transformation
 1. Upload photo to Nano Banana
 2. Test 3-4 style/strength settings to find your branded look
 3. Document the settings used for consistency going forward
 4. Export as PNG with transparency (critical)
 5. Export at 2x your template width (upscaling before downsampling preserves quality)
 
-### Phase 3: Canva Template Preparation
+### Phase 3: canva template preparation
 1. Open Canva template (orange variant or charcoal variant)
 2. Upload Nano Banana PNG illustration to template
 3. Scale illustration to fill 50-65% of frame
@@ -746,14 +746,14 @@ Use this checklist for every illustrated image you create:
 6. Add text elements if required
 7. Check contrast and readability
 
-### Phase 4: Export & Optimization
+### Phase 4: export & optimization
 1. Export at template specifications (exact pixel dimensions)
 2. File format: PNG for social, JPG for web (test quality)
 3. File size: optimize to <500 KB for social, <300 KB for email
 4. Verify export dimensions match template exactly
 5. Test on mobile device before posting
 
-### Phase 5: Platform-Specific Publishing
+### Phase 5: platform-specific publishing
 1. Upload to platform (LinkedIn, Instagram, website, email)
 2. Verify appearance on platform (often platforms compress/resize)
 3. Test on mobile device after posting
@@ -761,7 +761,7 @@ Use this checklist for every illustrated image you create:
 
 ---
 
-## 9. BRAND GUARDRAILS
+## 9. brand guardrails
 
 ### Do
 - ✓ Use bold, confident color (70/20/10 rule)
@@ -785,7 +785,7 @@ Use this checklist for every illustrated image you create:
 
 ---
 
-## 10. NEXT STEPS
+## 10. next steps
 
 **To implement this system:**
 

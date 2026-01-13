@@ -1,10 +1,10 @@
-# Mark Your Data Platform
+# Mark your data platform
 
 Make smarter decisions by combining disconnected data sources. Shorten time to insight and multiply the effectiveness of your analysts. Create your AI foundation and prepare your organization for AI solutions at scale.
 
 ---
 
-## To Whom is This Service Relevant?
+## To whom is this service relevant?
 
 This service is perfect for:
 - **Data & Analytics teams** struggling with disconnected data sources
@@ -15,25 +15,25 @@ This service is perfect for:
 
 ---
 
-## What Pains Does This Service Address?
+## What pains does this service address?
 
-### Data Silos
+### Data silos
 Your valuable data is trapped in disconnected systems. We build infrastructure that brings it all together in one accessible platform.
 
-### Slow Time to Insight
+### Slow time to insight
 Analysts spend 80% of their time finding and preparing data. Our platform reduces this to minutes, multiplying team effectiveness.
 
-### Scalability Challenges
+### Scalability challenges
 Manual processes and ad-hoc solutions don't scale. We design infrastructure that grows with your needs.
 
-### AI Readiness Gap
+### Ai readiness gap
 You can't build AI at scale without a solid data foundation. Our platform prepares you for the AI-driven future.
 
 ---
 
-## Our Propositions
+## Our propositions
 
-### Data Infrastructure
+### Data infrastructure
 **Build a solid foundation for data-driven success**
 
 We design and implement scalable data infrastructure that supports your current needs and future growth.
@@ -60,7 +60,7 @@ We design and implement scalable data infrastructure that supports your current 
 
 ---
 
-### Data Pipelines
+### Data pipelines
 **Automate data movement from source to insight**
 
 We develop and maintain robust data pipelines that efficiently move data from source systems to your analytics platform.
@@ -94,7 +94,7 @@ We develop and maintain robust data pipelines that efficiently move data from so
 
 ---
 
-### Data Models
+### Data models
 **Transform raw data into business insights**
 
 We design and implement data models that make your data accessible, understandable, and ready for analysis.
@@ -121,7 +121,7 @@ We design and implement data models that make your data accessible, understandab
 
 ---
 
-### Applied AI
+### Applied ai
 **Deploy AI solutions that drive business value**
 
 We develop and deploy AI solutions built on your data platform, from predictive models to generative AI applications.
@@ -154,7 +154,7 @@ We develop and deploy AI solutions built on your data platform, from predictive 
 
 ---
 
-## How to Get in Touch
+## How to get in touch
 
 Ready to build your data platform? Let's talk about your needs.
 

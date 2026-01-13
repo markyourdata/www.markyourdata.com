@@ -1,7 +1,7 @@
 [Strategy Execution](../index.html) → Data Exploration
 
 
-# Data Exploration
+# Data exploration
 
 <div class="opening-text">
 <p>
@@ -17,7 +17,7 @@ When <strong>you see the potential for Data Analytics & AI, but don't know where
 
 ---
 
-## What Are Typical Deliverables of the Project?
+## What are typical deliverables of the project?
 
 <div id="services">
 
@@ -40,7 +40,7 @@ When <strong>you see the potential for Data Analytics & AI, but don't know where
 
 <div class="service-card">
 
-### Next Steps
+### Next steps
 - Required resources
 - Action plan
 
@@ -52,7 +52,7 @@ When <strong>you see the potential for Data Analytics & AI, but don't know where
 
 <div class="what-comes-next-section">
 
-## What Comes Next?
+## What comes next?
 
 After exploration, you're ready to:
 - **[Build a Proof of Concept →](proof-of-concept.html)** to validate technical feasibility
@@ -63,7 +63,7 @@ After exploration, you're ready to:
 
 </div>
 
-## Explore Other Strategy Execution Services
+## Explore other strategy execution services
 
 <div class="service-cards-grid">
 
@@ -71,7 +71,7 @@ After exploration, you're ready to:
 <div class="service-icon">🗺️</div>
 <div class="service-card-content">
 
-### Data Exploration
+### Data exploration
 Discover which routes are worth flying.
 
 [Learn More →](data-exploration.html)
@@ -83,7 +83,7 @@ Discover which routes are worth flying.
 <div class="service-icon">✈️</div>
 <div class="service-card-content">
 
-### Proof of Concept
+### Proof of concept
 Will the plane fly? Validate technical feasibility.
 
 [Learn More →](proof-of-concept.html)
@@ -95,7 +95,7 @@ Will the plane fly? Validate technical feasibility.
 <div class="service-icon">💶</div>
 <div class="service-card-content">
 
-### Proof of Value
+### Proof of value
 Will people buy tickets? Prove business impact.
 
 [Learn More →](proof-of-value.html)
@@ -107,7 +107,7 @@ Will people buy tickets? Prove business impact.
 <div class="service-icon">📡</div>
 <div class="service-card-content">
 
-### Business Impact
+### Business impact
 Build the airfield. Scale to production.
 
 [Learn More →](business-impact.html)

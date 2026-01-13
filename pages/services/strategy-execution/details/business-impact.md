@@ -1,7 +1,7 @@
 [Strategy Execution](../index.html) → Business Impact
 
 
-# Business Impact (Make it Scale)
+# Business impact (make it scale)
 
 <div class="opening-text">
 <p>
@@ -23,13 +23,13 @@ Don't have proven value yet? [Validate it first](proof-of-value.html).
 
 ---
 
-## What Are Typical Deliverables of the Project?
+## What are typical deliverables of the project?
 
 <div id="services">
 
 <div class="service-card">
 
-### Production Solution
+### Production solution
 - Robust, scalable application or model
 - Production infrastructure and deployment
 - Error handling and monitoring
@@ -39,7 +39,7 @@ Don't have proven value yet? [Validate it first](proof-of-value.html).
 
 <div class="service-card">
 
-### Scalable Infrastructure
+### Scalable infrastructure
 - Cloud-based architecture
 - Auto-scaling capabilities
 - High availability setup
@@ -49,7 +49,7 @@ Don't have proven value yet? [Validate it first](proof-of-value.html).
 
 <div class="service-card">
 
-### User Enablement
+### User enablement
 - User training and documentation
 - Self-service capabilities
 - Support processes
@@ -59,7 +59,7 @@ Don't have proven value yet? [Validate it first](proof-of-value.html).
 
 <div class="service-card">
 
-### Ongoing Operations
+### Ongoing operations
 - Monitoring dashboards and alerting
 - Incident response procedures
 - Maintenance runbooks
@@ -70,7 +70,7 @@ Don't have proven value yet? [Validate it first](proof-of-value.html).
 </div>
 
 
-## Production vs. Prototype: What Changes?
+## Production vs. prototype: what changes?
 
 | Aspect | Prototype/POC | Production |
 |--------|--------------|------------|
@@ -86,7 +86,7 @@ Don't have proven value yet? [Validate it first](proof-of-value.html).
 
 <div class="what-comes-next-section">
 
-## What Comes Next?
+## What comes next?
 
 With production deployment complete, consider:
 - **[Platform Services →](../../platform/index.html)** - Build infrastructure for multiple use cases at scale
@@ -96,7 +96,7 @@ With production deployment complete, consider:
 
 </div>
 
-## Explore Other Strategy Execution Services
+## Explore other strategy execution services
 
 <div class="service-cards-grid">
 
@@ -104,7 +104,7 @@ With production deployment complete, consider:
 <div class="service-icon">🗺️</div>
 <div class="service-card-content">
 
-### Data Exploration
+### Data exploration
 Discover which routes are worth flying.
 
 [Learn More →](data-exploration.html)
@@ -116,7 +116,7 @@ Discover which routes are worth flying.
 <div class="service-icon">✈️</div>
 <div class="service-card-content">
 
-### Proof of Concept
+### Proof of concept
 Will the plane fly? Validate technical feasibility.
 
 [Learn More →](proof-of-concept.html)
@@ -128,7 +128,7 @@ Will the plane fly? Validate technical feasibility.
 <div class="service-icon">💶</div>
 <div class="service-card-content">
 
-### Proof of Value
+### Proof of value
 Will people buy tickets? Prove business impact.
 
 [Learn More →](proof-of-value.html)
@@ -140,7 +140,7 @@ Will people buy tickets? Prove business impact.
 <div class="service-icon">📡</div>
 <div class="service-card-content">
 
-### Business Impact
+### Business impact
 Build the airfield. Scale to production.
 
 [Learn More →](business-impact.html)

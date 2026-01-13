@@ -1,11 +1,11 @@
-# Experiment Guidance
+# Experiment guidance
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Building Experimentation Capability Through Coaching
+## Building experimentation capability through coaching
 
 For Winparts, we provided ongoing experiment guidance to help teams define, refine, and execute data-driven experiments. Through quarterly engagement, we built internal capability while delivering proven value from well-designed experiments.
 
@@ -21,7 +21,7 @@ This project demonstrates how expert guidance accelerates learning and improves 
 
 <div class="content-section section-single-column">
 
-### The Challenge
+### The challenge
 
 Winparts wanted to build a culture of experimentation but lacked experience with rigorous experiment design. Teams had ideas but needed guidance on methodology, metrics, and validation approaches to ensure experiments delivered actionable insights.
 
@@ -30,7 +30,7 @@ Winparts wanted to build a culture of experimentation but lacked experience with
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our Approach
+### Our approach
 
 We provided structured guidance across the experiment lifecycle:
 
@@ -75,7 +75,7 @@ Through regular touchpoints, teams learned experiment methodology while executin
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Project Outcomes
+### Project outcomes
 
 **Results Achieved:**
 - Quarterly experiments executed
@@ -92,7 +92,7 @@ Through regular touchpoints, teams learned experiment methodology while executin
 </div>
 <div class="column-text">
 
-### Building Internal Capability
+### Building internal capability
 
 The guidance engagement succeeded by balancing doing with teaching. We helped teams execute experiments successfully while explaining the methodology behind our recommendations. Over time, teams internalized best practices and gained confidence in their experimentation approach.
 
@@ -103,7 +103,7 @@ The quarterly cadence provided consistent support while giving teams space to ap
 
 <div class="conclusion-section">
 
-## Accelerate Your Experimentation
+## Accelerate your experimentation
 
 This project shows how expert guidance can accelerate learning while delivering business value through well-designed experiments.
 

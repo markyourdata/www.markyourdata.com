@@ -1,7 +1,7 @@
 [Strategy Execution](../index.html) → Proof of Value
 
 
-# Proof of Value (Make it Better)
+# Proof of value (make it better)
 
 <div class="opening-text">
 <p>
@@ -23,13 +23,13 @@ Don't have a POC yet? [Build one first](proof-of-concept.html).
 
 ---
 
-## What Are Typical Deliverables of the Project?
+## What are typical deliverables of the project?
 
 <div id="services">
 
 <div class="service-card">
 
-### Experiment Design
+### Experiment design
 - A/B test or pilot setup
 - Success metrics and KPIs
 - Control and treatment groups
@@ -39,7 +39,7 @@ Don't have a POC yet? [Build one first](proof-of-concept.html).
 
 <div class="service-card">
 
-### Measured Results
+### Measured results
 - Quantified business impact
 - Statistical significance analysis
 - Cost-benefit analysis
@@ -49,7 +49,7 @@ Don't have a POC yet? [Build one first](proof-of-concept.html).
 
 <div class="service-card">
 
-### Optimized Solution
+### Optimized solution
 - Refined model or application
 - Performance improvements
 - Best practices identified
@@ -59,7 +59,7 @@ Don't have a POC yet? [Build one first](proof-of-concept.html).
 
 <div class="service-card">
 
-### Business Case
+### Business case
 - Executive summary
 - Financial impact projection
 - Investment requirements for scale
@@ -72,7 +72,7 @@ Don't have a POC yet? [Build one first](proof-of-concept.html).
 
 <div class="what-comes-next-section">
 
-## What Comes Next?
+## What comes next?
 
 With proven business value, you're ready to:
 - **[Scale to Production →](business-impact.html)** - Roll out to your full organization and capture the value
@@ -82,7 +82,7 @@ With proven business value, you're ready to:
 
 </div>
 
-## Explore Other Strategy Execution Services
+## Explore other strategy execution services
 
 <div class="service-cards-grid">
 
@@ -90,7 +90,7 @@ With proven business value, you're ready to:
 <div class="service-icon">🗺️</div>
 <div class="service-card-content">
 
-### Data Exploration
+### Data exploration
 Discover which routes are worth flying.
 
 [Learn More →](data-exploration.html)
@@ -102,7 +102,7 @@ Discover which routes are worth flying.
 <div class="service-icon">✈️</div>
 <div class="service-card-content">
 
-### Proof of Concept
+### Proof of concept
 Will the plane fly? Validate technical feasibility.
 
 [Learn More →](proof-of-concept.html)
@@ -114,7 +114,7 @@ Will the plane fly? Validate technical feasibility.
 <div class="service-icon">💶</div>
 <div class="service-card-content">
 
-### Proof of Value
+### Proof of value
 Will people buy tickets? Prove business impact.
 
 [Learn More →](proof-of-value.html)
@@ -126,7 +126,7 @@ Will people buy tickets? Prove business impact.
 <div class="service-icon">📡</div>
 <div class="service-card-content">
 
-### Business Impact
+### Business impact
 Build the airfield. Scale to production.
 
 [Learn More →](business-impact.html)

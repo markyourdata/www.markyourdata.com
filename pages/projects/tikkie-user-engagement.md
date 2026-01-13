@@ -1,11 +1,11 @@
-# User Engagement Analytics
+# User engagement analytics
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Data-Driven Product Decisions at Tikkie
+## Data-driven product decisions at tikkie
 
 For Tikkie, we identified and quantified opportunities to improve user engagement using data & analytics. By helping teams understand where to engage and where to relax, we enabled focus on high-impact activities that meaningfully improved user experience.
 
@@ -21,7 +21,7 @@ This project demonstrates how analytics can guide product strategy and prioritiz
 
 <div class="content-section section-single-column">
 
-### The Challenge
+### The challenge
 
 Tikkie wanted to improve user engagement but faced countless potential opportunities. Without data-driven prioritization, they risked investing in initiatives that wouldn't meaningfully impact user behavior. They needed analytics to guide where to focus efforts.
 
@@ -30,7 +30,7 @@ Tikkie wanted to improve user engagement but faced countless potential opportuni
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our Approach
+### Our approach
 
 We developed a systematic approach to opportunity identification:
 
@@ -75,7 +75,7 @@ The analysis revealed where engagement efforts would deliver the highest return 
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Project Outcomes
+### Project outcomes
 
 **Results Achieved:**
 - Improved user engagement
@@ -92,7 +92,7 @@ The analysis revealed where engagement efforts would deliver the highest return 
 </div>
 <div class="column-text">
 
-### Strategic Value
+### Strategic value
 
 The engagement analysis provided more than just metrics—it gave Tikkie strategic clarity on where to invest product development resources. By quantifying opportunities, we helped teams make confident decisions about what to build and, equally important, what not to build.
 
@@ -103,7 +103,7 @@ The "where to engage and where to relax" philosophy prevented the common mistake
 
 <div class="conclusion-section">
 
-## Make Data-Driven Product Decisions
+## Make data-driven product decisions
 
 This project shows how analytics can transform product strategy from opinion-based to evidence-based, focusing efforts where they matter most.
 

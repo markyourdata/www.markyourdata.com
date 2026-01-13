@@ -1,9 +1,9 @@
-# Experiment Rollout
+# Experiment rollout
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Scale Successful Experiments Across Your Organization
+## Scale successful experiments across your organization
 
 **You've proven value with an experiment—now it's time to capture that value at scale.** We transform validated experiments into production-grade solutions with proper infrastructure, professional code, and user adoption plans. You don't let proven value languish in the innovation graveyard. **Walk away with a production solution delivering sustained business impact.**
 
@@ -15,7 +15,7 @@
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 <div class="icon-list">
 
@@ -51,7 +51,7 @@
 
 If you've validated an experiment delivers business value and need to scale it professionally to capture the full impact, this service is for you.
 
-### Why Professional Rollout?
+### Why professional rollout?
 
 Most successful experiments never reach production. Prototype code can't handle production scale. No one considers operational requirements during experimentation. Users resist adopting new tools and processes. The result is validated experiments that never deliver business value.
 
@@ -61,7 +61,7 @@ Professional rollout changes this outcome. We transform validated experiments in
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these common challenges? They're indicators that Experiment Rollout can help:
 
@@ -117,7 +117,7 @@ If any of these sound familiar, Experiment Rollout helps you capture the full va
 
 <div class="content-section section-single-column">
 
-### How We Work: Our Rollout Approach
+### How we work: our rollout approach
 
 We handle the complete transition from experiment to production:
 
@@ -160,7 +160,7 @@ This comprehensive approach ensures experiments transition smoothly and deliver 
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Capture Value at Scale?
+### Ready to capture value at scale?
 
 Transform your successful experiment into a production solution that delivers sustained business impact.
 
@@ -178,7 +178,7 @@ Schedule Consultation
 </div>
 <div class="column-text">
 
-### Outcome: Production Solution Delivering Value
+### Outcome: production solution delivering value
 
 After the 8-12 week rollout engagement, you'll have a complete production solution:
 
@@ -219,7 +219,7 @@ After the 8-12 week rollout engagement, you'll have a complete production soluti
 
 <div class="content-section section-single-column">
 
-### When: Ideal Timing to Start
+### When: ideal timing to start
 
 **Immediately after validating business impact with an experiment.** Common trigger points:
 
@@ -235,7 +235,7 @@ The sooner you start professional rollout after validation, the sooner you captu
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 
@@ -284,7 +284,7 @@ Production code, deployed infrastructure, training materials, operations handoff
 
 <div class="conclusion-section">
 
-## Capture the Full Value of Your Experiments
+## Capture the full value of your experiments
 
 Don't let successful experiments die in proof-of-concept purgatory. Roll them out professionally and capture sustained business value at scale.
 

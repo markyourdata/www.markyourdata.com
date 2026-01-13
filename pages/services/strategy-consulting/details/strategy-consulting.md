@@ -1,4 +1,4 @@
-# Strategy Consulting
+# Strategy consulting
 
 <div class="opening-text">
 <p>
@@ -11,7 +11,7 @@ You know you need a data & AI strategy. But who's going to lead it? Your team is
 
 ---
 
-## The Challenge: Experience Matters
+## The challenge: experience matters
 
 Building a data & AI strategy isn't just about templates and frameworks. It's about:
 - Knowing which questions to ask and who to ask them
@@ -26,13 +26,13 @@ That's where we come in.
 
 ---
 
-## Two Ways We Can Help
+## Two ways we can help
 
 We offer two approaches, depending on your urgency, budget, and internal capacity:
 
 <div class="service-card">
 
-### Option 1: Intensive Sprint (2-3 Months)
+### Option 1: intensive sprint (2-3 months)
 
 **When to choose this:** You need a strategy quickly, you have budget for dedicated support, or you're facing an urgent business need.
 
@@ -59,7 +59,7 @@ We offer two approaches, depending on your urgency, budget, and internal capacit
 
 <div class="service-card">
 
-### Option 2: Advisory Partnership (6-12 Months)
+### Option 2: advisory partnership (6-12 months)
 
 **When to choose this:** You have someone internally driving the work, you prefer a steadier pace, or you want ongoing strategic guidance.
 
@@ -86,13 +86,13 @@ We offer two approaches, depending on your urgency, budget, and internal capacit
 
 ---
 
-## What We Deliver (Both Options)
+## What we deliver (both options)
 
 Regardless of which approach you choose, you'll get:
 
 <div class="service-card">
 
-### Opportunity Trees
+### Opportunity trees
 Visual maps showing where small changes can create big impact in your organization.
 
 <div style="text-align: center; margin: 2rem 0">
@@ -103,7 +103,7 @@ Visual maps showing where small changes can create big impact in your organizati
 
 <div class="service-card">
 
-### Use Case Prioritization
+### Use case prioritization
 Clear framework balancing impact against feasibility, so you invest in what matters most.
 
 <div style="text-align: center; margin: 2rem 0">
@@ -114,7 +114,7 @@ Clear framework balancing impact against feasibility, so you invest in what matt
 
 <div class="service-card">
 
-### Data Analytics & AI Roadmap
+### Data analytics & ai roadmap
 Your actionable plan with phased initiatives, ownership, and measurable outcomes.
 
 <div style="text-align: center; margin: 2rem 0">
@@ -125,7 +125,7 @@ Your actionable plan with phased initiatives, ownership, and measurable outcomes
 
 ---
 
-## Who This Is For
+## Who this is for
 
 Strategy consulting is right for you if:
 
@@ -138,7 +138,7 @@ Strategy consulting is right for you if:
 
 ---
 
-## How We Work
+## How we work
 
 **Collaborative, not prescriptive:** We work with your team, not instead of them. This builds internal capability while delivering results.
 
@@ -152,7 +152,7 @@ Strategy consulting is right for you if:
 
 ---
 
-## Which Option Is Right for You?
+## Which option is right for you?
 
 **Choose Intensive Sprint if:**
 - You need results within 2-3 months

@@ -1,9 +1,9 @@
-# Experiment Execution
+# Experiment execution
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## From Idea to Proven Value—We Execute Your Use Case
+## From idea to proven value—we execute your use case
 
 **You have a promising use case but lack the skills, time, or capacity to execute it.** We become your temporary data science and engineering team, handling the complete implementation from data preparation to business impact measurement. You get proven results without hiring a full data science team. **Walk away with validated business impact and a solution your team can maintain.**
 
@@ -15,7 +15,7 @@
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 <div class="icon-list">
 
@@ -51,7 +51,7 @@
 
 If you have a clear, validated use case but need expert execution to prove business value, this service is for you.
 
-### Why Full Execution Service?
+### Why full execution service?
 
 Many organizations have high-value use cases but can't execute them. They lack specialized skills like machine learning engineering, don't have time to dedicate to experiments while maintaining existing systems, or need to prove value before committing to hiring.
 
@@ -61,7 +61,7 @@ Full execution service solves this. We become your temporary data science and en
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these common challenges? They're indicators that Experiment Execution can help:
 
@@ -117,7 +117,7 @@ If any of these sound familiar, Experiment Execution helps you validate high-val
 
 <div class="content-section section-single-column">
 
-### How We Work: Our Execution Approach
+### How we work: our execution approach
 
 We follow a structured process that maximizes learning and minimizes risk:
 
@@ -160,7 +160,7 @@ Throughout execution, we document decisions and share knowledge so your team can
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Prove Value?
+### Ready to prove value?
 
 Turn your high-value use case into a validated solution with proven business impact.
 
@@ -178,7 +178,7 @@ Schedule Consultation
 </div>
 <div class="column-text">
 
-### Outcome: Validated Solution with Proven Impact
+### Outcome: validated solution with proven impact
 
 After the 8-12 week execution engagement, you'll have concrete deliverables that prove business value:
 
@@ -219,7 +219,7 @@ After the 8-12 week execution engagement, you'll have concrete deliverables that
 
 <div class="content-section section-single-column">
 
-### When: Ideal Timing to Start
+### When: ideal timing to start
 
 **Anytime you have a validated use case but lack execution capability.** Common trigger points:
 
@@ -235,7 +235,7 @@ Starting execution as soon as you validate a use case accelerates time to value.
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 
@@ -284,7 +284,7 @@ Working solution, impact report, documentation, and training materials
 
 <div class="conclusion-section">
 
-## Start Proving Value Today
+## Start proving value today
 
 Don't let capability gaps prevent you from capturing high-value opportunities. We execute your experiment and prove business impact while transferring knowledge to your team.
 

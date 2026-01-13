@@ -1,9 +1,9 @@
-# Data & AI Platform
+# Data & ai platform
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Build Your Foundation for Data & AI Use Cases
+## Build your foundation for data & ai use cases
 
 **For organizations needing a centralized data foundation.** Whether you're starting from scratch and need a single source of truth for reporting, or scaling advanced AI applications that require high-quality data—we build the complete platform: infrastructure, pipelines, data models, and analytics capability. **Walk away with your first working data platform in 3 months.**
 
@@ -15,7 +15,7 @@
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 <div class="icon-list">
 
@@ -44,7 +44,7 @@
 
 Whether you're new to data platforms or expanding existing capabilities, any serious data & AI use case requires a solid foundation.
 
-### Why Build a Data & AI Platform?
+### Why build a data & ai platform?
 
 Without a centralized data platform, organizations face constant friction:
 
@@ -86,7 +86,7 @@ A proper data platform eliminates these bottlenecks. All data flows to one place
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these common challenges? They're indicators that building a Data & AI Platform can help:
 
@@ -142,7 +142,7 @@ If any of these sound familiar, building a Data & AI Platform creates the founda
 
 <div class="content-section section-single-column">
 
-### How We Build: Our Methodology
+### How we build: our methodology
 
 We build your data platform layer by layer, delivering a working system you can use and expand:
 
@@ -185,7 +185,7 @@ The result is a complete, production-ready platform that serves as the foundatio
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Ready to Build Your Data Foundation?
+### Ready to build your data foundation?
 
 Transform scattered data into a unified platform that unlocks insights and enables AI.
 
@@ -203,7 +203,7 @@ Schedule Consultation
 </div>
 <div class="column-text">
 
-### Outcome: Your First Data Platform
+### Outcome: your first data platform
 
 Within 3 months, you'll have a working data platform that transforms how your organization uses data:
 
@@ -246,7 +246,7 @@ The platform grows with you—start with essential data sources and use cases, t
 
 <div class="content-section section-single-column">
 
-### When: Ideal Timing to Start
+### When: ideal timing to start
 
 **Anytime you feel you need more centralized data.** Unlike services that follow a planning cycle, platform development can start whenever you recognize the need:
 
@@ -261,7 +261,7 @@ The sooner you start, the sooner you unlock the insights and capabilities that s
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 
@@ -305,7 +305,7 @@ Align on stack based on your infrastructure, team skills, and budget
 
 <div class="conclusion-section">
 
-## Start Building Your Data Foundation
+## Start building your data foundation
 
 Transform scattered data into a unified platform that unlocks insights and enables your data & AI ambitions. Get your first working platform in 3 months.
 

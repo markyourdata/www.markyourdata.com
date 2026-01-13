@@ -1,10 +1,10 @@
-# Quick Reference - Mark Your Data Website
+# Quick reference - mark your data website
 
 Quick lookup for common tasks and patterns.
 
 ---
 
-## Creating a New Page - 5 Steps
+## Creating a new page - 5 steps
 
 1. **Copy template** → `_templates/page-template.html`
 2. **Update meta tags** → Title, description, URLs
@@ -14,7 +14,7 @@ Quick lookup for common tasks and patterns.
 
 ---
 
-## Design Tokens Cheat Sheet
+## Design tokens cheat sheet
 
 ### Spacing (8px grid)
 ```css
@@ -58,7 +58,7 @@ var(--transition-slow)  /* 0.5s */
 
 ---
 
-## Component Quick Reference
+## Component quick reference
 
 ### Hero
 ```javascript
@@ -77,7 +77,7 @@ pages: {
 <div id="hero-container"></div>
 ```
 
-### CTA Section
+### Cta section
 ```javascript
 // data/content.js
 cta: {
@@ -90,7 +90,7 @@ cta: {
 <div id="cta-container"></div>
 ```
 
-### Service Cards
+### Service cards
 ```javascript
 // data/content.js
 services: [
@@ -108,7 +108,7 @@ services: [
 
 ---
 
-## Utility Classes
+## Utility classes
 
 ```html
 <p class="section-intro">Intro text (larger, spaced)</p>
@@ -119,7 +119,7 @@ services: [
 
 ---
 
-## Accessibility Checklist
+## Accessibility checklist
 
 - [ ] `<a href="#main-content" class="skip-to-main">Skip to main content</a>`
 - [ ] `<main id="main-content">` wrapper
@@ -130,7 +130,7 @@ services: [
 
 ---
 
-## SEO Checklist
+## Seo checklist
 
 - [ ] Unique `<title>` (50-60 chars)
 - [ ] Meta description (150-160 chars)
@@ -142,7 +142,7 @@ services: [
 
 ---
 
-## Common File Paths
+## Common file paths
 
 | From | To | Path |
 |------|----|----|
@@ -155,7 +155,7 @@ services: [
 
 ---
 
-## Script Load Order
+## Script load order
 
 ```html
 <script src="../../js/config.js"></script>           <!-- 1. Constants -->
@@ -167,7 +167,7 @@ services: [
 
 ---
 
-## Common Mistakes
+## Common mistakes
 
 | ❌ Wrong | ✅ Right |
 |---------|---------|
@@ -181,7 +181,7 @@ services: [
 
 ---
 
-## Testing Before Publishing
+## Testing before publishing
 
 1. **Lighthouse audit** → Chrome DevTools, aim for 90+ in all categories
 2. **Keyboard navigation** → Tab through page, verify focus states
@@ -191,7 +191,7 @@ services: [
 
 ---
 
-## File References
+## File references
 
 | Need | File | Lines |
 |------|------|-------|
@@ -204,7 +204,7 @@ services: [
 
 ---
 
-## Getting AI Help
+## Getting ai help
 
 **Good prompt:**
 ```

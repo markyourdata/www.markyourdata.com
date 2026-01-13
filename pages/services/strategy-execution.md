@@ -1,10 +1,10 @@
-# Data Analytics & AI Strategy Execution
+# Data analytics & ai strategy execution
 
 Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.
 
 ---
 
-## To Whom is This Service Relevant?
+## To whom is this service relevant?
 
 This service is ideal for:
 - **Innovation teams** ready to execute on data & AI opportunities
@@ -15,27 +15,27 @@ This service is ideal for:
 
 ---
 
-## What Pains Does This Service Address?
+## What pains does this service address?
 
-### Ideas Without Execution
+### Ideas without execution
 You have great ideas but lack the time, skills, or resources to execute them. We bridge the gap from concept to working solution.
 
-### Risk of Large Investments
+### Risk of large investments
 Committing to large projects without validation is risky. Our phased approach lets you invest small, learn fast, and scale only what works.
 
-### Slow Time to Value
+### Slow time to value
 Traditional projects take months to show results. We deliver working prototypes in weeks and proven value in months.
 
-### Skills Gap
+### Skills gap
 Your team may not have the specialized skills for data science, AI, or advanced analytics. We bring the expertise to execute your vision.
 
 ---
 
-## Our Propositions
+## Our propositions
 
 Following our motto: **Make it work → Make it better → Make it scale**
 
-### Data Exploration
+### Data exploration
 **Discover where small changes create big impact**
 
 We help you understand where a small change can make a big difference, and transform that opportunity into a Proof of Concept.
@@ -68,7 +68,7 @@ We help you understand where a small change can make a big difference, and trans
 
 ---
 
-### Proof of Concept (Make it Work)
+### Proof of concept (make it work)
 **Demonstrate feasibility of your data & AI initiatives**
 
 We develop and deploy proof of concepts that show what's possible and validate technical feasibility.
@@ -101,7 +101,7 @@ We develop and deploy proof of concepts that show what's possible and validate t
 
 ---
 
-### Proof of Value (Make it Better)
+### Proof of value (make it better)
 **Iterate and prove measurable business impact**
 
 We refine your proof of concept to maximize impact and prove real business value with data.
@@ -135,7 +135,7 @@ We refine your proof of concept to maximize impact and prove real business value
 
 ---
 
-### Business Impact (Make it Scale)
+### Business impact (make it scale)
 **Scale proven solutions to capture full potential**
 
 We help you scale up your proof of value to production, ensuring it delivers impact across your organization.
@@ -170,7 +170,7 @@ We help you scale up your proof of value to production, ensuring it delivers imp
 
 ---
 
-## Our Methodology: Invest Small, Learn Fast, Scale Big
+## Our methodology: invest small, learn fast, scale big
 
 We follow a proven three-phase approach that minimizes risk and maximizes learning:
 
@@ -182,7 +182,7 @@ This approach ensures you only invest in solutions with proven impact.
 
 ---
 
-## How to Get in Touch
+## How to get in touch
 
 Ready to turn your data into impact? Let's start small and scale what works.
 

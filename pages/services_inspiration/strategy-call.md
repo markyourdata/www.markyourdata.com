@@ -1,9 +1,9 @@
-# Free Strategy Call
+# Free strategy call
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Get Expert Perspective on Your Data & AI Challenges
+## Get expert perspective on your data & ai challenges
 
 **You're facing strategic decisions about data & AI and need an outside perspective.** We offer a free 30-45 minute strategy call where you share your challenges and we share our experience—no sales pitch, just practical insights from someone who has walked the talk. **Walk away with clarity and actionable ideas.**
 
@@ -15,7 +15,7 @@
 
 <div class="content-section section-single-column">
 
-### Who Is This For?
+### Who is this for?
 
 <div class="icon-list">
 
@@ -51,7 +51,7 @@
 
 If you're facing a data or AI challenge and want honest input from someone with real-world experience at organizations like bol.com, Heineken, and Winparts, this call is for you.
 
-### Why a Strategy Call?
+### Why a strategy call?
 
 Making the wrong decisions about data & AI is expensive—not just in money, but in time, team morale, and missed opportunities. Common challenges we help clarify:
 
@@ -100,7 +100,7 @@ An outside perspective from someone who has faced these challenges at organizati
 
 <div class="content-section section-single-column">
 
-### When to Reach Out for Help
+### When to reach out for help
 
 Do you recognize any of these situations? They're indicators that a strategy call can provide valuable perspective:
 
@@ -157,7 +157,7 @@ If any of these resonate, a free strategy call gives you candid perspective from
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### How the Call Works
+### How the call works
 
 This is **not a sales call**. It's a focused conversation designed to help you think through your challenge:
 
@@ -203,7 +203,7 @@ Walk away with clarity, new ideas, and—if it makes sense for both of us—opti
 
 <div class="content-section section-single-column">
 
-### Outcome: Clarity and Direction
+### Outcome: clarity and direction
 
 After our call, you'll have:
 
@@ -245,7 +245,7 @@ No pressure, no obligation. Just practical experience shared to help you make be
 
 <div class="content-section section-single-column">
 
-### Practicalities: What to Expect
+### Practicalities: what to expect
 
 <div class="practicalities-grid">
 
@@ -287,7 +287,7 @@ Whenever you're facing a strategic decision about data & AI
 
 <div class="conclusion-section">
 
-## Get the Outside Perspective You Need
+## Get the outside perspective you need
 
 Whether you're just starting your data journey or scaling successful experiments, an outside perspective can help you avoid costly mistakes and accelerate success.
 

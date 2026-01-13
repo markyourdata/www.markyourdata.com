@@ -1,7 +1,7 @@
 [Platform Services](../index.html) → Applied AI
 
 
-# Applied AI
+# Applied ai
 
 <div class="opening-text">
 <p>
@@ -18,7 +18,7 @@ We always advise: build your data foundation first, then layer AI on top. When y
 <img src="/assets/images/featured/platform_applied_ai.png" alt="Applied AI" class="featured-service-image" style="width: 100%; margin: 2rem 0;" />
 
 
-## Prerequisites: Foundation First
+## Prerequisites: foundation first
 
 Applied AI requires the full data platform stack:
 - **[Data Infrastructure →](data-infrastructure.html)** - Compute and storage for model training
@@ -28,7 +28,7 @@ Applied AI requires the full data platform stack:
 **Don't have your foundation yet?** We recommend starting with infrastructure and working your way up. [Let's talk about your journey →](/pages/contact.html)
 
 
-## When is This Service Relevant?
+## When is this service relevant?
 
 You should consider Applied AI when:
 
@@ -40,13 +40,13 @@ You should consider Applied AI when:
 - You need to move from experimentation to production
 
 
-## What Are Typical Deliverables of the Project?
+## What are typical deliverables of the project?
 
 <div id="services">
 
 <div class="service-card">
 
-### AI Solution Design
+### Ai solution design
 - Use case definition and validation
 - Model architecture design
 - Data requirements and feature engineering
@@ -67,7 +67,7 @@ You should consider Applied AI when:
 
 <div class="service-card">
 
-### Knowledge Transfer
+### Knowledge transfer
 - Model documentation and decision logs
 - Code repository with CI/CD
 - Team training on model maintenance
@@ -79,28 +79,28 @@ You should consider Applied AI when:
 
 
 
-## AI Capabilities
+## Ai capabilities
 
 We build various types of AI solutions:
 
-### Predictive Analytics
+### Predictive analytics
 - Forecasting (sales, demand, churn)
 - Classification (fraud detection, quality control)
 - Recommendation engines
 - Risk scoring models
 
-### Generative AI
+### Generative ai
 - Custom ChatGPT-like applications
 - Document analysis and summarization
 - Content generation
 - Conversational AI assistants
 
-### Computer Vision
+### Computer vision
 - Image classification and detection
 - Quality inspection
 - OCR and document processing
 
-### Natural Language Processing
+### Natural language processing
 - Text classification and sentiment analysis
 - Named entity recognition
 - Language translation
@@ -109,7 +109,7 @@ We build various types of AI solutions:
 
 <div class="what-comes-next-section">
 
-## The Complete Platform Journey
+## The complete platform journey
 
 You've reached the top of the stack. Here's the full path:
 
@@ -122,7 +122,7 @@ You've reached the top of the stack. Here's the full path:
 
 </div>
 
-## Explore Other Platform Services
+## Explore other platform services
 
 <div class="service-cards-grid">
 
@@ -130,7 +130,7 @@ You've reached the top of the stack. Here's the full path:
 <div class="service-icon">👷</div>
 <div class="service-card-content">
 
-### Data Infrastructure
+### Data infrastructure
 The foundation—cloud infrastructure, security, and scalability.
 
 [Learn More →](data-infrastructure.html)
@@ -142,7 +142,7 @@ The foundation—cloud infrastructure, security, and scalability.
 <div class="service-icon">🚰</div>
 <div class="service-card-content">
 
-### Data Pipelines
+### Data pipelines
 Automated data delivery from all your sources.
 
 [Learn More →](data-pipelines.html)
@@ -154,7 +154,7 @@ Automated data delivery from all your sources.
 <div class="service-icon">🏭</div>
 <div class="service-card-content">
 
-### Data Models
+### Data models
 Transform raw data into business-ready products.
 
 [Learn More →](data-models.html)
@@ -166,7 +166,7 @@ Transform raw data into business-ready products.
 <div class="service-icon">🚀</div>
 <div class="service-card-content">
 
-### Applied AI
+### Applied ai
 Intelligence layer on top of your data foundation.
 
 [Learn More →](applied-ai.html)

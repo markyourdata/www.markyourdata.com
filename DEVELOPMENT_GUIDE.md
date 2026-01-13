@@ -1,10 +1,10 @@
-# Development Guide - Mark Your Data Website
+# Development guide - mark your data website
 
 This guide outlines the best practices and patterns to follow when creating or updating pages on the Mark Your Data website.
 
 ---
 
-## Table of Contents
+## Table of contents
 1. [Architecture Overview](#architecture-overview)
 2. [Creating a New Page](#creating-a-new-page)
 3. [Page Structure Best Practices](#page-structure-best-practices)
@@ -17,7 +17,7 @@ This guide outlines the best practices and patterns to follow when creating or u
 
 ---
 
-## Architecture Overview
+## Architecture overview
 
 Our website follows these key principles:
 
@@ -56,13 +56,13 @@ Our website follows these key principles:
 
 ---
 
-## Creating a New Page
+## Creating a new page
 
-### Step 1: Use the Page Template
+### Step 1: use the page template
 
 Copy the boilerplate template from `_templates/page-template.html` (see below) or reference an existing page like `pages/services/platform/index.html`.
 
-### Step 2: Update Meta Tags
+### Step 2: update meta tags
 
 **Required meta tags:**
 ```html
@@ -98,7 +98,7 @@ Copy the boilerplate template from `_templates/page-template.html` (see below) o
 
 **📖 Reference:** See `index.html` lines 1-50 for complete meta tag example.
 
-### Step 3: Add Content to data/content.js
+### Step 3: add content to data/content.js
 
 **DO NOT** hardcode content in HTML. Add it to `data/content.js` instead:
 
@@ -134,7 +134,7 @@ const siteData = {
 
 **📖 Reference:** See `data/content.js` lines 20-80 for page data structure.
 
-### Step 4: Render Components in HTML
+### Step 4: render components in html
 
 Use container divs and JavaScript to render components:
 
@@ -180,9 +180,9 @@ Use container divs and JavaScript to render components:
 
 ---
 
-## Page Structure Best Practices
+## Page structure best practices
 
-### HTML5 Semantic Structure
+### Html5 semantic structure
 
 Always use proper semantic HTML:
 
@@ -216,7 +216,7 @@ Always use proper semantic HTML:
 </html>
 ```
 
-### Heading Hierarchy Rules
+### Heading hierarchy rules
 
 - **ONE h1 per page** - Your main page title
 - **h2 for major sections** - "About This Service", "Key Benefits"
@@ -238,13 +238,13 @@ Always use proper semantic HTML:
 
 ---
 
-## Component Usage
+## Component usage
 
 We have pre-built components in `js/components.js`. **Always use these instead of duplicating HTML.**
 
-### Available Components
+### Available components
 
-#### 1. Hero Section
+#### 1. hero section
 ```javascript
 // In data/content.js
 hero: {
@@ -263,7 +263,7 @@ hero: {
 ```
 **📖 Reference:** `js/components.js` lines 162-207
 
-#### 2. CTA Section
+#### 2. cta section
 ```javascript
 // In data/content.js
 cta: {
@@ -280,7 +280,7 @@ cta: {
 ```
 **📖 Reference:** `js/components.js` lines 217-255
 
-#### 3. Section with Intro
+#### 3. section with intro
 ```javascript
 // In data/content.js
 aboutUs: {
@@ -293,7 +293,7 @@ aboutUs: {
 ```
 **📖 Reference:** `js/components.js` lines 138-160
 
-#### 4. Service Cards
+#### 4. service cards
 ```javascript
 // In data/content.js
 services: [
@@ -311,7 +311,7 @@ services: [
 ```
 **📖 Reference:** `js/components.js` lines 70-110
 
-#### 5. Testimonials Carousel
+#### 5. testimonials carousel
 ```javascript
 // In data/content.js
 testimonials: [
@@ -328,7 +328,7 @@ testimonials: [
 ```
 **📖 Reference:** `js/components.js` lines 32-62
 
-### Path Resolution
+### Path resolution
 
 **IMPORTANT:** All internal links automatically resolve paths based on current page depth.
 
@@ -350,9 +350,9 @@ link: "../contact.html"  // Don't manually calculate
 
 ---
 
-## Content Management
+## Content management
 
-### Content Source of Truth
+### Content source of truth
 
 **Rule:** ALL content must live in `data/content.js`, NOT in HTML files.
 
@@ -362,7 +362,7 @@ link: "../contact.html"  // Don't manually calculate
 - No duplication
 - Consistent across pages
 
-### Adding New Content
+### Adding new content
 
 1. Open `data/content.js`
 2. Find the appropriate section (homepage, pages, services, etc.)
@@ -389,7 +389,7 @@ const siteData = {
 
 **📖 Reference:** `data/content.js` lines 100-150
 
-### Content Guidelines
+### Content guidelines
 
 **Titles:**
 - Clear and descriptive
@@ -407,9 +407,9 @@ const siteData = {
 
 ---
 
-## SEO Guidelines
+## Seo guidelines
 
-### Required for Every Page
+### Required for every page
 
 1. **Unique Title** (50-60 characters)
    ```html
@@ -446,7 +446,7 @@ const siteData = {
 
 **📖 Reference:** `index.html` lines 30-130 for structured data examples.
 
-### Update Sitemap
+### Update sitemap
 
 After creating a new page, add it to `/sitemap.xml`:
 
@@ -469,9 +469,9 @@ After creating a new page, add it to `/sitemap.xml`:
 
 ---
 
-## Accessibility Requirements
+## Accessibility requirements
 
-### Must-Have Accessibility Features
+### Must-have accessibility features
 
 1. **Skip to Main Content Link**
    ```html
@@ -513,7 +513,7 @@ After creating a new page, add it to `/sitemap.xml`:
 
 **📖 Reference:** `css/components.css` lines 1-50 for focus styles.
 
-### Testing Accessibility
+### Testing accessibility
 
 - Use Chrome DevTools Lighthouse
 - Test keyboard navigation (Tab, Shift+Tab, Enter)
@@ -521,9 +521,9 @@ After creating a new page, add it to `/sitemap.xml`:
 
 ---
 
-## CSS Guidelines
+## Css guidelines
 
-### Use Design Tokens
+### Use design tokens
 
 **DO NOT** hardcode values. Use CSS variables from `css/base.css`.
 
@@ -585,7 +585,7 @@ transition: all var(--transition-base);
 
 **📖 Reference:** `css/base.css` lines 1-40 for all design tokens.
 
-### Utility Classes
+### Utility classes
 
 Use existing utility classes instead of inline styles:
 
@@ -602,9 +602,9 @@ Use existing utility classes instead of inline styles:
 
 ---
 
-## Examples & References
+## Examples & references
 
-### Complete Page Examples
+### Complete page examples
 
 **Simple Service Page:**
 - File: `pages/services/platform/index.html`
@@ -621,7 +621,7 @@ Use existing utility classes instead of inline styles:
 - Uses: Markdown content, client logo, project data
 - Content: `data/content.js` → `projects` array
 
-### Key Files to Reference
+### Key files to reference
 
 | File | Purpose | Lines to Check |
 |------|---------|----------------|
@@ -635,7 +635,7 @@ Use existing utility classes instead of inline styles:
 
 ---
 
-## Quick Checklist for New Pages
+## Quick checklist for new pages
 
 Before publishing a new page, verify:
 
@@ -656,7 +656,7 @@ Before publishing a new page, verify:
 
 ---
 
-## Common Mistakes to Avoid
+## Common mistakes to avoid
 
 1. **❌ Hardcoding content in HTML**
    - Always use `data/content.js`
@@ -690,7 +690,7 @@ Before publishing a new page, verify:
 
 ---
 
-## Getting Help
+## Getting help
 
 When asking AI (Claude) to help create or update a page:
 
@@ -713,7 +713,7 @@ that follows all the patterns in the guide. The page should:
 
 ---
 
-## Version History
+## Version history
 
 - **v1.0** (2025-01-08) - Initial development guide created
   - Architecture overview

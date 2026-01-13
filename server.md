@@ -1,4 +1,4 @@
-## Running Locally
+## Running locally
 
 Always use the local server to view your pages:
 

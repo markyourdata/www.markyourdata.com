@@ -1,7 +1,7 @@
 [Strategy Execution](../index.html) → Proof of Concept
 
 
-# Proof of Concept (Make it Work)
+# Proof of concept (make it work)
 
 <div class="opening-text">
 <p>
@@ -21,13 +21,13 @@ Don't have clarity yet? [Start with exploration](data-exploration.html).
 
 ---
 
-## What Are Typical Deliverables of the Project?
+## What are typical deliverables of the project?
 
 <div id="services">
 
 <div class="service-card">
 
-### Working Prototype
+### Working prototype
 - Functional POC application or model
 - Basic user interface (if applicable)
 - Demonstrated core functionality
@@ -43,7 +43,7 @@ Don't have clarity yet? [Start with exploration](data-exploration.html).
 
 <div class="service-card">
 
-### Next Steps
+### Next steps
 - Required resources
 - Action plan
 
@@ -53,7 +53,7 @@ Don't have clarity yet? [Start with exploration](data-exploration.html).
 </div>
 
 
-## What We DON'T Do in a POC
+## What we don't do in a poc
 
 To keep POCs fast and focused, we intentionally skip:
 - Production-grade infrastructure
@@ -68,7 +68,7 @@ These come later in Proof of Value or Business Impact phases.
 
 <div class="what-comes-next-section">
 
-## What Comes Next?
+## What comes next?
 
 With a working prototype, you're ready to:
 - **[Prove Business Value →](proof-of-value.html)** - Run A/B tests to measure real impact
@@ -78,7 +78,7 @@ With a working prototype, you're ready to:
 
 </div>
 
-## Explore Other Strategy Execution Services
+## Explore other strategy execution services
 
 <div class="service-cards-grid">
 
@@ -86,7 +86,7 @@ With a working prototype, you're ready to:
 <div class="service-icon">🗺️</div>
 <div class="service-card-content">
 
-### Data Exploration
+### Data exploration
 Discover which routes are worth flying.
 
 [Learn More →](data-exploration.html)
@@ -98,7 +98,7 @@ Discover which routes are worth flying.
 <div class="service-icon">✈️</div>
 <div class="service-card-content">
 
-### Proof of Concept
+### Proof of concept
 Will the plane fly? Validate technical feasibility.
 
 [Learn More →](proof-of-concept.html)
@@ -110,7 +110,7 @@ Will the plane fly? Validate technical feasibility.
 <div class="service-icon">💶</div>
 <div class="service-card-content">
 
-### Proof of Value
+### Proof of value
 Will people buy tickets? Prove business impact.
 
 [Learn More →](proof-of-value.html)
@@ -122,7 +122,7 @@ Will people buy tickets? Prove business impact.
 <div class="service-icon">📡</div>
 <div class="service-card-content">
 
-### Business Impact
+### Business impact
 Build the airfield. Scale to production.
 
 [Learn More →](business-impact.html)

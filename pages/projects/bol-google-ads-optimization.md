@@ -1,11 +1,11 @@
-# Google Ads Profit Optimization
+# Google ads profit optimization
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Strategic Shift from Revenue to Profit Steering
+## Strategic shift from revenue to profit steering
 
 For bol.com, we conducted extensive data analyses of Google Ads and internal sales & finance data. We built a compelling business case to shift from revenue-based to profit-based steering, identifying significant cost savings opportunities.
 
@@ -21,7 +21,7 @@ This project demonstrates how deep data analysis can drive strategic decisions t
 
 <div class="content-section section-single-column">
 
-### The Challenge
+### The challenge
 
 bol.com optimized Google Ads based on revenue metrics, which didn't account for product margins. This meant they often invested heavily in advertising low-margin products. They needed a profit-based approach but required proof that the strategic shift would deliver better outcomes.
 
@@ -30,7 +30,7 @@ bol.com optimized Google Ads based on revenue metrics, which didn't account for 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our Approach
+### Our approach
 
 We combined data from multiple sources to build the business case:
 
@@ -75,7 +75,7 @@ The analysis revealed substantial cost savings potential from steering on profit
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Project Outcomes
+### Project outcomes
 
 **Results Achieved:**
 - Significant cost savings identified
@@ -92,7 +92,7 @@ The analysis revealed substantial cost savings potential from steering on profit
 </div>
 <div class="column-text">
 
-### Impact on Strategy
+### Impact on strategy
 
 The analysis didn't just find cost savings—it changed how bol.com approached marketing optimization. By shifting focus from revenue to profit, they could invest advertising budgets more effectively, prioritizing products where marketing spend delivered the best returns.
 
@@ -103,7 +103,7 @@ The business case provided clear evidence for the strategic change, making the d
 
 <div class="conclusion-section">
 
-## Optimize for What Matters
+## Optimize for what matters
 
 This project shows how connecting disparate data sources and rigorous analysis can uncover strategic opportunities that significantly improve business outcomes.
 

@@ -1,11 +1,11 @@
-# AI Content Generation at Scale
+# Ai content generation at scale
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Driving Organic Traffic with Data-Driven Content Generation
+## Driving organic traffic with data-driven content generation
 
 For bol.com, we built an innovative content generation system that created optimized content for millions of product pages. By combining generative AI with rigorous A/B testing, we significantly increased organic traffic while maintaining content quality and brand consistency.
 
@@ -15,7 +15,7 @@ This project demonstrates how AI can scale content operations while keeping huma
 
 <div class="content-section section-single-column">
 
-### The Challenge
+### The challenge
 
 bol.com needed to optimize millions of product pages for search engines, but this presented unique challenges that made traditional approaches impossible:
 
@@ -32,7 +32,7 @@ bol.com needed to optimize millions of product pages for search engines, but thi
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our Approach: Make it Work, Make it Better, Make it Scale
+### Our approach: make it work, make it better, make it scale
 
 We tackled this challenge using our proven methodology, building a comprehensive end-to-end solution:
 
@@ -102,7 +102,7 @@ We tackled this challenge using our proven methodology, building a comprehensive
 
 <div class="content-section section-single-column">
 
-### Why We're Proud of This Project
+### Why we're proud of this project
 
 This project perfectly exemplifies our **Make it work → Make it better → Make it scale** methodology:
 
@@ -119,7 +119,7 @@ The project delivered great results and became the starting point for a set of n
 <div class="content-section section-two-columns image-left">
 <div class="column-cta">
 
-### Project Outcomes
+### Project outcomes
 
 **Results Achieved:**
 - Significant increase in organic traffic
@@ -136,7 +136,7 @@ The project delivered great results and became the starting point for a set of n
 </div>
 <div class="column-text">
 
-### Key Success Factors
+### Key success factors
 
 The project succeeded because we focused on iterations that combined content generation with content validation. This way, we were able to optimize for both the business impact, as well as operational impact. We built monitoring systems to detect quality issues early and established clear success metrics tied to business outcomes.
 

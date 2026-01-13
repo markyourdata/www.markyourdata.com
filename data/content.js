@@ -90,7 +90,7 @@ const siteData = {
   // Homepage sections
   homepage: {
     hero: {
-      title: "Data Analytics and AI Consultants",
+      title: "Data analytics and AI consultants",
       tagline:
         "Transform your company into a data analytics & AI driven powerhouse, one strategic project at a time.",
       ctaButton: {
@@ -133,36 +133,36 @@ const siteData = {
       hero: {
         title: "'Mark Your' Data Analytics & AI Platform",
         tagline:
-          "Make smarter decisions by combining disconnected data sources. Shorten time to insight and multiply the effectiveness of your analysts. Create your AI foundation and prepare your organization for AI solutions at scale.",
+          "Make smarter decisions by combining disconnected data sources. Shorten time to insight and multiply the effectiveness of your analysts. Save over €15.000 per year while creating your data & AI foundation. Prepare your organization for AI solutions at scale.",
         ctaButton: {
           text: "Get in touch",
           link: "pages/contact.html",
         },
       },
       cta: {
-        heading: "Ready to Save €21,000 Per Year?",
+        heading: "Ready to save over €15.000 per year?",
         description:
           "Let's build your cost-efficient data platform with open-source tools and modern infrastructure. Get a free platform design tailored to your needs.",
         button: {
-          text: "Book Your Free Consultation",
+          text: "Book your free consultation",
           link: "pages/contact.html",
         },
       },
     },
     strategyConsulting: {
       hero: {
-        title: "Data Analytics & AI Strategy Consulting",
+        title: "Data analytics & AI strategy consulting",
         tagline:
           "Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
         ctaButton: {
-          text: "Schedule Your 30-Minute Call",
+          text: "Schedule your 30-minute call",
           link: "pages/contact.html",
         },
       },
       cta: {
         heading: "Want to know more?",
         description:
-          "Schedule a free 30-Minute call to discuss your challenges.",
+          "Schedule a free 30-minute call to discuss your challenges.",
         button: {
           text: "Get in touch",
           link: "pages/contact.html",
@@ -171,7 +171,7 @@ const siteData = {
     },
     strategyExecution: {
       hero: {
-        title: "Data Analytics & AI solutions",
+        title: "Data analytics & AI solutions",
         tagline:
           "Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
         ctaButton: {
@@ -180,7 +180,7 @@ const siteData = {
         },
       },
       cta: {
-        heading: "Ready to Turn Your Strategy Into Reality?",
+        heading: "Ready to turn your strategy into reality?",
         description:
           "Let's discuss how we can help you execute your data & AI initiatives with proven results.",
         button: {
@@ -199,64 +199,58 @@ const siteData = {
       company: "bol.",
       image: "assets/images/fans/erick_webbe.png",
     },
-    {
-      quote: "Make it work, make it better, make it scale",
-      author: "Mark Schep | CEO",
-      company: "Mark Your Data",
-      image: "assets/images/fans/mark_schep.png",
-    },
   ],
 
   services: [
     {
-      title: "Data Analytics & AI Leadership",
+      title: "Data analytics & AI leadership",
       description:
         "Need comprehensive data leadership across strategy, platform, and execution? Our consultants join your organization to build your data capability from the ground up—staying on board until you've hired or trained the right internal leader to take over. We cover everything so you can focus on finding the right long-term fit.",
-      cta: "Explore Data Leadership →",
+      cta: "Explore data leadership →",
       slug: "data-leadership",
       url: "pages/services/data-leadership/index.html",
       fullWidth: true,
       propositions: [],
     },
     {
-      title: "Data Analytics & AI Strategy consulting",
+      title: "Data analytics & AI strategy consulting",
       description:
         "Turn strategy into action starting fast, simple and small. With our proven methodologies and expertise, we help you define initiatives where small changes, make a big impact. Invest in business growth from the start and maximize ROI for years to come.",
       cta: "Learn more",
       slug: "strategy-consulting",
       url: "pages/services/strategy-consulting/index.html",
       propositions: [
-        "30-Minute Call: Get in touch with our experts to discuss your data & AI needs.",
-        "DATA & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.",
+        "30-minute call: Get in touch with our experts to discuss your data & AI needs.",
+        "Data & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.",
         "Strategy consulting: Our strategy consulting services help you develop a comprehensive data & AI strategy that aligns with your business goals.",
       ],
     },
     {
-      title: "Data Analytics & AI Platform",
+      title: "Data analytics & AI platform",
       description:
         "Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Make more, better and faster decisions by combining disconnected data sources.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
       propositions: [
-        "Data Infrastructure: Design and implement a scalable data infrastructure that supports your data analytics and AI initiatives.",
-        "Data Pipelines: Develop and maintain data pipelines that efficiently move data from source to destination.",
-        "Data Models: Design and implement data models that support your data analytics and AI initiatives.",
+        "Data infrastructure: Design and implement a scalable data infrastructure that supports your data analytics and AI initiatives.",
+        "Data pipelines: Develop and maintain data pipelines that efficiently move data from source to destination.",
+        "Data models: Design and implement data models that support your data analytics and AI initiatives.",
         "Applied AI: Develop and deploy AI solutions that drive business growth and maximize ROI.",
       ],
     },
     {
-      title: "Data Analytics & AI solutions",
+      title: "Data analytics & AI solutions",
       description:
         "Get started today, even if you don't have the skills, the people, or the time, we turn your data into impact. We help your teams to transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
       cta: "Learn more",
       slug: "strategy-execution",
       url: "pages/services/strategy-execution/index.html",
       propositions: [
-        "Data Exploration: We help you understand where a small change, can make a big difference. And help you transform this opportunity into a Proof of Concept.",
-        "Proof of Concept (Make it work): Develop and deploy proof of concepts that demonstrate the feasibility of your data analytics and AI initiatives.",
-        "Proof of Value (Make it better): Iterate and refine your proof of concepts to maximize their impact.",
-        "Business Impact (Make it scale): Scale up your proof of value to capture the full potential of your data analytics and AI initiatives.",
+        "Data exploration: We help you understand where a small change, can make a big difference. And help you transform this opportunity into a proof of concept.",
+        "Proof of concept (Make it work): Develop and deploy proof of concepts that demonstrate the feasibility of your data analytics and AI initiatives.",
+        "Proof of value (Make it better): Iterate and refine your proof of concepts to maximize their impact.",
+        "Business impact (Make it scale): Scale up your proof of value to capture the full potential of your data analytics and AI initiatives.",
       ],
     },
   ],

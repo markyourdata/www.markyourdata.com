@@ -1,7 +1,7 @@
 [Platform Services](../index.html) → Data Models
 
 
-# Data Models
+# Data models
 
 <div class="opening-text">
 <p>
@@ -25,7 +25,7 @@ Don't have these yet? [Start with infrastructure](data-infrastructure.html) or [
 
 
 
-## When is This Service Relevant?
+## When is this service relevant?
 
 You should consider data modeling when:
 
@@ -38,13 +38,13 @@ You should consider data modeling when:
 - You need to democratize data access
 
 
-## What Are Typical Deliverables of the Project?
+## What are typical deliverables of the project?
 
 <div id="services">
 
 <div class="service-card">
 
-### Data Model Design
+### Data model design
 - Dimensional models (star schema)
 - Entity relationship diagrams
 - Metric definitions and business rules
@@ -64,7 +64,7 @@ You should consider data modeling when:
 
 <div class="service-card">
 
-### Governance & Documentation
+### Governance & documentation
 - Data lineage tracking
 - Business glossary
 - Data quality rules
@@ -77,7 +77,7 @@ You should consider data modeling when:
 
 <div class="what-comes-next-section">
 
-## What Comes Next?
+## What comes next?
 
 With clean, modeled data, you're ready to:
 - **[Deploy AI Solutions →](applied-ai.html)** that leverage your single source of truth
@@ -87,7 +87,7 @@ With clean, modeled data, you're ready to:
 
 </div>
 
-## Explore Other Platform Services
+## Explore other platform services
 
 <div class="service-cards-grid">
 
@@ -95,7 +95,7 @@ With clean, modeled data, you're ready to:
 <div class="service-icon">👷</div>
 <div class="service-card-content">
 
-### Data Infrastructure
+### Data infrastructure
 The foundation—cloud infrastructure, security, and scalability.
 
 [Learn More →](data-infrastructure.html)
@@ -107,7 +107,7 @@ The foundation—cloud infrastructure, security, and scalability.
 <div class="service-icon">🚰</div>
 <div class="service-card-content">
 
-### Data Pipelines
+### Data pipelines
 Automated data delivery from all your sources.
 
 [Learn More →](data-pipelines.html)
@@ -119,7 +119,7 @@ Automated data delivery from all your sources.
 <div class="service-icon">🏭</div>
 <div class="service-card-content">
 
-### Data Models
+### Data models
 Transform raw data into business-ready products.
 
 [Learn More →](data-models.html)
@@ -131,7 +131,7 @@ Transform raw data into business-ready products.
 <div class="service-icon">🚀</div>
 <div class="service-card-content">
 
-### Applied AI
+### Applied ai
 Intelligence layer on top of your data foundation.
 
 [Learn More →](applied-ai.html)
