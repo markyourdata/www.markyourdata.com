@@ -405,6 +405,12 @@ const siteData = {
 - Action-oriented: "Get Started", "Learn More", "Book Consultation"
 - NOT generic: "Click Here", "Submit"
 
+**Headers (h1, h2, h3, h4):**
+- Use sentence case (only first word capitalized)
+- ✅ Correct: "About us", "Our services", "Data analytics platform"
+- ❌ Incorrect: "About Us", "Our Services", "Data Analytics Platform"
+- Exception: Preserve proper nouns and acronyms (AI, Mark Your Data, bol.com, etc.)
+
 ---
 
 ## Seo guidelines
