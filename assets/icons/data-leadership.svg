@@ -1,0 +1,8 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crown icon for leadership -->
+  <path d="M60 25L65 40L80 35L70 50L85 55L60 60L35 55L50 50L40 35L55 40L60 25Z" fill="#f9a800" stroke="#f9a800" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M30 60L90 60L85 85L35 85Z" fill="#f9a800" stroke="#f9a800" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="40" cy="70" r="3" fill="#fff"/>
+  <circle cx="60" cy="70" r="3" fill="#fff"/>
+  <circle cx="80" cy="70" r="3" fill="#fff"/>
+</svg>

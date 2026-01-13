@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lightbulb icon for strategy/ideas -->
+  <path d="M60 25C48 25 38 35 38 47C38 55 42 62 48 66V75C48 78 51 81 54 81H66C69 81 72 78 72 75V66C78 62 82 55 82 47C82 35 72 25 60 25Z" fill="#f9a800" stroke="#f9a800" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M52 85H68" stroke="#f9a800" stroke-width="3" stroke-linecap="round"/>
+  <path d="M54 90H66" stroke="#f9a800" stroke-width="3" stroke-linecap="round"/>
+  <!-- Light rays -->
+  <path d="M60 15V20" stroke="#f9a800" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M85 30L81 34" stroke="#f9a800" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M95 47H90" stroke="#f9a800" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M35 30L39 34" stroke="#f9a800" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M25 47H30" stroke="#f9a800" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

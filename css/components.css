@@ -306,6 +306,16 @@ a:focus-visible {
     font-size: 3rem;
     flex-shrink: 0;
     line-height: 1;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon img {
+    width: 80px;
+    height: 80px;
+    display: block;
 }
 
 .service-card-content {

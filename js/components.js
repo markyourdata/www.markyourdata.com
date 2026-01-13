@@ -84,6 +84,7 @@ const components = {
    * @param {string} data.description - Service description
    * @param {string} data.url - URL to service page
    * @param {string} data.cta - Call-to-action button text
+   * @param {string} [data.icon] - Optional icon path
    * @param {boolean} [data.fullWidth] - Whether card should be full width
    * @param {Object} [options={}] - Rendering options
    * @param {boolean} [options.removeServicesPrefix] - Remove 'pages/services/' prefix from URLs
@@ -110,8 +111,14 @@ const components = {
         ? "service-card service-card-full-width"
         : "service-card";
 
+      // Render icon if available
+      const iconHtml = data.icon
+        ? `<div class="service-icon"><img src="${escapeHtml(data.icon)}" alt="" aria-hidden="true" /></div>`
+        : "";
+
       return `
         <div class="${cardClass}">
+          ${iconHtml}
           <h3>${escapeHtml(data.title)}</h3>
           <p>${escapeHtml(data.description)}</p>
           <a href="${escapeHtml(url)}" aria-label="${escapeHtml(data.title)}: ${escapeHtml(data.cta)}">

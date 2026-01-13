@@ -209,6 +209,7 @@ const siteData = {
       cta: "Explore data leadership →",
       slug: "data-leadership",
       url: "pages/services/data-leadership/index.html",
+      icon: "assets/icons/data-leadership.svg",
       fullWidth: true,
       propositions: [],
     },
@@ -219,6 +220,7 @@ const siteData = {
       cta: "Learn more",
       slug: "strategy-consulting",
       url: "pages/services/strategy-consulting/index.html",
+      icon: "assets/icons/strategy-consulting.svg",
       propositions: [
         "30-minute call: Get in touch with our experts to discuss your data & AI needs.",
         "Data & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.",
@@ -232,6 +234,7 @@ const siteData = {
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
+      icon: "assets/icons/platform.svg",
       propositions: [
         "Data infrastructure: Design and implement a scalable data infrastructure that supports your data analytics and AI initiatives.",
         "Data pipelines: Develop and maintain data pipelines that efficiently move data from source to destination.",
@@ -246,6 +249,7 @@ const siteData = {
       cta: "Learn more",
       slug: "strategy-execution",
       url: "pages/services/strategy-execution/index.html",
+      icon: "assets/icons/strategy-execution.svg",
       propositions: [
         "Data exploration: We help you understand where a small change, can make a big difference. And help you transform this opportunity into a proof of concept.",
         "Proof of concept (Make it work): Develop and deploy proof of concepts that demonstrate the feasibility of your data analytics and AI initiatives.",

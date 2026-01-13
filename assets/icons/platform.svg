@@ -1,0 +1,14 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building blocks/layers icon for platform -->
+  <rect x="25" y="65" width="30" height="25" rx="2" fill="#f9a800" stroke="#f9a800" stroke-width="2"/>
+  <rect x="65" y="65" width="30" height="25" rx="2" fill="#f9a800" stroke="#f9a800" stroke-width="2"/>
+  <rect x="25" y="35" width="30" height="25" rx="2" fill="#f9a800" stroke="#f9a800" stroke-width="2"/>
+  <rect x="65" y="35" width="30" height="25" rx="2" fill="#f9a800" stroke="#f9a800" stroke-width="2"/>
+  <rect x="45" y="50" width="30" height="25" rx="2" fill="#f9a800" stroke="#f9a800" stroke-width="2"/>
+  <rect x="45" y="20" width="30" height="25" rx="2" fill="#f9a800" stroke="#f9a800" stroke-width="2"/>
+  <!-- Connection lines -->
+  <path d="M40 60L60 50" stroke="#f9a800" stroke-width="2" opacity="0.6"/>
+  <path d="M80 60L60 50" stroke="#f9a800" stroke-width="2" opacity="0.6"/>
+  <path d="M40 35L60 25" stroke="#f9a800" stroke-width="2" opacity="0.6"/>
+  <path d="M80 35L60 25" stroke="#f9a800" stroke-width="2" opacity="0.6"/>
+</svg>

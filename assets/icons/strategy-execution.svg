@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rocket icon for execution/launch -->
+  <path d="M60 20L70 50L80 55L75 65L85 75L75 85L65 75L60 80L55 75L45 85L35 75L45 65L40 55L50 50L60 20Z" fill="#f9a800" stroke="#f9a800" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="60" cy="45" r="5" fill="#fff"/>
+  <!-- Flames -->
+  <path d="M55 80Q50 88 45 95" stroke="#f9a800" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M60 82Q60 90 60 98" stroke="#f9a800" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M65 80Q70 88 75 95" stroke="#f9a800" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Side fins -->
+  <path d="M40 55L35 65L45 60Z" fill="#f9a800" stroke="#f9a800" stroke-width="1.5"/>
+  <path d="M80 55L85 65L75 60Z" fill="#f9a800" stroke="#f9a800" stroke-width="1.5"/>
+</svg>
