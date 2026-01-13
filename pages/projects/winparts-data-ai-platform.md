@@ -9,6 +9,8 @@
 
 For Winparts, we built a complete data and cloud infrastructure from the ground up, enabling the team to unlock valuable insights and lay the foundation for AI use cases. By creating robust data pipelines and reusable data models on secure enterprise infrastructure, we dramatically reduced time to insight.
 
+**Cost-Efficient Architecture:** Working within GCP-only constraints and security requirements, we designed a modern data platform using open-source tools ([DLT](../blogs/why-dlt-beats-fivetran.html), [DBT](../blogs/dbt-transform-data-into-insights.html)) on Cloud Run with Cloud Scheduler—saving over €20,000 per year compared to traditional alternatives like Fivetran and Cloud Composer.
+
 This project transformed data from a scattered resource into a strategic asset accessible to analysts across the organization.
 
 </div>
@@ -23,6 +25,8 @@ Winparts is a business-to-consumer webshop that sells car parts. Originally a Du
 **Corporate Infrastructure Alignment** - The acquisition by GPC made the company more corporate, directly impacting the data platform. The entire infrastructure needed to align with the parent organization's standards, including cloud organization, networking, security, user management, and governance frameworks.
 
 **Building From Ground Zero** - The whole infrastructure needed to be created from scratch. This meant setting up the cloud organization, networking, security policies, access controls—the whole infrastructure foundation. Critical groundwork before any data pipeline could be created.
+
+**Strict Technology Constraints** - The organization required all tooling to run on GCP with no externally hosted software. This ruled out traditional enterprise solutions like Fivetran for data pipelines and meant we needed cost-effective alternatives that met security requirements while staying within budget.
 
 **Organizational Complexity** - The challenges were more organizational than technical. Corporate alignment, stakeholder coordination, security approvals, and establishing new ways of working all needed to be addressed before technical value could be delivered.
 
@@ -66,14 +70,21 @@ We worked in two parallel tracks to overcome dependencies and accelerate deliver
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/database-export.svg" alt="Data Pipelines" class="icon-brand" />
 <div>
-<strong>Data Pipelines</strong> - Automated ingestion from source systems
+<strong>Data Pipelines</strong> - <a href="../blogs/why-dlt-beats-fivetran.html">DLT</a> on Cloud Run for automated ingestion (replacing Fivetran)
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/code.svg" alt="Data Models" class="icon-brand" />
 <div>
-<strong>Data Models</strong> - Reusable analytical models for self-service
+<strong>Data Models</strong> - <a href="../blogs/dbt-transform-data-into-insights.html">DBT</a> for reusable analytical models and self-service
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/calendar-check.svg" alt="Orchestration" class="icon-brand" />
+<div>
+<strong>Orchestration</strong> - Cloud Scheduler for workflow automation (replacing Cloud Composer)
 </div>
 </div>
 
@@ -99,6 +110,8 @@ This project perfectly demonstrates how to navigate organizational complexity wh
 
 **Make it Work** - To overcome infrastructure dependencies, we deployed the data platform infrastructure simultaneously with dummy data. This allowed us to prove the technical approach worked without being blocked by cloud platform dependencies. We validated the architecture, pipelines, and models in a safe environment.
 
+**Cost-Efficient Solution** - The GCP-only requirement turned into an advantage. By choosing [DLT](../blogs/why-dlt-beats-fivetran.html) over Fivetran (~€15,000/year savings) and Cloud Scheduler over Cloud Composer (~€5,000/year savings), we built a <a href="../services/platform/index.html">modern data platform</a> that saves over €20,000 annually while meeting all security requirements. See our [platform architecture](../services/platform/details/data-pipelines.html) for implementation details.
+
 **Make it Better** - Once the cloud platform was ready, we onboarded the first data engineer and first data analyst. We connected the first real data sources, built the first production data models, and created the first business insights—completing the returns use case that optimized the returns process.
 
 **Make it Scale** - With the returns use case completed and infrastructure in place, the pace accelerated dramatically. New use cases could be onboarded quickly—each bringing new data sources, new models, and new insights. Analysts could answer more and more questions that weren't even part of the original use cases, at a much higher rate than before. One use case at a time, the data warehouse grew into a strategic asset.
@@ -115,6 +128,7 @@ The breakthrough was working in parallel tracks and using dummy data to de-risk 
 **Results Achieved:**
 - Complete cloud platform setup aligned with GPC standards
 - Production data platform with automated pipelines
+- **€20,000+ annual cost savings** vs. traditional enterprise tools
 - Returns use case optimized and delivered
 - Dramatic reduction in time to insight
 - Foundation for rapid expansion to new use cases
@@ -124,8 +138,9 @@ The breakthrough was working in parallel tracks and using dummy data to de-risk 
 - Python
 - SQL
 - Cloud Infrastructure (GCP)
-- Data Pipeline (dlt)
-- Data Modeling (dbt)
+- [Data Pipelines (DLT)](../blogs/why-dlt-beats-fivetran.html) on Cloud Run
+- [Data Modeling (DBT)](../blogs/dbt-transform-data-into-insights.html)
+- Cloud Scheduler for orchestration
 
 </div>
 <div class="column-text">

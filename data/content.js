@@ -133,7 +133,7 @@ const siteData = {
       hero: {
         title: "'Mark Your' Data Analytics & AI Platform",
         tagline:
-          "Make smarter decisions by combining disconnected data sources. Shorten time to insight and multiply the effectiveness of your analysts. Save over €15.000 per year while creating your data & AI foundation. Prepare your organization for AI solutions at scale.",
+          "Save €20,000+ annually compared to traditional enterprise tools. Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Let them make more, better and faster decisions by combining disconnected data sources.",
         ctaButton: {
           text: "Get in touch",
           link: "pages/contact.html",
@@ -228,7 +228,7 @@ const siteData = {
     {
       title: "Data analytics & AI platform",
       description:
-        "Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Make more, better and faster decisions by combining disconnected data sources.",
+        "Save €20,000+ annually compared to traditional enterprise tools. Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Let them make more, better and faster decisions by combining disconnected data sources.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
@@ -295,7 +295,7 @@ const siteData = {
       client: "Winparts",
       industry: "E-commerce",
       description:
-        "We build a strong value adding data foundation based on a use case around returned products. With data pipelines that collected data from multiple databases and APIs we build data models that populated the data warehouse. This is now the foundation for many new use cases.",
+        "We build a strong value adding data foundation that saved over 20.000€ per year. With data pipelines that collected data from multiple databases and APIs related to returned products we build data models that populated the data warehouse. This is now the foundation for many new use cases.",
       technologies: ["Python", "LLMs", "Generative AI"],
       outcome: [
         "Single source of truth",
