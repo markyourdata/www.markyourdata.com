@@ -111,9 +111,13 @@ const components = {
         ? "service-card service-card-full-width"
         : "service-card";
 
-      // Render icon if available
+      // Render icon if available (resolve path based on current location)
+      let iconPath = data.icon;
+      if (iconPath && typeof resolvePath === "function") {
+        iconPath = resolvePath(iconPath);
+      }
       const iconHtml = data.icon
-        ? `<div class="service-icon"><img src="${escapeHtml(data.icon)}" alt="" aria-hidden="true" /></div>`
+        ? `<div class="service-icon"><img src="${escapeHtml(iconPath)}" alt="" aria-hidden="true" /></div>`
         : "";
 
       return `
