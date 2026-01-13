@@ -133,7 +133,7 @@ const siteData = {
       hero: {
         title: "'Mark Your' Data Analytics & AI Platform",
         tagline:
-          "Save €20,000+ annually compared to traditional enterprise tools. Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Let them make more, better and faster decisions by combining disconnected data sources.",
+          "Save €20.000+ annually compared to traditional enterprise tools. Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Let them make more, better and faster decisions by combining disconnected data sources.",
         ctaButton: {
           text: "Get in touch",
           link: "pages/contact.html",
@@ -230,7 +230,7 @@ const siteData = {
     {
       title: "Data analytics & AI platform",
       description:
-        "Save €20,000+ annually compared to traditional enterprise tools. Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Let them make more, better and faster decisions by combining disconnected data sources.",
+        "Save €20.000+ annually compared to traditional enterprise tools. Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Let them make more, better and faster decisions by combining disconnected data sources.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
@@ -299,7 +299,7 @@ const siteData = {
       client: "Winparts",
       industry: "E-commerce",
       description:
-        "We build a strong value adding data foundation that saved over 20.000€ per year. With data pipelines that collected data from multiple databases and APIs related to returned products we build data models that populated the data warehouse. This is now the foundation for many new use cases.",
+        "We build a strong value adding data foundation that saved over €20.000 per year. With data pipelines that collected data from multiple databases and APIs related to returned products we build data models that populated the data warehouse. This is now the foundation for many new use cases.",
       technologies: ["Python", "LLMs", "Generative AI"],
       outcome: [
         "Single source of truth",

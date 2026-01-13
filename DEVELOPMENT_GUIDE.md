@@ -411,6 +411,12 @@ const siteData = {
 - ❌ Incorrect: "About Us", "Our Services", "Data Analytics Platform"
 - Exception: Preserve proper nouns and acronyms (AI, Mark Your Data, bol.com, etc.)
 
+**Amount Formatting:**
+- Use periods (.) as thousand separators, not commas
+- ✅ Correct: "€99.000", "€20.000", "€1.500.000"
+- ❌ Incorrect: "€99,000", "€20,000", "€1,500,000"
+- Abbreviated forms are acceptable: "99K", "20K", "1.5M"
+
 ---
 
 ## Seo guidelines
