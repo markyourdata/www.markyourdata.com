@@ -6,3 +6,6 @@ blog over Google Workflows
 blog over pre-pro en pro environment
 blog over DLT best practices met link naar trainingen
 blog over DBT best practices met link naar trainingen
+
+
+whitepaper op thank you pagina, met links naar blogs?
