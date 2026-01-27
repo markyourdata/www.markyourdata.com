@@ -8,7 +8,7 @@
 Your data infrastructure is built—the foundation is solid. Now you need to bring data in. Think of pipelines as your supply chain: they automatically deliver fresh groceries (data) from various suppliers (your systems) to your kitchen (data platform) every day.
 </p>
 <p>
-Without pipelines, your team manually carries data back and forth. With pipelines, everything flows automatically—fresh, reliable, and on schedule. Their only job is to connect to data sources (databases, APIs) and copy the data to your central platform, ensuring your warehouse is always up to date.
+Without pipelines, your team manually carries data back and forth. With pipelines, everything flows automatically, fresh, reliable, and on schedule. Their only job is to connect to data sources (databases, APIs) and copy the data to your central platform, ensuring your warehouse is always up to date.
 </p>
 </div>
 

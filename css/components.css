@@ -669,3 +669,70 @@ a:focus-visible {
         padding: 1.5rem;
     }
 }
+
+/* Promo Cards */
+.promo-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.promo-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--dark-charcoal);
+    color: var(--white);
+    text-decoration: none;
+    border-left: 4px solid var(--dynamic-orange);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.promo-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    background-color: #3d3d42;
+}
+
+.promo-card-content {
+    flex: 1;
+}
+
+.promo-card-content h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--white);
+}
+
+.promo-card-content p {
+    font-size: 0.95rem;
+    color: var(--light-gray);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.promo-card-arrow {
+    font-size: 1.5rem;
+    color: var(--dynamic-orange);
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+.promo-card:hover .promo-card-arrow {
+    transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+    .promo-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .promo-card {
+        padding: 1.25rem 1.5rem;
+    }
+}

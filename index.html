@@ -158,69 +158,118 @@
         <main id="main-content">
             <!-- Hero Section -->
             <div id="hero-container">
-            <!-- Hero rendered from data/content.js -->
-        </div>
+                <!-- Hero rendered from data/content.js -->
+            </div>
 
-        <!-- About Us Section -->
-        <section>
-            <div class="container">
-                <div id="about-us-content">
-                    <!-- Content rendered from data/content.js -->
-                </div>
-            </div>
-        </section
-        <section>
-            <div class="container">
-            <h2>Our services</h2>
-            <div id="services">
-                <!-- Service cards will be rendered here by JavaScript -->
-            </div>
-            </div>
-        </section>
-
-
-        <!-- Clients Section -->
-        <section class="clients-section">
-            <div class="container">
-                <div id="clients-content">
-                    <!-- Content rendered from data/content.js -->
-                </div>
-            </div>
-            <div class="clients-carousel-wrapper">
-                <div class="clients-carousel" id="clients-carousel">
-                    <div id="clients">
-                        <!-- Client logos will be rendered here by JavaScript -->
+            <!-- Introduction Section -->
+            <section>
+                <div class="container">
+                    <div class="opening-text">
+                        <p>
+                            Your organization has grown, and so has your data.
+                            It's scattered across systems, underutilized, and
+                            you know there's untapped potential. You're ready to
+                            turn this data into a real asset, but where do you
+                            start?
+                        </p>
+                        <p>
+                            <strong
+                                >Mark Your Data helps entrepreneurial business
+                                leaders like you become more
+                                data-driven.</strong
+                            >
+                            Whether you need the foundations to get started, or
+                            help finding where data can make the biggest impact,
+                            we've got you covered.
+                        </p>
+                    </div>
+                    <!-- Promo Cards -->
+                    <div class="promo-cards">
+                        <a
+                            href="pages/services/platform/index.html"
+                            class="promo-card"
+                        >
+                            <div class="promo-card-content">
+                                <h3>Need a data foundation?</h3>
+                                <p>
+                                    Skip hiring a data engineer. Our Mark Your
+                                    Data Platform <b>saves you 100K</b> per year
+                                    and lets your analysts create impact from
+                                    day one.
+                                </p>
+                            </div>
+                            <span class="promo-card-arrow">&rarr;</span>
+                        </a>
+                        <a
+                            href="pages/services/strategy-execution/index.html"
+                            class="promo-card"
+                        >
+                            <div class="promo-card-content">
+                                <h3>Have data, but no impact yet?</h3>
+                                <p>
+                                    We help you find where a small change with
+                                    data can make a big difference. From
+                                    opportunity to proof of value.
+                                </p>
+                            </div>
+                            <span class="promo-card-arrow">&rarr;</span>
+                        </a>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Testimonials Section -->
-        <section>
-            <div class="container">
-                <div id="fans-content">
-                    <!-- Content rendered from data/content.js -->
-                </div>
-                <div id="testimonials">
-                    <!-- Testimonials will be rendered here by JavaScript -->
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Projects Section -->
-        <section>
-            <div class="container">
-                <div id="projects-content">
-                    <!-- Content rendered from data/content.js -->
+            <!-- Services Section -->
+            <section>
+                <div class="container">
+                    <h2>Our services</h2>
+                    <div id="services">
+                        <!-- Service cards will be rendered here by JavaScript -->
+                    </div>
                 </div>
-                <div id="projects" class="content-grid">
-                    <!-- Projects will be rendered here by JavaScript -->
+            </section>
+
+            <!-- Clients Section -->
+            <section class="clients-section">
+                <div class="container">
+                    <div id="clients-content">
+                        <!-- Content rendered from data/content.js -->
+                    </div>
                 </div>
+                <div class="clients-carousel-wrapper">
+                    <div class="clients-carousel" id="clients-carousel">
+                        <div id="clients">
+                            <!-- Client logos will be rendered here by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonials Section -->
+            <section>
+                <div class="container">
+                    <div id="fans-content">
+                        <!-- Content rendered from data/content.js -->
+                    </div>
+                    <div id="testimonials">
+                        <!-- Testimonials will be rendered here by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section>
+                <div class="container">
+                    <div id="projects-content">
+                        <!-- Content rendered from data/content.js -->
+                    </div>
+                    <div id="projects" class="content-grid">
+                        <!-- Projects will be rendered here by JavaScript -->
+                    </div>
+                </div>
+            </section>
+            <!-- CTA Section -->
+            <div id="cta-container">
+                <!-- CTA rendered from data/content.js -->
             </div>
-        </section>
-        <!-- CTA Section -->
-        <div id="cta-container">
-            <!-- CTA rendered from data/content.js -->
-        </div>
         </main>
 
         <!-- Scripts: Load config, navbar, data, then components -->
@@ -232,7 +281,10 @@
         <script src="js/projects.js"></script>
         <script>
             // Render projects on homepage (use config limit)
-            const limit = typeof CONFIG !== 'undefined' ? CONFIG.LAYOUT.PROJECTS_LIMIT_HOMEPAGE : 2;
+            const limit =
+                typeof CONFIG !== "undefined"
+                    ? CONFIG.LAYOUT.PROJECTS_LIMIT_HOMEPAGE
+                    : 2;
             renderProjects("projects", { limit });
         </script>
     </body>

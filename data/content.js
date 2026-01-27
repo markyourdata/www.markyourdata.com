@@ -131,18 +131,38 @@ const siteData = {
   pages: {
     platform: {
       hero: {
-        title: "'Mark Your' Data Analytics & AI Platform",
+        title: "Save €100K per year with our Mark Your Data Platform",
         tagline:
-          "Save €20.000+ annually compared to traditional enterprise tools. Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Let them make more, better and faster decisions by combining disconnected data sources.",
+          "Don't hire a data engineer. Our cloud-native data platform provides everything your analysts need to start adding value from day one. We handle the foundation—you focus on insights.",
         ctaButton: {
           text: "Get in touch",
           link: "pages/contact.html",
         },
       },
       cta: {
-        heading: "Ready to save over €15.000 per year?",
+        heading: "Ready to save €100K per year?",
         description:
-          "Let's build your cost-efficient data platform with open-source tools and modern infrastructure. Get a free platform design tailored to your needs.",
+          "Skip the data engineer hire. Get a complete data platform that your analysts can use from day one. Free consultation included.",
+        button: {
+          text: "Book your free consultation",
+          link: "pages/contact.html",
+        },
+      },
+    },
+    platformExistingTeam: {
+      hero: {
+        title: "Save €30K per year on your data platform",
+        tagline:
+          "Already have a data engineer? Reduce your platform costs by switching from expensive enterprise tools to our lightweight, open-source stack. Same capabilities, fraction of the cost.",
+        ctaButton: {
+          text: "Get in touch",
+          link: "pages/contact.html",
+        },
+      },
+      cta: {
+        heading: "Ready to cut your platform costs?",
+        description:
+          "Let us show you how to save €30K+ annually by replacing expensive tools like Fivetran, Cloud Composer, and Snowflake with cost-effective alternatives.",
         button: {
           text: "Book your free consultation",
           link: "pages/contact.html",
@@ -228,18 +248,18 @@ const siteData = {
       ],
     },
     {
-      title: "Data analytics & AI platform",
+      title: "Mark Your Data Platform",
       description:
-        "Save €20.000+ annually compared to traditional enterprise tools. Make impact from day one with your data & AI foundation. Multiply the effectiveness of your data professionals. Let them make more, better and faster decisions by combining disconnected data sources.",
+        "Save €100K per year. Don't hire a data engineer, our cloud-native platform provides everything your analysts need from day one. We handle the foundation, you focus on insights.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
       icon: "assets/icons/platform.svg",
       propositions: [
-        "Data infrastructure: Design and implement a scalable data infrastructure that supports your data analytics and AI initiatives.",
-        "Data pipelines: Develop and maintain data pipelines that efficiently move data from source to destination.",
-        "Data models: Design and implement data models that support your data analytics and AI initiatives.",
-        "Applied AI: Develop and deploy AI solutions that drive business growth and maximize ROI.",
+        "No data engineer needed: We provide the complete foundation so your analysts can start immediately.",
+        "Save €100K/year: Skip the €100K data engineer salary and €35K platform costs.",
+        "Data pipelines included: Automated data ingestion from all your sources.",
+        "Ready for AI: Built-in support for analytics and AI applications.",
       ],
     },
     {
