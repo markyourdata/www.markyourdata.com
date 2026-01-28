@@ -219,6 +219,21 @@ const siteData = {
       company: "bol.",
       image: "assets/images/fans/erick_webbe.png",
     },
+    {
+      quote:
+        "I have worked together with Mark on several occasions. What I love about Mark is his pragmatic approach, he is able to quickly get to the core of a problem, identify first valuable steps and guide execution to prove the value of a chosen solution. He collaborates well with existing teams, is always valued for his contribution and personality, but also able to work more independently on a scoped assignment.",
+      author:
+        "Elmer Hiemstra | Head of Product Partner Acquisition, Management & Enablement",
+      company: "bol",
+      image: "assets/images/fans/elmer_hiemstra.png",
+    },
+    {
+      quote:
+        "Mark combines a sharp analytical mind with broad technical knowledge. He prioritizes simple, working solutions over unnecessary complexity. For us, this resulted in significant cost savings through a surprisingly straightforward implementation with low maintenance costs. He communicates clearly and cuts through the jargon, Mark is a highly effective partner to work with.",
+      author: "Jasper van Heijst | Group Product Manager",
+      company: "bol",
+      image: "assets/images/fans/jasper_van_heijst.png",
+    },
   ],
 
   services: [
