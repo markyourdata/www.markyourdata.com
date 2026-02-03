@@ -256,7 +256,7 @@ const siteData = {
       quote: "Lorem Ipsum",
       author: "Lisette van de Steeg | Analytics Lead",
       company: "bol",
-      image: "assets/images/fans/lisette_van_de_Steeg.png",
+      image: "assets/images/fans/lisette_van_de_steeg.png",
     },
     {
       key: "Arend de Ruiter",
