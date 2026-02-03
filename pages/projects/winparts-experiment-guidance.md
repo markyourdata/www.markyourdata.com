@@ -1,75 +1,85 @@
-# Experiment guidance
+# Driving an experimental way of working
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Building experimentation capability through coaching
+## Transforming how teams validate ideas and drive improvement
 
-For Winparts, we provided ongoing experiment guidance to help teams define, refine, and execute data-driven experiments. Through quarterly engagement, we built internal capability while delivering proven value from well-designed experiments.
+For Winparts, we helped establish an experimental mindset across the organization. Through periodic coaching engagements, teams learned to test ideas rigorously, make decisions based on evidence, and continuously improve their processes. The result: a self-sustaining culture where experimentation drives business improvement.
 
-This project demonstrates how expert guidance accelerates learning and improves experiment quality without taking over ownership.
+This project shows how hands-on coaching can transform organizational culture while delivering immediate business value.
 
-</div>
-<parameter name="featured-intro-aside">
-<div class="card-meta">Client: Winparts</div>
-<div class="card-meta">Industry: E-commerce</div>
-<div class="card-meta">Service: Experiment Guidance</div>
-</div>
 </div>
 
 <div class="content-section section-single-column">
 
 ### The challenge
 
-Winparts wanted to build a culture of experimentation but lacked experience with rigorous experiment design. Teams had ideas but needed guidance on methodology, metrics, and validation approaches to ensure experiments delivered actionable insights.
+Winparts had plenty of ideas for improving their business, but no systematic way to validate which ones actually worked. Teams would implement changes based on intuition, without measuring impact or learning from results.
+
+This led to wasted effort on initiatives that didn't move the needle, and missed opportunities to double down on what actually worked. They needed a way to separate promising ideas from assumptions.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our approach
+### Our approach: learning by doing
 
-We provided structured guidance across the experiment lifecycle:
+We embedded experimentation into real work, coaching teams through actual experiments:
 
 <div class="icon-list">
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/light-bulb.svg" alt="Opportunity Finding" class="icon-brand" />
 <div>
-<strong>Opportunity Finding</strong> - Help identify high-value experiment opportunities
+<strong>Opportunity Finding</strong> - Identified where small tests could reveal big insights
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/flask.svg" alt="Experiment Design" class="icon-brand" />
 <div>
-<strong>Experiment Design</strong> - Refine hypotheses and define success metrics
+<strong>Experiment Design</strong> - Turned vague ideas into testable hypotheses
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/rocket.svg" alt="Execution Support" class="icon-brand" />
 <div>
-<strong>Execution Support</strong> - Provide technical advice during implementation
+<strong>Execution Support</strong> - Guided implementation to ensure valid results
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/graph-up.svg" alt="Results Analysis" class="icon-brand" />
 <div>
-<strong>Results Analysis</strong> - Guide interpretation and next steps
+<strong>Results Analysis</strong> - Interpreted outcomes and identified next steps
 </div>
 </div>
 </div>
 
-Through regular touchpoints, teams learned experiment methodology while executing real projects that proved business value.
+Each quarter, teams completed real experiments while internalizing the methodology.
 
 </div>
 <div class="column-image">
-<img src="../../assets/images/pages/projects/placeholder.png" alt="Experiment Guidance Process" />
+<img src="../../assets/images/wide/experimental_way_of_working.png" alt="Experiment Guidance Process" style="max-width: 100%; width: 100%"/>
 </div>
+</div>
+
+<div class="content-section section-single-column">
+
+### Why we're proud of this project
+
+This project demonstrates how cultural change happens through action, not training:
+
+**Learning Through Real Work** - Teams didn't attend workshops about experimentation. They ran actual experiments on real business challenges, with coaching to ensure they learned the right lessons.
+
+**Building Confidence** - Each successful experiment gave teams more confidence to test the next idea. Over time, experimentation became the default approach rather than an exception.
+
+**Sustainable Change** - By the end of our engagement, teams could design and execute experiments independently. They started using experimentation tooling to better measure outcomes and iterate on their ideas. This way, the capability stayed in the organization and became a part of their daily work.
+
 </div>
 
 <div class="content-section section-two-columns image-left">
@@ -78,40 +88,25 @@ Through regular touchpoints, teams learned experiment methodology while executin
 ### Project outcomes
 
 **Results Achieved:**
-- Quarterly experiments executed
-- Increased experiment quality
-- Proof of value demonstrated
-- Team capability built
+- Culture shift toward evidence based decisions
+- Multiple validated improvements implemented
+- Teams independently running experiments
+- Reduced waste from untested assumptions
 
 **Focus Areas:**
-- Opportunity finding
-- Experimentation methodology
-- A/B testing
-- Data-driven validation
+- Hypothesis development
+- A/B testing methodology
+- Impact measurement
+- Iterative improvement
 
 </div>
 <div class="column-text">
 
-### Building internal capability
+### Key success factors
 
-The guidance engagement succeeded by balancing doing with teaching. We helped teams execute experiments successfully while explaining the methodology behind our recommendations. Over time, teams internalized best practices and gained confidence in their experimentation approach.
+The periodic cadence was essential. It gave teams enough time to implement and measure experiments while maintaining momentum. Regular touchpoints prevented experiments from stalling or losing focus.
 
-The quarterly cadence provided consistent support while giving teams space to apply learnings independently. This rhythm built capability sustainably without creating dependency on external expertise.
+We also focused on celebrating learning, not just wins. When an experiment disproved a hypothesis, that was valuable too. It prevented investment in initiatives that wouldn't have worked.
 
 </div>
-</div>
-
-<div class="conclusion-section">
-
-## Accelerate your experimentation
-
-This project shows how expert guidance can accelerate learning while delivering business value through well-designed experiments.
-
-Want to build experimentation capability in your organization? Let's discuss how coaching can help your teams deliver results while learning.
-
-<button class="cta-button">
-<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
-Schedule a Strategy Session
-</button>
-
 </div>

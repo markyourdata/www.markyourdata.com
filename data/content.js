@@ -94,7 +94,7 @@ const siteData = {
       tagline:
         "Transform your company into a data analytics & AI driven powerhouse, one strategic project at a time.",
       ctaButton: {
-        text: "Get in touch",
+        text: "Learn More",
         link: "pages/contact.html",
       },
     },
@@ -121,7 +121,7 @@ const siteData = {
     cta: {
       heading: "Want to learn more?",
       button: {
-        text: "Get in touch",
+        text: "Learn More",
         link: "pages/contact.html",
       },
     },
@@ -135,7 +135,7 @@ const siteData = {
         tagline:
           "Don't hire a data engineer. Our cloud-native data platform provides everything your analysts need to start adding value from day one. We handle the foundation—you focus on insights.",
         ctaButton: {
-          text: "Get in touch",
+          text: "Learn More",
           link: "pages/contact.html",
         },
       },
@@ -155,7 +155,7 @@ const siteData = {
         tagline:
           "Already have a data engineer? Reduce your platform costs by switching from expensive enterprise tools to our lightweight, open-source stack. Same capabilities, fraction of the cost.",
         ctaButton: {
-          text: "Get in touch",
+          text: "Learn More",
           link: "pages/contact.html",
         },
       },
@@ -184,7 +184,7 @@ const siteData = {
         description:
           "Schedule a free 30-minute call to discuss your challenges.",
         button: {
-          text: "Get in touch",
+          text: "Learn More",
           link: "pages/contact.html",
         },
       },
@@ -195,7 +195,7 @@ const siteData = {
         tagline:
           "Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
         ctaButton: {
-          text: "Get in touch",
+          text: "Learn More",
           link: "pages/contact.html",
         },
       },
@@ -204,7 +204,7 @@ const siteData = {
         description:
           "Let's discuss how we can help you execute your data & AI initiatives with proven results.",
         button: {
-          text: "Get in touch",
+          text: "Learn More",
           link: "pages/contact.html",
         },
       },
@@ -373,21 +373,21 @@ const siteData = {
       service: "experiment-execution",
       slug: "tikkie-opportunity-finding",
     },
-    // {
-    //   title: "Driving an experimental way of working",
-    //   client: "Winparts",
-    //   industry: "E-commerce",
-    //   description:
-    //     "Help teams define, refine and execute data driven experiments over a longer period of time.",
-    //   technologies: ["Opportunity finding", "Experimentation", "A/B testing"],
-    //   outcome: [
-    //     "Quarterly experiments",
-    //     "Increased experiment quality",
-    //     "Proof of value",
-    //   ],
-    //   service: "experiment-guidance",
-    //   slug: "winparts-experiment-guidance",
-    // },
+    {
+      title: "Driving an experimental way of working",
+      client: "Winparts",
+      industry: "E-commerce",
+      description:
+        "Help teams define, refine and execute data driven experiments over a longer period of time.",
+      technologies: ["Opportunity finding", "Experimentation", "A/B testing"],
+      outcome: [
+        "Quarterly experiments",
+        "Increased experiment quality",
+        "Proof of value",
+      ],
+      service: "experiment-guidance",
+      slug: "winparts-experiment-guidance",
+    },
     // {
     //   title: "Reducing Customer Support Workload",
     //   client: "bol.com",
