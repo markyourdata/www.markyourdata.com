@@ -402,17 +402,17 @@ const siteData = {
       service: "experiment-execution",
       slug: "bol-reduce-preventable-customer-service-cases",
     },
-    // {
-    //   title: "Improving handover from chatbot to Customer Support",
-    //   client: "bol.com",
-    //   industry: "E-commerce",
-    //   description:
-    //     "Built and iteratively improved GenAI powered handover service between chatbot and human customer service agents.",
-    //   technologies: ["Python", "Generative AI", "LLMs"],
-    //   outcome: ["Improved customer experience", "Improved efficiency"],
-    //   service: "experiment-execution",
-    //   slug: "bol-genai-handover",
-    // },
+    {
+      title: "Improving handover from chatbot to Customer Support",
+      client: "bol.com",
+      industry: "E-commerce",
+      description:
+        "Built and iteratively improved GenAI powered handover service between chatbot and human customer service agents.",
+      technologies: ["Python", "Generative AI", "LLMs"],
+      outcome: ["Improved customer experience", "Improved efficiency"],
+      service: "experiment-execution",
+      slug: "bol-genai-handover",
+    },
 
     {
       title: "Google Ads Profit Optimization",

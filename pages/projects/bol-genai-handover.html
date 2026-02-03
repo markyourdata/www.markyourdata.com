@@ -10,7 +10,9 @@
         <!-- Google Analytics -->
         <script src="../../js/analytics.js"></script>
         <script src="../../js/events.js"></script>
-        <title>GenAI Customer Service Handover - Mark Your Data</title>
+        <title>
+            Improving handover from chatbot to Customer Support - Mark Your Data
+        </title>
         <meta
             name="description"
             content="How we improved customer service handovers at bol.com using GenAI with just 1 day per week investment."
@@ -44,8 +46,49 @@
             </div>
         </article>
 
+        <!-- Testimonial Section -->
+        <section class="testimonial-section">
+            <div class="container">
+                <h2>What our client says</h2>
+                <div id="project-testimonial"></div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Start small, prove value</h2>
+                <p>
+                    This project demonstrates that implementing meaningful AI
+                    applications does not have to be complex when its a team
+                    effort. Interested in experimenting with AI in your customer
+                    service? Let's discuss how to start small and prove value
+                    before scaling.
+                </p>
+                <button
+                    class="cta-button"
+                    onclick="window.location.href='/pages/contact.html'"
+                >
+                    Learn more
+                </button>
+            </div>
+        </section>
+
         <!-- Scripts -->
         <script src="../../components/navbar.js"></script>
+        <script src="../../data/content.js"></script>
+        <script src="../../js/components.js"></script>
         <script src="../../js/markdown-renderer.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                renderTestimonialByKey(
+                    "project-testimonial",
+                    "elmer-hiemstra",
+                    {
+                        imagePrefix: "../../",
+                    },
+                );
+            });
+        </script>
     </body>
 </html>
