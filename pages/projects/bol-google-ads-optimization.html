@@ -44,6 +44,14 @@
             </div>
         </article>
 
+        <!-- Testimonial Section -->
+        <section class="testimonial-section">
+            <div class="container">
+                <h2>What our client says</h2>
+                <div id="project-testimonial"></div>
+            </div>
+        </section>
+
         <!-- CTA Section -->
         <section class="cta-section">
             <div class="container">
@@ -66,6 +74,19 @@
 
         <!-- Scripts -->
         <script src="../../components/navbar.js"></script>
+        <script src="../../data/content.js"></script>
+        <script src="../../js/components.js"></script>
         <script src="../../js/markdown-renderer.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                renderTestimonialByKey(
+                    "project-testimonial",
+                    "Daan van den Berg",
+                    {
+                        imagePrefix: "../../",
+                    },
+                );
+            });
+        </script>
     </body>
 </html>

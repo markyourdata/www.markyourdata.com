@@ -237,6 +237,20 @@ const siteData = {
       company: "bol",
       image: "assets/images/fans/jasper_van_heijst.png",
     },
+    {
+      key: "Benjamin van Vianen",
+      quote: "Lorem Ipsum",
+      author: "Benjamin van Vianen | Manager Scaled Content",
+      company: "bol",
+      image: "assets/images/fans/benjamin_van_vianen.png",
+    },
+    {
+      key: "Daan van den Berg",
+      quote: "Lorem Ipsum",
+      author: "Daan van den Berg | Product Manager",
+      company: "bol",
+      image: "assets/images/fans/daan_van_den_berg.png",
+    },
   ],
 
   services: [
