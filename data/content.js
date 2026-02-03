@@ -251,6 +251,20 @@ const siteData = {
       company: "bol",
       image: "assets/images/fans/daan_van_den_berg.png",
     },
+    {
+      key: "Lisette van de Steeg",
+      quote: "Lorem Ipsum",
+      author: "Lisette van de Steeg | Analytics Lead",
+      company: "bol",
+      image: "assets/images/fans/lisette_van_de_Steeg.png",
+    },
+    {
+      key: "Arend de Ruiter",
+      quote: "Lorem Ipsum",
+      author: "Arend de Ruiter | COO",
+      company: "Winparts",
+      image: "assets/images/fans/arend_de_ruiter.png",
+    },
   ],
 
   services: [
