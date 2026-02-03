@@ -84,10 +84,14 @@ function renderProjects(containerId, options = {}) {
 
       // Compact card style for less prominent display
       if (compact) {
+        const compactLogoHtml = clientLogo
+          ? `<img src="${finalLogoPrefix}${clientLogo}" alt="${project.client}" class="project-card-compact-logo" />`
+          : `<div class="card-tag">${project.client}</div>`;
+
         return `
           <a href="${baseUrl}${project.slug}.html" class="project-card-compact">
             <div class="project-card-compact-content">
-              <div class="card-tag">${project.client}</div>
+              ${compactLogoHtml}
               <h3>${project.title}</h3>
               <span class="read-more-arrow">→</span>
             </div>

@@ -1,4 +1,4 @@
-# Google ads profit optimization
+# Google Ads profit optimization
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
@@ -7,36 +7,32 @@
 
 ## Strategic shift from revenue to profit steering
 
-For bol.com, we conducted extensive data analyses of Google Ads and internal sales & finance data. We built a compelling business case to shift from revenue-based to profit-based steering, identifying significant cost savings opportunities.
+For bol.com, we conducted extensive data analyses of Google Ads and internal sales & finance data. We built a compelling business case to shift from revenue based to profit based steering, identifying significant cost savings opportunities.
 
 This project demonstrates how deep data analysis can drive strategic decisions that fundamentally improve business outcomes.
 
-</div>
-<div class="featured-intro-aside">
-<div class="card-meta">Client: bol.com</div>
-<div class="card-meta">Industry: E-commerce</div>
-<div class="card-meta">Service: Experiment Execution</div>
-</div>
 </div>
 
 <div class="content-section section-single-column">
 
 ### The challenge
 
-bol.com optimized Google Ads based on revenue metrics, which didn't account for product margins. This meant they often invested heavily in advertising low-margin products. They needed a profit-based approach but required proof that the strategic shift would deliver better outcomes.
+bol.com optimized Google Ads based on revenue metrics (ROAS), which didn't account for product margins. This meant they also invested in advertising low, or negative margin products while underinvesting in high margin opportunities.
+
+The team suspected that profit based steering would deliver better outcomes, but needed solid proof before making such a significant strategic change. Without data to back up the hypothesis, it was difficult to get stakeholder buy-in.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our approach
+### Our approach: data driven business case
 
-We combined data from multiple sources to build the business case:
+We combined data from multiple sources to build a compelling case for change:
 
 <div class="icon-list">
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/data-transfer-check.svg" alt="Data Integration" class="icon-brand" />
+<img src="../../assets/icons/regular/data-transfer-both.svg" alt="Data Integration" class="icon-brand" />
 <div>
 <strong>Data Integration</strong> - Connected Google Ads, sales, and finance data
 </div>
@@ -45,31 +41,49 @@ We combined data from multiple sources to build the business case:
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/candlestick-chart.svg" alt="Profit Modeling" class="icon-brand" />
 <div>
-<strong>Profit Modeling</strong> - Calculated true profitability by product
+<strong>Profit Modeling</strong> - Calculated profit margin by product
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/compass.svg" alt="Scenario Analysis" class="icon-brand" />
 <div>
-<strong>Scenario Analysis</strong> - Projected outcomes of profit-based steering
+<strong>Portfolio Analysis</strong> - Analyzed the advertised portfolio of products
 </div>
 </div>
 
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/document.svg" alt="Business Case" class="icon-brand" />
+<img src="../../assets/icons/solid/cash.svg" alt="Business Case" class="icon-brand" />
 <div>
 <strong>Business Case</strong> - Quantified savings and presented recommendations
 </div>
 </div>
 </div>
 
-The analysis revealed substantial cost savings potential from steering on profit rather than revenue.
+The result was a graph that slightly resembled a whale on a stick. The stick being a group of advertised products that were advertised, and never resulted in traffic to the website. This was a significant opportunity for improvement. There was also a group of products with negative margins, resulting in traffic that was not profitable.
+
+### Organizational Challenge
+
+Advertising was answering to the business, and the business did not want to exclude any product from the portfolio. Therefore, in order to optimize the advertising strategy, we had to find a way to balance the need for profitability with the need to include all products in the portfolio. We achieved this by grouping products into categories and optimizing the advertising strategy for each category separately. E.g. products that never resulted in traffic got very high ROAS targets. All in all the efficiency of the advertising strategy increased significantly, meaning that the company was able to generate more revenue and profit with the same budget.
 
 </div>
 <div class="column-image">
-<img src="../../assets/images/pages/projects/placeholder.png" alt="Profit Analysis" />
+<img src="../../assets/images/wide/profit_steering.png" alt="Profit Analysis" style="max-width: 100%; width: 100%"/>
 </div>
+</div>
+
+<div class="content-section section-single-column">
+
+### Why we're proud of this project
+
+This project shows the power of connecting disparate data sources to answer strategic questions:
+
+**Data as Decision Support** - By integrating Google Ads data with internal sales and finance information, we could calculate what really mattered: actual profit contribution per product category.
+
+**Creative Solution** - We had to come up with a creative practical solution to balance the need for profitability with the need to include all products in the portfolio. 
+
+**Lasting Impact** - The shift to profit based steering continues to improve advertising ROI, delivering ongoing value well beyond the initial analysis.
+
 </div>
 
 <div class="content-section section-two-columns image-left">
@@ -79,9 +93,9 @@ The analysis revealed substantial cost savings potential from steering on profit
 
 **Results Achieved:**
 - Significant cost savings identified
-- Strategic shift to profit-based steering
-- Data-driven business case
-- Improved marketing ROI
+- Strategic shift to more profit based steering
+- Data driven business case
+- Improved advertising ROI
 
 **Technologies Used:**
 - Python
@@ -92,26 +106,11 @@ The analysis revealed substantial cost savings potential from steering on profit
 </div>
 <div class="column-text">
 
-### Impact on strategy
+### Key success factors
 
-The analysis didn't just find cost savings—it changed how bol.com approached marketing optimization. By shifting focus from revenue to profit, they could invest advertising budgets more effectively, prioritizing products where marketing spend delivered the best returns.
+The project succeeded because we focused on answering the right question: not just "how are our ads performing?" but "where is our ad spend actually generating profit?"
 
-The business case provided clear evidence for the strategic change, making the decision straightforward. This shows how rigorous data analysis can give leadership confidence to make significant strategy shifts.
+By framing the analysis around business impact rather than technical metrics, we made the findings actionable for decision makers. The clear business case removed friction from the strategic change.
 
 </div>
-</div>
-
-<div class="conclusion-section">
-
-## Optimize for what matters
-
-This project shows how connecting disparate data sources and rigorous analysis can uncover strategic opportunities that significantly improve business outcomes.
-
-Are you optimizing for the right metrics? Let's analyze your data to find strategic improvement opportunities.
-
-<button class="cta-button">
-<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
-Schedule a Strategy Session
-</button>
-
 </div>

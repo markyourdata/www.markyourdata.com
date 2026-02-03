@@ -414,19 +414,19 @@ const siteData = {
     //   slug: "bol-genai-handover",
     // },
 
-    // {
-    //   title: "Google Ads Profit Optimization",
-    //   client: "bol.com",
-    //   industry: "E-commerce",
-    //   description:
-    //     "Conducted extensive data analyses of Google Ads and internal sales & finance data. Built business case to switch from revenue to profit steering, identifying significant cost savings opportunities.",
-    //   technologies: ["Python", "SQL", "Google Ads", "Analytics"],
-    //   outcome: [
-    //     "Significant cost savings identified",
-    //     "Strategic shift to profit-based steering",
-    //   ],
-    //   service: "experiment-execution",
-    //   slug: "bol-google-ads-optimization",
-    // },
+    {
+      title: "Google Ads Profit Optimization",
+      client: "bol.com",
+      industry: "E-commerce",
+      description:
+        "Conducted extensive data analyses of Google Ads and internal sales & finance data. Built business case to switch from revenue to profit steering, identifying significant cost savings opportunities.",
+      technologies: ["Python", "SQL", "Google Ads", "Analytics"],
+      outcome: [
+        "Significant cost savings identified",
+        "Strategic shift to profit-based steering",
+      ],
+      service: "experiment-execution",
+      slug: "bol-google-ads-optimization",
+    },
   ],
 };
