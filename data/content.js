@@ -363,7 +363,7 @@ const siteData = {
       slug: "bol-display-banner-automation",
     },
     {
-      title: "User Engagement Analytics",
+      title: "Opportunity Finding",
       client: "Tikkie",
       industry: "Financial Services",
       description:
@@ -371,7 +371,7 @@ const siteData = {
       technologies: ["Python", "SQL", "Analytics"],
       outcome: ["Improved user engagement", "Data-driven product decisions"],
       service: "experiment-execution",
-      slug: "tikkie-user-engagement",
+      slug: "tikkie-opportunity-finding",
     },
     // {
     //   title: "Driving an experimental way of working",
