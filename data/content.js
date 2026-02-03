@@ -413,7 +413,7 @@ const siteData = {
         "Increased experiment quality",
         "Proof of value",
       ],
-      service: "experiment-guidance",
+      service: "strategy-consulting",
       slug: "winparts-experiment-guidance",
     },
     {
@@ -438,7 +438,7 @@ const siteData = {
         "Built and iteratively improved GenAI powered handover service between chatbot and human customer service agents.",
       technologies: ["Python", "Generative AI", "LLMs"],
       outcome: ["Improved customer experience", "Improved efficiency"],
-      service: "experiment-execution",
+      service: "consulting",
       slug: "bol-genai-handover",
     },
 
