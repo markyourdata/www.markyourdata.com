@@ -8,6 +8,7 @@
  * @param {string[]} options.excludeSlugs - Array of project slugs to exclude
  * @param {number} options.limit - Maximum number of projects to show
  * @param {string} options.baseUrl - Base URL for project links (default: '/pages/projects/')
+ * @param {boolean} options.compact - If true, renders a simpler compact card style
  */
 function renderProjects(containerId, options = {}) {
   const container = document.getElementById(containerId);
@@ -22,8 +23,10 @@ function renderProjects(containerId, options = {}) {
 
   let calculatedBaseUrl = "pages/projects/";
   if (pagesIndex !== -1) {
-    // Calculate depth: how many folders after 'pages'
-    const depth = pathParts.length - pagesIndex - 1;
+    // Calculate depth: how many folders after 'pages' (excluding the filename)
+    // e.g., /pages/services/index.html -> pathParts = ["pages", "services", "index.html"]
+    // We want depth = 1 (just "services" folder), so we go up 1 level to reach /pages/, then into projects/
+    const depth = pathParts.length - pagesIndex - 2; // -2 to exclude both 'pages' and the filename
     calculatedBaseUrl = "../".repeat(depth) + "projects/";
   }
 
@@ -33,6 +36,7 @@ function renderProjects(containerId, options = {}) {
     limit = null,
     baseUrl = calculatedBaseUrl,
     logoPrefix = null,
+    compact = false,
   } = options;
 
   // Create a map of client names to logos
@@ -72,15 +76,29 @@ function renderProjects(containerId, options = {}) {
   // Render projects
   container.innerHTML = filteredProjects
     .map((project) => {
-      const outcomeHtml = Array.isArray(project.outcome)
-        ? `<div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">${project.outcome.map((item) => `<div>${item}</div>`).join("")}</div>`
-        : project.outcome;
-
       // Get the logo for this client
       const clientLogo = clientLogoMap[project.client];
       const logoHtml = clientLogo
         ? `<div class="project-client-logo"><img src="${finalLogoPrefix}${clientLogo}" alt="${project.client}" loading="lazy" /></div>`
         : "";
+
+      // Compact card style for less prominent display
+      if (compact) {
+        return `
+          <a href="${baseUrl}${project.slug}.html" class="project-card-compact">
+            <div class="project-card-compact-content">
+              <div class="card-tag">${project.client}</div>
+              <h3>${project.title}</h3>
+              <span class="read-more-arrow">→</span>
+            </div>
+          </a>
+        `;
+      }
+
+      // Full card style for featured projects
+      const outcomeHtml = Array.isArray(project.outcome)
+        ? `<div style="display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.5rem;">${project.outcome.map((item) => `<div>${item}</div>`).join("")}</div>`
+        : project.outcome;
 
       return `
         <div class="content-card">

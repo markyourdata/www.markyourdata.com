@@ -36,9 +36,9 @@ We developed a systematic approach to opportunity identification:
 
 <div class="icon-list">
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/database-stats.svg" alt="User Behavior Analysis" class="icon-brand" />
+<img src="../../assets/icons/regular/three-stars.svg" alt="User Behavior Analysis" class="icon-brand" />
 <div>
-<strong>User Behavior Analysis</strong> - Deep dive into engagement patterns
+<strong>Structured opportunity finding</strong> - Create opportunity trees per domain
 </div>
 </div>
 
@@ -50,9 +50,9 @@ We developed a systematic approach to opportunity identification:
 </div>
 
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/priority-high.svg" alt="Prioritization Framework" class="icon-brand" />
+<img src="../../assets/icons/regular/priority-high.svg" alt="Prioritization" class="icon-brand" />
 <div>
-<strong>Prioritization Framework</strong> - Ranked opportunities by impact and effort
+<strong>Prioritization</strong> - Ranked opportunities by impact and effort
 </div>
 </div>
 
@@ -64,11 +64,11 @@ We developed a systematic approach to opportunity identification:
 </div>
 </div>
 
-The analysis revealed where engagement efforts would deliver the highest return and where users preferred minimal intervention.
+The analysis revealed where engagement efforts would deliver the highest impact.
 
 </div>
 <div class="column-image">
-<img src="../../assets/images/pages/projects/placeholder.png" alt="Engagement Analysis" />
+<img src="../../assets/images/featured/tikkie_opportunity_tree.png" alt="Engagement Analysis" style="max-width: 100%; width: 100%"/>
 </div>
 </div>
 
@@ -80,38 +80,30 @@ The analysis revealed where engagement efforts would deliver the highest return 
 **Results Achieved:**
 - Improved user engagement
 - Data-driven product decisions
-- Clear prioritization framework
+- Insight in impact drivers
 - Focused team efforts
 
 **Technologies Used:**
 - Python
 - SQL
-- Analytics Tools
-- User Behavior Analysis
+- Airflow
+- DBT
+
+**Platforms Used:**
+- AWS
+- Google Cloud Platform
+
+
 
 </div>
 <div class="column-text">
 
 ### Strategic value
 
-The engagement analysis provided more than just metrics—it gave Tikkie strategic clarity on where to invest product development resources. By quantifying opportunities, we helped teams make confident decisions about what to build and, equally important, what not to build.
+Our structured opportunity finding approach helped to identify and quantify opportunities. This way we helped teams to focus their efforts where they would deliver the highest return.
 
-The "where to engage and where to relax" philosophy prevented the common mistake of over-engaging users. Sometimes the best user experience comes from staying out of the way. Data helped identify those moments.
-
-</div>
-</div>
-
-<div class="conclusion-section">
-
-## Make data-driven product decisions
-
-This project shows how analytics can transform product strategy from opinion-based to evidence-based, focusing efforts where they matter most.
-
-Want to identify your highest-impact product opportunities? Let's use data to prioritize what will actually move the needle.
-
-<button class="cta-button">
-<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
-Schedule a Strategy Session
-</button>
 
 </div>
+</div>
+
+

@@ -110,7 +110,7 @@ This project perfectly demonstrates how to navigate organizational complexity wh
 
 **Make it Work** - To overcome infrastructure dependencies, we deployed the data platform infrastructure simultaneously with dummy data. This allowed us to prove the technical approach worked without being blocked by cloud platform dependencies. We validated the architecture, pipelines, and models in a safe environment.
 
-**Cost-Efficient Solution** - The GCP-only requirement turned into an advantage. By choosing [DLT](../blogs/why-dlt-beats-fivetran.html) over Fivetran (~€15.000/year savings) and Cloud Scheduler over Cloud Composer (~€5,000/year savings), we built a <a href="../services/platform/index.html">modern data platform</a> that saves over €20.000 annually while meeting all security requirements. See our [platform architecture](../services/platform/details/data-pipelines.html) for implementation details.
+**Cost-Efficient Solution** - The GCP only requirement turned into an advantage. By choosing [DLT](../blogs/why-dlt-beats-fivetran.html) over Fivetran (~€15.000/year savings) and Cloud Scheduler over Cloud Composer (~€5,000/year savings), we built a <a href="../services/platform/index.html">modern data platform</a> that saves over €20.000 annually while meeting all security requirements. See our [platform architecture](../services/platform/details/data-pipelines.html) for implementation details.
 
 **Make it Better** - Once the cloud platform was ready, we onboarded the first data engineer and first data analyst. We connected the first real data sources, built the first production data models, and created the first business insights—completing the returns use case that optimized the returns process.
 
@@ -147,9 +147,9 @@ The breakthrough was working in parallel tracks and using dummy data to de-risk 
 
 ### Key success factors
 
-The project succeeded because we tackled organizational challenges head-on while finding creative ways to make technical progress. Working in parallel tracks with dummy data meant we weren't blocked waiting for approvals—we could prove the approach worked.
+The project succeeded because we tackled organizational challenges head-on while finding creative ways to make technical progress. Working in parallel tracks with dummy data meant we weren't blocked waiting for approvals. We could prove the approach worked.
 
-The two-track approach—cloud platform and data platform—allowed specialists to work simultaneously without dependencies. This dramatically accelerated delivery once both tracks converged.
+The two track approach cloud platform and data platform allowed specialists to work simultaneously without dependencies. This dramatically accelerated delivery once both tracks converged.
 
 Most importantly, we focused on completing one full use case (returns optimization) before scaling. This proved the entire system worked end-to-end and built organizational confidence. With that foundation in place, subsequent use cases deployed at a fraction of the time and cost.
 

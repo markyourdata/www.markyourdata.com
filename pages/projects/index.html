@@ -40,6 +40,13 @@
                     measurable business impact
                 </p>
             </div>
+                <button
+                    class="cta-button"
+                    onclick="window.location.href='/pages/contact.html'"
+                >
+                    Learn more
+                </button>
+            </div>
         </section>
 
         <!-- Introduction Section -->
@@ -57,8 +64,19 @@
                     something new we learned, or because they were special for
                     some other reason. Read about some of these projects here.
                 </p>
-                <div class="content-grid" id="projects-grid">
-                    <!-- Project cards will be rendered here by JavaScript -->
+
+                <!-- Featured Projects -->
+                <h2 style="margin-bottom: 1.5rem">Featured projects</h2>
+                <div class="content-grid" id="featured-projects-grid">
+                    <!-- Featured project cards will be rendered here -->
+                </div>
+
+                <!-- Other Projects -->
+                <h2 style="margin-top: 3rem; margin-bottom: 1.5rem">
+                    More projects
+                </h2>
+                <div class="projects-grid-compact" id="other-projects-grid">
+                    <!-- Other project cards will be rendered here -->
                 </div>
             </div>
         </section>
@@ -81,10 +99,23 @@
         <script src="../../data/content.js"></script>
         <script src="../../js/projects.js"></script>
         <script>
-            // Render all projects on the projects index page
-            renderProjects("projects-grid", {
+            // Featured project slugs (content generation and data platform)
+            const featuredSlugs = [
+                "bol-content-generation-at-scale",
+                "winparts-data-ai-platform",
+            ];
+
+            // Render featured projects
+            renderProjects("featured-projects-grid", {
                 baseUrl: "",
-                limit: 2,
+                includeSlugs: featuredSlugs,
+            });
+
+            // Render other projects in compact style
+            renderProjects("other-projects-grid", {
+                baseUrl: "",
+                excludeSlugs: featuredSlugs,
+                compact: true,
             });
         </script>
     </body>

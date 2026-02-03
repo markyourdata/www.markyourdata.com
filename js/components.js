@@ -645,6 +645,41 @@ function initializeCarouselKeyboardNavigation() {
   }
 }
 
+/**
+ * Renders a single testimonial by key into a container
+ * Useful for project pages that want to show a specific testimonial
+ * @param {string} containerId - ID of the container element
+ * @param {string} testimonialKey - The key of the testimonial to render
+ * @param {Object} [options={}] - Rendering options
+ * @param {string} [options.imagePrefix=''] - Prefix for image paths
+ * @returns {void}
+ */
+function renderTestimonialByKey(containerId, testimonialKey, options = {}) {
+  const container = document.getElementById(containerId);
+  if (!container || !siteData.testimonials) {
+    return;
+  }
+
+  const { imagePrefix = "" } = options;
+
+  // Find the testimonial by key
+  const testimonial = siteData.testimonials.find(
+    (t) => t.key === testimonialKey,
+  );
+  if (!testimonial) {
+    logWarning(`Testimonial with key "${testimonialKey}" not found`);
+    return;
+  }
+
+  // Adjust image path if prefix is provided
+  const adjustedTestimonial = { ...testimonial };
+  if (imagePrefix && testimonial.image) {
+    adjustedTestimonial.image = imagePrefix + testimonial.image;
+  }
+
+  container.innerHTML = components.testimonial(adjustedTestimonial);
+}
+
 // Auto-render when DOM is ready
 // Skip auto-render on service pages (they call renderServicePage explicitly)
 function shouldAutoRender() {

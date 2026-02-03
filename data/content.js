@@ -213,6 +213,7 @@ const siteData = {
 
   testimonials: [
     {
+      key: "erick-webbe",
       quote:
         "Mark excels at identifying opportunities to leverage data and analytics in diverse environments. Once found, he seamlessly transforms these solution ideas into testable prototypes with proven impact. His strong communication skills act as a catalyst, drawing entire teams into the dynamic journey of innovation. Critical and constructive, and always with a broad smile, Mark is an asset to any team.",
       author: "Erick Webbe | Head of Data Science",
@@ -220,6 +221,7 @@ const siteData = {
       image: "assets/images/fans/erick_webbe.png",
     },
     {
+      key: "elmer-hiemstra",
       quote:
         "I have worked together with Mark on several occasions. What I love about Mark is his pragmatic approach, he is able to quickly get to the core of a problem, identify first valuable steps and guide execution to prove the value of a chosen solution. He collaborates well with existing teams, is always valued for his contribution and personality, but also able to work more independently on a scoped assignment.",
       author:
@@ -228,6 +230,7 @@ const siteData = {
       image: "assets/images/fans/elmer_hiemstra.png",
     },
     {
+      key: "jasper-van-heijst",
       quote:
         "Mark combines a sharp analytical mind with broad technical knowledge. He prioritizes simple, working solutions over unnecessary complexity. For us, this resulted in significant cost savings through a surprisingly straightforward implementation with low maintenance costs. He communicates clearly and cuts through the jargon, Mark is a highly effective partner to work with.",
       author: "Jasper van Heijst | Group Product Manager",
@@ -334,7 +337,7 @@ const siteData = {
       client: "Winparts",
       industry: "E-commerce",
       description:
-        "We build a strong value adding data foundation that saved over €20.000 per year. With data pipelines that collected data from multiple databases and APIs related to returned products we build data models that populated the data warehouse. This is now the foundation for many new use cases.",
+        "We build a strong value adding data foundation while saving over €20.000 per year. With data pipelines that collected data from multiple databases and APIs related to returned products we build data models that populated the data warehouse. This data platform is the foundation for many new use cases.",
       technologies: ["Python", "LLMs", "Generative AI"],
       outcome: [
         "Single source of truth",
@@ -343,57 +346,6 @@ const siteData = {
       ],
       service: "data-ai-platform",
       slug: "winparts-data-ai-platform",
-    },
-    {
-      title: "User Engagement Analytics",
-      client: "Tikkie",
-      industry: "Financial Services",
-      description:
-        "Identify and quantify opportunities to improve user engagement using data & analytics. Help teams understand where to engage and where to relax, enabling focus on high-impact activities.",
-      technologies: ["Python", "SQL", "Analytics"],
-      outcome: ["Improved user engagement", "Data-driven product decisions"],
-      service: "experiment-execution",
-      slug: "tikkie-user-engagement",
-    },
-    {
-      title: "Experiment guidance",
-      client: "Winparts",
-      industry: "E-commerce",
-      description:
-        "Help teams define, refine and execute data driven experiments over a longer period of time.",
-      technologies: ["Opportunity finding", "Experimentation", "A/B testing"],
-      outcome: [
-        "Quarterly experiments",
-        "Increased experiment quality",
-        "Proof of value",
-      ],
-      service: "experiment-guidance",
-      slug: "winparts-experiment-guidance",
-    },
-    {
-      title: "AI Chatbot Optimization - Billie",
-      client: "bol.com",
-      industry: "E-commerce",
-      description:
-        "Initiated A/B experiments on bol.com website account pages and in 'Billie' the chatbot. Lead to significant reduction of preventable support cases.",
-      technologies: ["Python", "A/B testing", "Analytics"],
-      outcome: [
-        "Massive cost savings",
-        "Methodology to reduce more preventable questions",
-      ],
-      service: "experiment-execution",
-      slug: "bol-ai-chatbot-billie",
-    },
-    {
-      title: "GenAI Customer Service Handover",
-      client: "bol.com",
-      industry: "E-commerce",
-      description:
-        "Built and iteratively improved GenAI-powered handover service between chatbot and human customer service agents.",
-      technologies: ["Python", "Generative AI", "LLMs"],
-      outcome: ["Improved customer experience", "Improved efficiency"],
-      service: "experiment-execution",
-      slug: "bol-genai-handover",
     },
     {
       title: "Automated Display Banner Generation",
@@ -411,18 +363,70 @@ const siteData = {
       slug: "bol-display-banner-automation",
     },
     {
-      title: "Google Ads Profit Optimization",
-      client: "bol.com",
-      industry: "E-commerce",
+      title: "User Engagement Analytics",
+      client: "Tikkie",
+      industry: "Financial Services",
       description:
-        "Conducted extensive data analyses of Google Ads and internal sales & finance data. Built business case to switch from revenue to profit steering, identifying significant cost savings opportunities.",
-      technologies: ["Python", "SQL", "Google Ads", "Analytics"],
-      outcome: [
-        "Significant cost savings identified",
-        "Strategic shift to profit-based steering",
-      ],
+        "Identify and quantify opportunities to improve user engagement using data & analytics. Help teams understand where to engage and where to relax, enabling focus on high-impact activities.",
+      technologies: ["Python", "SQL", "Analytics"],
+      outcome: ["Improved user engagement", "Data-driven product decisions"],
       service: "experiment-execution",
-      slug: "bol-google-ads-optimization",
+      slug: "tikkie-user-engagement",
     },
+    // {
+    //   title: "Driving an experimental way of working",
+    //   client: "Winparts",
+    //   industry: "E-commerce",
+    //   description:
+    //     "Help teams define, refine and execute data driven experiments over a longer period of time.",
+    //   technologies: ["Opportunity finding", "Experimentation", "A/B testing"],
+    //   outcome: [
+    //     "Quarterly experiments",
+    //     "Increased experiment quality",
+    //     "Proof of value",
+    //   ],
+    //   service: "experiment-guidance",
+    //   slug: "winparts-experiment-guidance",
+    // },
+    // {
+    //   title: "Reducing Customer Support Workload",
+    //   client: "bol.com",
+    //   industry: "E-commerce",
+    //   description:
+    //     "Initiated A/B experiments on bol.com website account pages and in 'Billie' the chatbot. Led to significant reduction of preventable support cases.",
+    //   technologies: ["Python", "A/B testing", "Analytics"],
+    //   outcome: [
+    //     "Massive cost savings",
+    //     "Methodology to reduce more preventable questions",
+    //   ],
+    //   service: "experiment-execution",
+    //   slug: "bol-ai-chatbot-billie",
+    // },
+    // {
+    //   title: "Improving handover from chatbot to Customer Support",
+    //   client: "bol.com",
+    //   industry: "E-commerce",
+    //   description:
+    //     "Built and iteratively improved GenAI powered handover service between chatbot and human customer service agents.",
+    //   technologies: ["Python", "Generative AI", "LLMs"],
+    //   outcome: ["Improved customer experience", "Improved efficiency"],
+    //   service: "experiment-execution",
+    //   slug: "bol-genai-handover",
+    // },
+
+    // {
+    //   title: "Google Ads Profit Optimization",
+    //   client: "bol.com",
+    //   industry: "E-commerce",
+    //   description:
+    //     "Conducted extensive data analyses of Google Ads and internal sales & finance data. Built business case to switch from revenue to profit steering, identifying significant cost savings opportunities.",
+    //   technologies: ["Python", "SQL", "Google Ads", "Analytics"],
+    //   outcome: [
+    //     "Significant cost savings identified",
+    //     "Strategic shift to profit-based steering",
+    //   ],
+    //   service: "experiment-execution",
+    //   slug: "bol-google-ads-optimization",
+    // },
   ],
 };
