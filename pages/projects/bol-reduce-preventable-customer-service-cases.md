@@ -1,4 +1,4 @@
-# AI chatbot optimization - billie
+# Reducing Customer Support Workload
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
@@ -9,14 +9,8 @@
 
 For bol.com, we initiated A/B experiments on website account pages and in 'Billie' the AI chatbot. Through systematic experimentation, we significantly reduced preventable support cases, leading to massive cost savings while improving customer experience.
 
-This project demonstrates the power of combining AI capabilities with rigorous A/B testing to drive measurable business impact.
+This project demonstrates the power of combining analytics capabilities with rigorous A/B testing to drive measurable business impact.
 
-</div>
-<div class="featured-intro-aside">
-<div class="card-meta">Client: bol.com</div>
-<div class="card-meta">Industry: E-commerce</div>
-<div class="card-meta">Service: Experiment Execution</div>
-</div>
 </div>
 
 <div class="content-section section-single-column">
@@ -25,14 +19,16 @@ This project demonstrates the power of combining AI capabilities with rigorous A
 
 bol.com's customer service received many preventable questions that could be resolved through better self-service options. The challenge was to identify which interventions would reduce support volume while maintaining or improving customer satisfaction.
 
+Customers would often contact support for issues they could resolve themselves if given the right tools or information at the right moment. This created unnecessary costs and longer wait times for customers with genuine support needs.
+
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our approach
+### Our approach: systematic experimentation
 
-We developed a systematic experimentation framework:
+We developed a rigorous experimentation framework to test and validate each intervention:
 
 <div class="icon-list">
 <div class="icon-list-item">
@@ -68,8 +64,22 @@ By testing changes systematically, we ensured only effective interventions were 
 
 </div>
 <div class="column-image">
-<img src="../../assets/images/pages/projects/placeholder.png" alt="Chatbot Optimization Process" />
+<img src="../../assets/images/wide/reduce_preventable_customer_support_cases.png" alt="Chatbot Optimization Process" style="max-width: 100%; width: 100%"/>
 </div>
+</div>
+
+<div class="content-section section-single-column">
+
+### Why we're proud of this project
+
+This project exemplifies our **Make it work → Make it better → Make it scale** methodology:
+
+**Make it Work** - We started by identifying quick wins: small changes to account pages and chatbot responses that could immediately reduce support volume.
+
+**Make it Better** - Through A/B testing, we validated which interventions actually moved the needle. This prevented the common mistake of deploying "improvements" that don't work or hurt customer experience.
+
+**Make it Scale** - We established a framework for continuously identifying and testing improvements, creating sustainable long term value beyond the initial project.
+
 </div>
 
 <div class="content-section section-two-columns image-left">
@@ -92,26 +102,11 @@ By testing changes systematically, we ensured only effective interventions were 
 </div>
 <div class="column-text">
 
-### Sustainable impact
+### Key success factors
 
-The project delivered immediate cost savings through reduced support volume, but the lasting impact came from the methodology. We established a framework for continuously identifying and testing improvements to self-service experiences.
+The project succeeded because we combined data analysis with rigorous experimentation. Rather than guessing which changes would help, we tested each intervention and measured its actual impact.
 
-The A/B testing approach ensured changes actually worked before scaling them. This prevented the common mistake of deploying "improvements" that don't move the needle or worse, hurt customer experience.
+The methodology we established continues to deliver value. By embedding a testing culture into the team's workflow, bol.com can continuously identify and validate new improvements to their self-service experience.
 
 </div>
-</div>
-
-<div class="conclusion-section">
-
-## Optimize your customer experience
-
-This project shows how systematic experimentation can simultaneously reduce costs and improve customer satisfaction.
-
-Ready to optimize your customer service operations? Let's discuss how A/B testing can validate improvements before you invest in full deployment.
-
-<button class="cta-button">
-<img src="../../assets/icons/regular/calendar-plus.svg" alt="" class="button-icon" />
-Schedule a Strategy Session
-</button>
-
 </div>

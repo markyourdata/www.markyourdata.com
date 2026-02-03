@@ -388,20 +388,20 @@ const siteData = {
       service: "experiment-guidance",
       slug: "winparts-experiment-guidance",
     },
-    // {
-    //   title: "Reducing Customer Support Workload",
-    //   client: "bol.com",
-    //   industry: "E-commerce",
-    //   description:
-    //     "Initiated A/B experiments on bol.com website account pages and in 'Billie' the chatbot. Led to significant reduction of preventable support cases.",
-    //   technologies: ["Python", "A/B testing", "Analytics"],
-    //   outcome: [
-    //     "Massive cost savings",
-    //     "Methodology to reduce more preventable questions",
-    //   ],
-    //   service: "experiment-execution",
-    //   slug: "bol-ai-chatbot-billie",
-    // },
+    {
+      title: "Reducing Customer Support Workload",
+      client: "bol.com",
+      industry: "E-commerce",
+      description:
+        "Initiated A/B experiments on bol.com website account pages and in 'Billie' the chatbot. Led to significant reduction of preventable support cases.",
+      technologies: ["Python", "A/B testing", "Analytics"],
+      outcome: [
+        "Massive cost savings",
+        "Methodology to reduce more preventable questions",
+      ],
+      service: "experiment-execution",
+      slug: "bol-reduce-preventable-customer-service-cases",
+    },
     // {
     //   title: "Improving handover from chatbot to Customer Support",
     //   client: "bol.com",
