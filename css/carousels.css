@@ -108,8 +108,15 @@
     box-sizing: border-box;
 }
 
-.testimonial-image {
+.testimonial-image-container {
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.testimonial-image {
     width: 120px;
     height: 120px;
     min-width: 120px;
@@ -159,6 +166,13 @@
     font-size: 1rem;
     font-weight: 600;
     display: block;
+}
+
+.testimonial-company-logo {
+    height: 28px;
+    width: auto;
+    max-width: 120px;
+    object-fit: contain;
 }
 
 /* Carousel Controls */

@@ -218,6 +218,7 @@ const siteData = {
         "Mark excels at identifying opportunities to leverage data and analytics in diverse environments. Once found, he seamlessly transforms these solution ideas into testable prototypes with proven impact. His strong communication skills act as a catalyst, drawing entire teams into the dynamic journey of innovation. Critical and constructive, and always with a broad smile, Mark is an asset to any team.",
       author: "Erick Webbe | Head of Data Science",
       company: "bol.",
+      companyLogo: "assets/images/clients/bol.png",
       image: "assets/images/fans/erick_webbe.png",
     },
     {
@@ -226,7 +227,8 @@ const siteData = {
         "I have worked together with Mark on several occasions. What I love about Mark is his pragmatic approach, he is able to quickly get to the core of a problem, identify first valuable steps and guide execution to prove the value of a chosen solution. He collaborates well with existing teams, is always valued for his contribution and personality, but also able to work more independently on a scoped assignment.",
       author:
         "Elmer Hiemstra | Head of Product Partner Acquisition, Management & Enablement",
-      company: "bol",
+      company: "bol.",
+      companyLogo: "assets/images/clients/bol.png",
       image: "assets/images/fans/elmer_hiemstra.png",
     },
     {
@@ -234,28 +236,33 @@ const siteData = {
       quote:
         "Mark combines a sharp analytical mind with broad technical knowledge. He prioritizes simple, working solutions over unnecessary complexity. For us, this resulted in significant cost savings through a surprisingly straightforward implementation with low maintenance costs. He communicates clearly and cuts through the jargon, Mark is a highly effective partner to work with.",
       author: "Jasper van Heijst | Group Product Manager",
-      company: "bol",
+      company: "bol.",
+      companyLogo: "assets/images/clients/bol.png",
       image: "assets/images/fans/jasper_van_heijst.png",
     },
     {
       key: "Benjamin van Vianen",
       quote: "Lorem Ipsum",
       author: "Benjamin van Vianen | Manager Scaled Content",
-      company: "bol",
+      company: "bol.",
+      companyLogo: "assets/images/clients/bol.png",
       image: "assets/images/fans/benjamin_van_vianen.png",
     },
     {
       key: "Daan van den Berg",
-      quote: "Lorem Ipsum",
+      quote:
+        "Mark has proven to be an invaluable asset to the team during our profit steering project. He is highly proactive, quickly mastering the topic and taking full ownership, while also knowing when to ask for help and reach out to other teams to move things forward. He consistently asks the right questions, focusing on understanding the problem rather than jumping to solutions. Combined with his out-of-the-box thinking, this allowed him to uncover approaches and solutions we could think of ourselves. His curiosity, collaboration, and fresh perspective made a lasting impact on both the project and the team.",
       author: "Daan van den Berg | Product Manager",
-      company: "bol",
+      company: "bol.",
+      companyLogo: "assets/images/clients/bol.png",
       image: "assets/images/fans/daan_van_den_berg.png",
     },
     {
       key: "Lisette van de Steeg",
       quote: "Lorem Ipsum",
       author: "Lisette van de Steeg | Analytics Lead",
-      company: "bol",
+      company: "Tikkie",
+      companyLogo: "assets/images/clients/tikkie.png",
       image: "assets/images/fans/lisette_van_de_steeg.png",
     },
     {
@@ -263,6 +270,7 @@ const siteData = {
       quote: "Lorem Ipsum",
       author: "Arend de Ruiter | COO",
       company: "Winparts",
+      companyLogo: "assets/images/clients/winparts.png",
       image: "assets/images/fans/arend_de_ruiter.png",
     },
   ],

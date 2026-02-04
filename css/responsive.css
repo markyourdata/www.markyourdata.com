@@ -69,6 +69,10 @@
         font-size: 1rem;
     }
 
+    .testimonial-company-logo {
+        height: 22px;
+    }
+
     .carousel-control-prev {
         left: 10px;
     }

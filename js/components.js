@@ -45,6 +45,7 @@ const components = {
    * @param {string} data.author - Name of the person giving testimonial
    * @param {string} data.company - Company/organization of the author
    * @param {string} [data.image] - Optional URL to author's image
+   * @param {string} [data.companyLogo] - Optional URL to company logo
    * @returns {string} HTML string for testimonial component
    */
   testimonial: (data) => {
@@ -60,10 +61,17 @@ const components = {
         ? `<img src="${escapeHtml(data.image)}" alt="${escapeHtml(data.author)}" loading="lazy">`
         : `<div class="testimonial-placeholder">${escapeHtml(firstInitial)}</div>`;
 
+      const companyLogoHtml = data.companyLogo
+        ? `<img src="${escapeHtml(data.companyLogo)}" alt="${escapeHtml(data.company)}" class="testimonial-company-logo" loading="lazy">`
+        : "";
+
       return `
         <div class="testimonial" role="listitem">
-          <div class="testimonial-image">
-            ${imageHtml}
+          <div class="testimonial-image-container">
+            <div class="testimonial-image">
+              ${imageHtml}
+            </div>
+            ${companyLogoHtml}
           </div>
           <div class="testimonial-content">
             <blockquote>"${escapeHtml(data.quote)}"</blockquote>
@@ -671,10 +679,13 @@ function renderTestimonialByKey(containerId, testimonialKey, options = {}) {
     return;
   }
 
-  // Adjust image path if prefix is provided
+  // Adjust image paths if prefix is provided
   const adjustedTestimonial = { ...testimonial };
   if (imagePrefix && testimonial.image) {
     adjustedTestimonial.image = imagePrefix + testimonial.image;
+  }
+  if (imagePrefix && testimonial.companyLogo) {
+    adjustedTestimonial.companyLogo = imagePrefix + testimonial.companyLogo;
   }
 
   container.innerHTML = components.testimonial(adjustedTestimonial);
