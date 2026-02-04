@@ -5,13 +5,13 @@
 
 <div class="opening-text">
 <p>
-Your house is built (infrastructure), groceries arrive automatically (pipelines), and your kitchen is organized with proven recipes (models). Now you're ready for the smart home system—AI that learns your patterns, anticipates needs, and makes intelligent decisions automatically.
+Your house is built (infrastructure), groceries arrive automatically (pipelines), and your kitchen is organized with proven recipes (models). Now you're ready for the smart home system: AI that learns your patterns, anticipates needs, and makes intelligent decisions automatically.
 </p>
 <p>
 But here's the reality: you can't install a smart thermostat before you have electricity. You can't have an intelligent refrigerator without a kitchen. AI needs the foundation first.
 </p>
 <p>
-We always advise: build your data foundation first, then layer AI on top. When you're ready, we'll help you deploy AI that delivers real business value—not just impressive demos. Whether it's predictive modeling or generative AI, we turn concepts into production systems and help you execute your first use case.
+We always advise: build your data foundation first, then layer AI on top. When you're ready, we'll help you deploy AI that delivers real business value, not just impressive demos. Whether it's predictive modeling or generative AI, we turn concepts into production systems and help you execute your first use case.
 </p>
 </div>
 
@@ -131,9 +131,9 @@ You've reached the top of the stack. Here's the full path:
 <div class="service-card-content">
 
 ### Data infrastructure
-The foundation—cloud infrastructure, security, and scalability.
+The foundation: cloud infrastructure, security, and scalability.
 
-[Learn More →](data-infrastructure.html)
+[Learn more](data-infrastructure.html)
 
 </div>
 </div>
@@ -145,7 +145,7 @@ The foundation—cloud infrastructure, security, and scalability.
 ### Data pipelines
 Automated data delivery from all your sources.
 
-[Learn More →](data-pipelines.html)
+[Learn more](data-pipelines.html)
 
 </div>
 </div>
@@ -157,7 +157,7 @@ Automated data delivery from all your sources.
 ### Data models
 Transform raw data into business-ready products.
 
-[Learn More →](data-models.html)
+[Learn more](data-models.html)
 
 </div>
 </div>
@@ -169,7 +169,7 @@ Transform raw data into business-ready products.
 ### Applied ai
 Intelligence layer on top of your data foundation.
 
-[Learn More →](applied-ai.html)
+[Learn more](applied-ai.html)
 
 </div>
 </div>

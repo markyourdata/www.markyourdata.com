@@ -74,7 +74,7 @@ After exploration, you're ready to:
 ### Data exploration
 Discover which routes are worth flying.
 
-[Learn More →](data-exploration.html)
+[Learn more](data-exploration.html)
 
 </div>
 </div>
@@ -86,7 +86,7 @@ Discover which routes are worth flying.
 ### Proof of concept
 Will the plane fly? Validate technical feasibility.
 
-[Learn More →](proof-of-concept.html)
+[Learn more](proof-of-concept.html)
 
 </div>
 </div>
@@ -98,7 +98,7 @@ Will the plane fly? Validate technical feasibility.
 ### Proof of value
 Will people buy tickets? Prove business impact.
 
-[Learn More →](proof-of-value.html)
+[Learn more](proof-of-value.html)
 
 </div>
 </div>
@@ -110,7 +110,7 @@ Will people buy tickets? Prove business impact.
 ### Business impact
 Build the airfield. Scale to production.
 
-[Learn More →](business-impact.html)
+[Learn more](business-impact.html)
 
 </div>
 </div>

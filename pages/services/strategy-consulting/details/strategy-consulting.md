@@ -2,10 +2,10 @@
 
 <div class="opening-text">
 <p>
-When you lack experienced data & AI leadership, building your strategy becomes risky. We step in as your strategic partner—guiding the process, challenging assumptions, and ensuring your roadmap leads to real business impact.
+When you lack experienced data & AI leadership, building your strategy becomes risky. We step in as your strategic partner, guiding the process, challenging assumptions, and ensuring your roadmap leads to real business impact.
 </p>
 <p>
-You know you need a data & AI strategy. But who's going to lead it? Your team is talented, but they lack the battle scars from doing this before. The frameworks. The patterns. The pitfalls. We've built dozens of data strategies. We know what works and what doesn't. We'll either guide your team through the process as advisors, or roll up our sleeves and drive it ourselves. Either way, you get a strategy that works—not one that sits on a shelf.
+You know you need a data & AI strategy. But who's going to lead it? Your team is talented, but they lack the battle scars from doing this before. The frameworks. The patterns. The pitfalls. We've built dozens of data strategies. We know what works and what doesn't. We'll either guide your team through the process as advisors, or roll up our sleeves and drive it ourselves. Either way, you get a strategy that works, not one that sits on a shelf.
 </p>
 </div>
 

@@ -9,7 +9,7 @@
 
 For Winparts, we built a complete data and cloud infrastructure from the ground up, enabling the team to unlock valuable insights and lay the foundation for AI use cases. By creating robust data pipelines and reusable data models on secure enterprise infrastructure, we dramatically reduced time to insight.
 
-**Cost-Efficient Architecture:** Working within GCP-only constraints and security requirements, we designed a modern data platform using open-source tools ([DLT](../blogs/why-dlt-beats-fivetran.html), [DBT](../blogs/dbt-transform-data-into-insights.html)) on Cloud Run with Cloud Scheduler—saving over €20.000 per year compared to traditional alternatives like Fivetran and Cloud Composer.
+**Cost-Efficient Architecture:** Working within GCP-only constraints and security requirements, we designed a modern data platform using open-source tools ([DLT](../blogs/why-dlt-beats-fivetran.html), [DBT](../blogs/dbt-transform-data-into-insights.html)) on Cloud Run with Cloud Scheduler, saving over €20.000 per year compared to traditional alternatives like Fivetran and Cloud Composer.
 
 This project transformed data from a scattered resource into a strategic asset accessible to analysts across the organization.
 
@@ -24,7 +24,7 @@ Winparts is a business-to-consumer webshop that sells car parts. Originally a Du
 
 **Corporate Infrastructure Alignment** - The acquisition by GPC made the company more corporate, directly impacting the data platform. The entire infrastructure needed to align with the parent organization's standards, including cloud organization, networking, security, user management, and governance frameworks.
 
-**Building From Ground Zero** - The whole infrastructure needed to be created from scratch. This meant setting up the cloud organization, networking, security policies, access controls—the whole infrastructure foundation. Critical groundwork before any data pipeline could be created.
+**Building From Ground Zero** - The whole infrastructure needed to be created from scratch. This meant setting up the cloud organization, networking, security policies, and access controls: the whole infrastructure foundation. Critical groundwork before any data pipeline could be created.
 
 **Strict Technology Constraints** - The organization required all tooling to run on GCP with no externally hosted software. This ruled out traditional enterprise solutions like Fivetran for data pipelines and meant we needed cost-effective alternatives that met security requirements while staying within budget.
 
@@ -112,9 +112,9 @@ This project perfectly demonstrates how to navigate organizational complexity wh
 
 **Cost-Efficient Solution** - The GCP only requirement turned into an advantage. By choosing [DLT](../blogs/why-dlt-beats-fivetran.html) over Fivetran (~€15.000/year savings) and Cloud Scheduler over Cloud Composer (~€5,000/year savings), we built a <a href="../services/platform/index.html">modern data platform</a> that saves over €20.000 annually while meeting all security requirements. See our [platform architecture](../services/platform/details/data-pipelines.html) for implementation details.
 
-**Make it Better** - Once the cloud platform was ready, we onboarded the first data engineer and first data analyst. We connected the first real data sources, built the first production data models, and created the first business insights—completing the returns use case that optimized the returns process.
+**Make it Better** - Once the cloud platform was ready, we onboarded the first data engineer and first data analyst. We connected the first real data sources, built the first production data models, and created the first business insights, completing the returns use case that optimized the returns process.
 
-**Make it Scale** - With the returns use case completed and infrastructure in place, the pace accelerated dramatically. New use cases could be onboarded quickly—each bringing new data sources, new models, and new insights. Analysts could answer more and more questions that weren't even part of the original use cases, at a much higher rate than before. One use case at a time, the data warehouse grew into a strategic asset.
+**Make it Scale** - With the returns use case completed and infrastructure in place, the pace accelerated dramatically. New use cases could be onboarded quickly, each bringing new data sources, new models, and new insights. Analysts could answer more and more questions that weren't even part of the original use cases, at a much higher rate than before. One use case at a time, the data warehouse grew into a strategic asset.
 
 The breakthrough was working in parallel tracks and using dummy data to de-risk dependencies. Once organizational groundwork was complete, the way was open for a broad range of value-adding use cases on sound, secure infrastructure at a much higher pace.
 

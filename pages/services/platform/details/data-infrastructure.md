@@ -8,7 +8,7 @@
 Building a data platform without solid infrastructure is like constructing a house without a foundation. You can't install smart appliances before you have electricity. You can't run pipelines before you have walls and plumbing.
 </p>
 <p>
-We build you the foundation—cloud infrastructure, security, and scalability—so everything else you build on top is stable, secure, and ready to grow. Whether you're on GCP, AWS, or Azure, we create a simple-to-use setup that's cost-effective and easy to work with.
+We build you the foundation (cloud infrastructure, security, and scalability) so everything else you build on top is stable, secure, and ready to grow. Whether you're on GCP, AWS, or Azure, we create a simple-to-use setup that's cost-effective and easy to work with.
 </p>
 </div>
 
@@ -72,9 +72,9 @@ Once your data infrastructure is in place, you're ready to:
 <div class="service-card-content">
 
 ### Data infrastructure
-The foundation—cloud infrastructure, security, and scalability.
+The foundation: cloud infrastructure, security, and scalability.
 
-[Learn More →](data-infrastructure.html)
+[Learn more](data-infrastructure.html)
 
 </div>
 </div>
@@ -86,7 +86,7 @@ The foundation—cloud infrastructure, security, and scalability.
 ### Data pipelines
 Automated data delivery from all your sources.
 
-[Learn More →](data-pipelines.html)
+[Learn more](data-pipelines.html)
 
 </div>
 </div>
@@ -98,7 +98,7 @@ Automated data delivery from all your sources.
 ### Data models
 Transform raw data into business-ready products.
 
-[Learn More →](data-models.html)
+[Learn more](data-models.html)
 
 </div>
 </div>
@@ -110,7 +110,7 @@ Transform raw data into business-ready products.
 ### Applied ai
 Intelligence layer on top of your data foundation.
 
-[Learn More →](applied-ai.html)
+[Learn more](applied-ai.html)
 
 </div>
 </div>

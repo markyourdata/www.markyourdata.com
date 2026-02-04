@@ -2,7 +2,7 @@
 
 <div class="opening-text">
 <p>
-Transform your data & AI ambitions into an actionable roadmap. In just 10 days spread across a year, we'll guide your team through creating and executing your strategy—from opportunity discovery to quarterly check-ins that keep you on track.
+Transform your data & AI ambitions into an actionable roadmap. In just 10 days spread across a year, we'll guide your team through creating and executing your strategy: from opportunity discovery to quarterly check-ins that keep you on track.
 </p>
 <p>
 Your team has ideas. Vision. Energy. But turning that into concrete action? That's where most organizations get stuck. We bring everyone together for an intensive, collaborative offsite where we map how value is created in your business, discover high-impact opportunities, and build a roadmap everyone believes in. Then we stay with you throughout the year to ensure execution stays on course.
@@ -32,7 +32,7 @@ We guide you through a structured process that delivers clarity and momentum:
 Here's what it looks like when you start in January:
 
 ### January: launch
-- **Early January:** Preparation phase—stakeholder interviews and context gathering
+- **Early January:** Preparation phase: stakeholder interviews and context gathering
 - **Late January:** Two-day offsite workshop with your team
 - **Result:** Draft opportunity trees, prioritized use cases, initial roadmap
 
@@ -87,7 +87,7 @@ Your actionable plan for the year ahead, with phased initiatives, clear ownershi
 
 While the 10-day structure provides a proven framework, we adapt to fit your reality:
 
-**Timeline:** Start any time of year—not just January. The journey works for fiscal year planning, transformation kicks-offs, or strategic reset moments.
+**Timeline:** Start any time of year, not just January. The journey works for fiscal year planning, transformation kicks-offs, or strategic reset moments.
 
 **Team Size:** Works for leadership teams (4-8 people) or larger cross-functional groups (up to 25 participants).
 
@@ -97,7 +97,7 @@ While the 10-day structure provides a proven framework, we adapt to fit your rea
 
 **Depth:** Focus on quick wins and near-term roadmap, or go deeper into multi-year strategy and organizational change.
 
-The core methodology stays consistent—opportunity finding, use case prioritization, roadmap creation—but the details flex to match your context, culture, and goals.
+The core methodology stays consistent (opportunity finding, use case prioritization, roadmap creation) but the details flex to match your context, culture, and goals.
 
 ---
 

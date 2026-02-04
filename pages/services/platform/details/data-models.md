@@ -5,7 +5,7 @@
 
 <div class="opening-text">
 <p>
-You have a house (infrastructure) and groceries delivered daily (pipelines). But raw ingredients scattered across your counter aren't useful yet. You need recipes—clear instructions that turn random ingredients into consistent, delicious meals.
+You have a house (infrastructure) and groceries delivered daily (pipelines). But raw ingredients scattered across your counter aren't useful yet. You need recipes: clear instructions that turn random ingredients into consistent, delicious meals.
 </p>
 <p>
 Data models are your recipes. They transform raw data into organized, ready-to-use products that anyone can pick up and trust. No more confusion about which version of "revenue" to use. No more analysts spending hours figuring out how to calculate basic metrics. Just standardized data products that save time and amplify your team's effectiveness.
@@ -96,9 +96,9 @@ With clean, modeled data, you're ready to:
 <div class="service-card-content">
 
 ### Data infrastructure
-The foundation—cloud infrastructure, security, and scalability.
+The foundation: cloud infrastructure, security, and scalability.
 
-[Learn More →](data-infrastructure.html)
+[Learn more](data-infrastructure.html)
 
 </div>
 </div>
@@ -110,7 +110,7 @@ The foundation—cloud infrastructure, security, and scalability.
 ### Data pipelines
 Automated data delivery from all your sources.
 
-[Learn More →](data-pipelines.html)
+[Learn more](data-pipelines.html)
 
 </div>
 </div>
@@ -122,7 +122,7 @@ Automated data delivery from all your sources.
 ### Data models
 Transform raw data into business-ready products.
 
-[Learn More →](data-models.html)
+[Learn more](data-models.html)
 
 </div>
 </div>
@@ -134,7 +134,7 @@ Transform raw data into business-ready products.
 ### Applied ai
 Intelligence layer on top of your data foundation.
 
-[Learn More →](applied-ai.html)
+[Learn more](applied-ai.html)
 
 </div>
 </div>

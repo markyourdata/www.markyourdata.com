@@ -5,7 +5,7 @@
 
 <div class="opening-text">
 <p>
-Your data infrastructure is built—the foundation is solid. Now you need to bring data in. Think of pipelines as your supply chain: they automatically deliver fresh groceries (data) from various suppliers (your systems) to your kitchen (data platform) every day.
+Your data infrastructure is built and the foundation is solid. Now you need to bring data in. Think of pipelines as your supply chain: they automatically deliver fresh groceries (data) from various suppliers (your systems) to your kitchen (data platform) every day.
 </p>
 <p>
 Without pipelines, your team manually carries data back and forth. With pipelines, everything flows automatically, fresh, reliable, and on schedule. Their only job is to connect to data sources (databases, APIs) and copy the data to your central platform, ensuring your warehouse is always up to date.
@@ -80,9 +80,9 @@ With automated pipelines delivering data, you're ready to:
 <div class="service-card-content">
 
 ### Data infrastructure
-The foundation—cloud infrastructure, security, and scalability.
+The foundation: cloud infrastructure, security, and scalability.
 
-[Learn More →](data-infrastructure.html)
+[Learn more](data-infrastructure.html)
 
 </div>
 </div>
@@ -94,7 +94,7 @@ The foundation—cloud infrastructure, security, and scalability.
 ### Data pipelines
 Automated data delivery from all your sources.
 
-[Learn More →](data-pipelines.html)
+[Learn more](data-pipelines.html)
 
 </div>
 </div>
@@ -106,7 +106,7 @@ Automated data delivery from all your sources.
 ### Data models
 Transform raw data into business-ready products.
 
-[Learn More →](data-models.html)
+[Learn more](data-models.html)
 
 </div>
 </div>
@@ -118,7 +118,7 @@ Transform raw data into business-ready products.
 ### Applied ai
 Intelligence layer on top of your data foundation.
 
-[Learn More →](applied-ai.html)
+[Learn more](applied-ai.html)
 
 </div>
 </div>

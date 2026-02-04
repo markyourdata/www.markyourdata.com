@@ -90,38 +90,38 @@ const siteData = {
   // Homepage sections
   homepage: {
     hero: {
-      title: "Data analytics and AI consultants",
+      title: "Data & AI consultancy for growing companies",
       tagline:
-        "Transform your company into a data analytics & AI driven powerhouse, one strategic project at a time.",
+        "We help you prove value fast, then scale what works. From strategy to platform to execution.",
       ctaButton: {
-        text: "Learn More",
+        text: "Get in touch",
         link: "pages/contact.html",
       },
     },
     aboutUs: {
       heading: "About us",
-      text: 'Mark Your Data is a boutique Data Analytics and AI Consultancy firm. It\'s the home for experienced data professionals. With backgrounds from data strategy, data science, data engineering and software and AI engineering we got the right person for the job. We help you turn your data ambitions into plans and plans into action. Our positive, pragmatic, can-do mentality makes us stand out of the crowd. <strong>"We make it work, make it better and make it scale"</strong>. Our consultants have "walked the talk" over and over again. Where others might show you fancy presentations, we build teams, infrastructure and software. <strong>Real impact, delivered with a smile, one project at a time.</strong>',
+      text: "Mark Your Data is a data & AI consultancy founded by Mark Schep, backed by a network of senior specialists. We cover strategy, platforms, and hands-on execution. Our philosophy is simple: <strong>make it work, make it better, make it scale.</strong> We'd rather show you a working prototype in weeks than a strategy deck in months. That's how we've delivered results at bol.com, Heineken, Tikkie, and Winparts.",
     },
     howWeWork: {
       heading: "How we work",
-      text: "Over the years, we've executed many Data Analytics & AI projects. We've learned that it's not about the tools & technology. It's about making things work and proving value fast, so you can double down on those initiatives that really make an impact. <strong>\"Make it work, make it better, make it scale\"</strong> has become our mantra. It is a way of working that has proven itself over and over again. By working with us, you will master this methodology too. Some customers even structurally embed it in their teams. We tailored our methodology towards data strategy, data foundations, and data projects. Read on to find out which one is most relevant to you.",
+      text: "After years of delivering data & AI projects, we've learned what separates success from shelfware: proving value early. That's why every engagement follows our methodology. <strong>Make it work:</strong> get something running fast. <strong>Make it better:</strong> refine based on real feedback. <strong>Make it scale:</strong> roll out what's proven. Clients often adopt this approach for their own teams long after we're gone.",
     },
     clients: {
-      heading: "Clients we are proud of",
-      text: "We walk the talk with a great list of clients. We value our clients, big and small, and invest in valuable long term relationships. We become partners in business, alongside of you on your data, analytics & AI journey. Read more about some of the projects we do on our projects page.",
+      heading: "Clients",
+      text: "We build long-term partnerships with companies across industries. From e-commerce to fintech, we work alongside your team to turn data into results.",
     },
     fans: {
-      heading: "Our fans",
-      text: "Our clients become partners, sometimes even fans! Get to know us through their eyes:",
+      heading: "What clients say",
+      text: "We let our work speak for itself. Here's what the people we've worked with have to say:",
     },
     projects: {
-      heading: "Recent projects",
-      text: "Every now and then a project comes along that makes you just that little extra proud. We are result driven and eager to learn. It's no surprise that these projects usually made a big impact, and tought us something new. This is what keeps us going. Read about some of these projects here.",
+      heading: "Selected projects",
+      text: "Real results from real engagements. Each project here represents a challenge solved and value delivered.",
     },
     cta: {
-      heading: "Want to learn more?",
+      heading: "Let's talk about your data",
       button: {
-        text: "Learn More",
+        text: "Get in touch",
         link: "pages/contact.html",
       },
     },
@@ -131,20 +131,20 @@ const siteData = {
   pages: {
     platform: {
       hero: {
-        title: "Save €100K per year with our Mark Your Data Platform",
+        title: "Save €100K per year with the Mark Your Data Platform",
         tagline:
-          "Don't hire a data engineer. Our cloud-native data platform provides everything your analysts need to start adding value from day one. We handle the foundation—you focus on insights.",
+          "Skip hiring a data engineer. Our cloud-native platform gives your analysts everything they need from day one. We handle the foundation, you focus on insights.",
         ctaButton: {
-          text: "Learn More",
+          text: "Get in touch",
           link: "pages/contact.html",
         },
       },
       cta: {
         heading: "Ready to save €100K per year?",
         description:
-          "Skip the data engineer hire. Get a complete data platform that your analysts can use from day one. Free consultation included.",
+          "Get a complete data platform that your analysts can use from day one. No data engineer required.",
         button: {
-          text: "Book your free consultation",
+          text: "Book a free consultation",
           link: "pages/contact.html",
         },
       },
@@ -153,58 +153,58 @@ const siteData = {
       hero: {
         title: "Save €30K per year on your data platform",
         tagline:
-          "Already have a data engineer? Reduce your platform costs by switching from expensive enterprise tools to our lightweight, open-source stack. Same capabilities, fraction of the cost.",
+          "Already have a data engineer? Cut your platform costs by switching from expensive enterprise tools to our lightweight, open-source stack. Same capabilities, fraction of the cost.",
         ctaButton: {
-          text: "Learn More",
+          text: "Get in touch",
           link: "pages/contact.html",
         },
       },
       cta: {
         heading: "Ready to cut your platform costs?",
         description:
-          "Let us show you how to save €30K+ annually by replacing expensive tools like Fivetran, Cloud Composer, and Snowflake with cost-effective alternatives.",
+          "We'll show you how to save €30K+ annually by replacing expensive tools like Fivetran, Cloud Composer, and Snowflake with cost-effective alternatives.",
         button: {
-          text: "Book your free consultation",
+          text: "Book a free consultation",
           link: "pages/contact.html",
         },
       },
     },
     strategyConsulting: {
       hero: {
-        title: "Data analytics & AI strategy consulting",
+        title: "Data & AI strategy consulting",
         tagline:
-          "Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.",
+          "Figure out where data can drive the most value. We help you identify the right opportunities and turn them into a concrete plan you can execute.",
         ctaButton: {
-          text: "Schedule your 30-minute call",
+          text: "Schedule a call",
           link: "pages/contact.html",
         },
       },
       cta: {
-        heading: "Want to know more?",
+        heading: "Let's find your biggest opportunities",
         description:
-          "Schedule a free 30-minute call to discuss your challenges.",
+          "Book a free 30-minute call to discuss your challenges and goals.",
         button: {
-          text: "Learn More",
+          text: "Schedule a call",
           link: "pages/contact.html",
         },
       },
     },
     strategyExecution: {
       hero: {
-        title: "Data analytics & AI solutions",
+        title: "Data & AI solutions",
         tagline:
-          "Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
+          "Turn your data into business impact. We take projects from idea to proof of concept to production, whether you need extra expertise or full delivery.",
         ctaButton: {
-          text: "Learn More",
+          text: "Get in touch",
           link: "pages/contact.html",
         },
       },
       cta: {
-        heading: "Ready to turn your strategy into reality?",
+        heading: "Ready to turn data into results?",
         description:
-          "Let's discuss how we can help you execute your data & AI initiatives with proven results.",
+          "Let's discuss how we can help you deliver your next data or AI initiative.",
         button: {
-          text: "Learn More",
+          text: "Get in touch",
           link: "pages/contact.html",
         },
       },
@@ -277,10 +277,10 @@ const siteData = {
 
   services: [
     {
-      title: "Data analytics & AI leadership",
+      title: "Data & AI leadership",
       description:
-        "Need comprehensive data leadership across strategy, platform, and execution? Our consultants join your organization to build your data capability from the ground up—staying on board until you've hired or trained the right internal leader to take over. We cover everything so you can focus on finding the right long-term fit.",
-      cta: "Explore data leadership →",
+        "Need data leadership but not ready to hire a full-time lead? We embed in your organization to build your data capability from the ground up, staying on board until you've found or trained the right person to take over.",
+      cta: "Explore data leadership",
       slug: "data-leadership",
       url: "pages/services/data-leadership/index.html",
       icon: "assets/icons/data-leadership.svg",
@@ -288,47 +288,47 @@ const siteData = {
       propositions: [],
     },
     {
-      title: "Data analytics & AI strategy consulting",
+      title: "Strategy consulting",
       description:
-        "Turn strategy into action starting fast, simple and small. With our proven methodologies and expertise, we help you define initiatives where small changes, make a big impact. Invest in business growth from the start and maximize ROI for years to come.",
+        "Figure out where data can make the biggest impact. We help you identify high-value opportunities and turn them into a concrete action plan. Start small, prove value, then scale.",
       cta: "Learn more",
       slug: "strategy-consulting",
       url: "pages/services/strategy-consulting/index.html",
       icon: "assets/icons/strategy-consulting.svg",
       propositions: [
-        "30-minute call: Get in touch with our experts to discuss your data & AI needs.",
-        "Data & AI offsite: Our offsite workshops help you identify and prioritize data & AI initiatives.",
-        "Strategy consulting: Our strategy consulting services help you develop a comprehensive data & AI strategy that aligns with your business goals.",
+        "30-minute call: Talk to us about your data & AI challenges.",
+        "Data & AI offsite: A focused workshop to identify and prioritize initiatives.",
+        "Strategy engagement: A comprehensive roadmap aligned with your business goals.",
       ],
     },
     {
       title: "Mark Your Data Platform",
       description:
-        "Save €100K per year. Don't hire a data engineer, our cloud-native platform provides everything your analysts need from day one. We handle the foundation, you focus on insights.",
+        "Save €100K per year. Skip hiring a data engineer. Our cloud-native platform gives your analysts everything they need from day one. We handle the foundation, you focus on insights.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
       icon: "assets/icons/platform.svg",
       propositions: [
-        "No data engineer needed: We provide the complete foundation so your analysts can start immediately.",
-        "Save €100K/year: Skip the €100K data engineer salary and €35K platform costs.",
-        "Data pipelines included: Automated data ingestion from all your sources.",
-        "Ready for AI: Built-in support for analytics and AI applications.",
+        "No data engineer needed: Your analysts can start creating value immediately.",
+        "Save €100K/year: Avoid the data engineer salary and expensive tooling costs.",
+        "Data pipelines included: Automated ingestion from all your sources.",
+        "Ready for AI: Built-in support for analytics and AI use cases.",
       ],
     },
     {
-      title: "Data analytics & AI solutions",
+      title: "Data & AI solutions",
       description:
-        "Get started today, even if you don't have the skills, the people, or the time, we turn your data into impact. We help your teams to transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.",
+        "Turn your data into impact. We take projects from idea to proof of concept to production. Whether you need extra hands or end-to-end delivery, we make it happen.",
       cta: "Learn more",
       slug: "strategy-execution",
       url: "pages/services/strategy-execution/index.html",
       icon: "assets/icons/strategy-execution.svg",
       propositions: [
-        "Data exploration: We help you understand where a small change, can make a big difference. And help you transform this opportunity into a proof of concept.",
-        "Proof of concept (Make it work): Develop and deploy proof of concepts that demonstrate the feasibility of your data analytics and AI initiatives.",
-        "Proof of value (Make it better): Iterate and refine your proof of concepts to maximize their impact.",
-        "Business impact (Make it scale): Scale up your proof of value to capture the full potential of your data analytics and AI initiatives.",
+        "Opportunity discovery: Find where a small change can make a big difference.",
+        "Proof of concept: Get something working fast to validate the idea.",
+        "Proof of value: Refine and measure real business impact.",
+        "Scale: Roll out what's proven across the organization.",
       ],
     },
   ],

@@ -1,20 +1,19 @@
-# Data analytics & AI strategy consulting
+# Data & AI strategy consulting
 
-Maximize the return of data & AI investments. With our proven methodologies and expertise, we help you invest in data-driven initiatives that drive business growth and maximize ROI.
+We help you invest in data initiatives that drive business growth. With proven methodologies and hands-on experience, we guide you from strategic vision to actionable roadmap.
 
 ---
 
-## To whom is this service relevant?
+## Who is this for?
 
-This service is designed for:
 - **C-level executives** looking to align data & AI initiatives with business strategy
-- **Data & Analytics leaders** who need to prioritize investments and build strategic roadmaps
+- **Data & Analytics leaders** who need to prioritize investments and build roadmaps
 - **Innovation teams** exploring how data & AI can drive competitive advantage
-- **Organizations** facing challenges in measuring ROI from data initiatives
+- **Organizations** struggling to measure ROI from data initiatives
 
 ---
 
-## What pains does this service address?
+## What challenges do we solve?
 
 ### Lack of strategic clarity
 Many organizations struggle to connect data & AI investments to tangible business outcomes. We help you identify high-impact opportunities aligned with your strategic goals.
@@ -27,19 +26,19 @@ The data & AI landscape is complex. We guide you through proven frameworks to as
 
 ---
 
-## Our propositions
+## How we can help
 
 ### 30-minute call
-**Quick guidance when you need it most**
+**Quick guidance when you need it**
 
-Sometimes you just need an experienced perspective. Share your strategic challenges with us, and we'll share our insights and experience with you.
+Sometimes you just need an experienced perspective. Share your strategic challenges with us, and we'll share our insights and experience.
 
 **When is this relevant?**
 - You're facing a specific strategic decision about data or AI
 - You want to validate your current approach
 - You need an expert sounding board
 
-[Schedule Your 30-Minute Call →](#contact)
+[Schedule your call](/pages/contact.html)
 
 ---
 
@@ -48,7 +47,7 @@ Sometimes you just need an experienced perspective. Share your strategic challen
 
 Our offsite workshops bring your team together to identify and prioritize data & AI initiatives that align with your business objectives.
 
-**What you'll get:**
+**What you get:**
 - Facilitated sessions to explore strategic opportunities
 - Collaborative prioritization of initiatives
 - A concrete experiment roadmap
@@ -65,7 +64,7 @@ Our offsite workshops bring your team together to identify and prioritize data &
 - Success metrics framework
 - Stakeholder alignment documentation
 
-[Learn More About Offsites →](#contact)
+[Learn more](strategy-consulting/details/data-ai-offsite.html)
 
 ---
 
@@ -74,7 +73,7 @@ Our offsite workshops bring your team together to identify and prioritize data &
 
 We work with you to develop a complete data & AI strategy that aligns with your business goals, from vision to implementation roadmap.
 
-**What you'll get:**
+**What you get:**
 - Current state assessment
 - Vision and strategic objectives
 - Capability maturity analysis
@@ -95,18 +94,18 @@ We work with you to develop a complete data & AI strategy that aligns with your 
 - Governance and operating model
 - Risk assessment and mitigation plan
 
-**How does a typical project look like?**
+**How does a typical project look?**
 1. **Discovery (2-3 weeks)**: Stakeholder interviews, current state assessment, opportunity identification
-2. **Strategy Development (3-4 weeks)**: Vision setting, roadmap creation, prioritization
+2. **Strategy development (3-4 weeks)**: Vision setting, roadmap creation, prioritization
 3. **Validation (1-2 weeks)**: Stakeholder review, refinement, finalization
 4. **Handoff**: Implementation planning, team enablement
 
+[Learn more](strategy-consulting/details/strategy-consulting.html)
+
 ---
 
-## How to get in touch
+## Get in touch
 
 Ready to maximize your data & AI investments? We'd love to help.
 
-**Schedule a call:** [Book a 30-Minute call](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**Learn more:** Explore our [case studies](#) and [blog](#)
+[Schedule a call](/pages/contact.html) or email us at [contact@markyourdata.com](mailto:contact@markyourdata.com)

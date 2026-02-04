@@ -5,7 +5,7 @@
 
 <div class="opening-text">
 <p>
-The plane flies—but will people buy tickets? We test with real users and measure business impact to validate market demand.
+The plane flies, but will people buy tickets? We test with real users and measure business impact to validate market demand.
 </p>
 <p>
 Your Proof of Concept  works. But does it deliver business value? Leadership wants proof before investing in production. You need numbers. We build the business case for scaling. You get quantified results. Statistical proof. Clear ROI. Then you can confidently invest in full rollout.
@@ -93,7 +93,7 @@ With proven business value, you're ready to:
 ### Data exploration
 Discover which routes are worth flying.
 
-[Learn More →](data-exploration.html)
+[Learn more](data-exploration.html)
 
 </div>
 </div>
@@ -105,7 +105,7 @@ Discover which routes are worth flying.
 ### Proof of concept
 Will the plane fly? Validate technical feasibility.
 
-[Learn More →](proof-of-concept.html)
+[Learn more](proof-of-concept.html)
 
 </div>
 </div>
@@ -117,7 +117,7 @@ Will the plane fly? Validate technical feasibility.
 ### Proof of value
 Will people buy tickets? Prove business impact.
 
-[Learn More →](proof-of-value.html)
+[Learn more](proof-of-value.html)
 
 </div>
 </div>
@@ -129,7 +129,7 @@ Will people buy tickets? Prove business impact.
 ### Business impact
 Build the airfield. Scale to production.
 
-[Learn More →](business-impact.html)
+[Learn more](business-impact.html)
 
 </div>
 </div>
