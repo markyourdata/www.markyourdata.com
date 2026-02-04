@@ -48,21 +48,77 @@
         </style>
     </head>
     <body>
-        <!-- Navigation -->
-        <div id="navbar-container"></div>
+        <!-- Navigation (hardcoded for 404 to ensure correct paths) -->
+        <nav class="navbar">
+            <div class="container nav-container">
+                <a href="/" class="logo">
+                    <img
+                        src="/assets/images/logo_myd_rond.png"
+                        alt="Mark Your Data"
+                        class="logo-img"
+                    />
+                    <span class="logo-text">MARK YOUR DATA</span>
+                </a>
+                <button
+                    class="hamburger"
+                    onclick="toggleMobileMenu()"
+                    aria-label="Toggle menu"
+                >
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li>
+                        <a href="/pages/services/index.html" class="nav-link"
+                            >Services</a
+                        >
+                    </li>
+                    <li>
+                        <a href="/pages/projects/index.html" class="nav-link"
+                            >Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a href="/pages/blogs/index.html" class="nav-link"
+                            >Blog</a
+                        >
+                    </li>
+                    <li>
+                        <a href="/pages/about.html" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="/pages/contact.html" class="nav-link"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
         <!-- Main Content -->
         <main id="main-content">
             <div class="not-found-container">
                 <h1>404</h1>
                 <p>This page doesn't exist anymore.</p>
-                <p class="redirect-note">Redirecting to homepage in 3 seconds...</p>
+                <p class="redirect-note">
+                    Redirecting to homepage in 3 seconds...
+                </p>
                 <a href="/" class="cta-button">Go to Homepage</a>
             </div>
         </main>
 
-        <!-- Scripts -->
-        <script src="/js/config.js"></script>
-        <script src="/components/navbar.js"></script>
+        <!-- Scripts (only what's needed for mobile menu) -->
+        <script>
+            function toggleMobileMenu() {
+                const navMenu = document.getElementById("nav-menu");
+                const hamburger = document.querySelector(".hamburger");
+                if (navMenu && hamburger) {
+                    navMenu.classList.toggle("active");
+                    hamburger.classList.toggle("active");
+                }
+            }
+        </script>
     </body>
 </html>
