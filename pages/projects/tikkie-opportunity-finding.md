@@ -1,4 +1,4 @@
-# User engagement analytics
+# Opportunity Finding
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
@@ -105,5 +105,3 @@ Our structured opportunity finding approach helped to identify and quantify oppo
 
 </div>
 </div>
-
-
