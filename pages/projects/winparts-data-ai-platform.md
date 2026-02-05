@@ -110,7 +110,7 @@ This project perfectly demonstrates how to navigate organizational complexity wh
 
 **Make it Work** - To overcome infrastructure dependencies, we deployed the data platform infrastructure simultaneously with dummy data. This allowed us to prove the technical approach worked without being blocked by cloud platform dependencies. We validated the architecture, pipelines, and models in a safe environment.
 
-**Cost-Efficient Solution** - The GCP only requirement turned into an advantage. By choosing [DLT](../blogs/why-dlt-beats-fivetran.html) over Fivetran (~€15.000/year savings) and Cloud Scheduler over Cloud Composer (~€5,000/year savings), we built a <a href="../services/platform/index.html">modern data platform</a> that saves over €20.000 annually while meeting all security requirements. See our [platform architecture](../services/platform/details/data-pipelines.html) for implementation details.
+**Cost-Efficient Solution** - The GCP only requirement turned into an advantage. By choosing [DLT](../blogs/why-dlt-beats-fivetran.html) over Fivetran (roughly €15.000/year savings) and Cloud Scheduler over Cloud Composer (roughly €5,000/year savings), we built a <a href="../services/platform/index.html">modern data platform</a> that saves over €20.000 annually while meeting all security requirements. See our [platform architecture](../services/platform/details/data-pipelines.html) for implementation details.
 
 **Make it Better** - Once the cloud platform was ready, we onboarded the first data engineer and first data analyst. We connected the first real data sources, built the first production data models, and created the first business insights, completing the returns use case that optimized the returns process.
 

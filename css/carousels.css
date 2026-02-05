@@ -5,42 +5,55 @@
     background-color: var(--light-gray);
 }
 
-.clients-carousel-wrapper {
+/* Shared Carousel Structure */
+.clients-carousel-container,
+.testimonials-carousel-container {
     position: relative;
-    margin-top: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.clients-carousel-viewport,
+.testimonials-carousel-viewport {
     overflow: hidden;
-    padding: 1rem 0;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
+    position: relative;
 }
 
-.clients-carousel {
+.clients-carousel-viewport::after,
+.testimonials-carousel-viewport::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+    transition: opacity 0.3s ease;
+}
+
+.clients-carousel-viewport.at-end::after,
+.testimonials-carousel-viewport.at-end::after {
+    opacity: 0;
+}
+
+.clients-carousel-viewport::after {
+    background: linear-gradient(to right, transparent, var(--light-gray));
+}
+
+.testimonials-carousel-viewport::after {
+    background: linear-gradient(to right, transparent, var(--white));
+}
+
+.clients-carousel,
+.testimonials-carousel {
     display: flex;
     gap: 2rem;
-    align-items: center;
-    animation: scroll-clients 20s linear infinite;
+    transition: transform 0.6s ease-in-out;
 }
 
-.clients-carousel:hover {
-    animation-play-state: paused;
-}
-
-@keyframes scroll-clients {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
-}
-
-#clients {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    will-change: transform;
-}
-
+/* Client logos: show 3 at a time, 4th peeks */
 .client-logo {
     display: flex;
     align-items: center;
@@ -48,19 +61,11 @@
     padding: 1.5rem;
     background-color: var(--white);
     min-height: 100px;
-    min-width: 200px;
+    width: calc((100% - 64px) / 3);
+    min-width: calc((100% - 64px) / 3);
     flex-shrink: 0;
-    transition: all 0.3s ease;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.client-logo:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
-.client-logo.half-visible {
-    opacity: 0.5;
+    box-sizing: border-box;
 }
 
 .client-logo-img {
@@ -78,29 +83,13 @@
     text-align: center;
 }
 
-/* Testimonials Carousel */
-.testimonials-carousel-container {
-    position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
-    overflow: visible;
-}
-
-.testimonials-carousel {
-    display: flex;
-    gap: 2rem;
-    width: 100%;
-    transition: transform 0.6s ease-in-out;
-    position: relative;
-}
-
+/* Testimonials: each card takes 85% width so next one peeks */
 .testimonial {
     background-color: var(--light-gray);
     padding: 3rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    width: 100%;
-    min-width: 100%;
-    max-width: 100%;
+    width: calc(85% - 1rem);
+    min-width: calc(85% - 1rem);
     flex-shrink: 0;
     display: flex;
     gap: 2rem;
@@ -175,7 +164,7 @@
     object-fit: contain;
 }
 
-/* Carousel Controls */
+/* Carousel Controls (shared) */
 .carousel-control {
     position: absolute;
     top: 50%;
@@ -188,6 +177,13 @@
     justify-content: center;
     z-index: 10;
     padding: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-control:disabled {
+    opacity: 0;
+    cursor: default;
+    pointer-events: none;
 }
 
 .carousel-control-prev {
@@ -206,12 +202,12 @@
     transition: all 0.3s ease;
 }
 
-.carousel-control:hover .carousel-control-icon {
+.carousel-control:hover:not(:disabled) .carousel-control-icon {
     color: var(--dark-charcoal);
     transform: scale(1.2);
 }
 
-/* Carousel Indicators */
+/* Carousel Indicators (shared) */
 .carousel-indicators {
     display: flex;
     justify-content: center;

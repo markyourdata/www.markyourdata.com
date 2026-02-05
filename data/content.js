@@ -339,16 +339,16 @@ const siteData = {
       logo: "assets/images/clients/bol.png",
     },
     {
-      name: "Heineken",
-      logo: "assets/images/clients/heineken.png",
-    },
-    {
       name: "Tikkie",
       logo: "assets/images/clients/tikkie.png",
     },
     {
       name: "Winparts",
       logo: "assets/images/clients/winparts.png",
+    },
+    {
+      name: "Heineken",
+      logo: "assets/images/clients/heineken.png",
     },
   ],
 

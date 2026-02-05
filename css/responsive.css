@@ -63,6 +63,7 @@
     .testimonial-image {
         width: 100px;
         height: 100px;
+        min-width: 100px;
     }
 
     .testimonial blockquote {
@@ -71,6 +72,12 @@
 
     .testimonial-company-logo {
         height: 22px;
+    }
+
+    /* Client logos: 1 at a time on mobile */
+    .client-logo {
+        width: calc(85% - 1rem);
+        min-width: calc(85% - 1rem);
     }
 
     .carousel-control-prev {

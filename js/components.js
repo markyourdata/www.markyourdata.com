@@ -464,14 +464,16 @@ function renderComponents(options = {}) {
     // Create carousel structure
     const testimonialsHTML = `
       <div class="testimonials-carousel-container" role="region" aria-label="Customer testimonials carousel">
-        <div class="testimonials-carousel" role="list" aria-live="polite">
-          ${siteData.testimonials.map((item) => components.testimonial(item)).join("")}
+        <div class="testimonials-carousel-viewport">
+          <div class="testimonials-carousel" role="list" aria-live="polite">
+            ${siteData.testimonials.map((item) => components.testimonial(item)).join("")}
+          </div>
         </div>
         <button type="button" class="carousel-control carousel-control-prev" onclick="previousTestimonial()" aria-label="Previous testimonial">
-          <span class="carousel-control-icon" aria-hidden="true">‹</span>
+          <span class="carousel-control-icon" aria-hidden="true">&#8249;</span>
         </button>
         <button type="button" class="carousel-control carousel-control-next" onclick="nextTestimonial()" aria-label="Next testimonial">
-          <span class="carousel-control-icon" aria-hidden="true">›</span>
+          <span class="carousel-control-icon" aria-hidden="true">&#8250;</span>
         </button>
       </div>
       <div class="carousel-indicators" id="${SELECTORS.TESTIMONIAL_INDICATORS}" role="tablist" aria-label="Testimonial indicators"></div>
@@ -523,39 +525,58 @@ function renderComponents(options = {}) {
     servicesContainer.innerHTML = servicesHTML;
   }
 
-  // Render clients
+  // Render clients carousel
   const clientsContainer = document.getElementById(SELECTORS.CLIENTS);
   if (clientsContainer && siteData.clients) {
-    // Set ARIA attributes on the container itself
-    clientsContainer.setAttribute("role", "list");
-    clientsContainer.setAttribute("aria-label", "Our clients");
-    // Render client logos directly without wrapper
-    clientsContainer.innerHTML = siteData.clients
-      .map((item) => components.clientLogo(item))
-      .join("");
+    const clientsHTML = `
+      <div class="clients-carousel-container" role="region" aria-label="Our clients">
+        <div class="clients-carousel-viewport">
+          <div class="clients-carousel" role="list">
+            ${siteData.clients.map((item) => components.clientLogo(item)).join("")}
+          </div>
+        </div>
+        <button type="button" class="carousel-control carousel-control-prev" onclick="previousClient()" aria-label="Previous client">
+          <span class="carousel-control-icon" aria-hidden="true">&#8249;</span>
+        </button>
+        <button type="button" class="carousel-control carousel-control-next" onclick="nextClient()" aria-label="Next client">
+          <span class="carousel-control-icon" aria-hidden="true">&#8250;</span>
+        </button>
+      </div>
+    `;
+    clientsContainer.innerHTML = clientsHTML;
+    initializeClientCarousel();
   }
 
   // Projects are now rendered via js/projects.js
 }
 
 /**
- * Current index of the active testimonial in the carousel
- * @type {number}
+ * Updates disabled state on carousel prev/next arrows.
+ * Disables prev at first item, next at last item.
+ * @param {Element} container - The carousel container element
+ * @param {number} currentIndex - Current carousel position
+ * @param {number} totalItems - Total number of items
  */
+function updateCarouselArrows(container, currentIndex, totalItems) {
+  const prevBtn = container.querySelector(".carousel-control-prev");
+  const nextBtn = container.querySelector(".carousel-control-next");
+  if (prevBtn) {
+    prevBtn.disabled = currentIndex === 0;
+  }
+  if (nextBtn) {
+    nextBtn.disabled = currentIndex >= totalItems - 1;
+  }
+}
+
+// --- Testimonials Carousel ---
+
 let currentTestimonialIndex = 0;
 
-/**
- * Initializes testimonial carousel indicators and displays first testimonial
- * Creates clickable indicator dots for each testimonial
- * @returns {void}
- */
 function initializeTestimonialIndicators() {
   const SELECTORS =
     typeof CONFIG !== "undefined"
       ? CONFIG.SELECTORS
-      : {
-          TESTIMONIAL_INDICATORS: "testimonial-indicators",
-        };
+      : { TESTIMONIAL_INDICATORS: "testimonial-indicators" };
   const indicatorsContainer = document.getElementById(
     SELECTORS.TESTIMONIAL_INDICATORS,
   );
@@ -570,21 +591,31 @@ function initializeTestimonialIndicators() {
   updateTestimonialDisplay();
 }
 
-/**
- * Updates the testimonial carousel display to show current testimonial
- * Animates carousel position and updates indicator states
- * @returns {void}
- */
 function updateTestimonialDisplay() {
   const carousel = document.querySelector(".testimonials-carousel");
-  const indicators = document.querySelectorAll(".carousel-indicator");
+  const indicators = document.querySelectorAll(
+    "#testimonial-indicators .carousel-indicator",
+  );
   const container = document.querySelector(".testimonials-carousel-container");
+  const viewport = document.querySelector(".testimonials-carousel-viewport");
 
   if (carousel && container) {
-    const containerWidth = container.offsetWidth;
-    const gap = 32; // 2rem = 32px gap between cards
-    const translateAmount = currentTestimonialIndex * (containerWidth + gap);
-    carousel.style.transform = `translateX(-${translateAmount}px)`;
+    const firstItem = carousel.querySelector(".testimonial");
+    if (firstItem) {
+      const gap = 32;
+      const itemWidth = firstItem.offsetWidth;
+      const translateAmount = currentTestimonialIndex * (itemWidth + gap);
+      carousel.style.transform = `translateX(-${translateAmount}px)`;
+    }
+    const isAtEnd = currentTestimonialIndex >= siteData.testimonials.length - 1;
+    if (viewport) {
+      viewport.classList.toggle("at-end", isAtEnd);
+    }
+    updateCarouselArrows(
+      container,
+      currentTestimonialIndex,
+      siteData.testimonials.length,
+    );
   }
 
   indicators.forEach((indicator, index) => {
@@ -594,48 +625,28 @@ function updateTestimonialDisplay() {
   });
 }
 
-/**
- * Advances the testimonial carousel to the next testimonial
- * Loops back to first testimonial after the last one
- * @returns {void}
- */
 function nextTestimonial() {
-  if (siteData.testimonials) {
-    currentTestimonialIndex =
-      (currentTestimonialIndex + 1) % siteData.testimonials.length;
+  if (
+    siteData.testimonials &&
+    currentTestimonialIndex < siteData.testimonials.length - 1
+  ) {
+    currentTestimonialIndex++;
     updateTestimonialDisplay();
   }
 }
 
-/**
- * Moves the testimonial carousel to the previous testimonial
- * Loops back to last testimonial when at the first one
- * @returns {void}
- */
 function previousTestimonial() {
-  if (siteData.testimonials) {
-    currentTestimonialIndex =
-      (currentTestimonialIndex - 1 + siteData.testimonials.length) %
-      siteData.testimonials.length;
+  if (siteData.testimonials && currentTestimonialIndex > 0) {
+    currentTestimonialIndex--;
     updateTestimonialDisplay();
   }
 }
 
-/**
- * Navigates the testimonial carousel to a specific testimonial by index
- * @param {number} index - Zero-based index of the testimonial to display
- * @returns {void}
- */
 function goToTestimonial(index) {
   currentTestimonialIndex = index;
   updateTestimonialDisplay();
 }
 
-/**
- * Initializes keyboard navigation for the testimonial carousel
- * Adds support for arrow keys to navigate testimonials
- * @returns {void}
- */
 function initializeCarouselKeyboardNavigation() {
   const carouselContainer = document.querySelector(
     ".testimonials-carousel-container",
@@ -650,6 +661,67 @@ function initializeCarouselKeyboardNavigation() {
         nextTestimonial();
       }
     });
+  }
+}
+
+// --- Clients Carousel ---
+
+let currentClientIndex = 0;
+
+function getMaxClientIndex() {
+  const carousel = document.querySelector(".clients-carousel");
+  const viewport = document.querySelector(".clients-carousel-viewport");
+  if (!carousel || !viewport || !siteData.clients) return 0;
+  const firstItem = carousel.querySelector(".client-logo");
+  if (!firstItem) return 0;
+  const gap = 32;
+  const itemWidth = firstItem.offsetWidth;
+  const viewportWidth = viewport.offsetWidth;
+  const visibleItems = Math.floor((viewportWidth + gap) / (itemWidth + gap));
+  return Math.max(0, siteData.clients.length - visibleItems);
+}
+
+function initializeClientCarousel() {
+  updateClientDisplay();
+}
+
+function updateClientDisplay() {
+  const carousel = document.querySelector(".clients-carousel");
+  const container = document.querySelector(".clients-carousel-container");
+  const viewport = document.querySelector(".clients-carousel-viewport");
+
+  const maxIndex = getMaxClientIndex();
+  if (currentClientIndex > maxIndex) {
+    currentClientIndex = maxIndex;
+  }
+
+  if (carousel && container) {
+    const firstItem = carousel.querySelector(".client-logo");
+    if (firstItem) {
+      const gap = 32;
+      const itemWidth = firstItem.offsetWidth;
+      const translateAmount = currentClientIndex * (itemWidth + gap);
+      carousel.style.transform = `translateX(-${translateAmount}px)`;
+    }
+    const isAtEnd = currentClientIndex >= maxIndex;
+    if (viewport) {
+      viewport.classList.toggle("at-end", isAtEnd);
+    }
+    updateCarouselArrows(container, currentClientIndex, maxIndex + 1);
+  }
+}
+
+function nextClient() {
+  if (siteData.clients && currentClientIndex < getMaxClientIndex()) {
+    currentClientIndex++;
+    updateClientDisplay();
+  }
+}
+
+function previousClient() {
+  if (siteData.clients && currentClientIndex > 0) {
+    currentClientIndex--;
+    updateClientDisplay();
   }
 }
 
