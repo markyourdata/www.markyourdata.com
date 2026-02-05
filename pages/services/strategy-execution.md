@@ -1,46 +1,45 @@
-# Data analytics & AI strategy execution
+# Data & AI strategy execution
 
-Turn data into impact. We help you transform strategic initiatives into proof of concepts, proof of values, implementation and beyond.
+Turn your data into impact. We take projects from idea to proof of concept to production. Our approach: make it work, make it better, make it scale.
 
 ---
 
-## To whom is this service relevant?
+## Who is this for?
 
-This service is ideal for:
 - **Innovation teams** ready to execute on data & AI opportunities
 - **Product managers** looking to validate ideas with data-driven experiments
-- **Data leaders** needing to prove value before scaling investments
-- **Organizations** that want to test before they invest heavily
-- **Companies** seeking to move from strategy to measurable business impact
+- **Data leaders** who need to prove value before scaling investments
+- **Organizations** that want to test before committing to large projects
+- **Companies** looking to move from strategy to measurable results
 
 ---
 
-## What pains does this service address?
+## What challenges do we solve?
 
 ### Ideas without execution
 You have great ideas but lack the time, skills, or resources to execute them. We bridge the gap from concept to working solution.
 
 ### Risk of large investments
-Committing to large projects without validation is risky. Our phased approach lets you invest small, learn fast, and scale only what works.
+Committing budget to a large project without validation is risky. Our phased approach lets you invest small, learn fast, and scale only what works.
 
 ### Slow time to value
 Traditional projects take months to show results. We deliver working prototypes in weeks and proven value in months.
 
 ### Skills gap
-Your team may not have the specialized skills for data science, AI, or advanced analytics. We bring the expertise to execute your vision.
+Your team may not have the specialized skills for data science, AI, or advanced analytics. We bring senior expertise from day one.
 
 ---
 
 ## Our propositions
 
-Following our motto: **Make it work → Make it better → Make it scale**
+Following our methodology: **Make it work, make it better, make it scale.**
 
 ### Data exploration
-**Discover where small changes create big impact**
+**Find where small changes create big results**
 
-We help you understand where a small change can make a big difference, and transform that opportunity into a Proof of Concept.
+We help you discover where a small change can make a big difference, and transform that opportunity into a proof of concept.
 
-**What you'll get:**
+**What you get:**
 - Exploratory data analysis
 - Opportunity identification
 - Feasibility assessment
@@ -58,22 +57,22 @@ We help you understand where a small change can make a big difference, and trans
 - Initial prototype or POC
 - Recommendations for next steps
 
-**How does a typical project look like?**
+**How does a typical project look?**
 1. **Kickoff (1 day)**: Align on objectives and data access
 2. **Exploration (1-2 weeks)**: Data analysis, pattern discovery
 3. **Prototype (1-2 weeks)**: Build initial proof of concept
 4. **Review (1 day)**: Present findings and recommendations
 
-[Start Exploring Your Data →](#contact)
+[Get in touch](/pages/contact.html)
 
 ---
 
 ### Proof of concept (make it work)
-**Demonstrate feasibility of your data & AI initiatives**
+**Show what's possible with your data**
 
-We develop and deploy proof of concepts that show what's possible and validate technical feasibility.
+We develop and deploy proof of concepts that validate technical feasibility and show stakeholders what a solution looks like in practice.
 
-**What you'll get:**
+**What you get:**
 - Working prototype
 - Technical validation
 - Initial results and insights
@@ -91,22 +90,22 @@ We develop and deploy proof of concepts that show what's possible and validate t
 - Demo presentation
 - Next steps recommendation
 
-**How does a typical project look like?**
+**How does a typical project look?**
 1. **Planning (1 week)**: Requirements, data access, success criteria
 2. **Build (3-4 weeks)**: Development, iteration, testing
 3. **Demo (1 week)**: Stakeholder presentations, feedback
 4. **Handoff**: Documentation, recommendations
 
-[Build Your Proof of Concept →](#contact)
+[Get in touch](/pages/contact.html)
 
 ---
 
 ### Proof of value (make it better)
-**Iterate and prove measurable business impact**
+**Prove measurable business impact**
 
-We refine your proof of concept to maximize impact and prove real business value with data.
+We refine your proof of concept to prove real business value with data. Think A/B tests, controlled experiments, and hard numbers.
 
-**What you'll get:**
+**What you get:**
 - A/B testing or controlled experiments
 - Measured business impact
 - Iterative improvements
@@ -124,23 +123,23 @@ We refine your proof of concept to maximize impact and prove real business value
 - Optimized solution
 - Business case for production rollout
 
-**How does a typical project look like?**
-1. **Experiment Design (1 week)**: Define metrics, set up A/B test
+**How does a typical project look?**
+1. **Experiment design (1 week)**: Define metrics, set up A/B test
 2. **Execution (4-8 weeks)**: Run experiments, collect data
 3. **Analysis (1-2 weeks)**: Statistical analysis, insights
 4. **Optimization (2-3 weeks)**: Iterate based on learnings
-5. **Business Case**: ROI calculation, scaling recommendations
+5. **Business case**: ROI calculation, scaling recommendations
 
-[Prove Your Value →](#contact)
+[Get in touch](/pages/contact.html)
 
 ---
 
-### Business impact (make it scale)
-**Scale proven solutions to capture full potential**
+### Production rollout (make it scale)
+**Scale what's proven across your organization**
 
-We help you scale up your proof of value to production, ensuring it delivers impact across your organization.
+We help you take a proven solution to production, so it delivers impact across your organization, not just in a pilot.
 
-**What you'll get:**
+**What you get:**
 - Production-ready solution
 - Scalable infrastructure
 - User adoption strategy
@@ -159,33 +158,27 @@ We help you scale up your proof of value to production, ensuring it delivers imp
 - Monitoring dashboards
 - Maintenance and support plan
 
-**How does a typical project look like?**
+**How does a typical project look?**
 1. **Planning (2 weeks)**: Architecture, requirements, rollout plan
 2. **Build (6-10 weeks)**: Production development, testing
 3. **Deploy (2-3 weeks)**: Rollout, user training
 4. **Optimize (4+ weeks)**: Monitor, iterate, improve
 5. **Handoff**: Documentation, team enablement
 
-[Scale Your Solution →](#contact)
+[Get in touch](/pages/contact.html)
 
 ---
 
-## Our methodology: invest small, learn fast, scale big
+## Our methodology: invest small, learn fast, scale what works
 
-We follow a proven three-phase approach that minimizes risk and maximizes learning:
+Every engagement follows our three-phase approach. Make it work: get something running fast. Make it better: refine based on real feedback. Make it scale: roll out what's proven.
 
-1. **Make it Work**: Build quick prototypes to validate feasibility
-2. **Make it Better**: Run experiments to prove measurable value
-3. **Make it Scale**: Roll out production-ready solutions
-
-This approach ensures you only invest in solutions with proven impact.
+This way, you only invest in solutions with proven impact.
 
 ---
 
-## How to get in touch
+## Get in touch
 
 Ready to turn your data into impact? Let's start small and scale what works.
 
-**Schedule a call:** [Book a 30-minute discovery call](#)  
-**Email us:** [contact@markyourdata.com](mailto:contact@markyourdata.com)  
-**See our work:** Explore our [project portfolio](#)
+[Schedule a call](/pages/contact.html) or email us at [contact@markyourdata.com](mailto:contact@markyourdata.com)

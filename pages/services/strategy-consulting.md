@@ -1,28 +1,28 @@
 # Data & AI strategy consulting
 
-We help you invest in data initiatives that drive business growth. With proven methodologies and hands-on experience, we guide you from strategic vision to actionable roadmap.
+You know there's value in your data. The question is where to invest first. We help you figure out where data & AI can make the biggest impact and turn that into a clear roadmap.
 
 ---
 
 ## Who is this for?
 
-- **C-level executives** looking to align data & AI initiatives with business strategy
-- **Data & Analytics leaders** who need to prioritize investments and build roadmaps
-- **Innovation teams** exploring how data & AI can drive competitive advantage
-- **Organizations** struggling to measure ROI from data initiatives
+- **C-level executives** looking to align data & AI initiatives with business goals
+- **Data & analytics leaders** who need to prioritize investments and build roadmaps
+- **Innovation teams** exploring how data & AI can create new opportunities
+- **Organizations** that invest in data but struggle to see results
 
 ---
 
 ## What challenges do we solve?
 
-### Lack of strategic clarity
-Many organizations struggle to connect data & AI investments to tangible business outcomes. We help you identify high-impact opportunities aligned with your strategic goals.
+### No clear connection between data and business outcomes
+Many organizations invest in data & AI without knowing which initiatives actually move the needle. We help you identify the high-impact opportunities and ignore the rest.
 
-### Limited resources
-With competing priorities and limited budgets, it's critical to invest wisely. Our consulting ensures you focus on initiatives that deliver maximum value.
+### Too many options, limited resources
+With competing priorities and tight budgets, you can't do everything. We help you focus on the initiatives that deliver value first.
 
-### Uncertainty about where to start
-The data & AI landscape is complex. We guide you through proven frameworks to assess maturity, identify opportunities, and create actionable roadmaps.
+### Not sure where to start
+The data & AI landscape is complex. We guide you through it with frameworks we've used at companies like bol.com, Heineken, and Winparts.
 
 ---
 
@@ -31,12 +31,12 @@ The data & AI landscape is complex. We guide you through proven frameworks to as
 ### 30-minute call
 **Quick guidance when you need it**
 
-Sometimes you just need an experienced perspective. Share your strategic challenges with us, and we'll share our insights and experience.
+Sometimes you just need an experienced perspective. Share your challenge, and we'll share what we've seen work.
 
 **When is this relevant?**
 - You're facing a specific strategic decision about data or AI
 - You want to validate your current approach
-- You need an expert sounding board
+- You need a sounding board with hands-on experience
 
 [Schedule your call](/pages/contact.html)
 
@@ -45,7 +45,7 @@ Sometimes you just need an experienced perspective. Share your strategic challen
 ### Data & AI offsite
 **Build your strategic roadmap together**
 
-Our offsite workshops bring your team together to identify and prioritize data & AI initiatives that align with your business objectives.
+We facilitate a workshop with your team to identify and prioritize data & AI initiatives that align with your business goals. You leave with a concrete plan.
 
 **What you get:**
 - Facilitated sessions to explore strategic opportunities
@@ -54,7 +54,7 @@ Our offsite workshops bring your team together to identify and prioritize data &
 - Alignment across stakeholders
 
 **When is this relevant?**
-- You're launching a data transformation initiative
+- You're kicking off a data transformation initiative
 - Your team needs alignment on data & AI priorities
 - You want to create a quarterly or annual roadmap
 
@@ -69,9 +69,9 @@ Our offsite workshops bring your team together to identify and prioritize data &
 ---
 
 ### Strategy consulting
-**Comprehensive data & AI strategy development**
+**From vision to implementation roadmap**
 
-We work with you to develop a complete data & AI strategy that aligns with your business goals, from vision to implementation roadmap.
+We work with you to develop a complete data & AI strategy, from assessing where you are today to mapping out what to build and in what order.
 
 **What you get:**
 - Current state assessment
@@ -85,10 +85,10 @@ We work with you to develop a complete data & AI strategy that aligns with your 
 - You're building a data-driven organization from scratch
 - Your existing strategy needs a refresh
 - You need to align data initiatives across business units
-- You're preparing for major data transformation
+- You're preparing for a major data transformation
 
 **Typical deliverables:**
-- Comprehensive strategy document
+- Strategy document with clear priorities
 - Implementation roadmap with phases
 - Resource and budget recommendations
 - Governance and operating model
@@ -106,6 +106,6 @@ We work with you to develop a complete data & AI strategy that aligns with your 
 
 ## Get in touch
 
-Ready to maximize your data & AI investments? We'd love to help.
+Want to make sure your data investments pay off? Let's talk.
 
 [Schedule a call](/pages/contact.html) or email us at [contact@markyourdata.com](mailto:contact@markyourdata.com)
