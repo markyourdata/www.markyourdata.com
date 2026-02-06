@@ -222,6 +222,15 @@ const siteData = {
       image: "assets/images/fans/erick_webbe.png",
     },
     {
+      key: "Lisette van de Steeg",
+      quote:
+        "From data scientist, to data analyst and from data engineering to platform engineering tasks: Mark surprises and succeeds in all fields. Next of being part of the data team, he also zoomed out to work on giving Tikkie insights on how to move forward; these insights were immediately used within the organisation. Next to having business acumen and the ability to communicate in a clear and understandable way, Mark is a smart and great colleague to have around. Both on work and personal level, he surprises with great stories and lessons learned.",
+      author: "Lisette van de Steeg | Analytics Lead",
+      company: "Tikkie",
+      companyLogo: "assets/images/clients/tikkie.png",
+      image: "assets/images/fans/lisette_van_de_steeg.png",
+    },
+    {
       key: "elmer-hiemstra",
       quote:
         "I have worked together with Mark on several occasions. What I love about Mark is his pragmatic approach, he is able to quickly get to the core of a problem, identify first valuable steps and guide execution to prove the value of a chosen solution. He collaborates well with existing teams, is always valued for his contribution and personality, but also able to work more independently on a scoped assignment.",
@@ -257,14 +266,7 @@ const siteData = {
       companyLogo: "assets/images/clients/bol.png",
       image: "assets/images/fans/daan_van_den_berg.png",
     },
-    {
-      key: "Lisette van de Steeg",
-      quote: "Lorem Ipsum",
-      author: "Lisette van de Steeg | Analytics Lead",
-      company: "Tikkie",
-      companyLogo: "assets/images/clients/tikkie.png",
-      image: "assets/images/fans/lisette_van_de_steeg.png",
-    },
+
     {
       key: "Arend de Ruiter",
       quote: "Lorem Ipsum",
