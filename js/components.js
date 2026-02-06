@@ -219,9 +219,16 @@ const components = {
         ctaLink = resolvePath(ctaLink);
       }
 
+      // Resolve logo path based on current location
+      let logoPath = "assets/images/logo_myd_rond.png";
+      if (typeof resolvePath === "function") {
+        logoPath = resolvePath(logoPath);
+      }
+
       return `
         <section class="hero">
           <div class="container">
+            <img src="${logoPath}" alt="Mark Your Data" class="hero-logo" />
             <h1>${escapeHtml(data.title)}</h1>
             <p class="tagline">${escapeHtml(data.tagline)}</p>
             ${
@@ -272,9 +279,16 @@ const components = {
         buttonLink = resolvePath(buttonLink);
       }
 
+      // Resolve logo path for CTA section
+      let ctaLogoPath = "assets/images/logo_myd_rond.png";
+      if (typeof resolvePath === "function") {
+        ctaLogoPath = resolvePath(ctaLogoPath);
+      }
+
       return `
         <section class="cta-section">
           <div class="container">
+            <img src="${ctaLogoPath}" alt="Mark Your Data" class="cta-logo" />
             <h2>${escapeHtml(data.heading)}</h2>
             ${data.description ? `<p>${escapeHtml(data.description)}</p>` : ""}
             <button type="button" class="cta-button" onclick="window.location.href='${escapeHtml(buttonLink)}'" aria-label="${escapeHtml(data.button.text)}">
