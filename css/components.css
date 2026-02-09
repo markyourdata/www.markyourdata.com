@@ -51,7 +51,7 @@ a:focus-visible {
 
 /* Breadcrumbs */
 .breadcrumbs {
-    padding: var(--space-md) 0;
+    /*padding: 0 0 var(--space-md) 0;*/
     font-size: var(--font-size-sm);
 }
 

@@ -6,10 +6,10 @@ This guide outlines the best practices and patterns to follow when creating or u
 
 ## Table of contents
 1. [Architecture Overview](#architecture-overview)
-2. [Creating a New Page](#creating-a-new-page)
+2. [Creating a New Page](#creating-a-new-page) (includes breadcrumb setup)
 3. [Page Structure Best Practices](#page-structure-best-practices)
 4. [Component Usage](#component-usage)
-5. [Content Management](#content-management)
+5. [Content Management](#content-management) (aligned with `copy_guide.md`)
 6. [SEO Guidelines](#seo-guidelines)
 7. [Accessibility Requirements](#accessibility-requirements)
 8. [CSS Guidelines](#css-guidelines)
@@ -47,7 +47,8 @@ Our website follows these key principles:
 ├── data/
 │   └── content.js               # ALL website content
 ├── components/
-│   └── navbar.js                # Navigation component
+│   ├── navbar.js                # Navigation component
+│   └── breadcrumbs.js           # Breadcrumb navigation component
 └── pages/
     ├── services/                # Service pages
     ├── projects/                # Project case studies
@@ -134,7 +135,36 @@ const siteData = {
 
 **📖 Reference:** See `data/content.js` lines 20-80 for page data structure.
 
-### Step 4: render components in html
+### Step 4: add breadcrumbs
+
+Every page under `pages/blogs/`, `pages/projects/`, or `pages/services/` must include breadcrumb navigation.
+
+**1. Add a breadcrumb entry to `data/content.js`:**
+
+```javascript
+// In the siteData.breadcrumbs object, add your page's path and display name
+breadcrumbs: {
+  // ... existing entries ...
+  "services/your-new-service": "Your service name",
+}
+```
+
+The key is the path after `pages/`, without `.html` or `/index.html`. The value is a short, readable name in sentence case.
+
+**2. Add the breadcrumb container in the HTML body, right after the navbar:**
+
+```html
+<div id="navbar-container"></div>
+<div id="breadcrumb-container"></div>
+```
+
+**3. Include the breadcrumbs script (see step 5 for full script loading order).**
+
+The breadcrumb component auto-renders based on the current URL. It walks up the path segments and looks up display names from `siteData.breadcrumbs`. For a page at `pages/services/platform/details/data-pipelines.html`, the trail renders as:
+
+> Home / Services / Platform / **Data pipelines**
+
+### Step 5: render components in html
 
 Use container divs and JavaScript to render components:
 
@@ -145,6 +175,7 @@ Use container divs and JavaScript to render components:
 
     <!-- Navigation -->
     <div id="navbar-container"></div>
+    <div id="breadcrumb-container"></div>
 
     <!-- Main Content -->
     <main id="main-content">
@@ -169,6 +200,7 @@ Use container divs and JavaScript to render components:
     <script src="../../components/navbar.js"></script>
     <script src="../../data/content.js"></script>
     <script src="../../js/components.js"></script>
+    <script src="../../components/breadcrumbs.js"></script>
     <script>
         // Render this specific page
         renderServicePage('yourNewPage');
@@ -197,7 +229,8 @@ Always use proper semantic HTML:
     <a href="#main-content" class="skip-to-main">Skip to main content</a>
     
     <!-- Navigation -->
-    <nav id="navbar-container"></nav>
+    <div id="navbar-container"></div>
+    <div id="breadcrumb-container"></div>
     
     <!-- Main content area -->
     <main id="main-content">
@@ -311,7 +344,17 @@ services: [
 ```
 **📖 Reference:** `js/components.js` lines 70-110
 
-#### 5. testimonials carousel
+#### 5. breadcrumbs
+```html
+<!-- In HTML, right after the navbar container -->
+<div id="breadcrumb-container"></div>
+```
+
+The breadcrumb component (`components/breadcrumbs.js`) auto-renders based on the current URL path. Display names are configured in `siteData.breadcrumbs` in `data/content.js`. No manual HTML is needed beyond the container div.
+
+**CSS:** `css/components.css` (`.breadcrumbs` styles)
+
+#### 6. testimonials carousel
 ```javascript
 // In data/content.js
 testimonials: [
@@ -391,30 +434,36 @@ const siteData = {
 
 ### Content guidelines
 
+For full writing rules, see `copy_guide.md`. Key points for development:
+
+**Voice:**
+- Always write as "we", never "I" (exception: About page for founder context)
+- Show, don't tell: use specific examples and numbers, not adjectives
+- Lead with the client's situation, not our capabilities
+- No buzzwords ("leverage", "synergy", "best-in-class"), no superlatives ("the best", "world-class")
+
 **Titles:**
-- Clear and descriptive
-- 5-8 words maximum
+- Clear and descriptive, lead with value or client benefit
+- Under 10 words
 - Include keywords for SEO
 
 **Descriptions:**
-- 1-2 sentences
+- 1-2 sentences, under 50 words for service descriptions
 - Focus on benefits, not features
 - 150-160 characters for meta descriptions
 
 **CTA Buttons:**
-- Action-oriented: "Get Started", "Learn More", "Book Consultation"
-- NOT generic: "Click Here", "Submit"
+- Use consistent phrases: "Get in touch", "Book a free consultation", "Learn more", "Schedule a call"
+- NOT generic: "Click here", "Submit"
 
 **Headers (h1, h2, h3, h4):**
 - Use sentence case (only first word capitalized)
-- ✅ Correct: "About us", "Our services", "Data analytics platform"
-- ❌ Incorrect: "About Us", "Our Services", "Data Analytics Platform"
-- Exception: Preserve proper nouns and acronyms (AI, Mark Your Data, bol.com, etc.)
+- "About us", "Our services", "Data analytics platform"
+- Exception: preserve proper nouns and acronyms (AI, Mark Your Data, bol.com, etc.)
 
-**Amount Formatting:**
-- Use periods (.) as thousand separators, not commas
-- ✅ Correct: "€99.000", "€20.000", "€1.500.000"
-- ❌ Incorrect: "€99,000", "€20,000", "€1,500,000"
+**Formatting:**
+- No em-dashes between words. Use commas or split into two sentences
+- Use periods (.) as thousand separators, not commas: "€99.000", not "€99,000"
 - Abbreviated forms are acceptable: "99K", "20K", "1.5M"
 
 ---
@@ -642,8 +691,9 @@ Use existing utility classes instead of inline styles:
 | `data/content.js` | Content structure examples | 1-200 |
 | `js/components.js` | All available components | 1-300 |
 | `js/config.js` | Constants and path resolution | 1-50 |
+| `components/breadcrumbs.js` | Breadcrumb navigation component | All |
 | `css/base.css` | Design tokens | 1-40 |
-| `css/components.css` | Component styles | All |
+| `css/components.css` | Component styles (incl. breadcrumbs) | All |
 
 ---
 
@@ -659,6 +709,9 @@ Before publishing a new page, verify:
 - [ ] Heading hierarchy correct (h1 → h2 → h3, no skipping)
 - [ ] All images have `alt` text and `loading="lazy"`
 - [ ] All buttons have `type="button"` attribute
+- [ ] Breadcrumb entry added to `siteData.breadcrumbs` in `data/content.js`
+- [ ] `<div id="breadcrumb-container"></div>` added after navbar container
+- [ ] `breadcrumbs.js` script included (after `config.js` and `content.js`)
 - [ ] Paths use root-relative format (e.g., `pages/contact.html`)
 - [ ] Design tokens used instead of hardcoded values
 - [ ] Page added to `/sitemap.xml`
@@ -700,6 +753,9 @@ Before publishing a new page, verify:
 10. **❌ Not updating sitemap**
     - Add new pages to `/sitemap.xml`
 
+11. **❌ Forgetting breadcrumbs on new pages**
+    - Add entry to `siteData.breadcrumbs`, container div, and script tag
+
 ---
 
 ## Getting help
@@ -727,6 +783,11 @@ that follows all the patterns in the guide. The page should:
 
 ## Version history
 
+- **v1.1** (2026-02-09) - Breadcrumbs and copy guide integration
+  - Added breadcrumb component documentation (Step 4 in page creation)
+  - Added breadcrumbs to checklist, components list, and common mistakes
+  - Integrated copy guide writing principles into content guidelines
+  - Updated file structure and key files table
 - **v1.0** (2025-01-08) - Initial development guide created
   - Architecture overview
   - Component documentation

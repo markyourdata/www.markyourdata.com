@@ -467,4 +467,55 @@ const siteData = {
       slug: "bol-google-ads-optimization",
     },
   ],
+
+  // Breadcrumb display names keyed by path segment(s) after "pages/"
+  // Used by components/breadcrumbs.js to render human-readable trails
+  breadcrumbs: {
+    // Section index pages
+    blogs: "Blog",
+    projects: "Projects",
+    services: "Services",
+
+    // Blog posts
+    "blogs/motherduck-the-future-of-cost-efficient-analytics": "MotherDuck",
+    "blogs/dbt-transform-data-into-insights": "dbt",
+    "blogs/save-100k-with-mark-your-data-platform": "Mark Your Data Platform",
+    "blogs/why-dlt-beats-fivetran": "DLT vs Fivetran",
+
+    // Projects
+    "projects/bol-content-generation-at-scale": "Content generation",
+    "projects/winparts-data-ai-platform": "Data & AI Platform",
+    "projects/bol-display-banner-automation": "Banner automation",
+    "projects/tikkie-opportunity-finding": "Opportunity finding",
+    "projects/winparts-experiment-guidance": "Experiment guidance",
+    "projects/bol-reduce-preventable-customer-service-cases":
+      "Reducing CS workload",
+    "projects/bol-genai-handover": "GenAI handover",
+    "projects/bol-google-ads-optimization": "Google Ads optimization",
+
+    // Services — main categories
+    "services/data-leadership": "Data & AI leadership",
+    "services/platform": "Platform",
+    "services/strategy-consulting": "Strategy consulting",
+    "services/strategy-execution": "Strategy execution",
+
+    // Services — platform details
+    "services/platform/existing-team": "Existing team",
+    "services/platform/details/data-pipelines": "Data pipelines",
+    "services/platform/details/data-models": "Data models",
+    "services/platform/details/data-infrastructure": "Data infrastructure",
+    "services/platform/details/applied-ai": "Applied AI",
+
+    // Services — strategy consulting details
+    "services/strategy-consulting/details/strategy-call": "Strategy call",
+    "services/strategy-consulting/details/data-ai-offsite": "Data & AI offsite",
+    "services/strategy-consulting/details/strategy-consulting":
+      "Strategy consulting",
+
+    // Services — strategy execution details
+    "services/strategy-execution/details/data-exploration": "Data exploration",
+    "services/strategy-execution/details/proof-of-concept": "Proof of concept",
+    "services/strategy-execution/details/proof-of-value": "Proof of value",
+    "services/strategy-execution/details/business-impact": "Business impact",
+  },
 };
