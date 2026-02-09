@@ -132,7 +132,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Projects (only featured projects) -->
+  <!-- Projects -->
   <url>
     <loc>https://www.markyourdata.com/pages/projects/</loc>
     <lastmod>2026-01-27</lastmod>
@@ -150,6 +150,48 @@
   <url>
     <loc>https://www.markyourdata.com/pages/projects/bol-content-generation-at-scale.html</loc>
     <lastmod>2026-01-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.markyourdata.com/pages/projects/bol-display-banner-automation.html</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.markyourdata.com/pages/projects/bol-genai-handover.html</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.markyourdata.com/pages/projects/bol-google-ads-optimization.html</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.markyourdata.com/pages/projects/bol-reduce-preventable-customer-service-cases.html</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.markyourdata.com/pages/projects/tikkie-opportunity-finding.html</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.markyourdata.com/pages/projects/winparts-experiment-guidance.html</loc>
+    <lastmod>2026-02-09</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
