@@ -251,7 +251,8 @@ const siteData = {
     },
     {
       key: "Benjamin van Vianen",
-      quote: "Lorem Ipsum",
+      quote:
+        "Mark connects technology with business strategy and brings solid experience in building small proof of concepts that can be scaled into solutions with real business impact. He is highly pragmatic and has a talent for simplifying complexity, driving change and connecting people. He is also a true allrounder who adds value across different areas and consistently contributes to meaningful results.",
       author: "Benjamin van Vianen | Manager Scaled Content",
       company: "bol.",
       companyLogo: "assets/images/clients/bol.png",
