@@ -818,3 +818,32 @@ a:focus-visible {
         padding: 1.25rem 1.5rem;
     }
 }
+
+/* Cloud toggle */
+.cloud-toggle {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.cloud-toggle-btn {
+    padding: 0.5rem 1.25rem;
+    border: 2px solid var(--dynamic-orange);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--dark-charcoal);
+    font-family: inherit;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.cloud-toggle-btn:hover {
+    background: rgba(249, 168, 0, 0.15);
+}
+
+.cloud-toggle-btn.active {
+    background: var(--dynamic-orange);
+    color: var(--dark-charcoal);
+}
