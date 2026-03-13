@@ -155,18 +155,37 @@
                         instead?
                     </p>
                     <p>
-                        <strong>Mark Your Data Platform</strong> is a
-                        cloud-native data platform that provides everything your
-                        analysts need. We handle the infrastructure, pipelines,
-                        and data models, so your analysts can start adding value
-                        from day one.
+                        Without a solid foundation, your analysts spend most of
+                        their time collecting and cleaning data rather than
+                        using it. <strong>Mark Your Data Platform</strong>
+                        handles that layer, so they can focus on the work that
+                        actually matters.
                     </p>
-                    <p>
-                        <a href="existing-team.html"
-                            >Already have a data engineer? See how you can still
-                            save €30K+ per year</a
+                    <div class="promo-cards">
+                        <a href="existing-team.html" class="promo-card">
+                            <div class="promo-card-content">
+                                <h3>Already have a data engineer?</h3>
+                                <p>
+                                    See how you can still save €30K+ per year
+                                    without replacing your team.
+                                </p>
+                            </div>
+                            <span class="promo-card-arrow">&rarr;</span>
+                        </a>
+                        <a
+                            href="../data-leadership/index.html"
+                            class="promo-card"
                         >
-                    </p>
+                            <div class="promo-card-content">
+                                <h3>Not sure what you need yet?</h3>
+                                <p>
+                                    Start with fractional data & AI leadership
+                                    to figure out your direction first.
+                                </p>
+                            </div>
+                            <span class="promo-card-arrow">&rarr;</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -221,14 +240,57 @@
         <!-- Technology Stack Section -->
         <section class="bg-light-gray">
             <div class="container">
-                <h2>Our lightweight architecture</h2>
+                <h2>Built on open-source, runs on your cloud</h2>
                 <p class="section-intro">
-                    We use battle-tested open-source tools wrapped in a
-                    scalable, cost-efficient infrastructure.
+                    We use battle-tested open-source tools. No vendor lock-in,
+                    no per-row pricing, no black boxes. And it runs on whatever
+                    cloud you're already on — AWS, Azure, or GCP.
                 </p>
 
-                <div id="cloud-toggle-container">
-                    <!-- populated by components/cloud-toggle.js -->
+                <div
+                    style="
+                        display: flex;
+                        align-items: center;
+                        gap: 1.5rem;
+                        flex-wrap: wrap;
+                        margin-bottom: 2rem;
+                    "
+                >
+                    <button
+                        id="tech-toggle-btn"
+                        onclick="
+                            var d = document.getElementById('tech-details');
+                            var open = d.style.display !== 'none';
+                            d.style.display = open ? 'none' : 'block';
+                            this.textContent = open ? 'Show technical setup' : 'Hide technical setup';
+                        "
+                        style="
+                            background: none;
+                            border: 2px solid var(--dynamic-orange);
+                            color: var(--dynamic-orange);
+                            padding: 0.6rem 1.2rem;
+                            border-radius: 4px;
+                            font-family: inherit;
+                            font-size: 1rem;
+                            cursor: pointer;
+                        "
+                    >
+                        Show technical setup
+                    </button>
+                    <span
+                        style="
+                            color: var(--text-muted, #666);
+                            font-size: 0.95rem;
+                        "
+                    >
+                        or share this page with your CTO or CIO to evaluate
+                    </span>
+                </div>
+
+                <div id="tech-details" style="display: none">
+                    <div id="cloud-toggle-container">
+                        <!-- populated by components/cloud-toggle.js -->
+                    </div>
                 </div>
             </div>
         </section>
@@ -236,165 +298,48 @@
         <!-- Benefits Section -->
         <section>
             <div class="container">
-                <h2>Why this approach wins</h2>
-
-                <div class="service-cards-grid">
-                    <div class="content-card">
-                        <h3>💰 cost-efficient</h3>
-                        <p>
-                            Pay only for compute time used. No expensive
-                            per-connector or per-row pricing.
-                        </p>
-                    </div>
-
-                    <div class="content-card">
-                        <h3>🔧 fully customizable</h3>
-                        <p>
-                            Open-source tools mean no vendor lock-in. Extend and
-                            modify as needed.
-                        </p>
-                    </div>
-
-                    <div class="content-card">
-                        <h3>📝 version controlled</h3>
-                        <p>
-                            Every pipeline is code. Track changes, review with
-                            your team, roll back when needed.
-                        </p>
-                    </div>
-
-                    <div class="content-card">
-                        <h3>🤖 ai-assisted maintenance</h3>
-                        <p>
-                            Because everything is code, tools like Claude can
-                            help you maintain and extend your platform.
-                        </p>
-                    </div>
-
-                    <div class="content-card">
-                        <h3>📊 trusted insights</h3>
-                        <p>
-                            Every metric defined once, tested, and reused across
-                            all reports. Analysts get consistent answers from a
-                            single source of truth, with no conflicting numbers
-                            across dashboards.
-                        </p>
-                    </div>
-
-                    <div class="content-card">
-                        <h3>⚙️ easy to maintain</h3>
-                        <p>
-                            Update a pipeline, test it, deploy it. No black
-                            boxes, no vendor support tickets. Everything is
-                            transparent and in your hands.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Propositions Section -->
-        <section class="bg-light-gray">
-            <div class="container">
-                <h2>What's included</h2>
-                <p class="section-description">
-                    Our platform covers four core areas. Together, they
-                    <strong
-                        >multiply the effectiveness of your data
-                        professionals</strong
-                    >
-                    and help you make faster, better decisions.
-                </p>
-                <p class="section-subdescription"></p>
+                <h2>What this means for your business</h2>
 
                 <div id="services">
-                    <!-- Data Infrastructure -->
                     <div class="service-card">
-                        <div class="card-tag">Foundation</div>
-                        <h3>Data infrastructure</h3>
+                        <h3>One source of truth</h3>
                         <p>
-                            Build a solid foundation for data-driven success.
-                            Design and implement scalable data infrastructure
-                            that supports your current needs and future growth.
+                            Every metric is defined once, tested, and reused
+                            across all reports. No more conflicting numbers
+                            between teams, no more debating which dashboard is
+                            right before you can make a decision.
                         </p>
-                        <p><strong>Key benefits:</strong></p>
-                        <ul class="list-benefits">
-                            <li>Cloud-based modern data stack</li>
-                            <li>Scalable architecture design</li>
-                            <li>Security and governance frameworks</li>
-                        </ul>
-                        <a
-                            href="details/data-infrastructure.html"
-                            class="read-more"
-                            >Learn more</a
-                        >
                     </div>
 
-                    <!-- Data Pipelines -->
                     <div class="service-card">
-                        <div class="card-tag">Automation</div>
-                        <h3>Data pipelines</h3>
+                        <h3>No vendor lock-in</h3>
                         <p>
-                            Automate data movement from source to insight.
-                            Develop and maintain robust data pipelines that
-                            efficiently move data from source to destination.
+                            Built on open-source tools. No per-seat licensing,
+                            no per-row pricing, no dependency on a vendor's
+                            roadmap. You own the setup and can extend it as you
+                            grow.
                         </p>
-                        <p><strong>Key benefits:</strong></p>
-                        <ul class="list-benefits">
-                            <li>Automated data ingestion</li>
-                            <li>Real-time or batch processing</li>
-                            <li>Data quality checks and monitoring</li>
-                        </ul>
-                        <a href="details/data-pipelines.html" class="read-more"
-                            >Learn more</a
-                        >
                     </div>
 
-                    <!-- Data Models -->
                     <div class="service-card">
-                        <div class="card-tag">Structure</div>
-                        <h3>Data models</h3>
+                        <h3>Ready for AI when you are</h3>
                         <p>
-                            Transform raw data into business insights. Design
-                            and implement data models that make your data
-                            accessible, understandable, and ready for analysis.
+                            Your data platform is the input for AI. AI jobs run
+                            alongside your existing pipelines and data models,
+                            writing their output back to the same platform. When
+                            you want to add an AI use case, you extend what's
+                            already there. No rebuild, no separate tooling.
                         </p>
-                        <p><strong>Key benefits:</strong></p>
-                        <ul class="list-benefits">
-                            <li>Business-friendly data structures</li>
-                            <li>Optimized for query performance</li>
-                            <li>Single source of truth</li>
-                        </ul>
-                        <a href="details/data-models.html" class="read-more"
-                            >Learn more</a
-                        >
                     </div>
 
-                    <!-- Applied AI -->
                     <div class="service-card">
-                        <div class="card-tag">Intelligence</div>
-                        <h3>Applied ai</h3>
+                        <h3>Yours to keep</h3>
                         <p>
-                            Deploy AI solutions that drive business value.
-                            Develop and deploy AI solutions built on your data
-                            platform, from predictive models to generative AI
-                            applications.
+                            No black boxes. Everything is transparent, version
+                            controlled, and in your hands. Your team can
+                            maintain and extend it independently. We set it up,
+                            you own it.
                         </p>
-                        <p>
-                            <em
-                                >Note: Assumes data infrastructure, pipelines,
-                                and models are already in place.</em
-                            >
-                        </p>
-                        <p><strong>Key benefits:</strong></p>
-                        <ul class="list-benefits">
-                            <li>Custom AI/ML models</li>
-                            <li>GenAI applications and chatbots</li>
-                            <li>Model monitoring and deployment</li>
-                        </ul>
-                        <a href="details/applied-ai.html" class="read-more"
-                            >Learn more</a
-                        >
                     </div>
                 </div>
             </div>
