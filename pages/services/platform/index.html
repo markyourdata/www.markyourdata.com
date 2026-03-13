@@ -402,10 +402,11 @@
         <!-- Projects Section -->
         <section>
             <div class="container">
-                <h2>Selected projects</h2>
+                <h2>Seen in practice</h2>
                 <p class="section-intro">
-                    Real results from real engagements. Each project here
-                    represents a challenge solved and value delivered.
+                    We don't just design platforms. We build and run them. The
+                    Winparts Data & AI Platform is one example of this approach
+                    in production.
                 </p>
                 <div id="projects" class="content-grid">
                     <!-- Projects will be rendered here by JavaScript -->
@@ -427,12 +428,10 @@
             // Render service page components
             renderServicePage("platform");
 
-            // Render projects (limit to 2)
-            const limit =
-                typeof CONFIG !== "undefined"
-                    ? CONFIG.LAYOUT.PROJECTS_LIMIT_HOMEPAGE
-                    : 2;
-            renderProjects("projects", { limit });
+            // Render platform projects, always include Winparts as primary example
+            renderProjects("projects", {
+                includeSlugs: ["winparts-data-ai-platform"],
+            });
         </script>
         <script src="../../../data/platform-clouds.js"></script>
         <script src="../../../components/cloud-toggle.js"></script>

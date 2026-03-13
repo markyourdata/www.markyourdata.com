@@ -280,10 +280,10 @@ const siteData = {
 
   services: [
     {
-      title: "Data & AI leadership",
+      title: "Fractional Data & AI leadership",
       description:
-        "Need data leadership but not ready to hire a full-time lead? We embed in your organization to build your data capability from the ground up, staying on board until you've found or trained the right person to take over.",
-      cta: "Explore data leadership",
+        "Not ready to hire a full-time data lead? We step in as your fractional data & AI leader, one day per week. We set the direction, build the foundation, and help you figure out exactly who you need to hire next.",
+      cta: "Explore fractional leadership",
       slug: "data-leadership",
       url: "pages/services/data-leadership/index.html",
       icon: "assets/icons/data-leadership.svg",
@@ -495,7 +495,7 @@ const siteData = {
     "projects/bol-google-ads-optimization": "Google Ads optimization",
 
     // Services — main categories
-    "services/data-leadership": "Data & AI leadership",
+    "services/data-leadership": "Fractional Data & AI leadership",
     "services/platform": "Platform",
     "services/strategy-consulting": "Strategy consulting",
     "services/strategy-execution": "Strategy execution",
