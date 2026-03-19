@@ -260,9 +260,20 @@
                         id="tech-toggle-btn"
                         onclick="
                             var d = document.getElementById('tech-details');
-                            var open = d.style.display !== 'none';
-                            d.style.display = open ? 'none' : 'block';
-                            this.textContent = open ? 'Show technical setup' : 'Hide technical setup';
+                            var expanded = d.getAttribute('data-expanded') === 'true';
+                            if (expanded) {
+                                d.style.maxHeight = '140px';
+                                d.style.webkitMaskImage = 'linear-gradient(to bottom, black 0%, transparent 100%)';
+                                d.style.maskImage = 'linear-gradient(to bottom, black 0%, transparent 100%)';
+                                d.removeAttribute('data-expanded');
+                                this.textContent = 'Show technical setup';
+                            } else {
+                                d.style.maxHeight = 'none';
+                                d.style.webkitMaskImage = 'none';
+                                d.style.maskImage = 'none';
+                                d.setAttribute('data-expanded', 'true');
+                                this.textContent = 'Hide technical setup';
+                            }
                         "
                         style="
                             background: none;
@@ -287,11 +298,51 @@
                     </span>
                 </div>
 
-                <div id="tech-details" style="display: none">
+                <div
+                    id="tech-details"
+                    style="
+                        overflow: hidden;
+                        max-height: 140px;
+                        -webkit-mask-image: linear-gradient(
+                            to bottom,
+                            black 0%,
+                            transparent 100%
+                        );
+                        mask-image: linear-gradient(
+                            to bottom,
+                            black 0%,
+                            transparent 100%
+                        );
+                    "
+                >
                     <div id="cloud-toggle-container">
                         <!-- populated by components/cloud-toggle.js -->
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- AI Jobs Section -->
+        <section>
+            <div class="container">
+                <h2>Extend with AI jobs</h2>
+                <p class="section-intro">
+                    Your data platform is the input for AI. AI jobs run
+                    alongside your pipelines and data models, process data
+                    through an LLM, and write results back to the same
+                    warehouse. Set up the framework once, then add use cases one
+                    at a time.
+                </p>
+                <img
+                    src="../../../assets/images/featured/mark_your_data_analytics_platform_ai_jobs_extention_gcp.png"
+                    alt="AI jobs architecture showing a container connecting to any LLM provider with optional safeguards, reading from and writing back to the data warehouse"
+                    style="width: 100%; border-radius: 8px; margin: 1.5rem 0"
+                />
+                <p style="text-align: center">
+                    <a href="details/ai-jobs.html" class="read-more"
+                        >How AI jobs work</a
+                    >
+                </p>
             </div>
         </section>
 
@@ -330,6 +381,9 @@
                             you want to add an AI use case, you extend what's
                             already there. No rebuild, no separate tooling.
                         </p>
+                        <a href="details/ai-jobs.html" class="read-more"
+                            >How AI jobs work</a
+                        >
                     </div>
 
                     <div class="service-card">

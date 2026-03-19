@@ -506,6 +506,7 @@ const siteData = {
     "services/platform/details/data-models": "Data models",
     "services/platform/details/data-infrastructure": "Data infrastructure",
     "services/platform/details/applied-ai": "Applied AI",
+    "services/platform/details/ai-jobs": "AI jobs",
 
     // Services — strategy consulting details
     "services/strategy-consulting/details/strategy-call": "Strategy call",
