@@ -7,7 +7,8 @@ const platformCloudsData = {
     {
       id: "gcp",
       label: "GCP",
-      image: "assets/images/featured/mark_your_data_analytics_platform_gcp.png",
+      image:
+        "assets/images/featured/mark_your_data_analytics_and_ai_platform_gcp.png",
       imageAlt:
         "Mark Your Data analytics platform architecture diagram showing DLT, DBT, and GCP Cloud Run workflow",
       intro:
@@ -106,7 +107,8 @@ const platformCloudsData = {
     {
       id: "aws",
       label: "AWS",
-      image: "assets/images/featured/mark_your_data_analytics_platform_aws.png",
+      image:
+        "assets/images/featured/mark_your_data_analytics_and_ai_platform_aws.png",
       imageAlt:
         "Mark Your Data analytics platform architecture diagram showing DLT, DBT, MotherDuck, and AWS Fargate workflow",
       intro:
@@ -205,7 +207,7 @@ const platformCloudsData = {
       id: "azure",
       label: "Azure",
       image:
-        "assets/images/featured/mark_your_data_analytics_platform_azure.png",
+        "assets/images/featured/mark_your_data_analytics_and_ai_platform_azure.png",
       imageAlt:
         "Mark Your Data analytics platform architecture diagram showing DLT, DBT, and Azure Container Apps workflow",
       intro:
