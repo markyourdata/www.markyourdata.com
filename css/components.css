@@ -836,7 +836,9 @@ a:focus-visible {
     font-size: var(--font-size-sm);
     font-weight: 600;
     cursor: pointer;
-    transition: background 0.15s, color 0.15s;
+    transition:
+        background 0.15s,
+        color 0.15s;
 }
 
 .cloud-toggle-btn:hover {
@@ -846,4 +848,86 @@ a:focus-visible {
 .cloud-toggle-btn.active {
     background: var(--dynamic-orange);
     color: var(--dark-charcoal);
+}
+
+/* ── Photo utility classes ───────────────────────────────────────────────────
+   See visual_guide.md for usage rules and photo assignments.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* Pattern A — Hero background photo */
+.hero-photo-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Suppress the default headshot watermark when a real photo is used */
+.hero-photo-bg::before {
+    display: none;
+}
+/* Ensure text is readable over any photo background */
+.hero-photo-bg h1,
+.hero-photo-bg .tagline {
+    text-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    color: var(--white);
+}
+.hero-photo-bg .hero-logo {
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+}
+.hero-photo-bg .cta-button {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* Pattern B — Section background wash (6–8% opacity, never higher) */
+.section-wash {
+    position: relative;
+}
+.section-wash::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.07;
+    pointer-events: none;
+    z-index: 0;
+}
+.section-wash > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Pattern C — Inline editorial image */
+.editorial-photo {
+    border-radius: 6px;
+    width: 38%;
+    display: block;
+}
+.editorial-photo--right {
+    float: right;
+    margin: 0.25rem 0 1.5rem 2rem;
+}
+.editorial-photo--left {
+    float: left;
+    margin: 0.25rem 2rem 1.5rem 0;
+}
+@media (max-width: 640px) {
+    .editorial-photo {
+        float: none;
+        width: 100%;
+        margin: 0 0 1.5rem 0;
+    }
+}
+
+/* Pattern D — Cinematic photo strip */
+.photo-strip {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+.photo-strip img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 40%;
 }

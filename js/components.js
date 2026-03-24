@@ -225,8 +225,17 @@ const components = {
         logoPath = resolvePath(logoPath);
       }
 
+      // Resolve optional background photo path
+      let photoStyle = "";
+      if (data.photo) {
+        const photoPath = typeof resolvePath === "function"
+          ? resolvePath(data.photo)
+          : data.photo;
+        photoStyle = `style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('${photoPath}')"`;
+      }
+
       return `
-        <section class="hero">
+        <section class="hero${data.photo ? " hero-photo-bg" : ""}" ${photoStyle}>
           <div class="container">
             <img src="${logoPath}" alt="Mark Your Data" class="hero-logo" />
             <h1>${escapeHtml(data.title)}</h1>

@@ -97,6 +97,7 @@ const siteData = {
         text: "Get in touch",
         link: "pages/contact.html",
       },
+      photo: "assets/photos/webp/photo_6.webp",
     },
     aboutUs: {
       heading: "About us",
