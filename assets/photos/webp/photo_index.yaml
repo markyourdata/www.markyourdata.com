@@ -1,0 +1,621 @@
+photos:
+  photo_1.webp:
+    aspect_ratio: '2:3'
+    description: A young man in a dark shirt and glasses smiles warmly in a park,
+      with a building and trees in the background.
+    gaze_direction: straight
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_1.jpg
+    people: 1
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Outdoor
+    subject_position: center
+  photo_10.webp:
+    aspect_ratio: '3:2'
+    description: A young man in a maroon shirt smiles warmly in front of a brick building,
+      with a window and greenery in the background.
+    gaze_direction: straight
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_10.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_11.webp:
+    aspect_ratio: '3:2'
+    description: A man in a maroon shirt and glasses smiles warmly in a dimly lit
+      hallway, with a plant and a whiteboard in the background.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_11.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_12.webp:
+    aspect_ratio: '2:3'
+    description: A white door with a black handle and a yellow sign instructing to
+      "Mark Your Data" is mounted on a beige wall.
+    gaze_direction: none
+    labels:
+    - atmosphere
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_12.jpg
+    people: 0
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_13.webp:
+    aspect_ratio: '3:2'
+    description: A wooden desk with a yellow vase of yellow flowers, a black laptop,
+      and a white notebook sits in a room with a window, green wall, and framed pictures.
+    gaze_direction: none
+    labels:
+    - atmosphere
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_13.jpg
+    people: 0
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_14.webp:
+    aspect_ratio: '3:2'
+    description: Three individuals converse in a modern office, seated around a wooden
+      desk with a computer monitor, under a window with white blinds.
+    gaze_direction: none
+    labels:
+    - business
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_14.jpg
+    people: 3
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_15.webp:
+    aspect_ratio: '3:2'
+    description: A man in a black shirt and glasses smiles warmly, seated at a desk
+      with a whiteboard, pen, and notebook, while two women in white and blue observe.
+    gaze_direction: straight
+    labels:
+    - business
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_15.jpg
+    people: 3
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_16.webp:
+    aspect_ratio: '3:2'
+    description: A man in a black shirt and glasses smiles warmly, seated at a wooden
+      desk in a cozy room with a green wall, blackboard, and framed pictures.
+    gaze_direction: none
+    labels:
+    - business
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_16.jpg
+    people: 3
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_17.webp:
+    aspect_ratio: '3:2'
+    description: Two individuals collaborate on a project, one sketching and the other
+      writing on a white paper, with a wooden table and whiteboard in the background.
+    gaze_direction: none
+    labels:
+    - business
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_17.jpg
+    people: 2
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_18.webp:
+    aspect_ratio: '3:2'
+    description: A person in a red shirt draws a diagram on a white paper, surrounded
+      by scattered papers and a wooden table.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_18.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_19.webp:
+    aspect_ratio: '3:2'
+    description: A man in a maroon shirt smiles while seated at a wooden table in
+      a cozy café, with a chalkboard and bookshelf in the background.
+    gaze_direction: none
+    labels:
+    - business
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_19.jpg
+    people: 3
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_2.webp:
+    aspect_ratio: '3:2'
+    description: A young man in a brown shirt and glasses stands confidently in a
+      park, with a backdrop of trees and parked cars.
+    gaze_direction: straight
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_2.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Outdoor
+    subject_position: center
+  photo_20.webp:
+    aspect_ratio: '2:3'
+    description: A man in a burgundy shirt and glasses smiles warmly in a cozy room
+      with a wooden desk, chalkboard, and framed pictures.
+    gaze_direction: straight
+    labels:
+    - business
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_20.jpg
+    people: 2
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_21.webp:
+    aspect_ratio: '2:3'
+    description: A person writes on a blackboard with a yellow marker, using numbers
+      and text, in a room with a bookshelf and framed pictures.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_21.jpg
+    people: 1
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_22.webp:
+    aspect_ratio: '3:2'
+    description: Two individuals collaborate on a whiteboard, sketching and writing
+      in a wooden table with a yellow water bottle and black pen.
+    gaze_direction: none
+    labels:
+    - business
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_22.jpg
+    people: 3
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_23.webp:
+    aspect_ratio: '3:2'
+    description: Two women converse in a cozy room with a wooden bookshelf, a blackboard,
+      and a green and white tiger painting, with one woman gesturing.
+    gaze_direction: none
+    labels:
+    - business
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_23.jpg
+    people: 3
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_24.webp:
+    aspect_ratio: '3:2'
+    description: Three individuals converse in a cozy room with a chalkboard, bookshelf,
+      and green wall, with one holding a notebook.
+    gaze_direction: none
+    labels:
+    - business
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_24.jpg
+    people: 3
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_25.webp:
+    aspect_ratio: '3:2'
+    description: A man in a checkered shirt works on a computer at a desk, surrounded
+      by a yellow water bottle, black phone, and white notebook, with a window and
+      white blinds in the background.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    - tech
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_25.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_26.webp:
+    aspect_ratio: '3:2'
+    description: A person works on a computer with a large monitor displaying a website,
+      surrounded by a wooden desk, yellow flowers, and a yellow water bottle.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    - tech
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_26.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_27.webp:
+    aspect_ratio: '3:2'
+    description: A wooden desk holds a laptop, monitor, keyboard, mouse, and yellow
+      water bottle, with a yellow vase of yellow flowers and a "What Sets Us Apart"
+      sign nearby.
+    gaze_direction: none
+    labels:
+    - atmosphere
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_27.jpg
+    people: 0
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_28.webp:
+    aspect_ratio: '2:3'
+    description: A yellow water bottle, yellow notebook, black pen, and yellow phone
+      rest on a wooden desk, accompanied by a potted plant and a laptop.
+    gaze_direction: none
+    labels:
+    - atmosphere
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_28.jpg
+    people: 0
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_29.webp:
+    aspect_ratio: '3:2'
+    description: A man in a checkered shirt talks on a yellow phone in a cozy kitchen,
+      with a chalkboard and bookshelf in the background.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_29.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_3.webp:
+    aspect_ratio: '3:2'
+    description: A young man in a brown shirt and glasses smiles warmly, standing
+      in front of a white dog statue in a park, with a brick building and trees in
+      the background.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_3.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Outdoor
+    subject_position: center
+  photo_30.webp:
+    aspect_ratio: '3:2'
+    description: A person works on a computer with a large screen displaying code,
+      seated at a desk with a wooden surface and a whiteboard in the background.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    - tech
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_30.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_31.webp:
+    aspect_ratio: '2:3'
+    description: A person works on a laptop at a wooden desk, surrounded by yellow
+      daffodils, a black keyboard, and a wooden wall with framed pictures.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    - tech
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_31.jpg
+    people: 1
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_32.webp:
+    aspect_ratio: '3:2'
+    description: A person works on a laptop with code on a wooden desk, surrounded
+      by yellow flowers and a wooden wall with a framed picture.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    - tech
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_32.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_33.webp:
+    aspect_ratio: '3:2'
+    description: A person's hands write on a white paper with a black pen, using a
+      yellow marker, on a wooden desk with a black keyboard and mouse.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: calm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_33.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_34.webp:
+    aspect_ratio: '3:2'
+    description: A man in a checkered shirt stands confidently in a modern office,
+      addressing a group of people seated at a table, with a large screen displaying
+      a video and a painting on the wall.
+    gaze_direction: none
+    labels:
+    - business
+    - tech
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_34.jpg
+    people: 4
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Meeting room
+    subject_position: center
+  photo_35.webp:
+    aspect_ratio: '3:2'
+    description: A man in a blue and white checkered shirt stands in front of a large
+      screen, gesturing with his right hand, while a group of people sit around a
+      table with laptops and coffee cups.
+    gaze_direction: none
+    labels:
+    - business
+    - tech
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_35.jpg
+    people: 5
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_36.webp:
+    aspect_ratio: '3:2'
+    description: A man in a blue and white checkered shirt presents a slide titled
+      "Our Motto" in a modern office, with a group of people seated around a table
+      and a plant in the background.
+    gaze_direction: none
+    labels:
+    - business
+    - tech
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_36.jpg
+    people: 5
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Meeting room
+    subject_position: center
+  photo_37.webp:
+    aspect_ratio: '3:2'
+    description: A group of five individuals gathers around a table in a modern office,
+      engaged in a lively discussion, with a large screen displaying a website in
+      the background.
+    gaze_direction: none
+    labels:
+    - business
+    - tech
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_37.jpg
+    people: 5
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_38.webp:
+    aspect_ratio: '3:2'
+    description: A man in a blue and white checkered shirt stands at a table, gesturing
+      towards a group of people seated around it, with a large screen displaying a
+      presentation slide in the background.
+    gaze_direction: none
+    labels:
+    - business
+    - tech
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_38.jpg
+    people: 5
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Meeting room
+    subject_position: center
+  photo_39.webp:
+    aspect_ratio: '3:2'
+    description: A group of five individuals, dressed in casual attire, engage in
+      a lively discussion around a wooden table in a cozy cafe setting.
+    gaze_direction: none
+    labels:
+    - business
+    - tech
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_39.jpg
+    people: 5
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_4.webp:
+    aspect_ratio: '3:2'
+    description: A man in a maroon shirt and khaki pants smiles on a cobblestone street,
+      with a brick building and parked cars in the background.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_4.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_40.webp:
+    aspect_ratio: '2:3'
+    description: A black laptop and yellow phone with a black case sit on a wooden
+      desk, with a yellow chair and window in the background.
+    gaze_direction: none
+    labels:
+    - atmosphere
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_40.jpg
+    people: 0
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_5.webp:
+    aspect_ratio: '2:3'
+    description: A man in a red shirt and glasses stands against a dark blue wall,
+      with his hands clasped and a smile on his face.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_5.jpg
+    people: 1
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Outdoor
+    subject_position: center
+  photo_6.webp:
+    aspect_ratio: '3:2'
+    description: A person rides a green bicycle with yellow text, "MARK YOUR DATA",
+      on a brick path, with a blurred background.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_6.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Outdoor
+    subject_position: center
+  photo_7.webp:
+    aspect_ratio: '3:2'
+    description: A man in a black shirt and khaki pants rides a green bicycle with
+      a large windshield, parked on a cobblestone street with a brick building and
+      trees in the background.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_7.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Outdoor
+    subject_position: center
+  photo_8.webp:
+    aspect_ratio: '3:2'
+    description: A man in a black shirt and glasses smiles warmly, standing in front
+      of a brick building with a red flag and bicycles, under a clear blue sky.
+    gaze_direction: none
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_6720 x 4480_3x2_8.jpg
+    people: 1
+    ppi: 72
+    resolution: 1920x1280
+    safe_text_area: left
+    setting: Office
+    subject_position: center
+  photo_9.webp:
+    aspect_ratio: '2:3'
+    description: A young man in a maroon button-up shirt smiles warmly, standing in
+      front of a brick building with a green awning.
+    gaze_direction: straight
+    labels:
+    - personal_branding
+    mood: warm
+    original: www.gekebosch.nl_@geke.bosch_markyourdata_260303_WS72ppi_4480 x 6720_2x3_9.jpg
+    people: 1
+    ppi: 72
+    resolution: 1280x1920
+    safe_text_area: left
+    setting: Outdoor
+    subject_position: center
