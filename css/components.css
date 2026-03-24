@@ -877,22 +877,26 @@ a:focus-visible {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
 }
 
-/* Pattern B — Section background wash (6–8% opacity, never higher) */
+/* Pattern B — Section background wash
+   Usage: wrap section content in a container and add a .section-wash-bg div:
+   <section class="section-wash">
+     <div class="section-wash-bg" style="background-image: url('...')"></div>
+     <div class="container">...</div>
+   </section> */
 .section-wash {
     position: relative;
 }
-.section-wash::before {
-    content: "";
+.section-wash-bg {
     position: absolute;
     inset: 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 0.07;
+    opacity: 0.15;
     pointer-events: none;
     z-index: 0;
 }
-.section-wash > * {
+.section-wash > :not(.section-wash-bg) {
     position: relative;
     z-index: 1;
 }
@@ -901,6 +905,9 @@ a:focus-visible {
 .editorial-photo {
     border-radius: 6px;
     width: 38%;
+    max-height: 420px;
+    object-fit: cover;
+    object-position: center top;
     display: block;
 }
 .editorial-photo--right {

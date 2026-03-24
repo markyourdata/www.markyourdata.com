@@ -59,27 +59,18 @@ A photo behind the page hero, cropped to the hero height (~480px), with a dark o
 - Best photos: `photo_6` (homepage only), outdoor portraits for about
 
 ### Pattern B — Section background wash
-A photo at 6–8% opacity behind a section. Almost subliminal — adds warmth and texture without competing with text. Works best on `bg-light-gray` sections.
+A photo at 10–15% opacity behind a section. Adds warmth and texture without competing with text. Use a real child div (not `::before`) so the `background-image` inline style resolves reliably across all browsers.
 
-```css
-.section-wash {
-  position: relative;
-}
-.section-wash::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url('/assets/photos/webp/photo_13.webp');
-  background-size: cover;
-  background-position: center;
-  opacity: 0.07;
-  pointer-events: none;
-}
+```html
+<section class="section-wash">
+  <div class="section-wash-bg" style="background-image: url('assets/photos/webp/photo_13.webp')"></div>
+  <div class="container">...</div>
+</section>
 ```
 
 - Use on: testimonials section, intro sections, homepage opening text
 - Best photos: `photo_13`, `photo_27` (yellow desk atmosphere — brand color anchor)
-- Never exceed 8% opacity. If you can clearly see the photo, it is too strong.
+- Default opacity is 12%. Adjust per section by overriding in `components.css` if needed.
 
 ### Pattern C — Inline editorial image
 An image floated alongside body text. Use portrait ratio (2:3) photos here — they create a natural asymmetric column without consuming too much vertical space.
