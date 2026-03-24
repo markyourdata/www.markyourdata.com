@@ -140,6 +140,8 @@ const siteData = {
           text: "Get in touch",
           link: "pages/contact.html",
         },
+        photo: "assets/photos/webp/photo_30.webp",
+        // photoPosition: "center 25%",
       },
       cta: {
         heading: "Ready to save €100K per year?",
@@ -149,6 +151,7 @@ const siteData = {
           text: "Book a free consultation",
           link: "pages/contact.html",
         },
+        photo: "assets/photos/webp/photo_32.webp",
       },
     },
     platformExistingTeam: {
@@ -160,6 +163,7 @@ const siteData = {
           text: "Get in touch",
           link: "pages/contact.html",
         },
+        photo: "assets/photos/webp/photo_30.webp",
       },
       cta: {
         heading: "Ready to cut your platform costs?",
@@ -169,6 +173,7 @@ const siteData = {
           text: "Book a free consultation",
           link: "pages/contact.html",
         },
+        photo: "assets/photos/webp/photo_32.webp",
       },
     },
     strategyConsulting: {
@@ -180,6 +185,8 @@ const siteData = {
           text: "Schedule a call",
           link: "pages/contact.html",
         },
+        photo: "assets/photos/webp/photo_36.webp",
+        photoPosition: "center 15%",
       },
       cta: {
         heading: "Let's find your biggest opportunities",
@@ -189,6 +196,7 @@ const siteData = {
           text: "Schedule a call",
           link: "pages/contact.html",
         },
+        photo: "assets/photos/webp/photo_17.webp",
       },
     },
     strategyExecution: {
@@ -200,6 +208,7 @@ const siteData = {
           text: "Get in touch",
           link: "pages/contact.html",
         },
+        photo: "assets/photos/webp/photo_33.webp",
       },
       cta: {
         heading: "Ready to turn data into results?",
@@ -209,6 +218,7 @@ const siteData = {
           text: "Get in touch",
           link: "pages/contact.html",
         },
+        photo: "assets/photos/webp/photo_22.webp",
       },
     },
   },

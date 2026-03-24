@@ -231,7 +231,8 @@ const components = {
         const photoPath = typeof resolvePath === "function"
           ? resolvePath(data.photo)
           : data.photo;
-        photoStyle = `style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('${photoPath}')"`;
+        const photoPosition = data.photoPosition || "center";
+        photoStyle = `style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('${photoPath}'); background-position: ${photoPosition}"`;
       }
 
       return `
