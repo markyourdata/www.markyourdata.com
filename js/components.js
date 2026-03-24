@@ -294,8 +294,14 @@ const components = {
         ctaLogoPath = resolvePath(ctaLogoPath);
       }
 
+      let photoStyle = "";
+      if (data.photo) {
+        const photoPath = typeof resolvePath === "function" ? resolvePath(data.photo) : data.photo;
+        photoStyle = `style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('${photoPath}')"`;
+      }
+
       return `
-        <section class="cta-section">
+        <section class="cta-section${data.photo ? " cta-section--photo" : ""}" ${photoStyle}>
           <div class="container">
             <img src="${ctaLogoPath}" alt="Mark Your Data" class="cta-logo" />
             <h2>${escapeHtml(data.heading)}</h2>

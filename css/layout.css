@@ -87,6 +87,21 @@ section {
     margin-top: 4rem;
 }
 
+.cta-section--photo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cta-section--photo h2,
+.cta-section--photo p {
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+.cta-section--photo .cta-logo {
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+}
+
 .cta-logo {
     width: 90px;
     height: 90px;
