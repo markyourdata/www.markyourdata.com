@@ -76,36 +76,32 @@
         <div id="navbar-container"></div>
         <div id="breadcrumb-container"></div>
 
+        <!-- Hero Section -->
+        <section class="hero hero-photo-bg" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_26.webp')">
+            <div class="container">
+                <img src="../../assets/images/logo_myd_rond.png" alt="Mark Your Data" class="hero-logo" />
+                <h1>MotherDuck: the analytics layer for a lean data stack</h1>
+                <p class="tagline">After DLT and DBT, most teams default to BigQuery. We chose differently.</p>
+            </div>
+        </section>
+
         <main id="main-content">
             <article>
                 <div class="container">
-                    <div class="card-meta">Blog Post</div>
-                    <h1>Motherduck: the future of cost-efficient analytics</h1>
-                    <p class="card-meta">By Mark Your Data | January 2025</p>
+                    <span class="blog-track blog-track--tech">In our stack</span>
+                    <p class="card-meta">By Mark Schep | January 2026</p>
 
-                    <h2>The missing piece of your data stack</h2>
                     <p class="section-intro">
-                        You've built the perfect cost-efficient data platform
-                        with
-                        <a href="./why-dlt-beats-fivetran.html"
-                            >DLT for data ingestion</a
-                        >
-                        and
-                        <a href="./dbt-transform-data-into-insights.html"
-                            >DBT for transformation</a
-                        >. You're saving over €15.000/year compared to Fivetran.
-                        Your pipelines run smoothly in Docker containers. But
-                        there's one more piece that could revolutionize your
-                        analytics: where you query that data.
+                        After <a href="./why-dlt-beats-fivetran.html">DLT for ingestion</a> and <a href="./dbt-transform-data-into-insights.html">DBT for transformation</a>, you need somewhere to query the results. Most teams default to BigQuery or Snowflake. We chose MotherDuck. This post covers what it is, how it fits the stack, and what made it worth switching.
                     </p>
 
-                    <h2>The traditional warehouse problem</h2>
-                    <p>
-                        After saving thousands with DLT and DBT, many companies
+                    <h2>The problem with defaulting to BigQuery</h2>
+                    <p class="section-intro">
+                        After saving thousands with DLT and DBT, many teams
                         default to BigQuery or Snowflake for their analytics
-                        layer. These are powerful tools, but they come with
-                        challenges:
+                        layer. These are solid tools, but they come with tradeoffs that are easy to overlook until you're deep in:
                     </p>
+
                     <ul class="list-benefits">
                         <li>
                             <strong>Slow query response times</strong> -
@@ -418,32 +414,6 @@
                         </div>
                     </div>
 
-                    <div class="cta-section">
-                        <div class="container">
-                            <h2>
-                                Be Our First MotherDuck Implementation Partner
-                            </h2>
-                            <p>
-                                We're looking for a forward-thinking company to
-                                pioneer this complete, cost-efficient data
-                                stack: DLT + DBT + MotherDuck. If you're tired
-                                of expensive cloud warehouses and slow
-                                dashboards, let's talk.
-                            </p>
-                            <p>
-                                <strong>What you get:</strong> Our expertise in
-                                DLT and DBT implementation, preferential pricing
-                                as our first MotherDuck customer, and a modern
-                                analytics platform that saves €25K+/year.
-                            </p>
-                            <a href="../../pages/contact.html">
-                                <button type="button" class="cta-button">
-                                    Get in Touch - Let's Pioneer This Together
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-
                     <hr style="margin: var(--space-3xl) 0" />
 
                     <h3>Learn more about the complete stack</h3>
@@ -485,6 +455,15 @@
                 </div>
             </article>
         </main>
+
+        <!-- CTA Section -->
+        <section class="cta-section cta-section--photo" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_27.webp')">
+            <div class="container">
+                <h2>We build with open source. Let's talk about your stack.</h2>
+                <p>We help you prove value before scaling.</p>
+                <button class="cta-button" onclick="window.location.href='../contact.html'">Get in touch</button>
+            </div>
+        </section>
 
         <!-- Scripts -->
         <script src="../../js/config.js"></script>

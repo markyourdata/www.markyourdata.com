@@ -77,26 +77,33 @@
         <div id="navbar-container"></div>
         <div id="breadcrumb-container"></div>
 
+        <!-- Hero Section -->
+        <section class="hero hero-photo-bg" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_32.webp')">
+            <div class="container">
+                <img src="../../assets/images/logo_myd_rond.png" alt="Mark Your Data" class="hero-logo" />
+                <h1>DBT: the transformation layer that makes analysts self-sufficient</h1>
+                <p class="tagline">Raw data in a warehouse is not the same as usable data. DBT is the fix.</p>
+            </div>
+        </section>
+
         <main id="main-content">
             <article>
                 <div class="container">
-                    <div class="card-meta">Blog Post</div>
-                    <h1>
-                        DBT: Transform Data into Insights That Drive Business
-                        Value
-                    </h1>
-                    <p class="card-meta">By Mark Your Data | January 2025</p>
+                    <span class="blog-track blog-track--tech">In our stack</span>
+                    <p class="card-meta">By Mark Schep | December 2025</p>
 
-                    <h2>The data paradox</h2>
+                    <p class="section-intro">
+                        DBT is the transformation layer in our platform. We use it to turn raw data from DLT into clean, documented, version-controlled models that analysts can query directly. This post explains what DBT does, how we use it, and why it's become the standard for data teams that care about consistency and quality.
+                    </p>
+
+                    <h2>The problem DBT solves</h2>
                     <p class="section-intro">
                         You've invested in getting data into your warehouse. You
-                        have terabytes of customer data, sales metrics, product
-                        analytics. But here's the truth: having data doesn't
-                        create value.
+                        have customer data, sales metrics, product
+                        analytics. But raw data in a warehouse is not the same as usable data.
                     </p>
                     <p>
-                        The insights you extract from that data create value.
-                        And that's where DBT (Data Build Tool) comes in.
+                        Every analyst calculates things slightly differently. "Monthly revenue" means three things depending on who you ask. DBT is where you fix that.
                     </p>
 
                     <h2>What is dbt?</h2>
@@ -387,21 +394,6 @@
                         data.
                     </p>
 
-                    <div class="cta-section">
-                        <div class="container">
-                            <h2>Ready to transform your data into insights?</h2>
-                            <p>
-                                Let's build a data foundation that accelerates
-                                your analytics and increases productivity.
-                            </p>
-                            <a href="../services/platform/">
-                                <button type="button" class="cta-button">
-                                    Explore Our Data Platform Service
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-
                     <hr style="margin: var(--space-3xl) 0" />
 
                     <h3>Related resources</h3>
@@ -443,6 +435,15 @@
                 </div>
             </article>
         </main>
+
+        <!-- CTA Section -->
+        <section class="cta-section cta-section--photo" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_36.webp')">
+            <div class="container">
+                <h2>We build with open source. Let's talk about your stack.</h2>
+                <p>We help you prove value before scaling.</p>
+                <button class="cta-button" onclick="window.location.href='../contact.html'">Get in touch</button>
+            </div>
+        </section>
 
         <!-- Scripts -->
         <script src="../../js/config.js"></script>
