@@ -41,120 +41,72 @@
                     class="hero-logo"
                 />
                 <h1>Blog</h1>
-                <p class="tagline">
-                    Insights on data strategy, AI implementation, and proven
-                    methodologies
-                </p>
-                <button
-                    class="cta-button"
-                    onclick="window.location.href='/pages/contact.html'"
-                >
-                    Learn more
-                </button>
+                <p class="tagline">We write about tools we use and decisions worth thinking through.</p>
             </div>
         </section>
 
-        <!-- Blog Posts List -->
+        <!-- For your team -->
         <section>
             <div class="container">
-                <article
-                    class="content-card"
-                    style="margin-bottom: var(--space-xl)"
-                >
+                <h2 style="margin-bottom: 0.5rem">For your team</h2>
+                <p style="color: var(--accent-gray); margin-bottom: 2rem">For business leaders thinking about data costs, team structure, and build vs buy decisions. No code required.</p>
+
+                <article class="content-card" style="margin-bottom: var(--space-xl)">
+                    <span class="blog-track blog-track--business">For your team</span>
                     <div class="card-meta">January 27, 2026 • Mark Schep</div>
-                    <h3>
-                        Save 100K per year: why you should not hire a Data
-                        Engineer
-                    </h3>
+                    <h3>Save €100K per year: when not to hire a data engineer</h3>
                     <p>
-                        Don't hire a data engineer. Save up to 100K per year
-                        with our Mark Your Data Platform. Let your analysts add
-                        value from day one while we handle the foundation.
+                        Hiring a data engineer is the obvious move when you want to become more data-driven. But the role comes with a real cost, a timeline, and a specific set of problems it solves. Here's how to think about the decision.
                     </p>
-                    <a
-                        href="save-100k-with-mark-your-data-platform.html"
-                        class="read-more"
-                        >Read Article →</a
-                    >
-                </article>
-
-                <article
-                    class="content-card"
-                    style="margin-bottom: var(--space-xl)"
-                >
-                    <div class="card-meta">January 1, 2026 • Mark Schep</div>
-                    <h3>Motherduck: the future of cost-efficient analytics</h3>
-                    <p>
-                        Discover MotherDuck: the next-gen analytics database
-                        that's 4x faster than BigQuery with serverless pricing.
-                        The perfect addition to your DLT + DBT data platform,
-                        saving you €25K+ per year.
-                    </p>
-                    <a
-                        href="motherduck-the-future-of-cost-efficient-analytics.html"
-                        class="read-more"
-                        >Read Article →</a
-                    >
-                </article>
-
-                <article
-                    class="content-card"
-                    style="margin-bottom: var(--space-xl)"
-                >
-                    <div class="card-meta">December 1, 2025 • Mark Schep</div>
-                    <h3>
-                        DBT: Transform Data into Insights That Drive Business
-                        Value
-                    </h3>
-                    <p>
-                        Learn how DBT (Data Build Tool) transforms raw data into
-                        business insights. Increase analyst productivity 3-5x,
-                        reduce time-to-answer, and ensure consistent results
-                        across your organization.
-                    </p>
-                    <a
-                        href="dbt-transform-data-into-insights.html"
-                        class="read-more"
-                        >Read Article →</a
-                    >
-                </article>
-
-                <article
-                    class="content-card"
-                    style="margin-bottom: var(--space-xl)"
-                >
-                    <div class="card-meta">November 1, 2025 • Mark Schep</div>
-                    <h3>
-                        Why DLT Beats Fivetran: Save over €15K Per Year on Data
-                        Pipelines
-                    </h3>
-                    <p>
-                        Data ingestion is a commodity. Don't overpay for it.
-                        Discover why DLT is the smart alternative to Fivetran,
-                        saving over €15.000/year on data ingestion while
-                        maintaining enterprise capabilities.
-                    </p>
-                    <a href="why-dlt-beats-fivetran.html" class="read-more"
-                        >Read Article →</a
-                    >
+                    <a href="save-100k-with-mark-your-data-platform.html" class="read-more">Read Article →</a>
                 </article>
             </div>
         </section>
 
-        <!-- Newsletter CTA -->
+        <!-- In our stack -->
+        <section class="bg-light-gray">
+            <div class="container">
+                <h2 style="margin-bottom: 0.5rem">In our stack</h2>
+                <p style="color: var(--accent-gray); margin-bottom: 2rem">Tools we actually use, tried in production, honest about the tradeoffs. Open source first.</p>
+
+                <article class="content-card" style="margin-bottom: var(--space-xl)">
+                    <span class="blog-track blog-track--tech">In our stack</span>
+                    <div class="card-meta">January 1, 2026 • Mark Schep</div>
+                    <h3>MotherDuck: the analytics layer for a lean data stack</h3>
+                    <p>
+                        After DLT for ingestion and DBT for transformation, you need somewhere to query the results. Most teams default to BigQuery or Snowflake. We chose MotherDuck. Here's why.
+                    </p>
+                    <a href="motherduck-the-future-of-cost-efficient-analytics.html" class="read-more">Read Article →</a>
+                </article>
+
+                <article class="content-card" style="margin-bottom: var(--space-xl)">
+                    <span class="blog-track blog-track--tech">In our stack</span>
+                    <div class="card-meta">December 1, 2025 • Mark Schep</div>
+                    <h3>DBT: the transformation layer that makes analysts self-sufficient</h3>
+                    <p>
+                        DBT turns raw data into clean, documented, version-controlled models. We use it to make analysts independent from engineering. Here's how it works and why we chose it.
+                    </p>
+                    <a href="dbt-transform-data-into-insights.html" class="read-more">Read Article →</a>
+                </article>
+
+                <article class="content-card" style="margin-bottom: var(--space-xl)">
+                    <span class="blog-track blog-track--tech">In our stack</span>
+                    <div class="card-meta">November 1, 2025 • Mark Schep</div>
+                    <h3>Why we use DLT instead of Fivetran</h3>
+                    <p>
+                        DLT is a Python library for building data pipelines. It's free, open source, and runs anywhere. We chose it over Fivetran after comparing the costs and tradeoffs directly.
+                    </p>
+                    <a href="why-dlt-beats-fivetran.html" class="read-more">Read Article →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- CTA -->
         <section class="cta-section cta-section--photo" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_13.webp')">
             <div class="container">
-                <h2>Get data strategy insights</h2>
-                <p>
-                    Want to learn more about building cost-efficient data
-                    platforms? Get in touch to discuss your data strategy.
-                </p>
-                <button
-                    class="cta-button"
-                    onclick="window.location.href='../contact.html'"
-                >
-                    Get in touch
-                </button>
+                <h2>Let's talk about your data stack</h2>
+                <p>We help you prove value before scaling.</p>
+                <button class="cta-button" onclick="window.location.href='../contact.html'">Get in touch</button>
             </div>
         </section>
 
