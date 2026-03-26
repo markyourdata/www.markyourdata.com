@@ -350,7 +350,7 @@ a:focus-visible {
 
 .content-card p {
     color: var(--accent-gray);
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .card-tag,

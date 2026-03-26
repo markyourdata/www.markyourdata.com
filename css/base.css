@@ -103,6 +103,7 @@ article > .container h3 {
 
 article > .container p {
     line-height: var(--line-height-relaxed);
+    margin-bottom: 0.75rem;
 }
 
 article > .container ul,
