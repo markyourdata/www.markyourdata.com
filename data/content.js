@@ -151,7 +151,7 @@ const siteData = {
           text: "Book a free consultation",
           link: "pages/contact.html",
         },
-        photo: "assets/photos/webp/photo_32.webp",
+        photo: "assets/photos/webp/photo_26.webp",
       },
     },
     platformExistingTeam: {
@@ -173,7 +173,7 @@ const siteData = {
           text: "Book a free consultation",
           link: "pages/contact.html",
         },
-        photo: "assets/photos/webp/photo_32.webp",
+        photo: "assets/photos/webp/photo_26.webp",
       },
     },
     strategyConsulting: {
@@ -196,7 +196,7 @@ const siteData = {
           text: "Schedule a call",
           link: "pages/contact.html",
         },
-        photo: "assets/photos/webp/photo_17.webp",
+        photo: "assets/photos/webp/photo_22.webp",
       },
     },
     strategyExecution: {
@@ -208,7 +208,7 @@ const siteData = {
           text: "Get in touch",
           link: "pages/contact.html",
         },
-        photo: "assets/photos/webp/photo_33.webp",
+        photo: "assets/photos/webp/photo_32.webp",
       },
       cta: {
         heading: "Ready to turn data into results?",
@@ -218,7 +218,7 @@ const siteData = {
           text: "Get in touch",
           link: "pages/contact.html",
         },
-        photo: "assets/photos/webp/photo_22.webp",
+        photo: "assets/photos/webp/photo_25.webp",
       },
     },
   },
