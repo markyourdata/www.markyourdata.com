@@ -170,6 +170,7 @@ a:focus-visible {
     display: flex;
     list-style: none;
     gap: 2rem;
+    padding: 0;
 }
 
 .nav-link {
