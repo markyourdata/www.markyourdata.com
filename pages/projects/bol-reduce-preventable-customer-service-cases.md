@@ -1,66 +1,69 @@
-# Reducing Customer Support Workload
+# Reducing preventable customer service cases
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Reducing preventable support cases through smart experiments
+## The ambition
 
-For bol.com, we initiated A/B experiments on website account pages and in 'Billie' the AI chatbot. Through systematic experimentation, we significantly reduced preventable support cases, leading to massive cost savings while improving customer experience.
+bol.com's customer service handled millions of contacts per year. A significant share were preventable: customers reaching out for issues they could have resolved themselves, if given the right information at the right moment. The ambition: reduce that volume meaningfully, while improving the experience for customers who did need help.
 
-This project demonstrates the power of combining analytics capabilities with rigorous A/B testing to drive measurable business impact.
-
+</div>
 </div>
 
 <div class="content-section section-single-column">
 
 ### The challenge
 
-bol.com's customer service received many preventable questions that could be resolved through better self-service options. The challenge was to identify which interventions would reduce support volume while maintaining or improving customer satisfaction.
+The opportunity was clear. The path to it was not.
 
-Customers would often contact support for issues they could resolve themselves if given the right tools or information at the right moment. This created unnecessary costs and longer wait times for customers with genuine support needs.
+**Too many potential interventions** — Account pages, chatbot flows, email templates, order tracking. Dozens of touchpoints where something could be improved. Without data, there was no way to know where to start.
+
+**Untested changes at scale carry real risk** — Deploying a "fix" to millions of customer journeys without validation risks making the experience worse. Every intervention needed proof before it went live.
+
+**The chatbot was already in production** — bol.com's AI chatbot "Billie" was handling a large share of customer contacts. Any changes had to integrate carefully with existing infrastructure and workflows.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our approach: systematic experimentation
+### Where we started
 
-We developed a rigorous experimentation framework to test and validate each intervention:
+> Think big, start small.
+
+We didn't try to fix everything at once. We started by finding the interventions with the highest potential impact and the lowest deployment risk — then tested each one rigorously before touching a single live customer.
 
 <div class="icon-list">
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/database-stats.svg" alt="Data Analysis" class="icon-brand" />
 <div>
-<strong>Data Analysis</strong> - Identified patterns in preventable support cases
+<strong>Pattern analysis</strong> — Mapped the most common preventable contact reasons to specific moments in the customer journey
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/light-bulb.svg" alt="Hypothesis Generation" class="icon-brand" />
 <div>
-<strong>Hypothesis Generation</strong> - Developed interventions for account pages and chatbot
+<strong>Intervention design</strong> — Developed targeted changes to account pages and chatbot responses for each pattern
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/flask.svg" alt="A/B Testing" class="icon-brand" />
 <div>
-<strong>A/B Testing</strong> - Rigorously tested each intervention
+<strong>A/B testing</strong> — Tested each intervention with statistical rigour before any rollout decision
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/graph-up.svg" alt="Impact Measurement" class="icon-brand" />
 <div>
-<strong>Impact Measurement</strong> - Tracked support case reduction and customer satisfaction
+<strong>Impact measurement</strong> — Tracked both support volume reduction and customer satisfaction in parallel
 </div>
 </div>
 </div>
-
-By testing changes systematically, we ensured only effective interventions were deployed at scale.
 
 </div>
 <div class="column-image">
@@ -70,43 +73,12 @@ By testing changes systematically, we ensured only effective interventions were 
 
 <div class="content-section section-single-column">
 
-### Why we're proud of this project
+### Make it work, make it better, make it scale
 
-This project exemplifies our **Make it work → Make it better → Make it scale** methodology:
+The first experiments confirmed the hypothesis: targeted changes to account pages and chatbot responses could measurably reduce contact volume without harming satisfaction. We had proof before we touched anything at scale.
 
-**Make it Work** - We started by identifying quick wins: small changes to account pages and chatbot responses that could immediately reduce support volume.
+We then iterated on what worked — refining the interventions, expanding to new contact reasons, improving the chatbot flows. Each successful experiment became part of the permanent product.
 
-**Make it Better** - Through A/B testing, we validated which interventions actually moved the needle. This prevented the common mistake of deploying "improvements" that don't work or hurt customer experience.
+The result was a framework, not just a set of fixes. By the time the engagement ended, the team had a repeatable method for identifying, testing, and rolling out improvements to the self-service experience. New preventable contact patterns could be addressed the same way, without us. The methodology stayed inside the organization.
 
-**Make it Scale** - We established a framework for continuously identifying and testing improvements, creating sustainable long term value beyond the initial project.
-
-</div>
-
-<div class="content-section section-two-columns image-left">
-<div class="column-cta">
-
-### Project outcomes
-
-**Results Achieved:**
-- Massive cost savings
-- Significant reduction in preventable cases
-- Methodology for ongoing optimization
-- Improved customer experience
-
-**Technologies Used:**
-- Python
-- A/B Testing
-- Analytics
-- Statistical Analysis
-
-</div>
-<div class="column-text">
-
-### Key success factors
-
-The project succeeded because we combined data analysis with rigorous experimentation. Rather than guessing which changes would help, we tested each intervention and measured its actual impact.
-
-The methodology we established continues to deliver value. By embedding a testing culture into the team's workflow, bol.com can continuously identify and validate new improvements to their self-service experience.
-
-</div>
 </div>

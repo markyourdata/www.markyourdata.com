@@ -5,62 +5,67 @@
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Transforming how teams validate ideas and drive improvement
+## The ambition
 
-For Winparts, we helped establish an experimental mindset across the organization. Through periodic coaching engagements, teams learned to test ideas rigorously, make decisions based on evidence, and continuously improve their processes. The result: a self-sustaining culture where experimentation drives business improvement.
+Winparts wanted every team to make better decisions, faster. They had plenty of ideas for improving the business. What they lacked was a systematic way to know which ones actually worked. The ambition: build a culture where evidence, not instinct, drives what gets built.
 
-This project shows how hands-on coaching can transform organizational culture while delivering immediate business value.
-
+</div>
 </div>
 
 <div class="content-section section-single-column">
 
 ### The challenge
 
-Winparts had plenty of ideas for improving their business, but no systematic way to validate which ones actually worked. Teams would implement changes based on intuition, without measuring impact or learning from results.
+The problem wasn't motivation. It was method.
 
-This led to wasted effort on initiatives that didn't move the needle, and missed opportunities to double down on what actually worked. They needed a way to separate promising ideas from assumptions.
+**Changes were made without measuring impact** — Teams would implement improvements based on gut feeling, with no baseline and no way to know if anything moved. Good ideas and bad ideas looked the same afterward.
+
+**No one knew how to design a proper experiment** — Turning a hunch into a testable hypothesis, with the right controls and success metrics, is a skill. It wasn't one the teams had yet.
+
+**Learning wasn't accumulating** — Without a shared framework, the same assumptions kept getting made. Mistakes weren't recognized as mistakes because the feedback loop didn't close.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our approach: learning by doing
+### Where we started
 
-We embedded experimentation into real work, coaching teams through actual experiments:
+> Think big, start small.
+
+We didn't run a training program. We coached teams through one real experiment on a real business challenge. The learning happened by doing, not by sitting in a workshop.
 
 <div class="icon-list">
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/light-bulb.svg" alt="Opportunity Finding" class="icon-brand" />
 <div>
-<strong>Opportunity Finding</strong> - Identified where small tests could reveal big insights
+<strong>Opportunity finding</strong> — Identified where a small, well-scoped test could reveal a meaningful business insight
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/flask.svg" alt="Experiment Design" class="icon-brand" />
 <div>
-<strong>Experiment Design</strong> - Turned vague ideas into testable hypotheses
+<strong>Experiment design</strong> — Turned vague ideas into testable hypotheses with clear success criteria
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/rocket.svg" alt="Execution Support" class="icon-brand" />
 <div>
-<strong>Execution Support</strong> - Guided implementation to ensure valid results
+<strong>Guided execution</strong> — Supported implementation to ensure results would be valid and interpretable
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/graph-up.svg" alt="Results Analysis" class="icon-brand" />
 <div>
-<strong>Results Analysis</strong> - Interpreted outcomes and identified next steps
+<strong>Results analysis</strong> — Interpreted outcomes together and identified what to do next
 </div>
 </div>
 </div>
 
-Each quarter, teams completed real experiments while internalizing the methodology.
+Each quarter, teams ran a real experiment while building the skill to run the next one without us.
 
 </div>
 <div class="column-image">
@@ -70,43 +75,12 @@ Each quarter, teams completed real experiments while internalizing the methodolo
 
 <div class="content-section section-single-column">
 
-### Why we're proud of this project
+### Make it work, make it better, make it scale
 
-This project demonstrates how cultural change happens through action, not training:
+The first experiment gave the team something they hadn't had before: a result they could trust. Not a gut feeling — a measured outcome with a clear next step.
 
-**Learning Through Real Work** - Teams didn't attend workshops about experimentation. They ran actual experiments on real business challenges, with coaching to ensure they learned the right lessons.
+Each quarter we refined the approach. The hypotheses got sharper. The test designs got cleaner. Teams stopped asking "what should we test?" and started generating their own backlog of ideas worth validating.
 
-**Building Confidence** - Each successful experiment gave teams more confidence to test the next idea. Over time, experimentation became the default approach rather than an exception.
+By the end of the engagement, teams were designing and running experiments independently. They had adopted experimentation tooling to track results and started embedding the methodology into their regular workflow. We stopped being needed. That was the point.
 
-**Sustainable Change** - By the end of our engagement, teams could design and execute experiments independently. They started using experimentation tooling to better measure outcomes and iterate on their ideas. This way, the capability stayed in the organization and became a part of their daily work.
-
-</div>
-
-<div class="content-section section-two-columns image-left">
-<div class="column-cta">
-
-### Project outcomes
-
-**Results Achieved:**
-- Culture shift toward evidence based decisions
-- Multiple validated improvements implemented
-- Teams independently running experiments
-- Reduced waste from untested assumptions
-
-**Focus Areas:**
-- Hypothesis development
-- A/B testing methodology
-- Impact measurement
-- Iterative improvement
-
-</div>
-<div class="column-text">
-
-### Key success factors
-
-The periodic cadence was essential. It gave teams enough time to implement and measure experiments while maintaining momentum. Regular touchpoints prevented experiments from stalling or losing focus.
-
-We also focused on celebrating learning, not just wins. When an experiment disproved a hypothesis, that was valuable too. It prevented investment in initiatives that wouldn't have worked.
-
-</div>
 </div>

@@ -35,6 +35,40 @@
         <div id="navbar-container"></div>
         <div id="breadcrumb-container"></div>
 
+        <!-- Hero Section -->
+        <section class="hero hero-photo-bg" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_17.webp')">
+            <div class="container">
+                <img src="../../assets/images/logo_myd_rond.png" alt="Mark Your Data" class="hero-logo" />
+                <h1>Reducing preventable customer service cases</h1>
+                <p class="tagline">bol.com knew many support contacts were preventable. Finding which ones, and how to fix them, was harder.</p>
+            </div>
+        </section>
+
+        <!-- Client Intro Section -->
+        <section class="bg-light-gray">
+            <div class="container project-client-intro">
+                <div class="project-client-logo-col">
+                    <img src="../../assets/images/clients/bol.png" alt="bol.com" />
+                    <span class="project-client-name">bol.com</span>
+                </div>
+                <div>
+                    <span class="card-tag">E-commerce</span>
+                    <p>Millions of customer contacts per year, a significant share preventable. We identified the highest-potential interventions, tested each one rigorously before any rollout, and embedded the methodology into the team's workflow.</p>
+                    <ul class="project-outcomes">
+                        <li>Significant reduction in preventable support contacts</li>
+                        <li>A/B testing methodology embedded in team workflow</li>
+                        <li>Improved customer experience metrics</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">A/B Testing</span>
+                        <span class="tech-tag">Analytics</span>
+                        <span class="tech-tag">Statistical Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Content Container -->
         <article class="markdown-content">
             <div class="container">
@@ -54,22 +88,11 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="cta-section">
+        <section class="cta-section cta-section--photo" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_37.webp')">
             <div class="container">
-                <h2>Optimize your customer experience</h2>
-                <p>
-                    This project shows how systematic experimentation can
-                    simultaneously reduce costs and improve customer
-                    satisfaction. Ready to optimize your customer service
-                    operations? Let's discuss how A/B testing can validate
-                    improvements before you invest in full deployment.
-                </p>
-                <button
-                    class="cta-button"
-                    onclick="window.location.href='/pages/contact.html'"
-                >
-                    Learn more
-                </button>
+                <h2>Let's talk about your customer experience</h2>
+                <p>We help you prove value before scaling.</p>
+                <button class="cta-button" onclick="window.location.href='/pages/contact.html'">Get in touch</button>
             </div>
         </section>
 
@@ -80,13 +103,7 @@
         <script src="../../js/markdown-renderer.js"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
-                renderTestimonialByKey(
-                    "project-testimonial",
-                    "jasper-van-heijst",
-                    {
-                        imagePrefix: "../../",
-                    },
-                );
+                renderTestimonialByKey("project-testimonial", "jasper-van-heijst", { imagePrefix: "../../" });
             });
         </script>
         <script src="../../js/config.js"></script>

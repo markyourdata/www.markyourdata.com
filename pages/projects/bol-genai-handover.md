@@ -1,100 +1,77 @@
-# Improving handover from chatbot to Customer Support
+# Improving handover from chatbot to customer support
 
 <link rel="stylesheet" href="../../css/service-icons.css">
 
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Improving handovers with generative AI
+## The ambition
 
-For bol.com, we improved handover between Billie the chatbot and the customer service agents. 
+Every time a customer escalated from bol.com's chatbot "Billie" to a human agent, the conversation started from zero. The customer repeated themselves. The agent started cold. The ambition: make the handover invisible — so the agent already knows what the customer needs before they say a word.
 
+</div>
 </div>
 
 <div class="content-section section-single-column">
 
 ### The challenge
 
-When customers needed human support after chatbot interaction, context was often lost in the handover. Customer service agents had to ask customers to repeat information, creating frustration and inefficiency.
+The problem was simple to describe and surprisingly hard to solve at scale:
 
-Both customers and agents suffered: customers had to explain their issue again, while agents lacked the context they needed to help quickly. The challenge was to use AI to smooth this transition without requiring a large development effort.
+**Context was lost at every handover** — Chatbot conversations weren't passed to agents in any usable form. Agents had to ask customers to repeat information they had already provided.
+
+**Customers felt unheard** — Being asked to explain your problem twice, after already going through a chatbot, is a frustrating experience. It signalled that the systems weren't talking to each other.
+
+**A large solution would take months** — Deeply integrating the chatbot and agent platform required sign-offs, development cycles, and coordination across multiple teams. We needed something that could work immediately, within existing infrastructure.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our approach: iterative AI development
+### Where we started
 
-We developed a focused solution using generative AI, improving it week by week:
+> Think big, start small.
+
+Instead of rebuilding the handover integration, we asked: what's the simplest thing that could make the agent's first 30 seconds better? The answer: a plain-language summary of the chatbot conversation, delivered as the last message before handover.
 
 <div class="icon-list">
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/message-text.svg" alt="Context Extraction" class="icon-brand" />
 <div>
-<strong>Conversation Summarization</strong> - AI summarizes chatbot conversation for human agents
-</div>
-</div>
-
-<div class="icon-list-item">
-<img src="../../assets/icons/regular/graph-up.svg" alt="Continuous feedback" class="icon-brand" />
-<div>
-<strong>Continuous feedback</strong> - Weekly refinement based on agent feedback
+<strong>Conversation summarization</strong> — Generative AI condenses the full chatbot conversation into a clear, agent-readable summary
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/data-transfer-check.svg" alt="Integration" class="icon-brand" />
 <div>
-<strong>Simple integration</strong> - Add the summary as last message of the conversation to ensure seamless handover
+<strong>Zero-friction integration</strong> — The summary is added as the last chatbot message, requiring no changes to the agent platform
+</div>
+</div>
+
+<div class="icon-list-item">
+<img src="../../assets/icons/regular/graph-up.svg" alt="Continuous feedback" class="icon-brand" />
+<div>
+<strong>Weekly refinement</strong> — Agents gave direct feedback each week, and the summaries improved based on what they actually found useful
 </div>
 </div>
 </div>
 
-
+</div>
 <div class="column-image">
 <img src="../../assets/images/wide/improved_handover_between_chatbot_and_customer_support.png" alt="Handover Process" style="max-width: 100%; width: 100%"/>
-
 </div>
 </div>
 
 <div class="content-section section-single-column">
 
-### Why we're proud of this project
+### Make it work, make it better, make it scale
 
-This project exemplifies our "start small, prove value" philosophy:
+The first version worked immediately. Agents had context. Customers stopped having to repeat themselves. Handle time dropped.
 
-**Team effort** - Both IT and customer support teams worked together to design and implement the solution.
+What made this project unusually fast to improve was the feedback loop. Agents used the summaries every day and had direct opinions about what helped. We refined the prompts weekly: what to include, what to leave out, how to phrase the handover note for different issue types. Each week the summaries got more useful.
 
-**Continuous Improvement** - Rather than building a perfect solution upfront, we iterated weekly based on real agent feedback. Each improvement was grounded in actual usage patterns.
+By the end, the system was running in production, agents trusted it, and the team managing Billie could maintain and improve it themselves. A problem that felt like it needed a major integration was solved with a focused AI feature and a tight feedback loop.
 
-**Sustainable Approach** - By adding the summary as the last message of the conversation, we could build upon existing infrastructure and processes, minimizing disruption and maximizing efficiency.
-
-</div>
-
-<div class="content-section section-two-columns image-left">
-<div class="column-cta">
-
-### Project outcomes
-
-**Results Achieved:**
-- Improved customer experience
-- Increased agent efficiency
-- Reduced handle time
-
-**Technologies Used:**
-- Python
-- Generative AI
-
-
-</div>
-<div class="column-text">
-
-### Key success factors
-
-The project succeeded because we focused on a specific, high value use case rather than trying to solve everything at once. By targeting the handover moment specifically, we could deliver meaningful improvements quickly.
-
-The iterative approach also built trust. Stakeholders could see progress every week, and agents felt heard as their feedback directly shaped improvements. This created buy-in that would have been difficult to achieve with a large upfront project.
-
-</div>
 </div>

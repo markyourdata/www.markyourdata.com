@@ -10,9 +10,7 @@
         <!-- Google Analytics -->
         <script src="../../js/analytics.js"></script>
         <script src="../../js/events.js"></script>
-        <title>
-            Driving an experimental way of working - Winparts - Mark Your Data
-        </title>
+        <title>Driving an experimental way of working - Winparts - Mark Your Data</title>
         <meta
             name="description"
             content="How we helped Winparts build experimentation capability through periodic coaching and guidance."
@@ -37,6 +35,39 @@
         <div id="navbar-container"></div>
         <div id="breadcrumb-container"></div>
 
+        <!-- Hero Section -->
+        <section class="hero hero-photo-bg" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_22.webp')">
+            <div class="container">
+                <img src="../../assets/images/logo_myd_rond.png" alt="Mark Your Data" class="hero-logo" />
+                <h1>Driving an experimental way of working</h1>
+                <p class="tagline">Winparts had good ideas but no way to know which ones worked. We helped them find out.</p>
+            </div>
+        </section>
+
+        <!-- Client Intro Section -->
+        <section class="bg-light-gray">
+            <div class="container project-client-intro">
+                <div class="project-client-logo-col">
+                    <img src="../../assets/images/clients/winparts.png" alt="Winparts" />
+                    <span class="project-client-name">Winparts</span>
+                </div>
+                <div>
+                    <span class="card-tag">E-commerce</span>
+                    <p>Teams were implementing changes based on gut feel with no way to measure impact. Through hands-on coaching, we embedded experimentation into their actual work — one real experiment at a time — until the team could run the process themselves.</p>
+                    <ul class="project-outcomes">
+                        <li>Teams running experiments independently</li>
+                        <li>Evidence-based decisions replacing gut feel</li>
+                        <li>Multiple validated improvements implemented</li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">A/B Testing</span>
+                        <span class="tech-tag">Hypothesis design</span>
+                        <span class="tech-tag">Impact measurement</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Content Container -->
         <article class="markdown-content">
             <div class="container">
@@ -56,22 +87,11 @@
         </section>
 
         <!-- CTA Section -->
-        <section class="cta-section">
+        <section class="cta-section cta-section--photo" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../../assets/photos/webp/photo_24.webp')">
             <div class="container">
-                <h2>Ready to build an experimental culture?</h2>
-                <p>
-                    This project shows how hands-on coaching can transform
-                    organizational culture while delivering immediate business
-                    value. Want to help your teams make evidence based decisions
-                    and continuously improve? Let's discuss how experimentation
-                    can drive your business forward.
-                </p>
-                <button
-                    class="cta-button"
-                    onclick="window.location.href='/pages/contact.html'"
-                >
-                    Learn more
-                </button>
+                <h2>Let's help your team start testing</h2>
+                <p>We help you prove value before scaling.</p>
+                <button class="cta-button" onclick="window.location.href='/pages/contact.html'">Get in touch</button>
             </div>
         </section>
 
@@ -82,13 +102,7 @@
         <script src="../../js/markdown-renderer.js"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function () {
-                renderTestimonialByKey(
-                    "project-testimonial",
-                    "Arend de Ruiter",
-                    {
-                        imagePrefix: "../../",
-                    },
-                );
+                renderTestimonialByKey("project-testimonial", "Arend de Ruiter", { imagePrefix: "../../" });
             });
         </script>
         <script src="../../js/config.js"></script>

@@ -5,66 +5,67 @@
 <div class="featured-intro">
 <div class="featured-intro-text">
 
-## Strategic shift from revenue to profit steering
+## The ambition
 
-For bol.com, we conducted extensive data analyses of Google Ads and internal sales & finance data. We built a compelling business case to shift from revenue based to profit based steering, identifying significant cost savings opportunities.
+bol.com was spending millions on Google Ads and wanted more return from the same budget. Not by spending more. By spending smarter. The ambition: find where the money was being wasted and redirect it toward products that actually generated profit.
 
-This project demonstrates how deep data analysis can drive strategic decisions that fundamentally improve business outcomes.
-
+</div>
 </div>
 
 <div class="content-section section-single-column">
 
 ### The challenge
 
-bol.com optimized Google Ads based on revenue metrics (ROAS), which didn't account for product margins. This meant they also invested in advertising low, or negative margin products while underinvesting in high margin opportunities.
+The root cause turned out to be a measurement problem, and it had three layers:
 
-The team suspected that profit based steering would deliver better outcomes, but needed solid proof before making such a significant strategic change. Without data to back up the hypothesis, it was difficult to get stakeholder buy-in.
+**Optimizing for the wrong metric** — bol.com's Google Ads were steered on revenue (ROAS), not profit. That meant budget was actively flowing toward low-margin and even negative-margin products.
+
+**The data didn't exist yet** — no one had connected Google Ads data to internal sales and margin data. The insight that some products cost more to advertise than they earned wasn't visible anywhere.
+
+**The business didn't want to exclude products** — simply stopping ads on low-margin items wasn't acceptable. The solution had to work within a full-portfolio requirement.
 
 </div>
 
 <div class="content-section section-two-columns image-right">
 <div class="column-text">
 
-### Our approach: data driven business case
+### Where we started
 
-We combined data from multiple sources to build a compelling case for change:
+> Think big, start small.
+
+We didn't start with a new advertising strategy. We started by connecting three data sources that had never been joined before: Google Ads, internal sales data, and finance data. The question was simple: for each product, is the ad spend generating profit?
 
 <div class="icon-list">
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/data-transfer-both.svg" alt="Data Integration" class="icon-brand" />
 <div>
-<strong>Data Integration</strong> - Connected Google Ads, sales, and finance data
+<strong>Data integration</strong> — Connected Google Ads, sales, and margin data into a single view
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/regular/candlestick-chart.svg" alt="Profit Modeling" class="icon-brand" />
 <div>
-<strong>Profit Modeling</strong> - Calculated profit margin by product
+<strong>Profit modeling</strong> — Calculated actual profit contribution per product after ad spend
 </div>
 </div>
 
 <div class="icon-list-item">
-<img src="../../assets/icons/regular/compass.svg" alt="Scenario Analysis" class="icon-brand" />
+<img src="../../assets/icons/regular/compass.svg" alt="Portfolio Analysis" class="icon-brand" />
 <div>
-<strong>Portfolio Analysis</strong> - Analyzed the advertised portfolio of products
+<strong>Portfolio analysis</strong> — Mapped the full advertised portfolio against profitability
 </div>
 </div>
 
 <div class="icon-list-item">
 <img src="../../assets/icons/solid/cash.svg" alt="Business Case" class="icon-brand" />
 <div>
-<strong>Business Case</strong> - Quantified savings and presented recommendations
+<strong>Business case</strong> — Quantified the opportunity and presented recommendations with stakeholder buy-in
 </div>
 </div>
 </div>
 
-The result was a graph that slightly resembled a whale on a stick. The stick being a group of advertised products that were advertised, and never resulted in traffic to the website. This was a significant opportunity for improvement. There was also a group of products with negative margins, resulting in traffic that was not profitable.
-
-### Organizational Challenge
-
-Advertising was answering to the business, and the business did not want to exclude any product from the portfolio. Therefore, in order to optimize the advertising strategy, we had to find a way to balance the need for profitability with the need to include all products in the portfolio. We achieved this by grouping products into categories and optimizing the advertising strategy for each category separately. E.g. products that never resulted in traffic got very high ROAS targets. All in all the efficiency of the advertising strategy increased significantly, meaning that the company was able to generate more revenue and profit with the same budget.
+The analysis produced a striking visualization — a shape that slightly resembled a whale on a stick. The "stick" was a cluster of advertised products that never generated a single click. The "whale" included a group with negative margins. Together, they represented a significant and measurable opportunity.
 
 </div>
 <div class="column-image">
@@ -74,43 +75,12 @@ Advertising was answering to the business, and the business did not want to excl
 
 <div class="content-section section-single-column">
 
-### Why we're proud of this project
+### Make it work, make it better, make it scale
 
-This project shows the power of connecting disparate data sources to answer strategic questions:
+The data told the story. But turning it into action required solving the organizational constraint: the business still wanted all products in the portfolio. So instead of cutting products, we grouped them by profitability profile and set differentiated ROAS targets for each group. Products that never generated traffic got very high targets, effectively pricing them out of active bidding without removing them from the portfolio.
 
-**Data as Decision Support** - By integrating Google Ads data with internal sales and finance information, we could calculate what really mattered: actual profit contribution per product category.
+The first implementation worked. Efficiency improved without removing a single product.
 
-**Creative Solution** - We had to come up with a creative practical solution to balance the need for profitability with the need to include all products in the portfolio. 
+From there we refined the groupings, tightened the methodology, and built the framework into ongoing operations. The shift from revenue to profit steering became the new standard. The advertising budget started working harder — generating more profit from the same spend — and it continued to do so long after the project ended.
 
-**Lasting Impact** - The shift to profit based steering continues to improve advertising ROI, delivering ongoing value well beyond the initial analysis.
-
-</div>
-
-<div class="content-section section-two-columns image-left">
-<div class="column-cta">
-
-### Project outcomes
-
-**Results Achieved:**
-- Significant cost savings identified
-- Strategic shift to more profit based steering
-- Data driven business case
-- Improved advertising ROI
-
-**Technologies Used:**
-- Python
-- SQL
-- Google Ads API
-- Data Analysis
-
-</div>
-<div class="column-text">
-
-### Key success factors
-
-The project succeeded because we focused on answering the right question: not just "how are our ads performing?" but "where is our ad spend actually generating profit?"
-
-By framing the analysis around business impact rather than technical metrics, we made the findings actionable for decision makers. The clear business case removed friction from the strategic change.
-
-</div>
 </div>
