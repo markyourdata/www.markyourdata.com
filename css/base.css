@@ -92,6 +92,55 @@ p {
     margin-bottom: var(--space-md);
 }
 
+/* Long-form article typography */
+article > .container h2 {
+    margin-top: 2.5rem;
+}
+
+article > .container h3 {
+    margin-top: 1.75rem;
+}
+
+article > .container p {
+    line-height: var(--line-height-relaxed);
+}
+
+article > .container ul,
+article > .container ol {
+    margin-bottom: 1.25rem;
+}
+
+article > .container li {
+    margin-bottom: 0.35rem;
+    line-height: var(--line-height-relaxed);
+}
+
+article > .container code {
+    background-color: var(--light-gray);
+    padding: 0.15rem 0.4rem;
+    font-family: "Courier New", monospace;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+
+article > .container a {
+    color: var(--dark-charcoal);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--dynamic-orange);
+    text-decoration-thickness: 2px;
+}
+
+article > .container a:hover {
+    color: var(--dynamic-orange);
+}
+
+article > .container hr {
+    border: none;
+    border-top: 2px solid var(--light-gray);
+    margin: 3rem 0;
+}
+
 /* Accessibility - Reduced Motion Support */
 /* Respect user preference to reduce motion/animations */
 @media (prefers-reduced-motion: reduce) {
