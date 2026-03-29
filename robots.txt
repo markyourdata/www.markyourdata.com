@@ -4,8 +4,6 @@
 User-agent: *
 Allow: /
 
-# Disallow crawling of inspiration/draft service pages
-Disallow: /pages/services_inspiration/
 
 # Sitemap location
 Sitemap: https://www.markyourdata.com/sitemap.xml

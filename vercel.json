@@ -1,0 +1,39 @@
+{
+  "redirects": [
+    {
+      "source": "/pages/services/strategy-consulting/index.html",
+      "destination": "/pages/services/strategy-consulting/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-execution/index.html",
+      "destination": "/pages/services/strategy-execution/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/platform/index.html",
+      "destination": "/pages/services/platform/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/data-leadership/index.html",
+      "destination": "/pages/services/data-leadership/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/index.html",
+      "destination": "/pages/projects/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/blogs/index.html",
+      "destination": "/pages/blogs/",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/index.html",
+      "destination": "/pages/services/",
+      "permanent": true
+    }
+  ]
+}
