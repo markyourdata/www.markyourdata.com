@@ -280,14 +280,14 @@ const siteData = {
       image: "assets/images/fans/daan_van_den_berg.png",
     },
 
-    {
-      key: "Arend de Ruiter",
-      quote: "Lorem Ipsum",
-      author: "Arend de Ruiter | COO",
-      company: "Winparts",
-      companyLogo: "assets/images/clients/winparts.png",
-      image: "assets/images/fans/arend_de_ruiter.png",
-    },
+    // {
+    //   key: "Arend de Ruiter",
+    //   quote: "Lorem Ipsum",
+    //   author: "Arend de Ruiter | COO",
+    //   company: "Winparts",
+    //   companyLogo: "assets/images/clients/winparts.png",
+    //   image: "assets/images/fans/arend_de_ruiter.png",
+    // },
   ],
 
   services: [
