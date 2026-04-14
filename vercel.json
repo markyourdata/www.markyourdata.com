@@ -43,6 +43,16 @@
     },
 
     {
+      "source": "/contact/",
+      "destination": "/pages/contact.html",
+      "permanent": true
+    },
+    {
+      "source": "/contact/index.html",
+      "destination": "/pages/contact.html",
+      "permanent": true
+    },
+    {
       "source": "/about/",
       "destination": "/pages/about.html",
       "permanent": true
