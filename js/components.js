@@ -57,12 +57,14 @@ const components = {
 
     try {
       const firstInitial = data.author.charAt(0).toUpperCase();
-      const imageHtml = data.image
-        ? `<img src="${escapeHtml(data.image)}" alt="${escapeHtml(data.author)}" loading="lazy">`
+      const imageSrc = data.image && typeof resolvePath === "function" ? resolvePath(data.image) : data.image;
+      const imageHtml = imageSrc
+        ? `<img src="${escapeHtml(imageSrc)}" alt="${escapeHtml(data.author)}" loading="lazy">`
         : `<div class="testimonial-placeholder">${escapeHtml(firstInitial)}</div>`;
 
-      const companyLogoHtml = data.companyLogo
-        ? `<img src="${escapeHtml(data.companyLogo)}" alt="${escapeHtml(data.company)}" class="testimonial-company-logo" loading="lazy">`
+      const logoSrc = data.companyLogo && typeof resolvePath === "function" ? resolvePath(data.companyLogo) : data.companyLogo;
+      const companyLogoHtml = logoSrc
+        ? `<img src="${escapeHtml(logoSrc)}" alt="${escapeHtml(data.company)}" class="testimonial-company-logo" loading="lazy">`
         : "";
 
       return `
@@ -159,9 +161,10 @@ const components = {
     }
 
     try {
+      const logoSrc = typeof resolvePath === "function" ? resolvePath(data.logo) : data.logo;
       return `
         <div class="client-logo" role="listitem">
-          <img src="${escapeHtml(data.logo)}" alt="${escapeHtml(data.name)}" class="client-logo-img" loading="lazy">
+          <img src="${escapeHtml(logoSrc)}" alt="${escapeHtml(data.name)}" class="client-logo-img" loading="lazy">
         </div>
       `;
     } catch (error) {

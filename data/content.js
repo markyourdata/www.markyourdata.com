@@ -113,7 +113,7 @@ const siteData = {
     },
     fans: {
       heading: "What clients say",
-      text: "We let our work speak for itself. Here's what the people we've worked with have to say:",
+      text: "We cut to what matters, simplify, and get something working before worrying about scale. Clients at bol.com and Tikkie mention the same things: pragmatic, clear, and focused on results that stick. Read the reviews below to hear it in their words.",
     },
     projects: {
       heading: "Selected projects",
@@ -521,6 +521,7 @@ const siteData = {
     "services/platform/details/ai-jobs": "AI jobs",
 
     // Services — strategy consulting details
+    "services/strategy-consulting/details/quickscan": "Data & AI quickscan",
     "services/strategy-consulting/details/strategy-call": "Strategy call",
     "services/strategy-consulting/details/data-ai-offsite": "Data & AI offsite",
     "services/strategy-consulting/details/strategy-consulting":
