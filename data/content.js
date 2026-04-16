@@ -306,7 +306,7 @@ const siteData = {
         "Berend knows exactly what he's talking about, and his communication skills are exceptional. He's very good at getting to the core of a problem and conveying it in plain language to stakeholders who often have little background knowledge. Throughout our entire collaboration we had near-daily contact, delivering clear results at great speed. The standout was the Auto Advice Tool — predicting the top 5 car recommendations for individual lease drivers — a result that has stuck with me.",
       author: "Frank de Gouw | Manager Data & Analytics",
       company: "Athlon",
-      image: "assets/images/fans/berend/frank_de_gouw.jpg",
+      image: "assets/images/fans/berend/frank_de_gouw.webp",
     },
     {
       key: "Martin Schijf",
@@ -314,7 +314,7 @@ const siteData = {
         "Berend is approachable, always open to conversation, and has a strong ability to explain complex choices to non-experts in a clear way. Berend takes others' ideas seriously and incorporates them into his solutions. With management, he presents results in plain language that drives understanding and gets everyone involved. The turning point was when Berend presented the improvements possible with our prediction model — that's when it clicked. What I'm most proud of is bringing the prediction model back to life. It ultimately led to the permanent hire of a Data Scientist who built on the foundation Berend laid, making it a renewed and integral part of the team.",
       author: "Martin Schijf | Engineering Manager",
       company: "bol.",
-      image: "assets/images/fans/berend/martin_schijf.jpg",
+      image: "assets/images/fans/berend/martin_schijf.webp",
     },
     {
       key: "Erick Webbe - Berend",
@@ -323,7 +323,7 @@ const siteData = {
       author: "Erick Webbe | Head of Data Science",
       company: "bol.",
       companyLogo: "assets/images/clients/bol.png",
-      image: "assets/images/fans/berend/erick_webbe.jpg",
+      image: "assets/images/fans/berend/erick_webbe.webp",
     },
   ],
 
