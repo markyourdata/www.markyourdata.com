@@ -473,7 +473,20 @@ function renderHomepageSections() {
  * @returns {void}
  */
 function renderComponents(options = {}) {
-  const { skipHomepage = false, skipServices = false } = options;
+  const { skipHomepage = false, skipServices = false, interleaveBerendTestimonials = false } = options;
+
+  // Optionally interleave Berend's testimonials with Mark's (mark, berend, mark, berend…)
+  if (interleaveBerendTestimonials && siteData.berendTestimonials) {
+    const a = siteData.testimonials || [];
+    const b = siteData.berendTestimonials;
+    const interleaved = [];
+    const len = Math.max(a.length, b.length);
+    for (let i = 0; i < len; i++) {
+      if (i < a.length) interleaved.push(a[i]);
+      if (i < b.length) interleaved.push(b[i]);
+    }
+    siteData.testimonials = interleaved;
+  }
 
   // Render homepage sections from data (unless explicitly skipped)
   if (!skipHomepage) {
