@@ -228,9 +228,9 @@ const siteData = {
       key: "erick-webbe",
       quote:
         "Mark excels at identifying opportunities to leverage data and analytics in diverse environments. Once found, he seamlessly transforms these solution ideas into testable prototypes with proven impact. His strong communication skills act as a catalyst, drawing entire teams into the dynamic journey of innovation. Critical and constructive, and always with a broad smile, Mark is an asset to any team.",
-      author: "Erick Webbe | Head of Data Science",
-      company: "bol.",
-      companyLogo: "assets/images/clients/bol.png",
+      author: "Erick Webbe | CEO",
+      company: "KickstartAI",
+      companyLogo: "assets/images/clients/kickstartai.png",
       image: "assets/images/fans/erick_webbe.png",
     },
     {
