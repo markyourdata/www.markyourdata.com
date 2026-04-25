@@ -245,74 +245,11 @@
                     cloud you're already on — AWS, Azure, or GCP.
                 </p>
 
-                <div
-                    style="
-                        display: flex;
-                        align-items: center;
-                        gap: 1.5rem;
-                        flex-wrap: wrap;
-                        margin-bottom: 2rem;
-                    "
-                >
-                    <button
-                        id="tech-toggle-btn"
-                        onclick="
-                            var d = document.getElementById('tech-details');
-                            var expanded = d.getAttribute('data-expanded') === 'true';
-                            if (expanded) {
-                                d.style.maxHeight = '140px';
-                                d.style.webkitMaskImage = 'linear-gradient(to bottom, black 0%, transparent 100%)';
-                                d.style.maskImage = 'linear-gradient(to bottom, black 0%, transparent 100%)';
-                                d.removeAttribute('data-expanded');
-                                this.textContent = 'Show technical setup';
-                            } else {
-                                d.style.maxHeight = 'none';
-                                d.style.webkitMaskImage = 'none';
-                                d.style.maskImage = 'none';
-                                d.setAttribute('data-expanded', 'true');
-                                this.textContent = 'Hide technical setup';
-                            }
-                        "
-                        style="
-                            background: none;
-                            border: 2px solid var(--dynamic-orange);
-                            color: var(--dynamic-orange);
-                            padding: 0.6rem 1.2rem;
-                            border-radius: 4px;
-                            font-family: inherit;
-                            font-size: 1rem;
-                            cursor: pointer;
-                        "
-                    >
-                        Show technical setup
-                    </button>
-                    <span
-                        style="
-                            color: var(--text-muted, #666);
-                            font-size: 0.95rem;
-                        "
-                    >
-                        or share this page with your CTO or CIO to evaluate
-                    </span>
-                </div>
+                <p style="color: var(--text-muted, #666); font-size: 0.95rem; margin-bottom: 1.5rem;">
+                    The overview below is aimed at engineers, CTOs, and technical evaluators. Feel free to share this page with your technical team.
+                </p>
 
-                <div
-                    id="tech-details"
-                    style="
-                        overflow: hidden;
-                        max-height: 140px;
-                        -webkit-mask-image: linear-gradient(
-                            to bottom,
-                            black 0%,
-                            transparent 100%
-                        );
-                        mask-image: linear-gradient(
-                            to bottom,
-                            black 0%,
-                            transparent 100%
-                        );
-                    "
-                >
+                <div id="tech-details">
                     <div id="cloud-toggle-container">
                         <!-- populated by components/cloud-toggle.js -->
                     </div>
