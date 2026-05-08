@@ -113,7 +113,7 @@
                     </p>
                     <button
                         class="cta-button"
-                        onclick="window.location.href='/pages/contact.html'"
+                        onclick="window.location.href = '/pages/contact.html'"
                     >
                         Get in touch
                     </button>
@@ -269,7 +269,11 @@
                                 src="../assets/photos/webp/photo_11.webp"
                                 alt="Mark Schep - Founder"
                                 loading="lazy"
-                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                                onerror="
+                                    this.style.display = 'none';
+                                    this.nextElementSibling.style.display =
+                                        'flex';
+                                "
                             />
                             <div
                                 class="founder-placeholder"
@@ -282,17 +286,30 @@
                             <h3>Mark Schep</h3>
                             <p class="founder-title">Founder</p>
                             <p>
-                                Mark has delivered data & AI projects at
-                                bol.com, Heineken, Tikkie, and Winparts. His
-                                work spans strategy, platforms, data science,
-                                and AI solutions.
+                                Mark Schep is founder and principal consultant
+                                at Mark Your Data, a data & AI consultancy for
+                                growing companies. He has delivered dozens of
+                                projects in data strategy, data engineering, and
+                                AI engineering at companies including bol.com,
+                                Heineken, Tikkie, and Winparts.
                             </p>
                             <p>
-                                He's worked with every major cloud platform and
-                                plenty of programming languages, but knows
-                                that's not what matters. What matters is
-                                transforming business challenges into simple
-                                solutions that work in day-to-day operations.
+                                His approach: make it work, make it better, make
+                                it scale. He'd rather show you a working proof
+                                of concept in weeks than a strategy deck in
+                                months.
+                            </p>
+                            <p>
+                                His current focus is conversational analytics:
+                                building systems that let business users explore
+                                their data through natural language, without
+                                writing a single line of SQL.
+                            </p>
+                            <p>
+                                If you're a business leader who sees the
+                                potential of data & AI but needs experienced
+                                hands to make it happen, find him at the event
+                                or get in touch at markyourdata.com.
                             </p>
                             <p>
                                 <a
