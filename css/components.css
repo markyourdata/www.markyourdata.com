@@ -824,7 +824,7 @@ a:focus-visible {
 /* Promo Cards */
 .promo-cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     margin-top: 2.5rem;
 }
@@ -1088,4 +1088,54 @@ a:focus-visible {
     .blog-header-photo {
         height: 200px;
     }
+}
+
+/* Hero speaking badge — subtle link to speaking/talks page */
+.hero-speaking-badge {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 1.5rem;
+    font-size: 0.9rem;
+    color: var(--light-gray);
+    opacity: 0.85;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(244, 245, 245, 0.4);
+    transition: opacity 0.2s, color 0.2s;
+}
+
+.hero-speaking-badge:hover {
+    opacity: 1;
+    color: var(--dynamic-orange);
+    border-bottom-color: var(--dynamic-orange);
+}
+
+/* Talk cards */
+.talk-speakers {
+    font-size: 0.9rem;
+    color: var(--accent-gray);
+}
+
+.talk-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.talk-links a {
+    color: var(--dark-charcoal);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.talk-links a:hover {
+    color: var(--dynamic-orange);
+}
+
+.talk-card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
 }

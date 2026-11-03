@@ -174,6 +174,63 @@ const components = {
   },
 
   /**
+   * Renders a talk/podcast card with event info, description, and links
+   * @param {Talk} data - Talk data object
+   * @param {Object} [options={}] - Rendering options
+   * @param {string} [options.projectBaseUrl] - Base URL to prefix a related project's slug with
+   * @returns {string} HTML string for talk card component
+   */
+  talkCard: (data, options = {}) => {
+    if (!data || !data.title || !data.event || !data.description) {
+      logWarning("Talk card component missing required data", data);
+      return '<div class="error-message">Talk unavailable</div>';
+    }
+
+    try {
+      const { projectBaseUrl = "pages/projects/" } = options;
+
+      const speakersHtml =
+        data.speakers && data.speakers.length
+          ? `<p class="talk-speakers"><strong>With:</strong> ${data.speakers.map((s) => escapeHtml(s)).join(", ")}</p>`
+          : "";
+
+      const extraLinksHtml =
+        data.links && data.links.length
+          ? `<div class="talk-links">${data.links
+              .map(
+                (link) =>
+                  `<a href="${escapeHtml(link.url)}" target="_blank" rel="noopener">${escapeHtml(link.label)}</a>`,
+              )
+              .join("")}</div>`
+          : "";
+
+      const relatedProjectHtml = data.relatedProjectSlug
+        ? `<a href="${escapeHtml(projectBaseUrl)}${escapeHtml(data.relatedProjectSlug)}.html" class="read-more">Read the case study →</a>`
+        : "";
+
+      const typeLabel = data.type === "podcast" ? "Podcast" : "Talk";
+
+      return `
+        <div class="content-card talk-card">
+          <div class="card-tag">${escapeHtml(typeLabel)} · ${escapeHtml(data.event)}</div>
+          <h3>${escapeHtml(data.title)}</h3>
+          <div class="card-meta">${escapeHtml(data.date)}${data.venue ? ` · ${escapeHtml(data.venue)}` : ""}</div>
+          ${speakersHtml}
+          <p>${escapeHtml(data.description)}</p>
+          ${extraLinksHtml}
+          <div class="talk-card-footer">
+            <a href="${escapeHtml(data.eventUrl)}" target="_blank" rel="noopener" class="read-more">View original →</a>
+            ${relatedProjectHtml}
+          </div>
+        </div>
+      `;
+    } catch (error) {
+      logWarning("Error rendering talk card component", error);
+      return '<div class="error-message">Talk unavailable</div>';
+    }
+  },
+
+  /**
    * Renders a section heading with introductory text
    * @param {SectionContent} data - Section content data object
    * @param {string} data.heading - Section heading text
@@ -238,12 +295,26 @@ const components = {
         photoStyle = `style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('${photoPath}'); background-position: ${photoPosition}"`;
       }
 
+      // Resolve optional speaking badge link
+      let speakingBadgeHtml = "";
+      if (data.speakingBadge && data.speakingBadge.text && data.speakingBadge.link) {
+        const badgeLink = typeof resolvePath === "function"
+          ? resolvePath(data.speakingBadge.link)
+          : data.speakingBadge.link;
+        speakingBadgeHtml = `
+          <a href="${escapeHtml(badgeLink)}" class="hero-speaking-badge">
+            ${escapeHtml(data.speakingBadge.text)} <span aria-hidden="true">→</span>
+          </a>
+        `;
+      }
+
       return `
         <section class="hero${data.photo ? " hero-photo-bg" : ""}" ${photoStyle}>
           <div class="container">
             <img src="${logoPath}" alt="Mark Your Data" class="hero-logo" />
             <h1>${escapeHtml(data.title)}</h1>
             <p class="tagline">${escapeHtml(data.tagline)}</p>
+            ${speakingBadgeHtml}
             ${
               data.ctaButton && data.ctaButton.text
                 ? `

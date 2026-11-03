@@ -88,3 +88,13 @@ From there, the pace accelerated. New use cases were onboarded in a fraction of 
 The platform now saves over €20.000 per year compared to the enterprise tools it replaced. More importantly, Winparts' team runs it themselves.
 
 </div>
+
+<div class="content-section section-single-column">
+
+### From data platform to AI platform
+
+The foundation also turned out to be the easiest way to add AI. Rather than bolting on a separate AI stack, we extended the platform with **AI jobs**: lightweight, containerized processes that read from the warehouse, run an LLM task, and write the results back. The first AI job analyzes returns to spot patterns and improve product data — reusing the same infrastructure, the same governance, and the same team.
+
+We shared the full story, including how we think about scaling AI jobs to new use cases, on stage at Data Expo. <a href="../talks.html">Read the talk →</a>
+
+</div>

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#f9a800" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="../favicon.png" />
+
+        <!-- Google Analytics -->
+        <script src="../js/analytics.js" async></script>
+        <script src="../js/events.js" async></script>
+        <title>Talks & podcasts - Mark Your Data</title>
+        <meta
+            name="description"
+            content="Talks, panels, and podcast appearances by Mark Schep on data & AI — including Data Expo, ContentCon Europe, and AI Today Live."
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://www.markyourdata.com/pages/talks.html"
+        />
+        <meta property="og:title" content="Talks & podcasts - Mark Your Data" />
+        <meta
+            property="og:description"
+            content="Talks, panels, and podcast appearances by Mark Schep on data & AI — including Data Expo, ContentCon Europe, and AI Today Live."
+        />
+        <meta
+            property="og:image"
+            content="https://www.markyourdata.com/assets/logo.png"
+        />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:url"
+            content="https://www.markyourdata.com/pages/talks.html"
+        />
+        <meta name="twitter:title" content="Talks & podcasts - Mark Your Data" />
+        <meta
+            name="twitter:description"
+            content="Talks, panels, and podcast appearances by Mark Schep on data & AI — including Data Expo, ContentCon Europe, and AI Today Live."
+        />
+        <meta
+            name="twitter:image"
+            content="https://www.markyourdata.com/assets/logo.png"
+        />
+
+        <!-- Canonical URL -->
+        <link
+            rel="canonical"
+            href="https://www.markyourdata.com/pages/talks.html"
+        />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="../css/base.css" />
+        <link rel="stylesheet" href="../css/layout.css" />
+        <link rel="stylesheet" href="../css/components.css" />
+        <link rel="stylesheet" href="../css/carousels.css" />
+        <link rel="stylesheet" href="../css/utilities.css" />
+        <link rel="stylesheet" href="../css/markdown.css" />
+        <link rel="stylesheet" href="../css/responsive.css" />
+    </head>
+    <body>
+        <!-- Skip to main content link for accessibility -->
+        <a href="#main-content" class="skip-to-main">Skip to main content</a>
+
+        <!-- Navigation -->
+        <div id="navbar-container"></div>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Hero Section -->
+            <section
+                class="hero hero-photo-bg"
+                style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../assets/photos/webp/photo_38.webp')"
+            >
+                <div class="container">
+                    <img
+                        src="../assets/images/logo_myd_rond.png"
+                        alt="Mark Your Data"
+                        class="hero-logo"
+                    />
+                    <h1>Talks & podcasts</h1>
+                    <p class="tagline">
+                        Where we've shared how we think about data & AI —
+                        kept here in full, in case a link disappears.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Talks Section -->
+            <section>
+                <div class="container">
+                    <p class="section-intro">
+                        A running record of talks, panels, and podcast
+                        appearances. Each entry keeps the original
+                        description so the story stays even if the source
+                        page doesn't.
+                    </p>
+                    <div class="content-grid" id="talks-list">
+                        <!-- Talk cards will be rendered here by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA Section -->
+            <section class="cta-section cta-section--photo" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('../assets/photos/webp/photo_17.webp')">
+                <div class="container">
+                    <h2>Want to talk data & AI?</h2>
+                    <p>Looking for a speaker, a podcast guest, or just want to compare notes — get in touch.</p>
+                    <button class="cta-button" onclick="window.location.href='contact.html'">Get in touch</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Scripts -->
+        <script src="../js/config.js"></script>
+        <script src="../components/navbar.js"></script>
+        <script src="../data/content.js"></script>
+        <script src="../js/components.js"></script>
+        <script src="../js/talks.js"></script>
+        <script>
+            renderTalks("talks-list", { projectBaseUrl: "projects/" });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chat bubble icon for conversational analytics -->
+  <path d="M30 35C30 29 35 25 41 25H79C85 25 90 29 90 35V65C90 71 85 75 79 75H55L38 90V75H41C35 75 30 71 30 65V35Z" fill="#f9a800" stroke="#f9a800" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="45" cy="50" r="4" fill="#fff"/>
+  <circle cx="60" cy="50" r="4" fill="#fff"/>
+  <circle cx="75" cy="50" r="4" fill="#fff"/>
+</svg>

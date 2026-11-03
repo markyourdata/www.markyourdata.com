@@ -12,18 +12,24 @@
       "permanent": true
     },
     {
-      "source": "/pages/services/strategy-execution/index.html",
-      "destination": "/pages/services/strategy-execution/",
-      "permanent": true
-    },
-    {
       "source": "/pages/services/platform/index.html",
       "destination": "/pages/services/platform/",
       "permanent": true
     },
     {
-      "source": "/pages/services/data-leadership/index.html",
-      "destination": "/pages/services/data-leadership/",
+      "source": "/pages/services/conversational-analytics/index.html",
+      "destination": "/pages/services/conversational-analytics/",
+      "permanent": true
+    },
+
+    {
+      "source": "/pages/services/data-leadership/:path*",
+      "destination": "/pages/services/strategy-consulting/details/fractional-leadership.html",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-execution/:path*",
+      "destination": "/pages/services/conversational-analytics/",
       "permanent": true
     },
     {

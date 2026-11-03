@@ -72,10 +72,9 @@
 
                 // Determine service category
                 let serviceCategory = 'General';
-                if (href.includes('strategy-consulting')) serviceCategory = 'Strategy Consulting';
+                if (href.includes('strategy-consulting')) serviceCategory = 'Data & AI Strategy';
                 else if (href.includes('platform')) serviceCategory = 'Platform';
-                else if (href.includes('strategy-execution')) serviceCategory = 'Strategy Execution';
-                else if (href.includes('data-leadership')) serviceCategory = 'Data Leadership';
+                else if (href.includes('conversational-analytics')) serviceCategory = 'Conversational Analytics';
 
                 trackEvent('service_click', {
                     service_name: serviceName,

@@ -38,7 +38,7 @@ const CONFIG = {
   LAYOUT: {
     MAX_CONTAINER_WIDTH: 1000, // pixels
     MOBILE_BREAKPOINT: 768, // pixels
-    PROJECTS_LIMIT_HOMEPAGE: 2,
+    PROJECTS_LIMIT_HOMEPAGE: 3,
   },
 
   // Animation Settings
@@ -65,7 +65,7 @@ const resolvePath = (path) => {
   let basePath = '.';
   if (pagesIndex !== -1) {
     const depth = pathParts.length - pagesIndex - 1;
-    basePath = '../'.repeat(depth + 1).slice(0, -1) || '.';
+    basePath = '../'.repeat(depth).slice(0, -1) || '.';
   }
 
   return `${basePath}/${path}`;

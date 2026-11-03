@@ -11,6 +11,7 @@
  * @property {string} title - Hero heading
  * @property {string} tagline - Hero subtitle/tagline
  * @property {CTAButton} [ctaButton] - Optional CTA button
+ * @property {{text: string, link: string}} [speakingBadge] - Optional small link below the tagline (e.g. recent speaking engagements)
  */
 
 /**
@@ -64,6 +65,21 @@
  */
 
 /**
+ * @typedef {Object} Talk
+ * @property {string} key - Unique identifier
+ * @property {string} title - Talk or episode title
+ * @property {"talk"|"podcast"} type - Kind of appearance
+ * @property {string} event - Event or show name
+ * @property {string} eventUrl - Link to the original program/episode page (kept in case it disappears)
+ * @property {string} date - Human-readable date, kept as text since precision varies by source
+ * @property {string} [venue] - Stage/hall/location, if known
+ * @property {string[]} [speakers] - Co-speakers, with role/company
+ * @property {string} description - Full abstract/summary, archived here so the story survives even if the source link dies
+ * @property {{label: string, url: string}[]} [links] - Extra listen/watch links (e.g. Spotify, Apple Podcasts)
+ * @property {string} [relatedProjectSlug] - Slug of a project in `projects` this talk is about
+ */
+
+/**
  * @typedef {Object} PageData
  * @property {Hero} hero - Page hero section
  * @property {CTASection} cta - Page CTA section
@@ -98,6 +114,10 @@ const siteData = {
         link: "pages/contact.html",
       },
       photo: "assets/photos/webp/photo_6.webp",
+      speakingBadge: {
+        text: "Recently speaking at Data Expo, ContentCon Europe & AI Today Live",
+        link: "pages/talks.html",
+      },
     },
     aboutUs: {
       heading: "About us",
@@ -133,7 +153,7 @@ const siteData = {
   pages: {
     platform: {
       hero: {
-        title: "Save €100K per year with the Mark Your Data Platform",
+        title: "Save €100K per year with the Mark Your Data & AI Platform",
         tagline:
           "Skip hiring a data engineer. Our cloud-native platform gives your analysts everything they need from day one. We handle the foundation, you focus on insights.",
         ctaButton: {
@@ -178,9 +198,9 @@ const siteData = {
     },
     strategyConsulting: {
       hero: {
-        title: "Data & AI strategy consulting",
+        title: "Data & AI Strategy",
         tagline:
-          "Figure out where data can drive the most value. We help you identify the right opportunities and turn them into a concrete plan you can execute.",
+          "Data-driven answers that don't agree with each other are a signal, not a fluke. We check your team, tools, pipelines, and models to reveal the painpoints, then turn it into a concrete plan you can execute.",
         ctaButton: {
           text: "Schedule a call",
           link: "pages/contact.html",
@@ -189,36 +209,36 @@ const siteData = {
         photoPosition: "center 15%",
       },
       cta: {
-        heading: "Let's find your biggest opportunities",
+        heading: "Not sure where your painpoints are?",
         description:
-          "Book a free 30-minute call to discuss your challenges and goals.",
+          "Book the Data & AI quickscan: two days to check your team, tools, pipelines, and models.",
         button: {
-          text: "Schedule a call",
+          text: "Book the quickscan",
           link: "pages/contact.html",
         },
         photo: "assets/photos/webp/photo_22.webp",
       },
     },
-    strategyExecution: {
+    conversationalAnalytics: {
       hero: {
-        title: "Data & AI solutions",
+        title: "Give everyone their own agentic data analyst",
         tagline:
-          "Turn your data into business impact. We take projects from idea to proof of concept to production, whether you need extra expertise or full delivery.",
+          "We design conversational analytics on top of your data platform, so business users get instant, trustworthy answers in plain language, without waiting on a data team.",
         ctaButton: {
           text: "Get in touch",
           link: "pages/contact.html",
         },
-        photo: "assets/photos/webp/photo_32.webp",
+        photo: "assets/photos/webp/photo_30.webp",
       },
       cta: {
-        heading: "Ready to turn data into results?",
+        heading: "Ready to give your team its own data analyst?",
         description:
-          "Let's discuss how we can help you deliver your next data or AI initiative.",
+          "We'll help you find the right first domain, and build the foundation to do it safely.",
         button: {
           text: "Get in touch",
           link: "pages/contact.html",
         },
-        photo: "assets/photos/webp/photo_25.webp",
+        photo: "assets/photos/webp/photo_26.webp",
       },
     },
   },
@@ -280,6 +300,17 @@ const siteData = {
       image: "assets/images/fans/daan_van_den_berg.png",
     },
 
+    {
+      key: "Richard Norbruis",
+      quote:
+        "At bol, I worked with Mark for over a year on Team SEO. Mark is incredibly curious and genuinely wants to get to the core of complex problems. For Team SEO, he worked on, among other things, generating relevant content at scale using AI. The professionalism and skill with which he approached and delivered this really impressed me. Beyond his strong Data & AI skills, Mark is also very personable and a pleasure to work with. Need someone who can translate complex Data & AI challenges into scalable solutions with real impact? Mark is definitely your person.",
+      author:
+        "Richard Norbruis | Freelance Web Analyst & Experimentation/CRO Specialist",
+      company: "bol.",
+      companyLogo: "assets/images/clients/bol.png",
+      image: "assets/images/fans/richard_norbruis.png",
+    },
+
     // {
     //   key: "Arend de Ruiter",
     //   quote: "Lorem Ipsum",
@@ -329,34 +360,24 @@ const siteData = {
 
   services: [
     {
-      title: "Fractional Data & AI leadership",
+      title: "Data & AI Strategy",
       description:
-        "Not ready to hire a full-time data lead? We step in as your fractional data & AI leader, one day per week. We set the direction, build the foundation, and help you figure out exactly who you need to hire next.",
-      cta: "Explore fractional leadership",
-      slug: "data-leadership",
-      url: "pages/services/data-leadership/index.html",
-      icon: "assets/icons/data-leadership.svg",
-      fullWidth: true,
-      propositions: [],
-    },
-    {
-      title: "Strategy consulting",
-      description:
-        "Figure out where data can make the biggest impact. We help you identify high-value opportunities and turn them into a concrete action plan. Start small, prove value, then scale.",
-      cta: "Learn more",
+        "Data-driven answers that don't agree with each other are a signal, not a fluke. Our Data & AI quickscan checks your team, tools, pipelines, and models to reveal exactly where the painpoints are, and what to do next.",
+      cta: "Explore strategy",
       slug: "strategy-consulting",
       url: "pages/services/strategy-consulting/index.html",
       icon: "assets/icons/strategy-consulting.svg",
       propositions: [
-        "30-minute call: Talk to us about your data & AI challenges.",
+        "Data & AI quickscan: two days to check your team, tools, pipelines, and models, and reveal your painpoints.",
+        "30-minute call: Talk to us about a specific data & AI challenge.",
         "Data & AI offsite: A focused workshop to identify and prioritize initiatives.",
-        "Strategy engagement: A comprehensive roadmap aligned with your business goals.",
+        "Fractional leadership: Ongoing senior direction, one or more days a week, covering strategy, data & AI engineering, and team building.",
       ],
     },
     {
-      title: "Mark Your Data Platform",
+      title: "Mark Your Data & AI Platform",
       description:
-        "Save €100K per year. Skip hiring a data engineer. Our cloud-native platform gives your analysts everything they need from day one. We handle the foundation, you focus on insights.",
+        "Save €100K per year. Skip hiring a data engineer. Our cloud-native platform gives your analysts everything they need from day one, and is ready for AI use cases like conversational analytics. We handle the foundation, you focus on insights.",
       cta: "Learn more",
       slug: "platform",
       url: "pages/services/platform/index.html",
@@ -369,18 +390,17 @@ const siteData = {
       ],
     },
     {
-      title: "Data & AI solutions",
+      title: "Conversational Analytics",
       description:
-        "Turn your data into impact. We take projects from idea to proof of concept to production. Whether you need extra hands or end-to-end delivery, we make it happen.",
+        "Give everyone in your company their own agentic data analyst. We design conversational analytics on top of your data platform, so business users get instant, trustworthy answers in plain language, without waiting on a data team.",
       cta: "Learn more",
-      slug: "strategy-execution",
-      url: "pages/services/strategy-execution/index.html",
-      icon: "assets/icons/strategy-execution.svg",
+      slug: "conversational-analytics",
+      url: "pages/services/conversational-analytics/index.html",
+      icon: "assets/icons/conversational-analytics.svg",
       propositions: [
-        "Opportunity discovery: Find where a small change can make a big difference.",
-        "Proof of concept: Get something working fast to validate the idea.",
-        "Proof of value: Refine and measure real business impact.",
-        "Scale: Roll out what's proven across the organization.",
+        "Foundation first: Built on a properly layered data platform, not a shortcut around one.",
+        "One domain at a time: A small, well-tested set of questions before the next domain.",
+        "Privacy by design: You decide what the agent may see, before it can see anything.",
       ],
     },
   ],
@@ -401,6 +421,10 @@ const siteData = {
     {
       name: "Heineken",
       logo: "assets/images/clients/heineken.png",
+    },
+    {
+      name: "Snelstart",
+      logo: "assets/images/clients/snelstart.png",
     },
   ],
 
@@ -425,15 +449,30 @@ const siteData = {
       client: "Winparts",
       industry: "E-commerce",
       description:
-        "We build a strong value adding data foundation while saving over €20.000 per year. With data pipelines that collected data from multiple databases and APIs related to returned products we build data models that populated the data warehouse. This data platform is the foundation for many new use cases.",
+        "We build a strong value adding data foundation while saving over €20.000 per year. With data pipelines that collected data from multiple databases and APIs related to returned products we build data models that populated the data warehouse. On top of that foundation, we added our first AI job: a containerized process that analyzes returns to spot patterns and improve product data. This data platform is the foundation for many new use cases.",
       technologies: ["Python", "LLMs", "Generative AI"],
       outcome: [
         "Single source of truth",
-        "Optimized return process",
+        "Optimized return process with AI",
         "Foundation for new use cases",
       ],
       service: "data-ai-platform",
       slug: "winparts-data-ai-platform",
+    },
+    {
+      title: "Can you trust an AI data analyst?",
+      client: "Mark Your Data",
+      industry: "R&D",
+      description:
+        "A self-initiated research demo built to answer a real question: can a plain-language question to an AI agent be trusted to produce the right SQL? We built a simulated e-commerce warehouse, ran real business questions against it, and found the agent could be confidently wrong on ordinary business-data nuances. Writing down what a good analyst already knows, as a short domain-knowledge file next to the data model, took accuracy from 87-93% to 100% on a reproducible 15-question evaluation set.",
+      technologies: ["dlt", "dbt", "DuckDB", "LLMs", "Python"],
+      outcome: [
+        "100% accuracy on 15 real business questions, up from 87-93%",
+        "A reusable 'skill' pattern: domain knowledge + process, versioned next to the data model",
+        "The foundation for a Data Expo talk on conversational analytics",
+      ],
+      service: "conversational-analytics",
+      slug: "conversational-analytics-demo",
     },
     {
       title: "Automated Display Banner Generation",
@@ -518,6 +557,97 @@ const siteData = {
     },
   ],
 
+  // Talks, panels, and podcast appearances — full descriptions archived here
+  // so the record survives even if the original event/podcast page disappears
+  talks: [
+    {
+      key: "data-expo-2026-content-as-a-service",
+      title:
+        "Content as a Service at bol: how all bollers can create on-brand content at scale with AI",
+      type: "talk",
+      event: "Data Expo 2026",
+      eventUrl:
+        "https://www.data-expo.nl/nl/bezoekers/programma/content-as-a-service-at-bol-how-all-bollers-can-create-on-brand-content-at-scale-with-ai",
+      date: "September 9, 2026 · 15:45",
+      venue: "Jaarbeurs Utrecht",
+      speakers: [
+        "Benjamin van Vianen | Manager Scalable Content & Tooling, bol",
+        "Joey Man | AI Growth Designer, bol",
+      ],
+      description:
+        "How bol turned experimental AI projects into a scalable content creation platform. Organizations are challenged to create more on-brand content, for more audiences, across more channels than ever before, all under real budget constraints. This talk covers practical implementations spanning text, imagery, and full webpage generation, with a focus on marketing and advertising applications, and shares how thinking big while starting small helped bol move from one-off experiments to a repeatable system.",
+      relatedProjectSlug: "bol-content-generation-at-scale",
+    },
+    {
+      key: "data-expo-2026-winparts-ai-platform",
+      title:
+        "From data platform to AI platform: how Winparts prevents returns with data & AI",
+      type: "talk",
+      event: "Data Expo 2026",
+      eventUrl:
+        "https://www.data-expo.nl/nl/bezoekers/programma/from-data-platform-to-ai-platform-how-winparts-prevents-returns-with-data-ai",
+      date: "September 10, 2026 · 14:15",
+      venue: "Jaarbeurs Utrecht",
+      speakers: [
+        "Harm Albers | Data Science Lead, Winparts",
+        "Rense van der Zee | Data Engineer, Winparts",
+      ],
+      description:
+        "How Winparts built a scalable open-source data platform with DLT, DBT, and cloud-native orchestration, then extended it into AI territory through 'AI jobs': lightweight, containerized processes that read from the warehouse, run an LLM task, and write the results back. The first AI job analyzes returns to spot patterns and improve product data. The talk shares practical lessons on building an AI-ready data foundation, staying cloud-agnostic, and scaling from one use case to many while navigating open-source trade-offs.",
+      relatedProjectSlug: "winparts-data-ai-platform",
+    },
+    {
+      key: "data-expo-2026-conversational-analytics",
+      title:
+        "When your data warehouse talks back: how conversational analytics changes the analytics game",
+      type: "talk",
+      event: "Data Expo 2026",
+      eventUrl:
+        "https://www.data-expo.nl/nl/bezoekers/programma/when-your-data-warehouse-talks-back-how-conversational-analytics-changes-the-analytics-game",
+      date: "September 10, 2026 · 16:00",
+      venue: "Jaarbeurs Utrecht",
+      speakers: [],
+      description:
+        "How conversational AI agents can let people query a data warehouse in plain language instead of waiting on a data team. Using a simulated e-commerce scenario, this talk shows how a question that used to mean a support ticket and a day's wait can return an answer in seconds, freeing the data team to focus on harder analytical problems. It also covers what this shift means for both business and technical roles, with perspectives relevant to organizations of different sizes.",
+      relatedProjectSlug: "conversational-analytics-demo",
+    },
+    {
+      key: "contentcon-europe-2026",
+      title: "Speaking at ContentCon Europe",
+      type: "talk",
+      event: "ContentCon Europe 2026",
+      eventUrl: "https://www.contentstack.com/contentcon-europe/agenda",
+      date: "September 30 – October 1, 2026",
+      venue: "Circa, Amsterdam",
+      speakers: [],
+      description:
+        "Mark is a featured speaker at ContentCon Europe 2026, alongside bol colleagues Benjamin van Vianen and Joey Man. The event's full agenda and session abstracts aren't public yet — this entry will be updated with the talk title and description once they are.",
+    },
+    {
+      key: "ai-today-live-s08e83",
+      title:
+        "Bezorgprobleem bij bol opgelost zonder AI: waarom de simpelste oplossing vaak wint",
+      type: "podcast",
+      event: "AI Today Live",
+      eventUrl:
+        "https://aitodaylive.nl/afleveringen/s08e83-bezorgprobleem-bij-bol-opgelost-zonder-ai-waarom-de-simpelste-oplossing-vaak-wint/",
+      date: "August 30, 2026 · Season 8, Episode 83 · 48 min",
+      speakers: ["Hosted by Joop Snijder & Niels Naglé"],
+      description:
+        "A conversation about why the simplest working solution usually beats the complex one. Mark discusses solving a delivery-notification problem at bol by tracing it to an expired timestamp and adjusting FAQ messaging, instead of reaching for an elaborate AI system. The episode covers timeboxing projects into 3-month validation cycles, building lightweight data infrastructure for under €100/month versus €10.000–15.000/year enterprise platforms, why the data foundation (security, access, standardization) has to come before analysis, and why smaller organizations don't always need a full-time data engineer once that foundation is in place.",
+      links: [
+        {
+          label: "Spotify",
+          url: "https://open.spotify.com/episode/0Z8bbnOwV6w4FO8LztoZ2i",
+        },
+        {
+          label: "Apple Podcasts",
+          url: "https://podcasts.apple.com/us/podcast/s08e83-bezorgprobleem-bij-bol-opgelost-zonder-ai-waarom/id1510558415?i=1000786876646",
+        },
+      ],
+    },
+  ],
+
   // Breadcrumb display names keyed by path segment(s) after "pages/"
   // Used by components/breadcrumbs.js to render human-readable trails
   breadcrumbs: {
@@ -529,7 +659,8 @@ const siteData = {
     // Blog posts
     "blogs/motherduck-the-future-of-cost-efficient-analytics": "MotherDuck",
     "blogs/dbt-transform-data-into-insights": "dbt",
-    "blogs/save-100k-with-mark-your-data-platform": "Mark Your Data Platform",
+    "blogs/save-100k-with-mark-your-data-platform":
+      "Mark Your Data & AI Platform",
     "blogs/why-dlt-beats-fivetran": "DLT vs Fivetran",
 
     // Projects
@@ -542,12 +673,12 @@ const siteData = {
       "Reducing CS workload",
     "projects/bol-genai-handover": "GenAI handover",
     "projects/bol-google-ads-optimization": "Google Ads optimization",
+    "projects/conversational-analytics-demo": "Conversational analytics",
 
     // Services — main categories
-    "services/data-leadership": "Fractional Data & AI leadership",
     "services/platform": "Platform",
-    "services/strategy-consulting": "Strategy consulting",
-    "services/strategy-execution": "Strategy execution",
+    "services/strategy-consulting": "Data & AI Strategy",
+    "services/conversational-analytics": "Conversational Analytics",
 
     // Services — platform details
     "services/platform/existing-team": "Existing team",
@@ -563,11 +694,7 @@ const siteData = {
     "services/strategy-consulting/details/data-ai-offsite": "Data & AI offsite",
     "services/strategy-consulting/details/strategy-consulting":
       "Strategy consulting",
-
-    // Services — strategy execution details
-    "services/strategy-execution/details/data-exploration": "Data exploration",
-    "services/strategy-execution/details/proof-of-concept": "Proof of concept",
-    "services/strategy-execution/details/proof-of-value": "Proof of value",
-    "services/strategy-execution/details/business-impact": "Business impact",
+    "services/strategy-consulting/details/fractional-leadership":
+      "Fractional leadership",
   },
 };

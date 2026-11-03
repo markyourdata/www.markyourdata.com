@@ -13,7 +13,7 @@ function createNavbar(activePage = "home") {
   if (pagesIndex !== -1) {
     // Calculate depth: how many folders after 'pages'
     const depth = pathParts.length - pagesIndex - 1;
-    basePath = "../".repeat(depth + 1).slice(0, -1) || ".";
+    basePath = "../".repeat(depth).slice(0, -1) || ".";
   }
 
   const navbar = `
@@ -33,6 +33,7 @@ function createNavbar(activePage = "home") {
           <li><a href="${basePath}/pages/services/index.html" class="nav-link ${activePage === "services" ? "active" : ""}">Services</a></li>
           <li><a href="${basePath}/pages/projects/index.html" class="nav-link ${activePage === "projects" ? "active" : ""}">Projects</a></li>
           <li><a href="${basePath}/pages/blogs/index.html" class="nav-link ${activePage === "blogs" ? "active" : ""}">Blog</a></li>
+          <li><a href="${basePath}/pages/talks.html" class="nav-link ${activePage === "talks" ? "active" : ""}">Talks</a></li>
           <li><a href="${basePath}/pages/about.html" class="nav-link ${activePage === "about" ? "active" : ""}">About</a></li>
           <li><a href="${basePath}/pages/contact.html" class="nav-link ${activePage === "contact" ? "active" : ""}">Contact</a></li>
         </ul>
@@ -58,6 +59,7 @@ function getActivePage() {
   if (path.includes("/pages/services/")) return "services";
   if (path.includes("/pages/projects/")) return "projects";
   if (path.includes("/pages/blogs/")) return "blogs";
+  if (path.includes("/pages/talks.html")) return "talks";
   if (path.includes("/pages/about.html")) return "about";
   if (path.includes("/pages/contact.html")) return "contact";
   return "home";
