@@ -210,17 +210,25 @@ const security = [
       <h2 id="start">How to start</h2>
       <div class="grid">
         <div class="card">
-          <h3>Quickscan</h3>
+          <h3>Fit check</h3>
+          <p class="price">€1.500</p>
           <p>
-            Mark Your Data checks whether Mark Your Data Assistant fits your stack: your dbt project and semantic layer, your
-            warehouse, your Google Cloud setup and your Microsoft 365 tenant.
+            A fit check tells you whether Mark Your Data Assistant fits your stack. Mark Your Data interviews the business
+            and holds technical talks with the data team about your dbt project and semantic layer, your warehouse, your
+            Google Cloud setup and your Microsoft 365 tenant.
           </p>
         </div>
         <div class="card">
           <h3>Pilot on your own cloud</h3>
+          <p class="price">One quarter, price depends on scope, stack and dbt maturity</p>
           <p>
-            Mark Your Data sets up the assistant in your Google Cloud project, and colleagues ask their real questions in
-            Teams from the first day. Setting up together covers:
+            A pilot is a proof of concept that runs for one quarter in your own Google Cloud project. Colleagues ask their
+            real questions in Teams from the first day, and the pilot proves two things: that the assistant works on your
+            stack, and that it adds value for your team.
+          </p>
+          <p>
+            At the end of the quarter you decide to keep the assistant and scale it, since it already runs in your
+            environment, or to stop. Setting up together covers:
           </p>
           <ul>
             {pilotSetup.map((item) => <li>{item}</li>)}
@@ -245,7 +253,7 @@ const security = [
   </section>
 
   <Cta
-    text="Start with a quickscan to see whether Mark Your Data Assistant fits your stack, or with a pilot on your own cloud."
+    text="Start with a fit check of €1.500 to see whether Mark Your Data Assistant fits your stack, or with a one-quarter pilot on your own cloud."
     photo="/assets/photos/webp/photo_38.webp"
   />
 </Base>
