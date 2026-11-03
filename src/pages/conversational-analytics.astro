@@ -29,18 +29,24 @@ const builtToday = [
   "Data status: late data, figures not yet final, periods partly outside the period asked",
   "Feedback with a reason",
   "Coverage scan and log reports",
-  "Warehouses: Google BigQuery and DuckDB",
+];
+
+const connectorsToday = [
+  "Cloud: Google Cloud",
+  "Warehouses: BigQuery and DuckDB",
+  "AI providers: Gemini on Vertex AI, OpenAI, Mistral (EU endpoint) and any OpenAI-compatible gateway",
+  "Chat: Microsoft Teams (Slack is also available)",
 ];
 
 const pilotSetup = [
   "Installing the app in your Microsoft 365 tenant",
-  "Connecting your BigQuery and your storage (Google Cloud Storage, S3 or similar) for the dbt artifacts",
+  "Connecting your warehouse and the storage for your dbt artifacts",
   "Choosing your AI provider",
 ];
 
 const security = [
-  "Mark Your Data Assistant runs in your own Google Cloud project, on your existing AI contract: Gemini on Vertex AI, OpenAI, Mistral (EU endpoint) or your own OpenAI-compatible gateway.",
-  "The assistant reads BigQuery through a read-only service account, with a cap on bytes per query.",
+  "Mark Your Data Assistant runs in your own cloud environment, on your existing AI contract.",
+  "The assistant reads your warehouse through a read-only service account, with a cap on the data a query may scan.",
   "Every query passes a SQL guard before it runs. The guard allows one read-only statement, on approved tables only, with a row limit. The AI never runs SQL itself.",
   "You choose whether the AI may see result rows or only the structure: columns and SQL.",
   "Logs and traces mask names and IDs from your data by default.",
@@ -51,7 +57,7 @@ const security = [
 
 <Base
   title="Mark Your Data Assistant: conversational analytics for dbt teams"
-  description="Mark Your Data Assistant answers business questions in Microsoft Teams from your dbt semantic layer and labels every answer as governed or unverified. It runs in your own Google Cloud project."
+  description="Mark Your Data Assistant answers business questions in Microsoft Teams from your dbt semantic layer and labels every answer as governed or unverified. It runs in your own cloud, on your own AI contract."
   image={demoVideo.poster}
 >
   <Hero
@@ -186,11 +192,16 @@ const security = [
           </ul>
         </div>
         <div>
-          <h2>Requirements</h2>
+          <h2>Connectors today</h2>
           <ul>
-            <li>dbt Core 1.11 with a semantic layer (metrics or saved queries) and the generated dbt artifacts</li>
-            <li>Google Cloud for hosting, BigQuery as warehouse</li>
+            {connectorsToday.map((item) => <li>{item}</li>)}
           </ul>
+          <p>
+            Mark Your Data Assistant is vendor-agnostic: the cloud, the warehouse, the AI provider and the observability
+            tool are connectors. Mark Your Data adds new connectors one client at a time, as part of a pilot.
+          </p>
+          <h3>Requirement</h3>
+          <p>dbt Core 1.11 with a semantic layer (metrics or saved queries) and the generated dbt artifacts.</p>
         </div>
       </div>
     </div>
@@ -215,14 +226,14 @@ const security = [
           <p>
             A fit check tells you whether Mark Your Data Assistant fits your stack. Mark Your Data interviews the business
             and holds technical talks with the data team about your dbt project and semantic layer, your warehouse, your
-            Google Cloud setup and your Microsoft 365 tenant.
+            cloud setup and your Microsoft 365 tenant.
           </p>
         </div>
         <div class="card">
           <h3>Pilot on your own cloud</h3>
           <p class="price">One quarter, price depends on scope, stack and dbt maturity</p>
           <p>
-            A pilot is a proof of concept that runs for one quarter in your own Google Cloud project. Colleagues ask their
+            A pilot is a proof of concept that runs for one quarter in your own cloud environment. Colleagues ask their
             real questions in Teams from the first day, and the pilot proves two things: that the assistant works on your
             stack, and that it adds value for your team.
           </p>
