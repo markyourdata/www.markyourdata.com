@@ -1,0 +1,27 @@
+---
+interface Props {
+  href: string;
+  client: string;
+  logo: string;
+  title: string;
+  text: string;
+  outcomes?: string[];
+}
+const { href, client, logo, title, text, outcomes = [] } = Astro.props;
+---
+
+<a class="card card-link case-card" href={href}>
+  <img class="case-logo" src={logo} alt={client} loading="lazy" />
+  <h3>{title}</h3>
+  <p>{text}</p>
+  {
+    outcomes.length > 0 && (
+      <ul>
+        {outcomes.map((o) => (
+          <li>{o}</li>
+        ))}
+      </ul>
+    )
+  }
+  <span class="text-link">Read the case</span>
+</a>

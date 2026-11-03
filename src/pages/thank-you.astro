@@ -1,0 +1,30 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+
+const links = [
+  { href: "/conversational-analytics", title: "Conversational analytics", text: "Watch the demo of conversational analytics for dbt teams." },
+  { href: "/services", title: "Explore our services", text: "Strategy, platforms and hands-on execution." },
+  { href: "/cases", title: "View the cases", text: "Real results from real engagements." },
+  { href: "/blog", title: "Read our blog", text: "Insights on data platforms, strategy, and AI." },
+];
+---
+
+<Base title="Thank you" description="Your message to Mark Your Data has been received." noindex>
+  <Hero title="Thank you for reaching out" tagline="Your message has been received. We'll get back to you within 24 hours." />
+
+  <section>
+    <div class="container">
+      <div class="grid">
+        {
+          links.map((l) => (
+            <a class="card card-link" href={l.href}>
+              <h3>{l.title}</h3>
+              <p>{l.text}</p>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Base>

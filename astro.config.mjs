@@ -4,6 +4,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://www.markyourdata.com",
   trailingSlash: "never",
+  compressHTML: false,
   build: { format: "file" },
   integrations: [
     sitemap({

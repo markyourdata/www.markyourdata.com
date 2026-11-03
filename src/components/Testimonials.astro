@@ -1,5 +1,5 @@
 ---
-import { testimonials, type Testimonial } from "../data/site";
+import { testimonials, berendTestimonials, type Testimonial } from "../data/site";
 
 interface Props {
   keys?: string[];
@@ -7,7 +7,7 @@ interface Props {
 }
 const { keys, showAllLink = false } = Astro.props;
 const items: Testimonial[] = keys
-  ? keys.map((key) => testimonials.find((t) => t.key === key)!)
+  ? keys.map((key) => [...testimonials, ...berendTestimonials].find((t) => t.key === key)!)
   : testimonials;
 ---
 

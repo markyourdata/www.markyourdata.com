@@ -1,14 +1,25 @@
 ---
 interface Props {
   photo?: string;
+  heading?: string;
+  text?: string;
+  button?: string;
+  href?: string;
 }
-const { photo = "/assets/photos/webp/photo_26.webp" } = Astro.props;
+const {
+  photo = "/assets/photos/webp/photo_26.webp",
+  heading = "Working with dbt and want to start with conversational analytics?",
+  text,
+  button = "Send me a message",
+  href = "/contact",
+} = Astro.props;
 const style = `background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('${photo}')`;
 ---
 
 <section class="cta" style={style}>
   <div class="container">
-    <h2>Working with dbt and want to start with conversational analytics?</h2>
-    <a class="button" href="/contact">Send me a message</a>
+    <h2>{heading}</h2>
+    {text && <p class="cta-text">{text}</p>}
+    <a class="button" href={href}>{button}</a>
   </div>
 </section>

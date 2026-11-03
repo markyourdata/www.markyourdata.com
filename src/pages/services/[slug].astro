@@ -1,0 +1,59 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Hero from "../../components/Hero.astro";
+import Testimonials from "../../components/Testimonials.astro";
+import Cta from "../../components/Cta.astro";
+
+export async function getStaticPaths() {
+  const services = await getCollection("services");
+  return services.map((service) => ({ params: { slug: service.id }, props: { service } }));
+}
+
+const { service } = Astro.props;
+const { Content } = await render(service);
+const { data } = service;
+
+const quickscanReviews = [
+  "erick-webbe",
+  "Christopher Marcks",
+  "Lisette van de Steeg",
+  "Frank de Gouw",
+  "elmer-hiemstra",
+  "Martin Schijf",
+  "jasper-van-heijst",
+  "Erick Webbe - Berend",
+  "Benjamin van Vianen",
+  "Daan van den Berg",
+  "Richard Norbruis",
+];
+---
+
+<Base title={data.title} description={data.description}>
+  <Hero title={data.heroTitle} tagline={data.tagline} photo={data.photo} />
+
+  <section>
+    <div class="container prose">
+      <Content />
+    </div>
+  </section>
+
+  {
+    service.id === "quickscan" && (
+      <section class="section--gray">
+        <div class="container">
+          <h2>What clients say</h2>
+          <p class="section-intro">Reviews for Mark Schep and Berend Dumas, who run the quickscan together.</p>
+          <Testimonials keys={quickscanReviews} />
+        </div>
+      </section>
+    )
+  }
+
+  <Cta
+    heading={data.cta.heading}
+    text={data.cta.text || undefined}
+    button={data.cta.button}
+    photo="/assets/photos/webp/photo_26.webp"
+  />
+</Base>

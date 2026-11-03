@@ -1,0 +1,29 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Hero from "../../components/Hero.astro";
+import Cta from "../../components/Cta.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const month = post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long" });
+---
+
+<Base title={post.data.title} description={post.data.description}>
+  <Hero eyebrow={post.data.category} title={post.data.title} tagline={`By Mark Schep | ${month}`} />
+
+  <article>
+    <section>
+      <div class="container prose">
+        <Content />
+      </div>
+    </section>
+  </article>
+
+  <Cta heading="Let's talk about your data stack" text="We help you prove value before scaling." button="Get in touch" />
+</Base>

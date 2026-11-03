@@ -22,6 +22,7 @@ export interface Talk {
   venue?: string;
   speakers?: string[];
   description: string;
+  titleLang?: string;
   links?: { label: string; url: string }[];
   relatedProjectSlug?: string;
 }
@@ -102,29 +103,29 @@ export const berendTestimonials: Testimonial[] = [
     "quote": "What I appreciate most about working with Berend is his ability to translate data science into plain language, making complex topics understandable and actionable. He's open to out-of-the-box ideas, making conversations not just smart but also creative and inspiring. In both our projects at bol and Pip Studio, he proved a real accelerator: bringing sharpness and new perspectives to ideas I already had. Together we turned an idea into a scalable AI platform for a client. Honestly, I learn something every time we talk.",
     "author": "Christopher Marcks | Founder",
     "company": "Pip Studio",
-    "image": "assets/images/fans/berend/christopher_marks.avif"
+    "image": "/assets/images/fans/berend/christopher_marks.avif"
   },
   {
     "key": "Frank de Gouw",
     "quote": "Berend knows exactly what he's talking about, and his communication skills are exceptional. He's very good at getting to the core of a problem and conveying it in plain language to stakeholders who often have little background knowledge. Throughout our entire collaboration we had near-daily contact, delivering clear results at great speed. The standout was the Auto Advice Tool — predicting the top 5 car recommendations for individual lease drivers — a result that has stuck with me.",
     "author": "Frank de Gouw | Manager Data & Analytics",
     "company": "Athlon",
-    "image": "assets/images/fans/berend/frank_de_gouw.webp"
+    "image": "/assets/images/fans/berend/frank_de_gouw.webp"
   },
   {
     "key": "Martin Schijf",
     "quote": "Berend is approachable, always open to conversation, and has a strong ability to explain complex choices to non-experts in a clear way. Berend takes others' ideas seriously and incorporates them into his solutions. With management, he presents results in plain language that drives understanding and gets everyone involved. The turning point was when Berend presented the improvements possible with our prediction model — that's when it clicked. What I'm most proud of is bringing the prediction model back to life. It ultimately led to the permanent hire of a Data Scientist who built on the foundation Berend laid, making it a renewed and integral part of the team.",
     "author": "Martin Schijf | Engineering Manager",
     "company": "bol.",
-    "image": "assets/images/fans/berend/martin_schijf.webp"
+    "image": "/assets/images/fans/berend/martin_schijf.webp"
   },
   {
     "key": "Erick Webbe - Berend",
     "quote": "Berend balances strong subject knowledge with the ability to convey it to anyone, adapting his style to his audience while maintaining depth. After several successful projects, our results spoke for themselves and people were lining up to work with us. Together we built a concept and way of working into an internal brand. Structured problem-solving with sustainable results became more the rule than the exception. Something many large corporates are jealous of.",
     "author": "Erick Webbe | Head of Data Science",
     "company": "bol.",
-    "companyLogo": "assets/images/clients/bol.png",
-    "image": "assets/images/fans/berend/erick_webbe.webp"
+    "companyLogo": "/assets/images/clients/bol.png",
+    "image": "/assets/images/fans/berend/erick_webbe.webp"
   }
 ];
 
@@ -211,6 +212,7 @@ export const talks: Talk[] = [
   },
   {
     "key": "ai-today-live-s08e83",
+    "titleLang": "nl",
     "title": "Bezorgprobleem bij bol opgelost zonder AI: waarom de simpelste oplossing vaak wint",
     "type": "podcast",
     "event": "AI Today Live",

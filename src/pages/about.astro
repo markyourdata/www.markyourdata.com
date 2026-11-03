@@ -1,0 +1,99 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import Testimonials from "../components/Testimonials.astro";
+import Cta from "../components/Cta.astro";
+import { site } from "../data/site";
+---
+
+<Base
+  title="About us"
+  description="Mark Your Data is a data & AI consultancy founded in 2021 by Mark Schep and backed by a network of senior specialists. Clients include bol.com, Heineken, Tikkie and Winparts."
+  image="/assets/photos/webp/photo_11.webp"
+>
+  <Hero
+    title="About us"
+    tagline="A data & AI consultancy that proves value before scaling"
+    photo="/assets/photos/webp/photo_13.webp"
+  />
+
+  <section>
+    <div class="container prose">
+      <h2>Our story</h2>
+      <img class="editorial-photo editorial-photo--right" src="/assets/photos/webp/photo_9.webp" alt="Mark Schep in front of a building" loading="lazy" />
+      <p>
+        Mark Your Data was founded in 2021 by Mark Schep. What started as independent consulting has grown into a
+        consultancy backed by a network of senior specialists.
+      </p>
+      <p>We focus on three areas:</p>
+      <h3>Strategy</h3>
+      <p>Figure out where data can drive the most value. We help you identify opportunities and turn them into a concrete plan.</p>
+      <h3>Platforms</h3>
+      <p>Build a modern data foundation without the enterprise price tag. We use open-source tools that save thousands per year.</p>
+      <h3>Solutions</h3>
+      <p>Turn data into business impact. Analytics dashboards or AI applications, we build what you need.</p>
+
+      <h2>Who does the work</h2>
+      <p>
+        Mark leads every engagement. Depending on the project, he works solo or brings in senior freelancers from his
+        network. Each specialist has years of experience and is selected for the specific challenge at hand.
+      </p>
+      <img src="/assets/photos/webp/photo_39.webp" alt="Mark with colleagues in discussion" loading="lazy" />
+      <p><strong>Our network covers:</strong></p>
+      <ul>
+        <li><strong>Data strategy:</strong> roadmaps, opportunity assessments, and aligning data initiatives with business goals.</li>
+        <li><strong>Data engineering:</strong> pipelines, cloud infrastructure, and the technical foundation your team builds on.</li>
+        <li><strong>Analytics & dashboarding:</strong> turning raw data into clear insights your team can act on every day.</li>
+        <li><strong>Data science & AI:</strong> predictive models, machine learning, and AI solutions that create measurable impact.</li>
+      </ul>
+
+      <h2>How we work</h2>
+      <img class="editorial-photo editorial-photo--left" src="/assets/photos/webp/photo_36.webp" alt="Mark Your Data door sign" loading="lazy" />
+      <p>After years of delivering data & AI projects, we've learned what separates success from shelfware: proving value early.</p>
+      <blockquote>"Make it work, make it better, make it scale."</blockquote>
+      <p>
+        This methodology guides every engagement. <strong>Make it work:</strong> get something running fast.
+        <strong>Make it better:</strong> refine based on real feedback. <strong>Make it scale:</strong> roll out what's proven.
+      </p>
+      <p>
+        We'd rather show you a working prototype in weeks than a strategy deck in months. Clients often adopt this
+        approach for their own teams long after we're gone.
+      </p>
+
+      <h2 id="founder">Meet the founder</h2>
+      <img class="editorial-photo editorial-photo--right" src="/assets/photos/webp/photo_11.webp" alt="Mark Schep, founder of Mark Your Data" loading="lazy" />
+      <p>
+        Mark Schep is founder and principal consultant at Mark Your Data, a data & AI consultancy for growing companies.
+        He has delivered dozens of projects in data strategy, data engineering, and AI engineering at companies including
+        bol.com, Heineken, Tikkie, and Winparts.
+      </p>
+      <p>
+        His approach: make it work, make it better, make it scale. He'd rather show you a working proof of concept in weeks
+        than a strategy deck in months.
+      </p>
+      <p>
+        His current focus is <a href="/conversational-analytics">conversational analytics</a>: building systems that let
+        business users explore their data through natural language, without writing a single line of SQL.
+      </p>
+      <p>
+        If you're a business leader who sees the potential of data & AI but needs experienced hands to make it happen,
+        <a href="/contact">get in touch</a>.
+      </p>
+      <p><a href={site.linkedin} rel="noopener" target="_blank">Connect on LinkedIn</a></p>
+    </div>
+  </section>
+
+  <section class="section--gray" id="reviews">
+    <div class="container">
+      <h2>What clients say</h2>
+      <Testimonials />
+    </div>
+  </section>
+
+  <Cta
+    heading="Let's talk about your data"
+    text="Have a challenge in mind? We're happy to discuss how we can help."
+    button="Get in touch"
+    photo="/assets/photos/webp/photo_40.webp"
+  />
+</Base>
