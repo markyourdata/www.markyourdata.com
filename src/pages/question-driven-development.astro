@@ -2,30 +2,101 @@
 import Base from "../layouts/Base.astro";
 import Hero from "../components/Hero.astro";
 import Cta from "../components/Cta.astro";
+
+const steps = [
+  {
+    title: "Begin with the question.",
+    text: "Collect the real questions your team asks.",
+  },
+  {
+    title: "An unverified answer (⚠️) is the failing test.",
+    text: "The question isn't covered by a governed definition in the semantic layer yet.",
+  },
+  {
+    title: "The definition added in dbt makes it pass (✅).",
+    text: "The data team adds a metric or saved query, reviewed like any other code change.",
+  },
+  {
+    title: "The coverage scan is the test run.",
+    text: "The scan asks every question on your list through Mark Your Data Assistant and reports each one as ✅ governed (with the metric used), ⚠️ unverified, ❓ asked back or ⛔ refused. Run the scan before and after a dbt change to see the difference per question.",
+  },
+];
+
+const loop = [
+  "Ask in Teams",
+  "⚠️ Unverified",
+  "👎 with a reason",
+  "Data team adds the definition in dbt",
+  "Publish",
+  "✅ Governed for everyone",
+  "The scan confirms coverage went up",
+];
 ---
 
 <Base
   title="Question-Driven Development"
-  description="Question-Driven Development is how Mark Your Data grows a dbt semantic layer: start with the question, treat an unverified answer as the red test and the definition added in dbt as the fix that turns it green."
+  description="Question-Driven Development treats the questions your colleagues ask as a test suite for your dbt semantic layer: an unverified answer is a failing test, and a metric added in dbt makes it pass."
 >
-  <Hero title="Question-Driven Development" />
+  <Hero
+    title="Question-Driven Development"
+    tagline="Treat your users' questions like a test suite for your semantic layer."
+  />
 
   <section>
     <div class="container container--narrow">
-      <p class="draft-badge">DRAFT</p>
       <p class="definition">
-        Question-Driven Development is how Mark Your Data grows a dbt semantic layer from the questions people actually
-        ask.
+        Question-Driven Development is a way of working for dbt teams in which the questions colleagues actually ask act as
+        the test suite for the semantic layer: an unverified answer is a failing test, and a metric or saved query added in
+        dbt makes it pass.
       </p>
-      <ol>
-        <li>Begin with the question.</li>
-        <li>An unverified answer (⚠️) is the red test.</li>
-        <li>The definition added in dbt turns it green (✅).</li>
-        <li>The coverage scan is the test suite.</li>
+      <ol class="qdd-steps">
+        {
+          steps.map((step) => (
+            <li>
+              <strong>{step.title}</strong> {step.text}
+            </li>
+          ))
+        }
       </ol>
-      <p><a class="text-link" href="/conversational-analytics">See the conversational analytics tool</a></p>
+      <p>The scan ends with a summary such as <code>Governed: 6 of 7 (before: 5 of 7)</code>.</p>
+      <div class="note">
+        <p>
+          ✅ means “answered from your definition”, not “proven correct”. The data team checks correctness separately, with a
+          set of reference questions and expected results that it maintains.
+        </p>
+      </div>
     </div>
   </section>
 
-  <Cta />
+  <section class="section--gray">
+    <div class="container container--narrow">
+      <h2>Where the questions come from</h2>
+      <p>
+        <strong>In a pilot</strong>, Mark Your Data collects around 20 real questions from your colleagues and scans them
+        on day one for a baseline coverage report.
+      </p>
+      <p>
+        <strong>In daily use</strong>, the assistant's log shows every question, whether it was governed, and the 👎 reasons.
+        The data team picks the unverified questions marked “Data is missing or incomplete” as the next definitions to add.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container container--narrow">
+      <h2>The loop</h2>
+      <ol class="loop">
+        {loop.map((step) => <li>{step}</li>)}
+      </ol>
+      <p>
+        The data team chooses the definitions and writes them. Mark Your Data Assistant labels the answers, collects the
+        feedback and measures the coverage.
+      </p>
+      <p><a class="text-link" href="/conversational-analytics">See Mark Your Data Assistant</a></p>
+    </div>
+  </section>
+
+  <Cta
+    text="A pilot of a few days: your questions, each labelled governed or unverified, and a coverage report showing what each gap needs."
+  />
 </Base>
