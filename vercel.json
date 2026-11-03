@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/demo",
+      "destination": "/pages/demo.html"
+    }
+  ],
   "redirects": [
     {
       "source": "/index.html",
