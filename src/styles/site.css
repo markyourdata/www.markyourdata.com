@@ -470,7 +470,7 @@ section {
   list-style: none;
   padding: 0;
   counter-reset: step;
-  align-items: start;
+  grid-auto-rows: 1fr;
 }
 .steps li {
   counter-increment: step;
@@ -653,8 +653,11 @@ section {
 
 /* Cases, posts, talks */
 .case-card .case-logo {
-  height: 32px;
+  height: 40px;
   width: auto;
+  max-width: 160px;
+  object-fit: contain;
+  align-self: flex-start;
   margin-bottom: var(--space-md);
 }
 .case-card ul {
@@ -670,6 +673,8 @@ section {
 .client-intro img {
   max-height: 56px;
   width: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 @media (max-width: 640px) {
   .client-intro {
