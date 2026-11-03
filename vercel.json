@@ -1,17 +1,13 @@
 {
-  "rewrites": [
-    {
-      "source": "/demo",
-      "destination": "/pages/demo.html"
-    }
-  ],
+  "framework": "astro",
+  "cleanUrls": true,
+  "trailingSlash": false,
   "redirects": [
     {
       "source": "/index.html",
       "destination": "/",
       "permanent": true
     },
-
     {
       "source": "/pages/services/strategy-consulting/index.html",
       "destination": "/pages/services/strategy-consulting/",
@@ -27,7 +23,6 @@
       "destination": "/pages/services/conversational-analytics/",
       "permanent": true
     },
-
     {
       "source": "/pages/services/data-leadership/:path*",
       "destination": "/pages/services/strategy-consulting/details/fractional-leadership.html",
@@ -53,7 +48,6 @@
       "destination": "/pages/services/",
       "permanent": true
     },
-
     {
       "source": "/contact/",
       "destination": "/pages/contact.html",

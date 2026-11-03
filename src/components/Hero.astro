@@ -1,0 +1,21 @@
+---
+interface Props {
+  title: string;
+  tagline?: string;
+  eyebrow?: string;
+  photo?: string;
+}
+const { title, tagline, eyebrow, photo } = Astro.props;
+const style = photo
+  ? `background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('${photo}')`
+  : undefined;
+---
+
+<section class="hero" style={style}>
+  <div class="container">
+    {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+    <h1>{title}</h1>
+    {tagline && <p class="tagline">{tagline}</p>}
+    <slot />
+  </div>
+</section>

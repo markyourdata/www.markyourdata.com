@@ -7,3 +7,6 @@ archive
 assets/photos/originals
 
 .bruin.yml
+node_modules
+dist
+.astro

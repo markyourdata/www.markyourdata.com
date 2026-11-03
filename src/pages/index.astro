@@ -1,0 +1,114 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import ClientLogos from "../components/ClientLogos.astro";
+import Testimonials from "../components/Testimonials.astro";
+import Cta from "../components/Cta.astro";
+import { demoVideo, talks } from "../data/site";
+
+const ways = [
+  {
+    href: "/conversational-analytics",
+    title: "Conversational analytics",
+    text: "Voor dbt-teams op BigQuery: de business stelt vragen in Microsoft Teams of Slack, en het datateam ziet welke vragen nog geen vastgelegde definitie in dbt hebben.",
+    link: "Naar de tool",
+  },
+  {
+    href: "/diensten",
+    title: "Diensten",
+    text: "Mark Your Data doet een quickscan van je data- en AI-kansen, bouwt een dataplatform op open-source tools en zet AI engineering op dat platform.",
+    link: "Naar de diensten",
+  },
+  {
+    href: "/cases",
+    title: "Cases",
+    text: "Winparts bouwde met Mark Your Data een data- en AI-platform. Bol maakt met AI content op schaal. De cases laten zien hoe.",
+    link: "Naar de cases",
+  },
+];
+---
+
+<Base
+  title="Conversational analytics voor dbt-teams"
+  description="Mark Your Data bouwt conversational analytics voor dbt-teams en levert data engineering en AI engineering. De business stelt de vragen in Teams, het datateam legt de antwoorden vast in dbt."
+  image={demoVideo.poster}
+>
+  <Hero
+    title="Conversational analytics voor dbt-teams"
+    tagline="De business stelt de vragen in Teams. Het datateam legt de antwoorden vast in dbt."
+    photo="/assets/photos/webp/photo_6.webp"
+  />
+
+  <section>
+    <div class="container video-intro">
+      <a class="video-thumb" href="/conversational-analytics" aria-label="Bekijk de demo van conversational analytics">
+        <img src={demoVideo.poster} alt="Demo van de Mark Your Data Assistant in Microsoft Teams" width="3024" height="1964" />
+      </a>
+      <div>
+        <p>
+          Conversational analytics voor dbt-teams betekent dat medewerkers hun datavragen in Microsoft Teams of Slack
+          stellen, en dat elk antwoord laat zien of het cijfer uit een vastgelegde dbt-definitie komt of nog niet
+          geverifieerd is.
+        </p>
+        <p>
+          Mark Your Data bouwt die koppeling op BigQuery en de dbt semantic layer, in de eigen cloud van het bedrijf en
+          met het eigen AI-contract van het bedrijf.
+        </p>
+        <a class="text-link" href="/conversational-analytics">Bekijk de demo (1:26)</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>Drie manieren om met Mark Your Data te werken</h2>
+      <div class="grid">
+        {
+          ways.map((way) => (
+            <a class="card card-link" href={way.href}>
+              <h3>{way.title}</h3>
+              <p>{way.text}</p>
+              <span class="text-link">{way.link}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Opdrachtgevers</h2>
+      <ClientLogos />
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>Wat opdrachtgevers zeggen</h2>
+      <Testimonials />
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Talks en podcasts</h2>
+      <p class="section-intro">Mark Schep sprak in 2026 op Data Expo, ContentCon Europe en in de podcast AI Today Live.</p>
+      <div class="grid">
+        {
+          talks.slice(0, 3).map((talk) => (
+            <a class="card card-link" href={`/talks#${talk.key}`}>
+              <p class="card-meta">
+                {talk.event} · {talk.date}
+              </p>
+              <h3 lang="en">{talk.title}</h3>
+            </a>
+          ))
+        }
+      </div>
+      <p style="margin-top: var(--space-lg)"><a class="text-link" href="/talks">Alle talks en podcasts</a></p>
+    </div>
+  </section>
+
+  <Cta />
+</Base>

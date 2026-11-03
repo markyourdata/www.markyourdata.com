@@ -1,0 +1,14 @@
+---
+import { site } from "../data/site";
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; {new Date().getFullYear()} {site.name}</p>
+    <ul>
+      <li><a href="/over">Over Mark</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href={site.linkedin} rel="noopener" target="_blank">LinkedIn</a></li>
+    </ul>
+  </div>
+</footer>

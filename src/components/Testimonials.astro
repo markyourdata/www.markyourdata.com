@@ -1,0 +1,32 @@
+---
+import { testimonials as allTestimonials, type Testimonial } from "../data/site";
+
+interface Props {
+  items?: Testimonial[];
+}
+const { items = allTestimonials } = Astro.props;
+---
+
+<div class="testimonials">
+  {
+    items.map((t) => {
+      const [name, role] = t.author.split(" | ");
+      return (
+        <figure class="testimonial" lang="en">
+          <blockquote>
+            <p>{t.quote}</p>
+          </blockquote>
+          <figcaption>
+            {t.image && <img class="person" src={t.image} alt={name} width="56" height="56" loading="lazy" />}
+            <span>
+              <cite>{name}</cite>
+              {role}
+              {t.company && `, ${t.company}`}
+            </span>
+            {t.companyLogo && <img class="company-logo" src={t.companyLogo} alt="" loading="lazy" />}
+          </figcaption>
+        </figure>
+      );
+    })
+  }
+</div>
