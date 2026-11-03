@@ -80,7 +80,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     "key": "Daan van den Berg",
-    "quote": "Mark has proven to be an invaluable asset to the team during our profit steering project. He is highly proactive, quickly mastering the topic and taking full ownership, while also knowing when to ask for help and reach out to other teams to move things forward. He consistently asks the right questions, focusing on understanding the problem rather than jumping to solutions. Combined with his out-of-the-box thinking, this allowed him to uncover approaches and solutions we could think of ourselves. His curiosity, collaboration, and fresh perspective made a lasting impact on both the project and the team.",
+    "quote": "Mark has proven to be an invaluable asset to the team during our profit steering project. He is highly proactive, quickly mastering the topic and taking full ownership, while also knowing when to ask for help and reach out to other teams to move things forward. He consistently asks the right questions, focusing on understanding the problem rather than jumping to solutions. Combined with his out-of-the-box thinking, this allowed him to uncover approaches and solutions we couldn't think of ourselves. His curiosity, collaboration, and fresh perspective made a lasting impact on both the project and the team.",
     "author": "Daan van den Berg | Product Manager",
     "company": "bol.",
     "companyLogo": "/assets/images/clients/bol.png",
@@ -148,6 +148,10 @@ export const clients: Client[] = [
   {
     "name": "Snelstart",
     "logo": "/assets/images/clients/snelstart.png"
+  },
+  {
+    "name": "Intergamma",
+    "logo": "/assets/images/clients/intergamma.png"
   }
 ];
 
