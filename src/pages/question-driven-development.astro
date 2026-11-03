@@ -6,7 +6,7 @@ import Cta from "../components/Cta.astro";
 const steps = [
   {
     title: "Begin with the question.",
-    text: "Collect the real questions your team asks.",
+    text: "The real questions colleagues ask in Teams, not a list written in advance.",
   },
   {
     title: "An unverified answer (⚠️) is the failing test.",
@@ -72,12 +72,13 @@ const loop = [
     <div class="container container--narrow">
       <h2>Where the questions come from</h2>
       <p>
-        <strong>In a pilot</strong>, Mark Your Data collects around 20 real questions from your colleagues and scans them
-        on day one for a baseline coverage report.
+        The questions come from Teams. In a pilot, Mark Your Data Assistant runs on your own cloud and colleagues ask
+        their real questions in Teams from the first day.
       </p>
       <p>
-        <strong>In daily use</strong>, the assistant's log shows every question, whether it was governed, and the 👎 reasons.
-        The data team picks the unverified questions marked “Data is missing or incomplete” as the next definitions to add.
+        The assistant's log shows every question, whether it was governed, and the 👎 reasons. The data team picks the
+        unverified questions marked “Data is missing or incomplete” as the next definitions to add, and runs the coverage
+        scan on the questions colleagues asked to see coverage go up after each dbt change.
       </p>
     </div>
   </section>
@@ -97,6 +98,6 @@ const loop = [
   </section>
 
   <Cta
-    text="A pilot of a few days: your questions, each labelled governed or unverified, and a coverage report showing what each gap needs."
+    text="Start with a quickscan to see whether Mark Your Data Assistant fits your stack, or with a pilot on your own cloud."
   />
 </Base>

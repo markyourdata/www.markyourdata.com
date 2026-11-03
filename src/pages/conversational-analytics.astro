@@ -186,11 +186,7 @@ const security = [
           </ul>
         </div>
         <div>
-          <h2>Set up together in the pilot</h2>
-          <ul>
-            {pilotSetup.map((item) => <li>{item}</li>)}
-          </ul>
-          <h3>Requirements</h3>
+          <h2>Requirements</h2>
           <ul>
             <li>dbt Core 1.11 with a semantic layer (metrics or saved queries) and the generated dbt artifacts</li>
             <li>Google Cloud for hosting, BigQuery as warehouse</li>
@@ -211,11 +207,32 @@ const security = [
 
   <section>
     <div class="container">
-      <div class="note">
-        <p>
-          On Snowflake, Databricks or another chat tool? Let us know: we're building the next integration with a design
-          partner.
-        </p>
+      <h2 id="start">How to start</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Quickscan</h3>
+          <p>
+            Mark Your Data checks whether Mark Your Data Assistant fits your stack: your dbt project and semantic layer, your
+            warehouse, your Google Cloud setup and your Microsoft 365 tenant.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Pilot on your own cloud</h3>
+          <p>
+            Mark Your Data sets up the assistant in your Google Cloud project, and colleagues ask their real questions in
+            Teams from the first day. Setting up together covers:
+          </p>
+          <ul>
+            {pilotSetup.map((item) => <li>{item}</li>)}
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Pilot when the fit isn't exact</h3>
+          <p>
+            A pilot is still possible when your stack isn't a 100% match. On Snowflake, Databricks or another chat tool? Mark
+            Your Data can add a connector as part of the pilot.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -228,7 +245,7 @@ const security = [
   </section>
 
   <Cta
-    text="A pilot of a few days: your questions, each labelled governed or unverified, and a coverage report showing what each gap needs."
+    text="Start with a quickscan to see whether Mark Your Data Assistant fits your stack, or with a pilot on your own cloud."
     photo="/assets/photos/webp/photo_38.webp"
   />
 </Base>
