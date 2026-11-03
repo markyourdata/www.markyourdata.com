@@ -1,0 +1,28 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import DemoVideo from "../components/DemoVideo.astro";
+import Cta from "../components/Cta.astro";
+import { demoVideo } from "../data/site";
+---
+
+<Base
+  title="Demo: conversational analytics for dbt teams"
+  description="The business asks the questions in Teams. The data team captures the answers in dbt."
+  image={demoVideo.poster}
+  noindex
+>
+  <Hero
+    title="Conversational analytics for dbt teams"
+    tagline="The business asks the questions in Teams. The data team captures the answers in dbt."
+    photo="/assets/photos/webp/photo_32.webp"
+  />
+
+  <section>
+    <div class="container">
+      <DemoVideo />
+    </div>
+  </section>
+
+  <Cta photo="/assets/photos/webp/photo_38.webp" />
+</Base>

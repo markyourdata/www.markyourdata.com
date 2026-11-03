@@ -1,10 +1,10 @@
 ---
 const links = [
   { href: "/conversational-analytics", label: "Conversational analytics" },
-  { href: "/diensten", label: "Diensten" },
+  { href: "/services", label: "Services" },
   { href: "/cases", label: "Cases" },
   { href: "/talks", label: "Talks" },
-  { href: "/over", label: "Over" },
+  { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
 const path = Astro.url.pathname.replace(/\.html$/, "");
@@ -12,7 +12,7 @@ const isActive = (href: string) => path === href || path.startsWith(`${href}/`);
 ---
 
 <header class="site-header">
-  <nav class="container nav" aria-label="Hoofdmenu">
+  <nav class="container nav" aria-label="Main">
     <a href="/" class="logo">
       <img src="/assets/images/logo_myd_rond.png" alt="" width="32" height="32" />
       <span>MARK YOUR DATA</span>

@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import Cta from "../components/Cta.astro";
+---
+
+<Base
+  title="Question-Driven Development"
+  description="Question-Driven Development is how Mark Your Data grows a dbt semantic layer: start with the question, treat an unverified answer as the red test and the definition added in dbt as the fix that turns it green."
+>
+  <Hero title="Question-Driven Development" />
+
+  <section>
+    <div class="container container--narrow">
+      <p class="draft-badge">DRAFT</p>
+      <p class="definition">
+        Question-Driven Development is how Mark Your Data grows a dbt semantic layer from the questions people actually
+        ask.
+      </p>
+      <ol>
+        <li>Begin with the question.</li>
+        <li>An unverified answer (⚠️) is the red test.</li>
+        <li>The definition added in dbt turns it green (✅).</li>
+        <li>The coverage scan is the test suite.</li>
+      </ol>
+      <p><a class="text-link" href="/conversational-analytics">See the conversational analytics tool</a></p>
+    </div>
+  </section>
+
+  <Cta />
+</Base>

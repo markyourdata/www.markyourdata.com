@@ -1,0 +1,137 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import DemoVideo from "../components/DemoVideo.astro";
+import Testimonials from "../components/Testimonials.astro";
+import Cta from "../components/Cta.astro";
+import { demoVideo } from "../data/site";
+
+const audiences = [
+  {
+    title: "The business steers",
+    points: [
+      "Ask and follow up in Teams, with the same definitions as your dashboard",
+      "See right away which numbers you can use",
+    ],
+  },
+  {
+    title: "The data team builds what matters",
+    points: ["Real questions become your backlog", "Track usage and improvements easily"],
+  },
+  {
+    title: "Management decides on governed numbers",
+    points: ["Up-to-date numbers from one definition", "See right away when a number isn't governed yet"],
+  },
+];
+
+const features = [
+  "Microsoft Teams and Slack",
+  "BigQuery, read-only",
+  "The dbt semantic layer plus free-form SQL, labelled governed or unverified",
+  "Dutch and English",
+  "Tables, charts and a data status",
+  "Feedback with a reason",
+  "A coverage report",
+];
+---
+
+<Base
+  title="Conversational analytics for dbt teams"
+  description="The Mark Your Data Assistant answers business questions in Microsoft Teams and Slack from the dbt semantic layer on BigQuery, and labels every answer as governed or unverified."
+  image={demoVideo.poster}
+>
+  <Hero
+    title="Conversational analytics for dbt teams"
+    tagline="The business asks the questions in Teams. The data team captures the answers in dbt."
+    photo="/assets/photos/webp/photo_32.webp"
+  />
+
+  <section>
+    <div class="container">
+      <p class="lead">
+        The Mark Your Data Assistant is a conversational analytics tool for dbt teams: it answers business questions in
+        Microsoft Teams and Slack from the dbt semantic layer on BigQuery, and labels every answer as governed or
+        unverified.
+      </p>
+      <DemoVideo />
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li>
+          <h3>Ask it in Teams ✅</h3>
+          <p class="answer-label">✅ Governed: calculated with Revenue from the semantic layer.</p>
+        </li>
+        <li>
+          <h3>Honest when it's not sure ⚠️</h3>
+          <p class="answer-label">
+            ⚠️ Unverified: no definition in the semantic layer covers this question, so the SQL was written for it. Check
+            it before you rely on it.
+          </p>
+        </li>
+        <li>
+          <h3>One click to the data team</h3>
+        </li>
+        <li>
+          <h3>Captured in dbt ✅</h3>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="grid">
+        {
+          audiences.map((group) => (
+            <div class="card">
+              <h3>{group.title}</h3>
+              <ul>
+                {group.points.map((point) => (
+                  <li>{point}</li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+      <p class="more-link">
+        Mark Your Data calls the loop from business question to governed definition in dbt{" "}
+        <a class="text-link" href="/question-driven-development">Question-Driven Development</a>.
+      </p>
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>What works today</h2>
+      <ul class="feature-list">
+        {features.map((feature) => <li>{feature}</li>)}
+      </ul>
+      <p>It runs in your own cloud, with your own AI contract.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="note">
+        <p>
+          On Snowflake, Databricks or another chat tool? Let us know: we're building the next integration with a design
+          partner.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>What clients say</h2>
+      <Testimonials keys={["jasper-van-heijst", "Richard Norbruis", "Daan van den Berg"]} showAllLink />
+    </div>
+  </section>
+
+  <Cta photo="/assets/photos/webp/photo_38.webp" />
+</Base>

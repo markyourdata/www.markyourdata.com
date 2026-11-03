@@ -10,58 +10,58 @@ const ways = [
   {
     href: "/conversational-analytics",
     title: "Conversational analytics",
-    text: "Voor dbt-teams op BigQuery: de business stelt vragen in Microsoft Teams of Slack, en het datateam ziet welke vragen nog geen vastgelegde definitie in dbt hebben.",
-    link: "Naar de tool",
+    text: "For dbt teams on BigQuery: the business asks questions in Microsoft Teams or Slack, and the data team sees which questions don't have a governed definition in dbt yet.",
+    link: "See the tool",
   },
   {
-    href: "/diensten",
-    title: "Diensten",
-    text: "Mark Your Data doet een quickscan van je data- en AI-kansen, bouwt een dataplatform op open-source tools en zet AI engineering op dat platform.",
-    link: "Naar de diensten",
+    href: "/services",
+    title: "Services",
+    text: "Mark Your Data runs quickscans of data and AI opportunities, builds data platforms on open-source tools and adds AI engineering on top of those platforms.",
+    link: "See the services",
   },
   {
     href: "/cases",
     title: "Cases",
-    text: "Winparts bouwde met Mark Your Data een data- en AI-platform. Bol maakt met AI content op schaal. De cases laten zien hoe.",
-    link: "Naar de cases",
+    text: "Winparts built a data and AI platform with Mark Your Data. Bol creates content at scale with AI. The cases show how.",
+    link: "See the cases",
   },
 ];
 ---
 
 <Base
-  title="Conversational analytics voor dbt-teams"
-  description="Mark Your Data bouwt conversational analytics voor dbt-teams en levert data engineering en AI engineering. De business stelt de vragen in Teams, het datateam legt de antwoorden vast in dbt."
+  title="Conversational analytics for dbt teams"
+  description="Mark Your Data builds conversational analytics for dbt teams and delivers data engineering and AI engineering. The business asks the questions in Teams; the data team captures the answers in dbt."
   image={demoVideo.poster}
 >
   <Hero
-    title="Conversational analytics voor dbt-teams"
-    tagline="De business stelt de vragen in Teams. Het datateam legt de antwoorden vast in dbt."
+    title="Conversational analytics for dbt teams"
+    tagline="The business asks the questions in Teams. The data team captures the answers in dbt."
     photo="/assets/photos/webp/photo_6.webp"
   />
 
   <section>
     <div class="container video-intro">
-      <a class="video-thumb" href="/conversational-analytics" aria-label="Bekijk de demo van conversational analytics">
-        <img src={demoVideo.poster} alt="Demo van de Mark Your Data Assistant in Microsoft Teams" width="3024" height="1964" />
+      <a class="video-thumb" href="/conversational-analytics" aria-label="Watch the conversational analytics demo">
+        <img src={demoVideo.poster} alt="Demo of the Mark Your Data Assistant in Microsoft Teams" width="3024" height="1964" />
       </a>
       <div>
         <p>
-          Conversational analytics voor dbt-teams betekent dat medewerkers hun datavragen in Microsoft Teams of Slack
-          stellen, en dat elk antwoord laat zien of het cijfer uit een vastgelegde dbt-definitie komt of nog niet
-          geverifieerd is.
+          Conversational analytics for dbt teams means that employees ask their data questions in Microsoft Teams or
+          Slack, and every answer shows whether the number comes from a governed definition in the dbt semantic layer or
+          is unverified.
         </p>
         <p>
-          Mark Your Data bouwt die koppeling op BigQuery en de dbt semantic layer, in de eigen cloud van het bedrijf en
-          met het eigen AI-contract van het bedrijf.
+          Mark Your Data builds conversational analytics on BigQuery and the dbt semantic layer, running in the client's
+          own cloud under the client's own AI contract.
         </p>
-        <a class="text-link" href="/conversational-analytics">Bekijk de demo (1:26)</a>
+        <a class="text-link" href="/conversational-analytics">Watch the demo (1:26)</a>
       </div>
     </div>
   </section>
 
   <section class="section--gray">
     <div class="container">
-      <h2>Drie manieren om met Mark Your Data te werken</h2>
+      <h2>Three ways to work with Mark Your Data</h2>
       <div class="grid">
         {
           ways.map((way) => (
@@ -78,22 +78,24 @@ const ways = [
 
   <section>
     <div class="container">
-      <h2>Opdrachtgevers</h2>
+      <h2>Clients</h2>
       <ClientLogos />
     </div>
   </section>
 
   <section class="section--gray">
     <div class="container">
-      <h2>Wat opdrachtgevers zeggen</h2>
-      <Testimonials />
+      <h2>What clients say</h2>
+      <Testimonials keys={["erick-webbe", "elmer-hiemstra", "Lisette van de Steeg"]} showAllLink />
     </div>
   </section>
 
   <section>
     <div class="container">
-      <h2>Talks en podcasts</h2>
-      <p class="section-intro">Mark Schep sprak in 2026 op Data Expo, ContentCon Europe en in de podcast AI Today Live.</p>
+      <h2>Talks & podcasts</h2>
+      <p class="section-intro">
+        Mark Schep spoke at Data Expo and ContentCon Europe in 2026, and was a guest on the AI Today Live podcast.
+      </p>
       <div class="grid">
         {
           talks.slice(0, 3).map((talk) => (
@@ -101,12 +103,12 @@ const ways = [
               <p class="card-meta">
                 {talk.event} · {talk.date}
               </p>
-              <h3 lang="en">{talk.title}</h3>
+              <h3>{talk.title}</h3>
             </a>
           ))
         }
       </div>
-      <p style="margin-top: var(--space-lg)"><a class="text-link" href="/talks">Alle talks en podcasts</a></p>
+      <p class="more-link"><a class="text-link" href="/talks">All talks and podcasts</a></p>
     </div>
   </section>
 

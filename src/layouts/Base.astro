@@ -12,7 +12,7 @@ interface Props {
   lang?: string;
 }
 
-const { title, description, image = "/assets/logo.png", noindex = false, lang = "nl" } = Astro.props;
+const { title, description, image = "/assets/logo.png", noindex = false, lang = "en" } = Astro.props;
 
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/index$/, "").replace(/(.)\/$/, "$1") || "/";
 const canonical = new URL(path, site.url).href;
@@ -37,7 +37,7 @@ const jsonLd = {
       "@id": personId,
       name: "Mark Schep",
       jobTitle: "Founder",
-      url: `${site.url}/over`,
+      url: `${site.url}/about`,
       image: `${site.url}/assets/images/team/mark_schep_professional.webp`,
       worksFor: { "@id": organizationId },
       sameAs: [site.linkedin],
@@ -85,7 +85,7 @@ const jsonLd = {
     <script is:inline async src="https://t.contentsquare.net/uxa/fbea3917abc9c.js"></script>
   </head>
   <body>
-    <a href="#main" class="skip-link">Naar de inhoud</a>
+    <a href="#main" class="skip-link">Skip to content</a>
     <Nav />
     <main id="main">
       <slot />
