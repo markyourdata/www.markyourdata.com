@@ -26,7 +26,7 @@ function renderProjects(containerId, options = {}) {
     // Calculate depth: how many folders after 'pages' (excluding the filename)
     // e.g., /pages/services/index.html -> pathParts = ["pages", "services", "index.html"]
     // We want depth = 1 (just "services" folder), so we go up 1 level to reach /pages/, then into projects/
-    const depth = pathParts.length - pagesIndex - 2; // -2 to exclude both 'pages' and the filename
+    const depth = pathParts.length - pagesIndex - (path.endsWith("/") ? 1 : 2); // a trailing slash means there is no filename to exclude
     calculatedBaseUrl = "../".repeat(depth) + "projects/";
   }
 

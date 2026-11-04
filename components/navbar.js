@@ -12,7 +12,7 @@ function createNavbar(activePage = "home") {
   let basePath = ".";
   if (pagesIndex !== -1) {
     // Calculate depth: how many folders after 'pages'
-    const depth = pathParts.length - pagesIndex - 1;
+    const depth = pathParts.length - pagesIndex - (path.endsWith("/") ? 0 : 1);
     basePath = "../".repeat(depth).slice(0, -1) || ".";
   }
 

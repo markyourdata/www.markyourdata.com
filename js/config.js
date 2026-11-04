@@ -64,7 +64,7 @@ const resolvePath = (path) => {
 
   let basePath = '.';
   if (pagesIndex !== -1) {
-    const depth = pathParts.length - pagesIndex - 1;
+    const depth = pathParts.length - pagesIndex - (currentPath.endsWith('/') ? 0 : 1);
     basePath = '../'.repeat(depth).slice(0, -1) || '.';
   }
 

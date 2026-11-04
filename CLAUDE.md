@@ -47,11 +47,15 @@ Vercel (see `vercel.json` for legacy `/index.html`-style redirects).
 Every nested page computes its relative path back to the site root at
 runtime, based on `window.location.pathname` and the position of `pages/` in
 it (see `resolvePath()` in `js/config.js`, and the near-identical calc in
-`components/navbar.js`). The correct number of `../` segments is exactly
-`pathParts.length - pagesIndex - 1` (no `+1`) — this already accounts for the
-current file itself. `js/projects.js`'s own `calculatedBaseUrl` gets this
-right (uses `depth` with no `+1`); config.js and navbar.js briefly didn't
-(fixed 2026-09).
+`components/navbar.js`, and `calculatedBaseUrl` in `js/projects.js`). The
+number of `../` segments depends on whether the URL ends in a filename or a
+slash: `/pages/services/index.html` needs 2, but `/pages/services/` (how
+Vercel serves it, since `vercel.json` redirects `index.html` URLs to the
+trailing-slash form) needs 2 as well — with one fewer path part. So the code
+subtracts 1 for the filename only when the path doesn't end in `/`. Dropping
+that check (2026-11, commit `982a8f4`) broke every trailing-slash page on the
+live site: images 404'd at `/pages/assets/...` and the logo linked to
+`/pages/index.html`.
 
 **Why this is easy to get wrong without noticing:** an extra `../` beyond the
 site root is silently absorbed by standard URL dot-segment resolution once
@@ -63,8 +67,9 @@ and on Vercel. It only breaks when someone opens a page directly via a
 disk and assets 404. If a asset/logo/link works on the homepage but not on
 inner pages *locally*, this is the first place to look — and don't assume
 "it'll be fine on deploy" without checking, since sometimes it won't be
-(anything that isn't absorbed by root-clamping, e.g. off-by-*two*, would
-break in both places).
+(a `basePath` that's too *shallow* is never absorbed, and breaks in both
+places). When you change this, test both `/pages/services/` and
+`/pages/services/index.html` over HTTP, plus one page via `file://`.
 
 ## Local preview & verification
 
