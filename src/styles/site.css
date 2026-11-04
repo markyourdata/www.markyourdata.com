@@ -460,7 +460,6 @@ section {
 /* Tool page */
 .lead {
   font-size: 1.15rem;
-  max-width: 760px;
   margin-bottom: var(--space-xl);
 }
 .steps {
