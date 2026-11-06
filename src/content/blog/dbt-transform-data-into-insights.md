@@ -144,6 +144,6 @@ The result? Your analysts spend time finding insights, not fighting with data.
 ### Related resources
 
 -   [Why we use DLT instead of Fivetran](/blog/why-dlt-beats-fivetran)
--   [Data engineering service](/services/data-engineering)
+-   [Data platforms service](/services/data-engineering)
 -   [Visit DBT Official Website](https://www.getdbt.com/)
 -   [DBT Official Blog](https://www.getdbt.com/blog)

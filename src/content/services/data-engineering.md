@@ -1,10 +1,10 @@
 ---
-title: "Data engineering"
-heroTitle: "Data engineering"
+title: "Data platforms"
+heroTitle: "Data platforms"
 tagline: "Data and AI platforms on the cloud you choose, built on open source where it does the job."
 description: "Mark Your Data builds data and AI platforms on open-source tools such as dlt and dbt, designed for Google Cloud, AWS and Azure, and ready for AI."
 photo: "/assets/photos/webp/photo_30.webp"
-order: 2
+order: 1
 card: "Data and AI platforms on open-source tools, on Google Cloud, AWS or Azure."
 cta:
   heading: "Want a data platform that you own and can move?"

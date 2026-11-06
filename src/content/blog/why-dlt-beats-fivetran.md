@@ -44,5 +44,5 @@ DLT gets data into your warehouse. [DBT transforms that raw data into insights](
 ### Related resources
 
 -   [DBT: the transformation layer](/blog/dbt-transform-data-into-insights)
--   [Data engineering service](/services/data-engineering)
+-   [Data platforms service](/services/data-engineering)
 -   [Visit DLT Official Website](https://dlthub.com/)

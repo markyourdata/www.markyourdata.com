@@ -4,7 +4,7 @@ heroTitle: "AI engineering at scale"
 tagline: "Generating one good text with AI is easy. Generating a million is the work."
 description: "Mark Your Data builds AI systems that stay correct and on brand at scale, like the system that creates, validates and publishes content at bol."
 photo: "/assets/photos/webp/photo_31.webp"
-order: 3
+order: 2
 card: "AI that stays correct and on brand at a million outputs, not just at one."
 cta:
   heading: "Generating at scale, and want to stay in control?"
