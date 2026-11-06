@@ -142,7 +142,7 @@ export const hubs: Hub[] = [
       {
         "role": "Manager",
         "question": "Do our users need a Microsoft Copilot licence for the assistant?",
-        "answer": "No. Mark Your Data Assistant runs in Microsoft Teams as a custom engine agent, and Microsoft's licensing guidance requires no additional Copilot licence for that type of agent. The assistant uses your own AI subscriptions rather than Copilot. A Microsoft 365 admin approves the app for your organisation."
+        "answer": "No. Mark Your Data Assistant runs in Microsoft Teams as a custom engine agent, and Microsoft's licensing guidance requires no additional Copilot licence for that type of agent. The assistant uses the AI providers you choose rather than Copilot. A Microsoft 365 admin approves the app for your organisation."
       },
       {
         "role": "Business user",
@@ -363,7 +363,7 @@ export const hubs: Hub[] = [
       {
         "role": "Manager",
         "question": "What does Mark Your Data receive from our installation?",
-        "answer": "Mark Your Data collects monthly usage totals from your installation, such as active users, questions and tokens, to support your installation and keep improving the product. These totals contain no query results, question text, SQL, answers or user IDs. Anything more sensitive is collected only if you explicitly want that, and is pseudonymised."
+        "answer": "Mark Your Data will collect monthly usage totals from your installation, such as active users, questions and tokens, to support your installation and keep improving the product. These totals contain no query results, question text, SQL, answers or user IDs. Anything more sensitive will be collected only if you explicitly want that, and pseudonymised."
       },
       {
         "role": "Manager",

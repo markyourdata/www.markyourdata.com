@@ -4,6 +4,26 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/pages/blogs/motherduck-the-future-of-cost-efficient-analytics(\\.html)?",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/motherduck-the-future-of-cost-efficient-analytics",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/pages/blogs/save-100k-with-mark-your-data-platform(\\.html)?",
+      "destination": "/blog/first-data-hire-engineer-then-analyst",
+      "permanent": true
+    },
+    {
+      "source": "/blog/save-100k-with-mark-your-data-platform",
+      "destination": "/blog/first-data-hire-engineer-then-analyst",
+      "permanent": true
+    },
+    {
       "source": "/index.html",
       "destination": "/",
       "permanent": true
