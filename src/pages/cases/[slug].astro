@@ -1,0 +1,61 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Hero from "../../components/Hero.astro";
+import Testimonials from "../../components/Testimonials.astro";
+import Cta from "../../components/Cta.astro";
+
+export async function getStaticPaths() {
+  const cases = await getCollection("cases");
+  return cases.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { data } = entry;
+const reviews: Record<string, string[]> = { bol: ["Benjamin van Vianen", "Richard Norbruis"] };
+---
+
+<Base title={data.title} description={data.description}>
+  <Hero title={data.title} tagline={data.tagline} photo={data.photo} />
+
+  <section class="section--gray">
+    <div class="container client-intro">
+      <img src={data.logo} alt={data.client} />
+      <div>
+        <span class="tag">{data.tag}</span>
+        <p>{data.intro}</p>
+        <ul>
+          {data.outcomes.map((o) => <li>{o}</li>)}
+        </ul>
+        <ul class="tech-tags">
+          {data.tech.map((t) => <li>{t}</li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container prose">
+      <Content />
+    </div>
+  </section>
+
+  {
+    reviews[entry.id] && (
+      <section class="section--gray">
+        <div class="container">
+          <h2>What the team says</h2>
+          <Testimonials keys={reviews[entry.id]} showAllLink />
+        </div>
+      </section>
+    )
+  }
+
+  <Cta
+    heading="Let's talk about your data foundation"
+    text="We help you prove value before scaling."
+    button="Get in touch"
+    photo="/assets/photos/webp/photo_38.webp"
+  />
+</Base>

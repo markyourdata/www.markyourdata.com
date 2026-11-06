@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Hero from "../../components/Hero.astro";
+import CaseCard from "../../components/CaseCard.astro";
+import ClientLogos from "../../components/ClientLogos.astro";
+import Cta from "../../components/Cta.astro";
+
+const cases = (await getCollection("cases")).sort((a, b) => a.id.localeCompare(b.id)).reverse();
+---
+
+<Base
+  title="Cases"
+  description="How Winparts and bol work with Mark Your Data: a GCP data and AI platform at Winparts, and AI content generation at scale plus four other data and AI projects at bol."
+>
+  <Hero
+    title="Cases"
+    tagline="Clients come to us with questions that feel too big to answer. These are the stories of where we started."
+    photo="/assets/photos/webp/photo_37.webp"
+  />
+
+  <section>
+    <div class="container">
+      <p class="section-intro">
+        Every client had a real problem and a genuine ambition. We helped them take the first step, then the next, until
+        the work was theirs to own.
+      </p>
+      <div class="grid">
+        {
+          cases.map((c) => (
+            <CaseCard
+              href={`/cases/${c.id}`}
+              client={c.data.client}
+              logo={c.data.logo}
+              title={c.data.title}
+              text={c.data.intro}
+              outcomes={c.data.outcomes}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>Clients</h2>
+      <ClientLogos />
+    </div>
+  </section>
+
+  <Cta heading="Have a big question? Let's find your first step." text="We help you prove value before scaling." button="Get in touch" photo="/assets/photos/webp/photo_38.webp" />
+</Base>

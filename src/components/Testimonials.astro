@@ -1,0 +1,45 @@
+---
+import { testimonials, berendTestimonials, type Testimonial } from "../data/site";
+
+interface Props {
+  keys?: string[];
+  showAllLink?: boolean;
+}
+const { keys, showAllLink = false } = Astro.props;
+const items: Testimonial[] = keys
+  ? keys.map((key) => [...testimonials, ...berendTestimonials].find((t) => t.key === key)!)
+  : testimonials;
+---
+
+<div class="testimonials">
+  {
+    items.map((t) => {
+      const [name, role] = t.author.split(" | ");
+      return (
+        <figure class="testimonial">
+          <blockquote>
+            <p>{t.quote}</p>
+          </blockquote>
+          <figcaption>
+            {t.image && <img class="person" src={t.image} alt={name} width="56" height="56" loading="lazy" />}
+            <span>
+              <cite>{name}</cite>
+              {role}
+              {t.company && `, ${t.company}`}
+            </span>
+            {t.companyLogo && <img class="company-logo" src={t.companyLogo} alt="" loading="lazy" />}
+          </figcaption>
+        </figure>
+      );
+    })
+  }
+</div>
+{
+  showAllLink && (
+    <p class="more-link">
+      <a class="text-link" href="/about#reviews">
+        All {testimonials.length} reviews
+      </a>
+    </p>
+  )
+}

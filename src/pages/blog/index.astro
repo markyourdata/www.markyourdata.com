@@ -1,0 +1,51 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Hero from "../../components/Hero.astro";
+import Cta from "../../components/Cta.astro";
+
+const posts = (await getCollection("blog")).sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const groups = [
+  {
+    title: "For your team",
+    intro: "For business leaders thinking about team structure and build vs buy decisions. No code required.",
+  },
+  {
+    title: "In our stack",
+    intro: "Tools we actually use, tried in production, honest about the tradeoffs. Open source first.",
+  },
+];
+const fmt = (d: Date) => d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+---
+
+<Base
+  title="Blog"
+  description="Mark Your Data writes about the open-source tools in its data stack (DLT and DBT) and about data team decisions such as who to hire first."
+>
+  <Hero title="Blog" tagline="We write about tools we use and decisions worth thinking through." photo="/assets/photos/webp/photo_33.webp" />
+
+  {
+    groups.map((group, i) => (
+      <section class={i % 2 ? "section--gray" : undefined}>
+        <div class="container">
+          <h2>{group.title}</h2>
+          <p class="section-intro">{group.intro}</p>
+          <div class="grid">
+            {posts
+              .filter((p) => p.data.category === group.title)
+              .map((post) => (
+                <a class="card card-link" href={`/blog/${post.id}`}>
+                  <p class="card-meta">{fmt(post.data.date)} · Mark Schep</p>
+                  <h3>{post.data.title}</h3>
+                  <p>{post.data.description}</p>
+                  <span class="text-link">Read the article</span>
+                </a>
+              ))}
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <Cta heading="Let's talk about your data stack" text="We help you prove value before scaling." button="Get in touch" />
+</Base>

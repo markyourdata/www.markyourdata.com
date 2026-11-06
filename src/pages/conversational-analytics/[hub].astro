@@ -1,0 +1,85 @@
+---
+import Base from "../../layouts/Base.astro";
+import Hero from "../../components/Hero.astro";
+import Cta from "../../components/Cta.astro";
+import { hubs, lastReviewed, type Hub } from "../../data/hubs";
+
+export function getStaticPaths() {
+  return hubs.map((hub) => ({ params: { hub: hub.slug }, props: { hub } }));
+}
+
+const { hub } = Astro.props as { hub: Hub };
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: hub.qa.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: { "@type": "Answer", text: item.answer },
+  })),
+};
+---
+
+<Base title={hub.title} description={hub.description} jsonLd={faqJsonLd}>
+  <Hero eyebrow="Conversational analytics" title={hub.title} />
+
+  <section>
+    <div class="container container--narrow">
+      <p class="lead">{hub.summary}</p>
+
+      <h2>How it works out of the box</h2>
+      {
+        hub.how.map((item) => (
+          <p>
+            <strong>{item.lead}</strong> {item.text}
+          </p>
+        ))
+      }
+
+      <h2>What it means for you</h2>
+      <ul>
+        {
+          hub.roles.map((item) => (
+            <li>
+              <strong>{item.role}:</strong> {item.text}
+            </li>
+          ))
+        }
+      </ul>
+      {
+        hub.link && (
+          <p>
+            {hub.link.text}{" "}
+            <a class="text-link" href={hub.link.href}>{hub.link.label}</a>.
+          </p>
+        )
+      }
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container container--narrow">
+      <h2>Questions and answers</h2>
+      <div class="faq">
+        {
+          hub.qa.map((item) => (
+            <details>
+              <summary>{item.question}</summary>
+              <p class="card-meta">{item.role}</p>
+              <p>{item.answer}</p>
+            </details>
+          ))
+        }
+      </div>
+      <p class="more-link">
+        <a class="text-link" href="/demo">See the demo</a> or
+        <a class="text-link" href="/conversational-analytics">read how Mark Your Data Assistant works</a>.
+      </p>
+      <p><a class="text-link" href="/conversational-analytics/cost">What conversational analytics costs</a></p>
+      <p class="card-meta">Last reviewed: {lastReviewed}</p>
+    </div>
+  </section>
+
+  <Cta />
+</Base>

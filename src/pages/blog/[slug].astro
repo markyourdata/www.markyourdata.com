@@ -1,0 +1,40 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Hero from "../../components/Hero.astro";
+import Cta from "../../components/Cta.astro";
+import { site } from "../../data/site";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const month = post.data.date.toLocaleDateString("en-US", { year: "numeric", month: "long" });
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.date.toISOString().slice(0, 10),
+  author: { "@id": `${site.url}/#mark-schep` },
+  publisher: { "@id": `${site.url}/#organization` },
+  url: `${site.url}/blog/${post.id}`,
+};
+---
+
+<Base title={post.data.title} description={post.data.description} jsonLd={articleJsonLd}>
+  <Hero eyebrow={post.data.category} title={post.data.title} tagline={`By Mark Schep | ${month}`} />
+
+  <article>
+    <section>
+      <div class="container prose">
+        <Content />
+      </div>
+    </section>
+  </article>
+
+  <Cta heading="Let's talk about your data stack" text="We help you prove value before scaling." button="Get in touch" />
+</Base>

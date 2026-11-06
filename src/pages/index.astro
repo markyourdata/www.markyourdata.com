@@ -1,0 +1,116 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import ClientLogos from "../components/ClientLogos.astro";
+import Testimonials from "../components/Testimonials.astro";
+import Cta from "../components/Cta.astro";
+import { demoVideo, talks } from "../data/site";
+
+const ways = [
+  {
+    href: "/conversational-analytics",
+    title: "Conversational analytics",
+    text: "For dbt teams: the business asks questions in Microsoft Teams, and every answer says whether it comes from a governed definition in dbt.",
+    link: "See the tool",
+  },
+  {
+    href: "/services/data-engineering",
+    title: "Data platforms",
+    text: "A data and AI platform on open-source tools, on the cloud you choose, that you can extend with conversational analytics.",
+    link: "See data platforms",
+  },
+  {
+    href: "/services/strategy",
+    title: "Data & AI strategy",
+    text: "An outside view on your goals: where a data platform, conversational analytics or content creation at scale can help, and how to start.",
+    link: "See strategy",
+  },
+];
+---
+
+<Base
+  title="Conversational analytics for dbt teams"
+  description="Mark Your Data builds conversational analytics for dbt teams and delivers data platforms and AI engineering. The business asks the questions in Teams; the data team captures the answers in dbt."
+  image={demoVideo.shareImage}
+>
+  <Hero
+    title="Conversational analytics for dbt teams"
+    tagline="The business asks the questions in Teams. The data team captures the answers in dbt."
+    photo="/assets/photos/webp/photo_6.webp"
+  />
+
+  <section>
+    <div class="container video-intro">
+      <a class="video-thumb" href="/conversational-analytics" aria-label="Watch the conversational analytics demo">
+        <img src={demoVideo.poster} alt="Demo of the Mark Your Data Assistant in Microsoft Teams" width="3024" height="1964" />
+      </a>
+      <div>
+        <p>
+          Conversational analytics for dbt teams means that colleagues ask their data questions in Microsoft Teams, and
+          every answer shows whether the number comes from a governed definition in the dbt semantic layer or is
+          unverified.
+        </p>
+        <p>
+          Mark Your Data Assistant works on the dbt semantic layer and runs in the client's own cloud. Clients configure it
+          with the AI providers they choose and contract directly.
+        </p>
+        <a class="text-link" href="/conversational-analytics">Watch the demo (1:26)</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>Three ways to work with Mark Your Data</h2>
+      <div class="grid">
+        {
+          ways.map((way) => (
+            <a class="card card-link" href={way.href}>
+              <h3>{way.title}</h3>
+              <p>{way.text}</p>
+              <span class="text-link">{way.link}</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Clients</h2>
+      <ClientLogos />
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>What clients say</h2>
+      <Testimonials keys={["erick-webbe", "elmer-hiemstra", "Lisette van de Steeg"]} showAllLink />
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Talks & podcasts</h2>
+      <p class="section-intro">
+        Mark Schep spoke at Data Expo and ContentCon Europe in 2026, and was a guest on the AI Today Live podcast.
+      </p>
+      <div class="grid">
+        {
+          talks.slice(0, 3).map((talk) => (
+            <a class="card card-link" href={`/talks#${talk.key}`}>
+              <p class="card-meta">
+                {talk.event} · {talk.date}
+              </p>
+              <h3>{talk.title}</h3>
+            </a>
+          ))
+        }
+      </div>
+      <p class="more-link"><a class="text-link" href="/talks">All talks and podcasts</a></p>
+    </div>
+  </section>
+
+  <Cta />
+</Base>

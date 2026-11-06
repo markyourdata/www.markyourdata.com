@@ -1,0 +1,13 @@
+---
+import { clients } from "../data/site";
+---
+
+<ul class="logo-strip">
+  {
+    clients.map((client) => (
+      <li>
+        <img src={client.logo} alt={client.name} loading="lazy" />
+      </li>
+    ))
+  }
+</ul>

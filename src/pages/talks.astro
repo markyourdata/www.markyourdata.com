@@ -1,0 +1,34 @@
+---
+import Base from "../layouts/Base.astro";
+import Hero from "../components/Hero.astro";
+import TalkList from "../components/TalkList.astro";
+import Cta from "../components/Cta.astro";
+---
+
+<Base
+  title="Talks & podcasts"
+  description="Talks and podcast appearances by Mark Schep of Mark Your Data, including Data Expo 2026, ContentCon Europe and AI Today Live, each with its full original description."
+>
+  <Hero
+    title="Talks & podcasts"
+    tagline="Where we've shared how we think about data & AI, kept here in full in case a link disappears."
+    photo="/assets/photos/webp/photo_38.webp"
+  />
+
+  <section>
+    <div class="container">
+      <p class="section-intro">
+        A running record of talks, panels, and podcast appearances. Each entry keeps the original description so the story
+        stays even if the source page doesn't.
+      </p>
+      <TalkList />
+    </div>
+  </section>
+
+  <Cta
+    heading="Want to talk data & AI?"
+    text="Looking for a speaker, a podcast guest, or just want to compare notes? Get in touch."
+    button="Get in touch"
+    photo="/assets/photos/webp/photo_17.webp"
+  />
+</Base>
