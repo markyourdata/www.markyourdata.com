@@ -10,3 +10,6 @@ assets/photos/originals
 node_modules
 dist
 .astro
+
+# Internal strategy notes, kept out of this public repository
+docs/strategy/
