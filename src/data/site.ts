@@ -35,7 +35,8 @@ export const site = {
 
 export const demoVideo = {
   src: "/assets/video/mark-your-data-demo.mp4",
-  poster: "/assets/video/mark-your-data-demo.jpg",
+  poster: "/assets/video/mark-your-data-demo.webp",
+  shareImage: "/assets/video/mark-your-data-demo.jpg",
 };
 
 export const testimonials: Testimonial[] = [
@@ -45,7 +46,7 @@ export const testimonials: Testimonial[] = [
     "author": "Erick Webbe | CEO",
     "company": "KickstartAI",
     "companyLogo": "/assets/images/clients/kickstartai.png",
-    "image": "/assets/images/fans/erick_webbe.png"
+    "image": "/assets/images/fans/erick_webbe.webp"
   },
   {
     "key": "Lisette van de Steeg",
@@ -53,7 +54,7 @@ export const testimonials: Testimonial[] = [
     "author": "Lisette van de Steeg | Analytics Lead",
     "company": "Tikkie",
     "companyLogo": "/assets/images/clients/tikkie.png",
-    "image": "/assets/images/fans/lisette_van_de_steeg.png"
+    "image": "/assets/images/fans/lisette_van_de_steeg.webp"
   },
   {
     "key": "elmer-hiemstra",
@@ -61,7 +62,7 @@ export const testimonials: Testimonial[] = [
     "author": "Elmer Hiemstra | Head of Product Partner Acquisition, Management & Enablement",
     "company": "bol.",
     "companyLogo": "/assets/images/clients/bol.png",
-    "image": "/assets/images/fans/elmer_hiemstra.png"
+    "image": "/assets/images/fans/elmer_hiemstra.webp"
   },
   {
     "key": "jasper-van-heijst",
@@ -69,7 +70,7 @@ export const testimonials: Testimonial[] = [
     "author": "Jasper van Heijst | Group Product Manager",
     "company": "bol.",
     "companyLogo": "/assets/images/clients/bol.png",
-    "image": "/assets/images/fans/jasper_van_heijst.png"
+    "image": "/assets/images/fans/jasper_van_heijst.webp"
   },
   {
     "key": "Benjamin van Vianen",
@@ -77,7 +78,7 @@ export const testimonials: Testimonial[] = [
     "author": "Benjamin van Vianen | Manager Scaled Content",
     "company": "bol.",
     "companyLogo": "/assets/images/clients/bol.png",
-    "image": "/assets/images/fans/benjamin_van_vianen.png"
+    "image": "/assets/images/fans/benjamin_van_vianen.webp"
   },
   {
     "key": "Daan van den Berg",
@@ -85,7 +86,7 @@ export const testimonials: Testimonial[] = [
     "author": "Daan van den Berg | Product Manager",
     "company": "bol.",
     "companyLogo": "/assets/images/clients/bol.png",
-    "image": "/assets/images/fans/daan_van_den_berg.png"
+    "image": "/assets/images/fans/daan_van_den_berg.webp"
   },
   {
     "key": "Richard Norbruis",
@@ -93,7 +94,7 @@ export const testimonials: Testimonial[] = [
     "author": "Richard Norbruis | Freelance Web Analyst & Experimentation/CRO Specialist",
     "company": "bol.",
     "companyLogo": "/assets/images/clients/bol.png",
-    "image": "/assets/images/fans/richard_norbruis.png"
+    "image": "/assets/images/fans/richard_norbruis.webp"
   }
 ];
 
