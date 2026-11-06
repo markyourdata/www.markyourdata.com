@@ -5,7 +5,7 @@ import DemoVideo from "../components/DemoVideo.astro";
 import Testimonials from "../components/Testimonials.astro";
 import Cta from "../components/Cta.astro";
 import { demoVideo } from "../data/site";
-import { hubs } from "../data/hubs";
+import { hubs, costHub } from "../data/hubs";
 
 const columns = [
   {
@@ -379,7 +379,7 @@ const security = [
       <h2>Questions dbt teams ask</h2>
       <div class="grid">
         {
-          hubs.map((hub) => (
+          [...hubs, costHub].map((hub) => (
             <a class="card card-link" href={`/conversational-analytics/${hub.slug}`}>
               <h3>{hub.title}</h3>
               <p>{hub.card}</p>

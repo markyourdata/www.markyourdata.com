@@ -435,3 +435,49 @@ export const hubs: Hub[] = [
     ]
   }
 ];
+
+export const costHub: Hub = {
+  "slug": "cost",
+  "title": "What conversational analytics costs",
+  "card": "What drives the cost, and how to build your business case with your own numbers.",
+  "description": "What drives the cost of conversational analytics: hosting, model usage, warehouse usage, the licence and your team's time, and how to build the business case with your own numbers.",
+  "summary": "Most of the running cost of conversational analytics sits in things a dbt team already pays for: the warehouse and an AI subscription. The real cost is people: who defines the metrics and who acts on the gaps, and Mark Your Data closes that loop to your data team.",
+  "how": [],
+  "roles": [
+    {
+      "role": "Manager",
+      "text": "You can build the case with your own numbers, and compare the options on total cost."
+    },
+    {
+      "role": "Analytics engineer",
+      "text": "You can see tokens and cost per request in the log, and cap the data a query scans."
+    }
+  ],
+  "qa": [
+    {
+      "role": "Manager",
+      "question": "How much does conversational analytics cost?",
+      "answer": "Conversational analytics costs hosting, model usage, warehouse usage, a licence and your team's time. For Mark Your Data Assistant, the licence is setup plus a yearly service, per organisation, priced after the POC. Hosting and warehouse usage run on your own cloud accounts. The real cost is people: who defines the metrics and who acts on the gaps."
+    },
+    {
+      "role": "Analytics engineer",
+      "question": "What does one question cost in AI and warehouse usage?",
+      "answer": "With Gemini, model usage for Mark Your Data Assistant is under one cent per question on average, measured across our demo runs on sample data, because a fixed pipeline has no agent loop and the model picks an existing metric instead of writing SQL. It depends on the provider, models and task complexity. Warehouse cost depends on data scanned."
+    },
+    {
+      "role": "Analytics engineer",
+      "question": "How much engineering time does it take to start and to keep up?",
+      "answer": "Mark Your Data Assistant can start with one metric or saved query, and the time after that depends on how fast your team closes gaps. The log shows which gaps users hit and why, and each fix is one dbt pull request, so you fix what users actually hit, once. The first pilot will measure the hours."
+    },
+    {
+      "role": "Manager",
+      "question": "How do we build the business case for conversational analytics?",
+      "answer": "Start with the time your team spends on ad-hoc questions: questions per week × minutes per answer × hourly cost, using your own inputs. Then compare building it yourself, a platform assistant and Mark Your Data Assistant on total cost, including who does the loop and how portable your definitions are."
+    },
+    {
+      "role": "Manager",
+      "question": "Isn't a platform assistant like Genie or Copilot cheaper?",
+      "answer": "Often cheaper to start, yes. Genie One and Genie Agents are free for users through 31 January 2027, and Copilot in Power BI needs paid capacity. So ask what a question costs once billing starts, and how you keep control of gaps and spend. Mark Your Data Assistant logs cost per request and closes the loop to your data team."
+    }
+  ]
+};

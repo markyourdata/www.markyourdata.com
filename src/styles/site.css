@@ -715,6 +715,34 @@ section {
   padding: var(--space-xs);
   text-align: left;
 }
+@media (max-width: 640px) {
+  .stack-table thead {
+    display: none;
+  }
+  .stack-table,
+  .stack-table tbody,
+  .stack-table tr,
+  .stack-table th,
+  .stack-table td {
+    display: block;
+    width: 100%;
+  }
+  .stack-table tr {
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid #e3e3e3;
+  }
+  .stack-table th,
+  .stack-table td {
+    border: 0;
+    padding: var(--space-xs) 0;
+  }
+  .stack-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: 700;
+    font-size: 0.875rem;
+  }
+}
 .faq details {
   background: var(--white);
   border-radius: var(--radius);
