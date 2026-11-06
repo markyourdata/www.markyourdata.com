@@ -4,8 +4,13 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/pages/blogs/motherduck-the-future-of-cost-efficient-analytics(\\.html)?",
-      "destination": "/blog",
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
       "permanent": true
     },
     {
@@ -14,93 +19,248 @@
       "permanent": true
     },
     {
-      "source": "/pages/blogs/save-100k-with-mark-your-data-platform(\\.html)?",
-      "destination": "/blog/first-data-hire-engineer-then-analyst",
-      "permanent": true
-    },
-    {
       "source": "/blog/save-100k-with-mark-your-data-platform",
       "destination": "/blog/first-data-hire-engineer-then-analyst",
       "permanent": true
     },
     {
-      "source": "/index.html",
-      "destination": "/",
+      "source": "/pages/about(\\.html|/index\\.html|/)?",
+      "destination": "/about",
       "permanent": true
     },
     {
-      "source": "/pages/services/strategy-consulting/index.html",
-      "destination": "/pages/services/strategy-consulting/",
+      "source": "/pages/blogs(\\.html|/index\\.html|/)?",
+      "destination": "/blog",
       "permanent": true
     },
     {
-      "source": "/pages/services/platform/index.html",
-      "destination": "/pages/services/platform/",
+      "source": "/pages/blogs/dbt-transform-data-into-insights(\\.html|/index\\.html|/)?",
+      "destination": "/blog/dbt-transform-data-into-insights",
       "permanent": true
     },
     {
-      "source": "/pages/services/conversational-analytics/index.html",
-      "destination": "/pages/services/conversational-analytics/",
+      "source": "/pages/blogs/motherduck-the-future-of-cost-efficient-analytics(\\.html|/index\\.html|/)?",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/pages/blogs/save-100k-with-mark-your-data-platform(\\.html|/index\\.html|/)?",
+      "destination": "/blog/first-data-hire-engineer-then-analyst",
+      "permanent": true
+    },
+    {
+      "source": "/pages/blogs/why-dlt-beats-fivetran(\\.html|/index\\.html|/)?",
+      "destination": "/blog/why-dlt-beats-fivetran",
+      "permanent": true
+    },
+    {
+      "source": "/pages/contact(\\.html|/index\\.html|/)?",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects(\\.html|/index\\.html|/)?",
+      "destination": "/cases",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/bol-content-generation-at-scale(\\.html|/index\\.html|/)?",
+      "destination": "/cases/bol",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/bol-display-banner-automation(\\.html|/index\\.html|/)?",
+      "destination": "/cases/bol#automated-display-banner-generation",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/bol-genai-handover(\\.html|/index\\.html|/)?",
+      "destination": "/cases/bol#improving-handover-from-chatbot-to-customer-support",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/bol-google-ads-optimization(\\.html|/index\\.html|/)?",
+      "destination": "/cases/bol#google-ads-profit-optimization",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/bol-reduce-preventable-customer-service-cases(\\.html|/index\\.html|/)?",
+      "destination": "/cases/bol#reducing-preventable-customer-service-cases",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/conversational-analytics-demo(\\.html|/index\\.html|/)?",
+      "destination": "/conversational-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/tikkie-opportunity-finding(\\.html|/index\\.html|/)?",
+      "destination": "/cases",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/winparts-data-ai-platform(\\.html|/index\\.html|/)?",
+      "destination": "/cases/winparts",
+      "permanent": true
+    },
+    {
+      "source": "/pages/projects/winparts-experiment-guidance(\\.html|/index\\.html|/)?",
+      "destination": "/cases/winparts",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services(\\.html|/index\\.html|/)?",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/conversational-analytics(\\.html|/index\\.html|/)?",
+      "destination": "/conversational-analytics",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/data-leadership(\\.html|/index\\.html|/)?",
+      "destination": "/services/strategy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/platform(\\.html|/index\\.html|/)?",
+      "destination": "/services/data-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/platform/details/ai-jobs(\\.html|/index\\.html|/)?",
+      "destination": "/services/data-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/platform/details/applied-ai(\\.html|/index\\.html|/)?",
+      "destination": "/services/ai-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/platform/details/data-infrastructure(\\.html|/index\\.html|/)?",
+      "destination": "/services/data-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/platform/details/data-models(\\.html|/index\\.html|/)?",
+      "destination": "/services/data-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/platform/details/data-pipelines(\\.html|/index\\.html|/)?",
+      "destination": "/services/data-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/platform/existing-team(\\.html|/index\\.html|/)?",
+      "destination": "/services/data-engineering",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-consulting(\\.html|/index\\.html|/)?",
+      "destination": "/services/strategy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-consulting/details/data-ai-offsite(\\.html|/index\\.html|/)?",
+      "destination": "/services/strategy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-consulting/details/fractional-leadership(\\.html|/index\\.html|/)?",
+      "destination": "/services/strategy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-consulting/details/quickscan(\\.html|/index\\.html|/)?",
+      "destination": "/services/strategy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-consulting/details/strategy-call(\\.html|/index\\.html|/)?",
+      "destination": "/services/strategy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-consulting/details/strategy-consulting(\\.html|/index\\.html|/)?",
+      "destination": "/services/strategy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-execution(\\.html|/index\\.html|/)?",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-execution/details/business-impact(\\.html|/index\\.html|/)?",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-execution/details/data-exploration(\\.html|/index\\.html|/)?",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-execution/details/proof-of-concept(\\.html|/index\\.html|/)?",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/pages/services/strategy-execution/details/proof-of-value(\\.html|/index\\.html|/)?",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/pages/talks(\\.html|/index\\.html|/)?",
+      "destination": "/talks",
+      "permanent": true
+    },
+    {
+      "source": "/pages/thank-you(\\.html|/index\\.html|/)?",
+      "destination": "/contact",
       "permanent": true
     },
     {
       "source": "/pages/services/data-leadership/:path*",
-      "destination": "/pages/services/strategy-consulting/details/fractional-leadership.html",
+      "destination": "/services/strategy",
       "permanent": true
     },
     {
       "source": "/pages/services/strategy-execution/:path*",
-      "destination": "/pages/services/conversational-analytics/",
+      "destination": "/services",
       "permanent": true
     },
     {
-      "source": "/pages/projects/index.html",
-      "destination": "/pages/projects/",
+      "source": "/pages/services/strategy-consulting/:path*",
+      "destination": "/services/strategy",
       "permanent": true
     },
     {
-      "source": "/pages/blogs/index.html",
-      "destination": "/pages/blogs/",
+      "source": "/pages/services/platform/:path*",
+      "destination": "/services/data-engineering",
       "permanent": true
     },
     {
-      "source": "/pages/services/index.html",
-      "destination": "/pages/services/",
+      "source": "/pages/projects/:path*",
+      "destination": "/cases",
       "permanent": true
     },
     {
-      "source": "/contact/",
-      "destination": "/pages/contact.html",
-      "permanent": true
-    },
-    {
-      "source": "/contact/index.html",
-      "destination": "/pages/contact.html",
-      "permanent": true
-    },
-    {
-      "source": "/about/",
-      "destination": "/pages/about.html",
-      "permanent": true
-    },
-    {
-      "source": "/about/index.html",
-      "destination": "/pages/about.html",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/",
-      "destination": "/pages/blogs/",
-      "permanent": true
-    },
-    {
-      "source": "/blogs/index.html",
-      "destination": "/pages/blogs/",
+      "source": "/pages/blogs/:path*",
+      "destination": "/blog",
       "permanent": true
     },
     {
       "source": "/blogs/:path*",
-      "destination": "/pages/blogs/",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/pages/:path*",
+      "destination": "/",
       "permanent": true
     }
   ]
