@@ -1,14 +1,13 @@
 ---
 title: "Winparts: data & AI platform"
 client: "Winparts"
-description: "How Mark Your Data built Winparts' GCP data and AI platform from zero after the acquisition by Alliance Automotive Group, saving over €20.000 per year compared to enterprise tools."
+description: "How Mark Your Data built Winparts' GCP data and AI platform from zero after the acquisition by Alliance Automotive Group."
 tagline: "Winparts needed a data foundation, a corporate acquisition to navigate, and no off-the-shelf tools allowed. We built it anyway."
 tag: "E-commerce"
 logo: "/assets/images/clients/winparts.png"
 photo: "/assets/photos/webp/photo_30.webp"
 intro: "Post-acquisition, Winparts needed a complete GCP-compliant data platform built from zero, with no external tools allowed. We ran cloud infrastructure and data platform tracks in parallel, using dummy data to stay unblocked while approvals came through."
 outcomes:
-  - "€20.000+ annual savings vs enterprise tools"
   - "Complete cloud platform aligned with GPC standards"
   - "Returns use case delivered end-to-end"
   - "Analyst self-service enabled"
@@ -31,7 +30,7 @@ The technical work was straightforward. The organizational work was not.
 
 **Build from zero, inside a corporate acquisition.** The entire cloud infrastructure needed to align with GPC's standards: cloud organization, networking, security, access management, governance. All of it had to be created before a single data pipeline could run.
 
-**GCP-only with no externally hosted software.** Standard enterprise tools were off the table. Fivetran for data ingestion and Cloud Composer for orchestration were both ruled out. The platform had to be built differently, on a tighter budget.
+**GCP-only with no externally hosted software.** Standard enterprise tools were off the table. Fivetran for data ingestion and Cloud Composer for orchestration were both ruled out. The platform had to be built differently.
 
 **Blocked by approvals.** Corporate infrastructure couldn't be provisioned until sign-offs came through. The team needed to deliver business value, but the usual starting point wasn't available yet.
 
@@ -45,11 +44,11 @@ We didn't wait. Instead of stalling on approvals, we ran two tracks in parallel:
 - **Cloud organization**: GPC-compliant infrastructure: networking, security, access controls, governance
 
 **Data platform track**
-- **Data pipelines**: [DLT](/blog/why-dlt-beats-fivetran) on Cloud Run replacing Fivetran, saving roughly €15.000 per year
+- **Data pipelines**: [DLT](/blog/why-dlt-beats-fivetran) on Cloud Run, in place of Fivetran
 
 - **Data models**: [DBT](/blog/dbt-transform-data-into-insights) for reusable analytical models and analyst self-service
 
-- **Orchestration**: Cloud Scheduler replacing Cloud Composer, saving roughly €5.000 per year
+- **Orchestration**: Cloud Scheduler, in place of Cloud Composer
 
 ![Data Platform Architecture](/assets/images/featured/winparts_data_analytics_platform.png)
 
@@ -61,7 +60,7 @@ That first complete use case mattered more than it might seem. It proved the ent
 
 From there, the pace accelerated. New use cases were onboarded in a fraction of the time. Analysts started answering questions that hadn't even been part of the original scope. The data warehouse grew into a strategic asset, use case by use case.
 
-The platform now saves over €20.000 per year compared to the enterprise tools it replaced. More importantly, Winparts' team runs it themselves.
+Winparts' team now runs the platform themselves.
 
 ## From data platform to AI platform
 

@@ -45,7 +45,7 @@ Our "make it work, make it better, make it scale" approach is the differentiator
 ### 4. Be Specific About Value
 Concrete numbers and outcomes beat vague promises.
 
-**Do:** "Save €100K per year"
+**Do:** "Winparts' team runs the platform themselves"
 **Don't:** "Significant cost savings"
 
 **Do:** "Your analysts can start creating value immediately"
@@ -122,7 +122,6 @@ Clear calls to action without pressure tactics.
 
 **Examples:**
 - "Data & AI consultancy for growing companies"
-- "Save €100K per year with the Mark Your Data Platform"
 - "What clients say"
 
 ### Introductions

@@ -11,22 +11,22 @@ const cases = (await getCollection("cases")).sort((a, b) => a.id.localeCompare(b
 
 <Base
   title="Data & AI services"
-  description="Mark Your Data offers a Data & AI quickscan, a data platform on open-source tools and AI engineering on top of that platform, next to conversational analytics for dbt teams."
+  description="Mark Your Data offers data & AI strategy, data engineering, AI engineering at scale and conversational analytics for dbt teams, from one person who has done all four jobs."
 >
   <Hero
     title="Data & AI services"
-    tagline="Strategy, platform and execution. We help you prove value fast, then scale what works."
+    tagline="Strategy, platform, AI and conversational analytics, from one person who has done all four jobs."
     photo="/assets/photos/webp/photo_34.webp"
   />
 
   <section>
     <div class="container">
-      <h2>How we help</h2>
-      <p class="section-intro">
-        We bring senior expertise to your data & AI challenges, whether you need strategic direction, a solid foundation,
-        or hands-on delivery.
+      <p class="lead">
+        Mark Your Data helps companies do more with data and AI, from the strategic question of where AI helps to the
+        systems that run in production. Mark Schep has worked in data and AI since 2015, for more than 10 clients, as
+        analyst, data scientist, data engineer and AI engineer.
       </p>
-      <div class="grid">
+      <div class="grid grid--two">
         {
           services.map((s) => (
             <a class="card card-link" href={`/services/${s.id}`}>
@@ -39,8 +39,8 @@ const cases = (await getCollection("cases")).sort((a, b) => a.id.localeCompare(b
         <a class="card card-link" href="/conversational-analytics">
           <h3>Conversational analytics</h3>
           <p>
-            For dbt teams: the business asks questions in Microsoft Teams, and every answer says whether it
-            comes from a governed definition in dbt.
+            Mark Your Data Assistant: your team asks questions in Teams and gets answers from your dbt semantic
+            layer.
           </p>
           <span class="text-link">See the tool</span>
         </a>
@@ -61,5 +61,5 @@ const cases = (await getCollection("cases")).sort((a, b) => a.id.localeCompare(b
     </div>
   </section>
 
-  <Cta heading="Let's talk about your data" button="Get in touch" photo="/assets/photos/webp/photo_26.webp" />
+  <Cta heading="Not sure which service fits?" text="Plan a first conversation to see where an outside view helps." button="Send me a message" photo="/assets/photos/webp/photo_26.webp" />
 </Base>

@@ -36,7 +36,7 @@ Without DBT, every analyst calculates "monthly revenue" slightly differently. Wi
 
 Instead of joining 5 tables every time you need customer data, you create a `customers` model that does the joins once. Analysts query one clean table.
 
-**Result:** Questions that took hours now take minutes.
+**Result:** Analysts stop rebuilding the same joins.
 
 ### 3. Higher quality analysis
 
@@ -52,8 +52,6 @@ DBT tests ensure your data meets quality standards before it reaches dashboards:
 ### 4. Increased analyst productivity
 
 When data is clean, documented, and reliable, analysts spend less time wrangling data and more time finding insights.
-
-**Result:** 3-5x productivity improvement for data teams.
 
 ## How DBT fits into your data stack
 
@@ -76,8 +74,6 @@ Analyst writes a query joining:
 -   `raw_products` table (50K rows)
 -   Manual calculations for lifetime value, churn risk, etc.
 
-**Time to answer:** 2-4 hours per analysis
-
 **Quality:** Each analyst calculates metrics differently
 
 ### With DBT
@@ -89,8 +85,6 @@ Data engineer creates models:
 -   `customer_lifetime_value` - Pre-calculated metrics
 
 Analyst queries: `SELECT * FROM customer_lifetime_value WHERE segment = 'high_value'`
-
-**Time to answer:** 5 minutes
 
 **Quality:** Everyone uses the same, tested definitions
 
@@ -124,8 +118,6 @@ We run DBT transformations in Docker containers on tools like Google Cloud Run, 
 -   Scheduled runs keep data fresh
 -   All version controlled in Git
 
-**Total cost:** ~€100/month for compute. Compare that to €350+/month for Cloud Composer (hosted Airflow).
-
 ## Getting started with DBT
 
 Starting with DBT doesn't require a complete overhaul. We typically begin with:
@@ -136,27 +128,22 @@ Starting with DBT doesn't require a complete overhaul. We typically begin with:
 4.  **Document** - Make models discoverable and understandable
 5.  **Scale** - Add more models as needed
 
-Most teams see value within 2-4 weeks of starting with DBT.
-
-## The ROI of good data foundations
-
-Investing in DBT is investing in your team's productivity.
+## Why good data foundations matter
 
 When your data foundation is solid:
 
 -   **Consistency increases** - Everyone uses the same definitions
--   **Speed increases** - Questions get answered in minutes, not hours
+-   **Speed increases** - Common questions need less rework
 -   **Quality increases** - Tested, validated, reliable data
 -   **Confidence increases** - Trust the numbers you present
 
-The result? Your analysts become 3-5x more productive. They spend time finding insights, not fighting with data.
+The result? Your analysts spend time finding insights, not fighting with data.
 
 * * *
 
 ### Related resources
 
--   [Why DLT Beats Fivetran: Save €18K Per Year](/blog/why-dlt-beats-fivetran)
--   [MotherDuck: The Future of Cost-Efficient Analytics](/blog/motherduck-the-future-of-cost-efficient-analytics)
--   [Data Analytics & AI Platform Service](/services/data-platform)
+-   [Why we use DLT instead of Fivetran](/blog/why-dlt-beats-fivetran)
+-   [Data engineering service](/services/data-engineering)
 -   [Visit DBT Official Website](https://www.getdbt.com/)
 -   [DBT Official Blog](https://www.getdbt.com/blog)

@@ -14,19 +14,27 @@ const { service } = Astro.props;
 const { Content } = await render(service);
 const { data } = service;
 
-const quickscanReviews = [
-  "erick-webbe",
-  "Christopher Marcks",
-  "Lisette van de Steeg",
-  "Frank de Gouw",
-  "elmer-hiemstra",
-  "Martin Schijf",
-  "jasper-van-heijst",
-  "Erick Webbe - Berend",
-  "Benjamin van Vianen",
-  "Daan van den Berg",
-  "Richard Norbruis",
-];
+const reviews: Record<string, { intro?: string; keys: string[] }> = {
+  strategy: {
+    intro: "Reviews for Mark Schep and Berend Dumas, who host the offsite together.",
+    keys: [
+      "erick-webbe",
+      "Christopher Marcks",
+      "Lisette van de Steeg",
+      "Frank de Gouw",
+      "elmer-hiemstra",
+      "Martin Schijf",
+      "jasper-van-heijst",
+      "Erick Webbe - Berend",
+      "Benjamin van Vianen",
+      "Daan van den Berg",
+      "Richard Norbruis",
+    ],
+  },
+  "data-engineering": { keys: ["Lisette van de Steeg", "jasper-van-heijst", "erick-webbe"] },
+  "ai-engineering": { keys: ["Richard Norbruis", "Benjamin van Vianen", "elmer-hiemstra"] },
+};
+const review = reviews[service.id];
 ---
 
 <Base title={data.title} description={data.description}>
@@ -39,12 +47,12 @@ const quickscanReviews = [
   </section>
 
   {
-    service.id === "quickscan" && (
+    review && (
       <section class="section--gray">
         <div class="container">
           <h2>What clients say</h2>
-          <p class="section-intro">Reviews for Mark Schep and Berend Dumas, who run the quickscan together.</p>
-          <Testimonials keys={quickscanReviews} />
+          {review.intro && <p class="section-intro">{review.intro}</p>}
+          <Testimonials keys={review.keys} showAllLink={!review.intro} />
         </div>
       </section>
     )

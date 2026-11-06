@@ -21,6 +21,25 @@ const columns = [
   },
 ];
 
+const roles = [
+  {
+    title: "Managers",
+    text: "Every answer says whether it uses a definition the data team reviewed in dbt. A ✅ Governed answer uses the same metric definition as your dashboard. A ⚠️ Unverified answer tells you to check it before you rely on it.",
+  },
+  {
+    title: "Data engineers",
+    text: "The log reports show what the business asks, which answers were governed, and why users gave a 👎. You close a gap with a metric or saved query in a normal dbt pull request, and the coverage scan shows the effect.",
+  },
+  {
+    title: "Analysts",
+    text: "Questions covered by a metric or saved query get answered in Teams, without an analyst writing a query. For anything else, “Show SQL” shows exactly what ran, so you can review it.",
+  },
+  {
+    title: "Business users",
+    text: "Ask in Dutch or English in Teams. Answers took 3 to 8 seconds in testing on sample data. If a dashboard raises a question, ask for a breakdown or a follow-up in the same chat.",
+  },
+];
+
 const builtToday = [
   "Microsoft Teams chat app (Slack is also available)",
   "Dutch and English",
@@ -33,9 +52,10 @@ const builtToday = [
 
 const connectorsToday = [
   "Cloud: Google Cloud",
-  "Warehouses: BigQuery and DuckDB",
+  "Warehouse: BigQuery",
   "AI providers: Gemini on Vertex AI, OpenAI, Mistral (EU endpoint) and any OpenAI-compatible gateway",
   "Chat: Microsoft Teams (Slack is also available)",
+  "Observability: any tool that accepts OpenTelemetry, such as Grafana, Datadog, Langfuse or Phoenix",
 ];
 
 const pilotSetup = [
@@ -45,12 +65,9 @@ const pilotSetup = [
 ];
 
 const security = [
-  "Mark Your Data Assistant runs in your own cloud environment, on your existing AI contract.",
   "The assistant reads your warehouse through a read-only service account, with a cap on the data a query may scan.",
   "Every query passes a SQL guard before it runs. The guard allows one read-only statement, on approved tables only, with a row limit. The AI never runs SQL itself.",
-  "You choose whether the AI may see result rows or only the structure: columns and SQL.",
   "Logs and traces mask names and IDs from your data by default.",
-  "Nothing is sent to Mark Your Data by default.",
   "Users are told they are talking to an AI assistant, as article 50 of the AI Act requires.",
 ];
 ---
@@ -79,6 +96,33 @@ const security = [
   </section>
 
   <section class="section--gray">
+    <div class="container">
+      <h2>From unverified to governed</h2>
+      <div class="chat" aria-label="Example conversation">
+        <p class="chat-badge">Demo with sample data, with query results shared with the AI</p>
+        <p class="msg msg--user">What was our total revenue in 2025?</p>
+        <div class="msg msg--bot">
+          <p>About EUR 937,050.</p>
+          <p class="answer-label">✅ Governed: calculated with Revenue from the semantic layer.</p>
+        </div>
+        <p class="msg msg--user">What is the average order value this year?</p>
+        <div class="msg msg--bot">
+          <p>About EUR 489.</p>
+          <p class="answer-label">
+            ⚠️ Unverified: no definition in the semantic layer covers this question, so the SQL was written for it.
+          </p>
+        </div>
+        <p class="chat-divider">The data team adds “average order value” to dbt.</p>
+        <p class="msg msg--user">What is the average order value this year?</p>
+        <div class="msg msg--bot">
+          <p>About EUR 489.16.</p>
+          <p class="answer-label">✅ Governed: calculated with Average order value from the semantic layer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
     <div class="container">
       <h2>How it works</h2>
       <ol class="steps">
@@ -136,33 +180,6 @@ const security = [
     </div>
   </section>
 
-  <section>
-    <div class="container">
-      <h2>From unverified to governed</h2>
-      <div class="chat" aria-label="Example conversation">
-        <p class="chat-badge">Demo with sample data</p>
-        <p class="msg msg--user">What was our total revenue in 2025?</p>
-        <div class="msg msg--bot">
-          <p>About EUR 937,050.</p>
-          <p class="answer-label">✅ Governed: calculated with Revenue from the semantic layer.</p>
-        </div>
-        <p class="msg msg--user">What is the average order value this year?</p>
-        <div class="msg msg--bot">
-          <p>About EUR 489.</p>
-          <p class="answer-label">
-            ⚠️ Unverified: no definition in the semantic layer covers this question, so the SQL was written for it.
-          </p>
-        </div>
-        <p class="chat-divider">The data team adds “average order value” to dbt.</p>
-        <p class="msg msg--user">What is the average order value this year?</p>
-        <div class="msg msg--bot">
-          <p>About EUR 489.16.</p>
-          <p class="answer-label">✅ Governed: calculated with Average order value from the semantic layer.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="section--gray">
     <div class="container">
       <div class="grid">
@@ -178,6 +195,37 @@ const security = [
       <p class="more-link">
         Mark Your Data calls this loop from business question to governed definition in dbt{" "}
         <a class="text-link" href="/question-driven-development">Question-Driven Development</a>.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>What changes for each role</h2>
+      <div class="grid">
+        {
+          roles.map((role) => (
+            <div class="card">
+              <h3>{role.title}</h3>
+              <p>{role.text}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>Why are the model calls small?</h2>
+      <p>
+        Mark Your Data Assistant prunes your dbt artifacts to the tables you expose and leaves out model SQL. When the AI
+        writes SQL, it gets the most relevant tables within a token budget. For a governed answer, the AI chooses the metric
+        and fills in the details, and MetricFlow writes the SQL.
+      </p>
+      <p>
+        The assistant records tokens and cost per request. If your conversational analytics bill is higher than you
+        expected, you can compare these figures with your current tool.
       </p>
     </div>
   </section>
@@ -201,7 +249,10 @@ const security = [
             tool are connectors. Mark Your Data adds new connectors one client at a time, as part of a pilot.
           </p>
           <h3>Requirement</h3>
-          <p>dbt Core 1.11 with a semantic layer (metrics or saved queries) and the generated dbt artifacts.</p>
+          <p>
+            dbt Core 1.11 with at least one metric or saved query, and the generated dbt artifacts. Your team builds the
+            semantic layer from there, one question at a time.
+          </p>
         </div>
       </div>
     </div>
@@ -210,6 +261,38 @@ const security = [
   <section class="section--gray">
     <div class="container">
       <h2>Security and data</h2>
+      <h3>Does data leave your environment?</h3>
+      <p>
+        Yes, some data does, and you control how much. Mark Your Data Assistant runs in your own cloud and reads your
+        warehouse with read-only access. Data can go to three places.
+      </p>
+      <p>
+        <strong>Your AI provider</strong> always receives the question, the recent conversation, descriptions of the tables
+        and metrics the user may query, and the SQL. You configure how much of the query result it also sees:
+      </p>
+      <ul>
+        <li>
+          <strong>Structure only:</strong> column names, column types and the number of rows. No values from
+          query results reach the model, and users read the figures in the table.
+        </li>
+        <li>
+          <strong>With results:</strong> the model also reads the first rows, so it can state the figures in its written
+          answer.
+        </li>
+      </ul>
+      <p>
+        You configure the assistant with the AI providers you choose and contract directly, such as Gemini on Vertex AI,
+        OpenAI or Mistral. For routing, you can use a decision model such as TypeSafe Jev, or an LLM from those providers.
+        Their terms set retention, training use and processing location, so choose partners whose terms fit your company.
+      </p>
+      <p><strong>Your chat tool</strong> carries the questions and answers, such as Microsoft Teams in your own tenant.</p>
+      <p>
+        <strong>Mark Your Data</strong> receives nothing automatically today. Monthly usage reporting for support and
+        licensing is in development: totals such as active users, questions and tokens, without query results, question
+        text, SQL, answers or user IDs. Sharing data for product improvement would require your consent.
+      </p>
+      <p>Logs and traces stay in your environment unless you send them to another tool.</p>
+      <h3>Security controls</h3>
       <ul>
         {security.map((item) => <li>{item}</li>)}
       </ul>
@@ -218,11 +301,37 @@ const security = [
 
   <section>
     <div class="container">
+      <h2>Why Mark Your Data</h2>
+      <p>
+        Conversational analytics is where analytics, data engineering and AI engineering meet, and Mark Schep has done all
+        three jobs. Mark Your Data Assistant builds on that experience: the dbt semantic layer from data engineering, the
+        guardrails and observability from AI engineering, and the questions the business actually asks from analytics.
+      </p>
+      <p>
+        You work directly with the person who built it. When something needs fixing, you're one phone call away and first
+        in line.
+      </p>
+      <blockquote class="pull-quote">
+        With a large cloud vendor you're a ticket number. With Mark Your Data you're a phone call away from the person who
+        built the assistant.
+      </blockquote>
+      <p>
+        Mark Your Data is working on its first pilots with clients. Until those are public, the proof is the demo above
+        and the talk{" "}
+        <a class="text-link" href="/talks#data-expo-2026-conversational-analytics"
+          >When your data warehouse talks back</a
+        >{" "}
+        at Data Expo 2026.
+      </p>
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
       <h2 id="start">How to start</h2>
       <div class="grid">
         <div class="card">
           <h3>Fit check</h3>
-          <p class="price">€1.500</p>
           <p>
             A fit check tells you whether Mark Your Data Assistant fits your stack. Mark Your Data interviews the business
             and holds technical talks with the data team about your dbt project and semantic layer, your warehouse, your
@@ -231,7 +340,7 @@ const security = [
         </div>
         <div class="card">
           <h3>Pilot on your own cloud</h3>
-          <p class="price">One quarter, price depends on scope, stack and dbt maturity</p>
+          <p class="price">One quarter</p>
           <p>
             A pilot is a proof of concept that runs for one quarter in your own cloud environment. Colleagues ask their
             real questions in Teams from the first day, and the pilot proves two things: that the assistant works on your
@@ -256,7 +365,7 @@ const security = [
     </div>
   </section>
 
-  <section class="section--gray">
+  <section>
     <div class="container">
       <h2>What clients say</h2>
       <Testimonials keys={["jasper-van-heijst", "Richard Norbruis", "Daan van den Berg"]} showAllLink />
@@ -264,7 +373,7 @@ const security = [
   </section>
 
   <Cta
-    text="Start with a fit check of €1.500 to see whether Mark Your Data Assistant fits your stack, or with a one-quarter pilot on your own cloud."
+    text="Start with a fit check to see whether Mark Your Data Assistant fits your stack, or with a one-quarter pilot on your own cloud."
     photo="/assets/photos/webp/photo_38.webp"
   />
 </Base>

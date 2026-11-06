@@ -1,97 +1,49 @@
 ---
 title: "AI engineering"
-heroTitle: "Applied AI"
-tagline: "We always advise: build your data foundation first, then layer AI on top. Whether it's predictive modeling or generative AI, we turn concepts into production systems and help you execute your first use case."
-description: "AI engineering on top of your data foundation: predictive analytics, generative AI, computer vision and NLP, from use case definition to production."
+heroTitle: "AI engineering at scale"
+tagline: "Generating one good text with AI is easy. Generating a million is the work."
+description: "Mark Your Data builds AI systems that stay correct and on brand at scale, like the system that creates, validates and publishes content at bol."
 photo: "/assets/photos/webp/photo_31.webp"
-order: "3"
-card: "Build your data foundation first, then layer AI on top. Whether it's predictive modeling or generative AI, we turn concepts into production systems and help you execute your first use case."
+order: 3
+card: "AI that stays correct and on brand at a million outputs, not just at one."
 cta:
-  heading: "Ready to add intelligence to your data?"
+  heading: "Generating at scale, and want to stay in control?"
   text: ""
-  button: "Get in touch"
+  button: "Send me a message"
 ---
 
-Your house is built (infrastructure), groceries arrive automatically (pipelines), and your kitchen is organized with proven recipes (models). Now you're ready for the smart home system: AI that learns your patterns, anticipates needs, and makes intelligent decisions automatically.
+Mark Your Data builds AI systems that stay correct, on brand and useful at scale. At bol, Mark Your Data built the system that creates, validates and publishes content for product pages, list pages and entire storefronts. It added millions in revenue and saved years of manual work.
 
-But here's the reality: you can't install a smart thermostat before you have electricity. You can't have an intelligent refrigerator without a kitchen. AI needs the foundation first.
+> The hard part of AI isn't the first good answer. It's the millionth one, after the model has changed.
 
-We always advise: build your data foundation first, then layer AI on top. When you're ready, we'll help you deploy AI that delivers real business value, not just impressive demos. Whether it's predictive modeling or generative AI, we turn concepts into production systems and help you execute your first use case.
+## Generate, validate, publish
 
-![Applied AI](/assets/images/featured/platform_applied_ai.png)
+At scale, nobody can read every output. A review interface shows people the examples that might contain mistakes, so those get checked before publication and the rest goes out without waiting.
 
-## Prerequisites: foundation first
+## Control over quality, cost and models
 
-Applied AI requires the full data platform stack:
+Every task needs a choice:
 
--   **[Data Infrastructure →](/services/data-platform#data-infrastructure)** - Compute and storage for model training
--   **[Data Pipelines →](/services/data-platform#data-pipelines)** - Fresh data feeding your AI models
--   **[Data Models →](/services/data-platform#data-models)** - Clean, structured data for accurate predictions
+-   which model to use;
+-   with or without reasoning;
+-   in one call or as a chain of calls.
 
-**Don't have your foundation yet?** We recommend starting with infrastructure and working your way up. [Let's talk about your journey →](/contact)
+When a new model comes out, you have to know whether the output is still correct after you switch. That takes observability. Mark Your Data has worked with Arize Phoenix and Langfuse at bol, and with LangWatch at Intergamma and in [Mark Your Data Assistant](/conversational-analytics).
 
-## When is this service relevant?
+## Conversational systems
 
-You should consider Applied AI when:
+An assistant needs these on top:
 
--   You have a data platform but haven't deployed AI models
--   There's a clear business use case for AI/ML
--   Manual processes could be automated with AI
--   You want to improve products with intelligent features
--   Your team has the data but lacks AI expertise
--   You need to move from experimentation to production
+-   guardrails against malicious users;
+-   limits that keep the costs acceptable;
+-   routing to the right model or skill;
+-   observability on every conversation.
 
-## What are typical deliverables of the project?
+An internal assistant needs all of this. A public one on your website needs it even more.
 
-### AI solution design
+## Proof
 
--   Use case definition and validation
--   Model architecture design
--   Data requirements and feature engineering
--   Success metrics and KPIs
+-   **Case:** [bol, AI content generation at scale](/cases/bol).
+-   **Talks:** [Content as a Service at bol](/talks#data-expo-2026-content-as-a-service), Data Expo 2026, and [ContentCon Europe 2026](/talks#contentcon-europe-2026).
 
-### Implementation
-
--   Production-ready ML models or GenAI applications
--   API endpoints or user interfaces
--   Model training and deployment pipelines
--   Monitoring and alerting dashboards
--   A/B testing framework
-
-### Knowledge transfer
-
--   Model documentation and decision logs
--   Code repository with CI/CD
--   Team training on model maintenance
--   Retraining procedures
-
-## AI capabilities
-
-We build various types of AI solutions:
-
-### Predictive analytics
-
--   Forecasting (sales, demand, churn)
--   Classification (fraud detection, quality control)
--   Recommendation engines
--   Risk scoring models
-
-### Generative AI
-
--   Custom ChatGPT-like applications
--   Document analysis and summarization
--   Content generation
--   Conversational AI assistants
-
-### Computer vision
-
--   Image classification and detection
--   Quality inspection
--   OCR and document processing
-
-### Natural language processing
-
--   Text classification and sentiment analysis
--   Named entity recognition
--   Language translation
--   Search and retrieval
+Doing AI consistently and reliably at scale, with impact you can measure, is what Mark Your Data builds.

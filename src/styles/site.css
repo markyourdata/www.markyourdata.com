@@ -258,6 +258,9 @@ section {
   gap: var(--space-lg);
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
+.grid--two {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+}
 .card {
   background: var(--white);
   border-top: 4px solid var(--orange);
@@ -605,6 +608,13 @@ section {
 .note p:last-child {
   margin-bottom: 0;
 }
+.todo {
+  background: #ffe08a;
+  color: var(--charcoal);
+  padding: 0 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
 .draft-badge {
   display: inline-block;
   background: var(--orange);
@@ -661,7 +671,8 @@ section {
 .prose a:hover {
   color: #b87c00;
 }
-.prose blockquote {
+.prose blockquote,
+.pull-quote {
   border-left: 4px solid var(--orange);
   padding-left: var(--space-md);
   font-size: 1.15rem;

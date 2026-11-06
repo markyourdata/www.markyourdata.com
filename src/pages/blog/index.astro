@@ -8,7 +8,7 @@ const posts = (await getCollection("blog")).sort((a, b) => b.data.date.getTime()
 const groups = [
   {
     title: "For your team",
-    intro: "For business leaders thinking about data costs, team structure, and build vs buy decisions. No code required.",
+    intro: "For business leaders thinking about team structure and build vs buy decisions. No code required.",
   },
   {
     title: "In our stack",
@@ -20,7 +20,7 @@ const fmt = (d: Date) => d.toLocaleDateString("en-US", { year: "numeric", month:
 
 <Base
   title="Blog"
-  description="Mark Your Data writes about the open-source tools in its data stack (DLT, DBT, MotherDuck) and about data team decisions such as when not to hire a data engineer."
+  description="Mark Your Data writes about the open-source tools in its data stack (DLT and DBT) and about data team decisions such as who to hire first."
 >
   <Hero title="Blog" tagline="We write about tools we use and decisions worth thinking through." photo="/assets/photos/webp/photo_33.webp" />
 
