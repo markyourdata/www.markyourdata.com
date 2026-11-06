@@ -5,6 +5,7 @@ import DemoVideo from "../components/DemoVideo.astro";
 import Testimonials from "../components/Testimonials.astro";
 import Cta from "../components/Cta.astro";
 import { demoVideo } from "../data/site";
+import { hubs } from "../data/hubs";
 
 const columns = [
   {
@@ -287,9 +288,10 @@ const security = [
       </p>
       <p><strong>Your chat tool</strong> carries the questions and answers, such as Microsoft Teams in your own tenant.</p>
       <p>
-        <strong>Mark Your Data</strong> receives nothing automatically today. Monthly usage reporting for support and
-        licensing is in development: totals such as active users, questions and tokens, without query results, question
-        text, SQL, answers or user IDs. Sharing data for product improvement would require your consent.
+        <strong>Mark Your Data</strong> collects monthly usage totals from your installation, such as active users,
+        questions and tokens, to support your installation and keep improving the product. These totals contain no query
+        results, question text, SQL, answers or user IDs. Anything more sensitive is collected only if you explicitly want
+        that, and is pseudonymised.
       </p>
       <p>Logs and traces stay in your environment unless you send them to another tool.</p>
       <h3>Security controls</h3>
@@ -369,6 +371,23 @@ const security = [
     <div class="container">
       <h2>What clients say</h2>
       <Testimonials keys={["jasper-van-heijst", "Richard Norbruis", "Daan van den Berg"]} showAllLink />
+    </div>
+  </section>
+
+  <section class="section--gray">
+    <div class="container">
+      <h2>Questions dbt teams ask</h2>
+      <div class="grid">
+        {
+          hubs.map((hub) => (
+            <a class="card card-link" href={`/conversational-analytics/${hub.slug}`}>
+              <h3>{hub.title}</h3>
+              <p>{hub.card}</p>
+              <span class="text-link">Read the answers</span>
+            </a>
+          ))
+        }
+      </div>
     </div>
   </section>
 

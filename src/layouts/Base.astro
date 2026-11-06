@@ -10,9 +10,10 @@ interface Props {
   image?: string;
   noindex?: boolean;
   lang?: string;
+  jsonLd?: object;
 }
 
-const { title, description, image = "/assets/logo.png", noindex = false, lang = "en" } = Astro.props;
+const { title, description, image = "/assets/logo.png", noindex = false, lang = "en", jsonLd: pageJsonLd } = Astro.props;
 
 const path = Astro.url.pathname.replace(/\.html$/, "").replace(/\/index$/, "").replace(/(.)\/$/, "$1") || "/";
 const canonical = new URL(path, site.url).href;
@@ -71,6 +72,7 @@ const jsonLd = {
     <meta name="twitter:image" content={ogImage} />
 
     <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    {pageJsonLd && <script type="application/ld+json" set:html={JSON.stringify(pageJsonLd)} />}
 
     <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-H10MC1RNXH"></script>
     <script is:inline>

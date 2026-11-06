@@ -715,6 +715,23 @@ section {
   padding: var(--space-xs);
   text-align: left;
 }
+.faq details {
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-md);
+}
+.faq summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.faq details[open] summary {
+  margin-bottom: var(--space-sm);
+}
+.faq details p:last-child {
+  margin-bottom: 0;
+}
 .prose details {
   border: 1px solid #e3e3e3;
   border-radius: var(--radius);
