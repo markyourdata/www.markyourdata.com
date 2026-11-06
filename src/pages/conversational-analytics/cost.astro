@@ -39,12 +39,6 @@ const drivers = [
   },
 ];
 
-const inputs = [
-  { label: "Questions per week", text: "the ad-hoc questions that reach your data team." },
-  { label: "Minutes per answer", text: "the time your team spends on one of those questions." },
-  { label: "Hourly cost", text: "what an hour of that person's time costs you." },
-];
-
 const genie = {
   text: "free for users through 31 January 2027",
   href: "https://docs.databricks.com/aws/en/genie/monitor-cost",
@@ -98,18 +92,7 @@ const faqJsonLd = {
   <section class="section--gray">
     <div class="container container--narrow">
       <h2>Build the business case with your own numbers</h2>
-      <p>Start with the time your team spends on ad-hoc questions:</p>
-      <p class="definition">Questions per week × minutes per answer ÷ 60 × hourly cost = time cost per week</p>
-      <ul>
-        {
-          inputs.map((input) => (
-            <li>
-              <strong>{input.label}:</strong> {input.text}
-            </li>
-          ))
-        }
-      </ul>
-      <p>Then add what the formula doesn't capture:</p>
+      <p>Start with the time your team spends on ad-hoc questions today, using your own numbers. Then add:</p>
       <ul>
         <li><strong>Waiting time for the business:</strong> how long a question waits in the queue today. Answers took 3 to 8 seconds in testing on sample data.</li>
         <li><strong>Disputed numbers:</strong> measure the share of governed answers at the start, then every month.</li>

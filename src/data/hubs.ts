@@ -472,7 +472,7 @@ export const costHub: Hub = {
     {
       "role": "Manager",
       "question": "How do we build the business case for conversational analytics?",
-      "answer": "Start with the time your team spends on ad-hoc questions: questions per week × minutes per answer × hourly cost, using your own inputs. Then compare building it yourself, a platform assistant and Mark Your Data Assistant on total cost, including who does the loop and how portable your definitions are."
+      "answer": "Start with the time your team spends on ad-hoc questions today, using your own numbers. Then compare building it yourself, a platform assistant and Mark Your Data Assistant on total cost, including who does the loop and how portable your definitions are."
     },
     {
       "role": "Manager",
