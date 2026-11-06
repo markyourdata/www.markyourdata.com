@@ -743,6 +743,44 @@ section {
     font-size: 0.875rem;
   }
 }
+.cloud-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+.cloud-tabs label {
+  cursor: pointer;
+  font-weight: 700;
+  padding: var(--space-xs) var(--space-md);
+  border: 2px solid var(--orange);
+  border-radius: var(--radius);
+}
+.cloud-panel {
+  display: none;
+  margin: 0;
+}
+.cloud-panel img {
+  margin: 0 0 var(--space-sm);
+  width: 100%;
+  height: auto;
+}
+#cloud-gcp:checked ~ .cloud-panel--gcp,
+#cloud-aws:checked ~ .cloud-panel--aws,
+#cloud-azure:checked ~ .cloud-panel--azure {
+  display: block;
+}
+#cloud-gcp:checked ~ .cloud-tabs label[for="cloud-gcp"],
+#cloud-aws:checked ~ .cloud-tabs label[for="cloud-aws"],
+#cloud-azure:checked ~ .cloud-tabs label[for="cloud-azure"] {
+  background: var(--orange);
+}
+#cloud-gcp:focus-visible ~ .cloud-tabs label[for="cloud-gcp"],
+#cloud-aws:focus-visible ~ .cloud-tabs label[for="cloud-aws"],
+#cloud-azure:focus-visible ~ .cloud-tabs label[for="cloud-azure"] {
+  outline: 3px solid currentColor;
+  outline-offset: 2px;
+}
 .faq details {
   background: var(--white);
   border-radius: var(--radius);
