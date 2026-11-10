@@ -4,6 +4,7 @@ import Hero from "../components/Hero.astro";
 import DemoVideo from "../components/DemoVideo.astro";
 import Testimonials from "../components/Testimonials.astro";
 import Cta from "../components/Cta.astro";
+import Loop from "../components/Loop.astro";
 import { demoVideo } from "../data/site";
 import { hubs, costHub } from "../data/hubs";
 
@@ -48,7 +49,7 @@ const builtToday = [
   "Tables and charts",
   "Data status: late data, figures not yet final, periods partly outside the period asked",
   "Feedback with a reason",
-  "Coverage scan and log reports",
+  "Coverage scan with warnings, and log reports",
 ];
 
 const connectorsToday = [
@@ -56,7 +57,7 @@ const connectorsToday = [
   "Warehouse: BigQuery",
   "AI providers: Gemini on Vertex AI, OpenAI, Mistral (EU endpoint) and any OpenAI-compatible gateway",
   "Chat: Microsoft Teams (Slack is also available)",
-  "Observability: any tool that accepts OpenTelemetry, such as Grafana, Datadog, Langfuse or Phoenix",
+  "Observability: your observability tool, such as LangWatch, Langfuse, Arize Phoenix or others, through OpenTelemetry",
 ];
 
 const pilotSetup = [
@@ -68,7 +69,7 @@ const pilotSetup = [
 const security = [
   "The assistant reads your warehouse through a read-only service account, with a cap on the data a query may scan.",
   "Every query passes a SQL guard before it runs. The guard allows one read-only statement, on approved tables only, with a row limit. The AI never runs SQL itself.",
-  "Logs and traces mask names and IDs from your data by default.",
+  "By default, logs and traces replace names and IDs from query results with the column name; the question and SQL are kept as typed. This setting decides what is stored, not what your AI provider receives.",
   "Users are told they are talking to an AI assistant, as article 50 of the AI Act requires.",
 ];
 ---
@@ -183,6 +184,7 @@ const security = [
 
   <section class="section--gray">
     <div class="container">
+      <Loop steps={["Ask in Teams", "⚠️ Unverified", "Definition added in dbt", "✅ Governed for everyone"]} />
       <div class="grid">
         {
           columns.map((column) => (
@@ -288,8 +290,8 @@ const security = [
       </p>
       <p><strong>Your chat tool</strong> carries the questions and answers, such as Microsoft Teams in your own tenant.</p>
       <p>
-        <strong>Mark Your Data</strong> will collect monthly usage totals from your installation, such as active users,
-        questions and tokens, to support your installation and keep improving the product. These totals contain no query
+        <strong>Mark Your Data</strong> will collect daily and monthly usage counts from your installation, such as active
+        users, questions, tokens and cost, to support your installation and keep improving the product. These counts contain no query
         results, question text, SQL, answers or user IDs. Anything more sensitive will be collected only if you explicitly
         want that, and pseudonymised.
       </p>

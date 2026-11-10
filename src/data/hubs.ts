@@ -10,7 +10,7 @@ export interface Hub {
   link?: { text: string; label: string; href: string };
 }
 
-export const lastReviewed = "6 November 2026";
+export const lastReviewed = "10 November 2026";
 
 export const hubs: Hub[] = [
   {
@@ -273,7 +273,7 @@ export const hubs: Hub[] = [
       {
         "role": "Analytics engineer",
         "question": "How do we find out what the business actually asks?",
-        "answer": "The log in Mark Your Data Assistant shows what the business asks, whether each answer was governed, and the reasons behind each thumbs down. The data team reads it through log reports and its own observability tool, and can export the questions for review, with user IDs left out unless requested."
+        "answer": "The log in Mark Your Data Assistant shows what the business asks, whether each answer was governed, and the reasons behind each thumbs down. The data team reads it through log reports and its own observability tool, and can export the questions for review, with user IDs left out unless requested. Each answer also carries findings: hints at what the data team could fix and which file to change, which the coverage scan lists as warnings."
       },
       {
         "role": "Analytics engineer",
@@ -323,7 +323,7 @@ export const hubs: Hub[] = [
       },
       {
         "lead": "You configure what is stored.",
-        "text": "Records can hold metadata only, text with names and other values from your data masked, or everything as is."
+        "text": "Records can hold metadata only, text with names and other values from query results masked, or everything as is. With masking, the question and SQL are kept as typed. This decides what is stored, not what the AI provider receives; that is the choice above."
       },
       {
         "lead": "You can hide sensitive columns.",
@@ -363,7 +363,7 @@ export const hubs: Hub[] = [
       {
         "role": "Manager",
         "question": "What does Mark Your Data receive from our installation?",
-        "answer": "Mark Your Data will collect monthly usage totals from your installation, such as active users, questions and tokens, to support your installation and keep improving the product. These totals contain no query results, question text, SQL, answers or user IDs. Anything more sensitive will be collected only if you explicitly want that, and pseudonymised."
+        "answer": "Mark Your Data will collect daily and monthly usage counts from your installation, such as active users, questions, tokens and cost, to support your installation and keep improving the product. These counts contain no query results, question text, SQL, answers or user IDs. Anything more sensitive will be collected only if you explicitly want that, and pseudonymised."
       },
       {
         "role": "Manager",

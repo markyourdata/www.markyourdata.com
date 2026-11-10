@@ -566,24 +566,85 @@ section {
   margin-bottom: var(--space-sm);
 }
 .loop {
+  position: relative;
+  aspect-ratio: 728 / 460;
+  max-width: 728px;
+  margin: var(--space-lg) auto;
+}
+.loop-ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.loop-ring ellipse {
+  fill: none;
+  stroke: var(--orange);
+  stroke-width: 3;
+}
+.loop-ring path {
+  fill: var(--orange);
+}
+.loop ol {
   list-style: none;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-xs);
-  align-items: center;
+  margin: 0;
 }
 .loop li {
-  background: var(--light-gray);
-  border-radius: 999px;
-  padding: 0.3rem 0.9rem;
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  transform: translate(-50%, -50%);
+  width: max-content;
+  max-width: 180px;
+  text-align: center;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  padding: 0.4rem 0.8rem;
   font-weight: 600;
   font-size: 0.95rem;
+  line-height: 1.35;
 }
-.loop li + li::before {
-  content: "→";
-  margin-right: var(--space-xs);
-  color: var(--orange);
+@media (max-width: 640px) {
+  .loop {
+    aspect-ratio: auto;
+  }
+  .loop-ring {
+    display: none;
+  }
+  .loop ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+  .loop li {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    max-width: 100%;
+  }
+  .loop li + li::before,
+  .loop li:last-child::after {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--orange);
+    white-space: nowrap;
+  }
+  .loop li + li::before {
+    content: "↓";
+    top: -1.5rem;
+  }
+  .loop li:last-child::after {
+    content: "↺ back to the start";
+    top: calc(100% + 0.3rem);
+    font-size: 0.85rem;
+    font-weight: 400;
+  }
 }
 .card ul {
   margin: 0;
@@ -701,6 +762,10 @@ section {
 .prose pre code {
   background: none;
   padding: 0;
+}
+.prose pre.scan-output {
+  white-space: pre-wrap;
+  font-size: 0.85rem;
 }
 .prose table {
   width: 100%;

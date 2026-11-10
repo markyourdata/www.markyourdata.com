@@ -1,0 +1,32 @@
+---
+interface Props {
+  steps: string[];
+}
+const { steps } = Astro.props;
+
+const ring = { w: 728, h: 460, rx: 250, ry: 180 };
+const point = (deg: number) => {
+  const t = (deg * Math.PI) / 180;
+  return { x: ring.w / 2 + ring.rx * Math.cos(t), y: ring.h / 2 + ring.ry * Math.sin(t), t };
+};
+const angle = (i: number) => -90 + (i * 360) / steps.length;
+const items = steps.map((text, i) => {
+  const p = point(angle(i));
+  return { text, style: `--x:${((p.x / ring.w) * 100).toFixed(2)}%;--y:${((p.y / ring.h) * 100).toFixed(2)}%` };
+});
+const arrows = steps.map((_, i) => {
+  const p = point(angle(i) + 180 / steps.length);
+  const dir = (Math.atan2(ring.ry * Math.cos(p.t), -ring.rx * Math.sin(p.t)) * 180) / Math.PI;
+  return `translate(${p.x.toFixed(1)} ${p.y.toFixed(1)}) rotate(${dir.toFixed(1)})`;
+});
+---
+
+<div class="loop">
+  <svg class="loop-ring" viewBox={`0 0 ${ring.w} ${ring.h}`} aria-hidden="true">
+    <ellipse cx={ring.w / 2} cy={ring.h / 2} rx={ring.rx} ry={ring.ry} />
+    {arrows.map((transform) => <path d="M -7 -7 L 7 0 L -7 7 Z" transform={transform} />)}
+  </svg>
+  <ol>
+    {items.map((item) => <li style={item.style}>{item.text}</li>)}
+  </ol>
+</div>

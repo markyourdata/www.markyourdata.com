@@ -2,6 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Hero from "../components/Hero.astro";
 import Cta from "../components/Cta.astro";
+import Loop from "../components/Loop.astro";
 
 const steps = [
   {
@@ -49,6 +50,11 @@ const loop = [
         the test suite for the semantic layer: an unverified answer is a failing test, and a metric or saved query added in
         dbt makes it pass.
       </p>
+      <Loop steps={loop} />
+      <p>
+        The data team chooses the definitions and writes them. Mark Your Data Assistant labels the answers, collects the
+        feedback and measures the coverage.
+      </p>
       <ol class="qdd-steps">
         {
           steps.map((step) => (
@@ -69,6 +75,29 @@ const loop = [
   </section>
 
   <section class="section--gray">
+    <div class="container container--narrow prose">
+      <h2>Why a test fails</h2>
+      <p>
+        Your users' questions run like dbt tests: when the scan spots something the data team could fix, it gives a hint
+        at the cause and the file to change.
+      </p>
+      <pre class="scan-output">## Warnings
+
+- #8 WARN `guessed_term` (Bol → marketplace): the glossary in skills/sales/SKILL.md
+- #9 WARN `missing_data`: the dbt project: is the data modelled and exposed, or not loaded yet?
+- #9 WARN `unmapped_term` (return reasons): a glossary line in skills/sales/SKILL.md, or a column or model
+
+**Governed: 8 of 12** · 7 warnings. Refused: 1. Cost: $0.04.</pre>
+      <p>
+        “How much revenue did noise-cancelling headphones make in 2025?” came back empty, which a user reads as no revenue;
+        the finding tells the data team the product name doesn't exist as spelled.
+      </p>
+      <pre class="scan-output">- #1 WARN `value_not_found` (product_name): no such value: the spelling users use, in skills/sales/SKILL.md or skills/sales/assets/values.yaml</pre>
+      <p>The same findings sit on every answer's trace, so you can filter them in your observability tool.</p>
+    </div>
+  </section>
+
+  <section>
     <div class="container container--narrow">
       <h2>Where the questions come from</h2>
       <p>
@@ -79,19 +108,6 @@ const loop = [
         The assistant's log shows every question, whether it was governed, and the 👎 reasons. The data team picks the
         unverified questions marked “Data is missing or incomplete” as the next definitions to add, and runs the coverage
         scan on the questions colleagues asked to see coverage go up after each dbt change.
-      </p>
-    </div>
-  </section>
-
-  <section>
-    <div class="container container--narrow">
-      <h2>The loop</h2>
-      <ol class="loop">
-        {loop.map((step) => <li>{step}</li>)}
-      </ol>
-      <p>
-        The data team chooses the definitions and writes them. Mark Your Data Assistant labels the answers, collects the
-        feedback and measures the coverage.
       </p>
       <p><a class="text-link" href="/conversational-analytics/feedback-loop">Questions and answers about the feedback loop</a></p>
       <p><a class="text-link" href="/conversational-analytics">See Mark Your Data Assistant</a></p>
